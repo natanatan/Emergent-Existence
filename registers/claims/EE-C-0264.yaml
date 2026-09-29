@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Ir
+- Rt
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,5 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.4. 'A process may therefore return without being invertible ... And an
     invertible map need not be traversable in both directions.'
+  concept_confidence: medium
+  concept_note: Ch9 ledger contrasting formal invertibility with return and irreversibility.

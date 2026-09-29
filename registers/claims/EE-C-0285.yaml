@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Lo
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +31,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Map № 13.9 (medium). 'It becomes spatial adjacency only after several additional conditions
     are satisfied.' Restated in 13.24 (edge | spatial neighbor).
+  concept_confidence: medium

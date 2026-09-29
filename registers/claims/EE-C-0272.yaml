@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Rn
+- Dt
 composition: []
 appearances:
 - edition: book-1/beta
@@ -32,3 +34,4 @@ import:
     finite magnitude. Before Scale, counting intermediates would have been external bookkeeping." No record
     registers it (0154 carries only the chain definition). Foreshadowed by the Ch 11 opening line ''▪
     how much '
+  concept_confidence: high

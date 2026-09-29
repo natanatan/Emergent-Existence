@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Fa
+- Rb
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,5 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.6. 'The question should not be settled by convenience'. It is a methodological
     separation that leaves the arity question open.
+  concept_confidence: medium
+  concept_note: Against binary ontology for relational bits.

@@ -12,7 +12,9 @@ dependencies: []
 relations:
 - type: tests
   claim: EE-C-0021
-concepts: []
+concepts:
+- Cf
+- Rd
 composition: []
 appearances:
 - edition: book-1/beta
@@ -28,4 +30,5 @@ import:
   source: Book I Beta, automated extraction
   interim_id: ch04.D4.16
   concept_confidence: low
-  concept_note: 'Embedding e of the carrier into a realization space (4.16); no element. Nearest: Cf/Dg.'
+  concept_note: 'Unlabelled display: embedding of the dyad''s configuration carrier into a representation
+    space X; likely tests that retained distinction is not an artifact of the embedding.'

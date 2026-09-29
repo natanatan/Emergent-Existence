@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Or
+- Dd
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,6 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 7.1. 'At this stage the framework earns an independence problem, not a cardinal
     orientational dimension'.
+  concept_confidence: medium
+  concept_note: Dd (ch9) and spatial dimension are explicitly named later concepts; Or is the chapter
+    home.

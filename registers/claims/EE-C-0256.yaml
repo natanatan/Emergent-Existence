@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Ix
+- Dd
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,6 @@ import:
   evidence: 'Derivation map № 5.4 (high): ''The present chapter therefore earns an independence problem,
     not a numerical relational dimension d_R.'' No record in EE-C-0032–0097 contains this line. EE-C-0068
     is only the 5.14 open question.'
+  concept_confidence: medium
+  concept_note: Ch5 ledger anticipating ch9 independence structure / relational dimensionality; explicitly
+    about those later concepts.

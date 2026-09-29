@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Cl
+- Io
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,5 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: 'Map № 13.19 (medium). Argued both ways: ''dependency-closed without occupying a spatially
     enclosed region … enclosed while remaining relationally open''.'
+  concept_confidence: medium
+  concept_note: Ch13 contrast of relational closure with spatial enclosure; explicitly about ch6 closure.

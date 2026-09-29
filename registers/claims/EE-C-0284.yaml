@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Lo
+- Nb
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,4 @@ import:
   evidence: Map № 13.8 (high). 'To earn locality, neighborhood structure must constrain relational accessibility',
     with Adm(A,B) = f(L(A), L(B), Geo). 13.23 row 5 rests on this; physical locality has no claim record
     at all.
+  concept_confidence: high

@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Fa
+- Cl
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,5 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.8. 'The implication runs one way only.' Its companion '▪ ∂² = 0 ⇏ foundational
     closure ontology' is also unregistered.
+  concept_confidence: low
+  concept_note: Simplicial realization licensed by earned closure.

@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Lc
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +31,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Map № 13.3 (medium). 'A mathematical geometry can remain unchanged whether or not anything
     physically depends upon its locations. A spatial geometry cannot.'
+  concept_confidence: medium

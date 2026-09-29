@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Lc
+- Sa
 composition: []
 appearances:
 - edition: book-1/beta
@@ -29,3 +31,4 @@ import:
   source: Editor review of Book I Beta, 29 Sep 2026
   note: Dependencies and element concepts not yet declared
   evidence: Map № 13.17 (high). N_n(A) ~ N_{n+1}(A) while d_{n+1}(A,B) > d_n(A,B).
+  concept_confidence: medium

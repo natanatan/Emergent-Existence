@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Sp
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +31,5 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Map № 13.16 (medium). 'The word turbulent should remain analogical unless …' A withholding
     guard, so diagnostic rather than constitutive; the map notes it could also be not-a-claim.
+  concept_confidence: low
+  concept_note: Diagnostic caution; no dedicated element.

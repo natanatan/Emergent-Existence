@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Cm
+- Fa
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,5 @@ import:
   evidence: Derivation map № 9.10. 'refusing to read them as intrinsic measures available to the modeled
     system'. Restated at 10.7 ('external counting does not become internal magnitude because the analyst
     writes a number').
+  concept_confidence: medium
+  concept_note: Endogenous magnitude is the ch10 concept; explicitly anticipated in ch9.

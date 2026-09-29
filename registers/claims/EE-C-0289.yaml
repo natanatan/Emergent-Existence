@@ -10,7 +10,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Sp
+- Cq
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,5 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Map № 13.15 (medium). 'A failure of smoothness at one scale may expose only an intermediate
     organizational regime.' A layered possibility supported by analogy; the editor may prefer status Provisional.
+  concept_confidence: low
+  concept_note: Chain from fine relations to smooth effective space via coarse-graining.

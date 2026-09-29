@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Sp
+- Cq
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,4 @@ import:
   evidence: Map № 13.14 (medium). Argued via the pothole. Its restatement 'failure of one coarse-graining
     ≠ access to ontology's terminal level' (13.15) and the 13.24 row (detectable irregularity | fundamental
     resolution) belong to it.
+  concept_confidence: low

@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Ed
+- Pj
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,4 @@ import:
   evidence: 'Map № 12.7: ''An observed three-dimensional geometry would establish that three independent
     modes suffice ... It would not, by itself, prove that the underlying organization contains only three''.
     Currently bundled into EE-C-0195.'
+  concept_confidence: high

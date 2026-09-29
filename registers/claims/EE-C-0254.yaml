@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Dp
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +32,5 @@ import:
   evidence: 'Standalone ≠ line; map № 1.5 (derivation, medium-high) under decision 8 (methodological rules
     numbered): ''The descent supplies motivation. The ascent must supply justification.'' Alternative
     use: diagnostic.'
+  concept_confidence: medium
+  concept_note: Methodological caution distinguishing suggested dependency from derivational proof.

@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Cg
+- Qd
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,4 @@ import:
   evidence: 'Derivation map № 9.5. Section summary: ''Equivalence and compatibility are different demands,
     and only the second supports quotient dynamics.'' Sits between EE-C-0112 (criterion) and EE-C-0113
     (autonomy). Restated in the 9.33 handoff.'
+  concept_confidence: high

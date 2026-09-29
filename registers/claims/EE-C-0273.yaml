@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Dt
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +32,4 @@ import:
   evidence: 'Map № 11.8: ''If d(A,B) is determined entirely by relations internal to the domain, then
     the distance is intrinsic to that relational organization.'' It is currently bundled into EE-C-0164
     and needs its own record.'
+  concept_confidence: medium

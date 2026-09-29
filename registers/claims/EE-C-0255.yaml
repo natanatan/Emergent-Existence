@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Rd
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +32,4 @@ import:
   evidence: 'Standalone ▪ line; map № 4.1 (derivation, medium-high): ''With no self-loop in 𝒰min, no primitive
     configuration persists by remaining unchanged ... A realization may be replaced completely while a
     distinction it instantiates remains recoverable.'' Relation: contrasts_with EE-C-0024.'
+  concept_confidence: high

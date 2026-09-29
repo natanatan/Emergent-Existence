@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Om
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +32,4 @@ import:
   evidence: 'Standalone ≠ line; map № 1.4 (derivation, high). Argued in place: ''Set theory already presupposes
     logic, axioms, and membership. It is therefore far too structured to serve as the literal ontology
     of Origin.'''
+  concept_confidence: high

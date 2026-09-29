@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Sa
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +31,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Map № 13.11 (medium; decision 4 puts the derivation here, and 11.19 becomes a forward citation).
     Could instead be a second display of EE-C-0218.
+  concept_confidence: high

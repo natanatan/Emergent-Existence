@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Rt
+- An
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,5 @@ import:
   evidence: Derivation map № 8.3. 'measurement requires re-identifiable reference structure'; restated
     at 10.18 ('Closure and Return earned a reusable higher-order reference structure'). Would be a natural
     dependency of EE-C-0135.
+  concept_confidence: medium
+  concept_note: Reusable reference from stable identity plus return.

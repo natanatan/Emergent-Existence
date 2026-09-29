@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Fa
+- Do
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,5 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.7. 'By itself it provides no vector addition, scalar multiplication, norm,
     angle...'
+  concept_confidence: medium
+  concept_note: Matrix R is bookkeeping (Do); rule of formal admissibility.

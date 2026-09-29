@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Gm
+- Pj
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,4 @@ import:
   evidence: 'Map № 12.5: ''Local smoothness is an earned modeling relation, not a declaration that reality
     is fundamentally a continuum.'' Currently bundled into EE-C-0190. The map notes a later restatement
     in 13.14.'
+  concept_confidence: medium

@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Fm
+- Pd
 composition: []
 appearances:
 - edition: book-1/beta
@@ -29,3 +31,5 @@ import:
   source: Editor review of Book I Beta, 29 Sep 2026
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.9. Proved on the spot by the enlarged-state construction X_n.
+  concept_confidence: medium
+  concept_note: First-order update does not erase retained path dependence.

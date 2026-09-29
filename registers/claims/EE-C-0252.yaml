@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Om
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +31,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: 'Standalone ≠ line; map № 1.3 (derivation, high). 1.6 argues it point by point: ''Ω is not
     a place. A place requires distinguishable positions, and distinguishable positions have not been earned.'''
+  concept_confidence: high

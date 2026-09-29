@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Dt
+- Gm
 composition: []
 appearances:
 - edition: book-1/beta
@@ -31,3 +33,5 @@ import:
   evidence: Not in the map, which inventoried only ≠ / ⇝, but it is a standalone held-apart line argued
     in 11.15 ('Different regions may employ different relational standards ...') and is currently bundled
     into EE-C-0164. 11.5 foreshadows it ('That case returns in 11.15').
+  concept_confidence: medium
+  concept_note: Explicitly about ch12 Geometry as not implied by local metric.

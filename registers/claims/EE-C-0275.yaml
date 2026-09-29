@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Rn
 composition: []
 appearances:
 - edition: book-1/beta
@@ -32,3 +33,4 @@ import:
     The text says ''the kilometres are borrowed from the everyday reading, not derived by the framework'',
     so it illustrates rather than grounds. Low confidence; the editor may treat it as not a claim, which
     is the'
+  concept_confidence: medium

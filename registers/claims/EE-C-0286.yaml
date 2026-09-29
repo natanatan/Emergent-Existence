@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Lo
+- Nb
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Map № 13.10 (medium). Spells out the 'several additional conditions'; EE-C-0216 gives the
     survival checks for this chain.
+  concept_confidence: medium

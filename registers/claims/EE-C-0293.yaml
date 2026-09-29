@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Re
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +31,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: The map classes this as a 'formal' step, 'its only derivation'. It is not registered, yet
     'Rec' in 𝒯 (EE-C-0240) and 14.27 ('a structural record asymmetry') rely on it.
+  concept_confidence: high

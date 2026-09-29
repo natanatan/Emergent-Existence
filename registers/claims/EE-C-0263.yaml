@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Ss
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +31,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.3. 'A coarse resolving frame may merge fine-grained states whose distinct
     successors remain unresolved.'
+  concept_confidence: high

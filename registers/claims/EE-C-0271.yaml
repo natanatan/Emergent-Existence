@@ -9,7 +9,8 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Sb
 composition: []
 appearances:
 - edition: book-1/beta
@@ -29,3 +30,4 @@ import:
   source: Editor review of Book I Beta, 29 Sep 2026
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.11. 'adding a medium would duplicate explanatory work without necessity'.
+  concept_confidence: high

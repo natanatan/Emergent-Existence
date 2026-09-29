@@ -9,7 +9,9 @@ versions:
     edition: book-1/beta
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Fm
+- Fa
 composition: []
 appearances:
 - edition: book-1/beta
@@ -30,3 +32,4 @@ import:
   note: Dependencies and element concepts not yet declared
   evidence: Derivation map № 9.1. Argued with graph, matrix, simplex and category cases. Foreshadowed
     at the Ch 9 opening ('▪ mathematical representation ≠ ontological identity').
+  concept_confidence: medium

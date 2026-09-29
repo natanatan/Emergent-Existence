@@ -1,0 +1,37 @@
+id: EE-C-0039
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: An object's primitive identity may be its stable position within a relational organization rather
+      than an intrinsic property carried independently of that organization.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ○ PROVISIONAL (§5.3)
+dependencies:
+- claim: EE-C-0038
+  role: constitutive
+relations: []
+concepts:
+- Pf
+- Id
+composition:
+- Pf
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.3'
+  page: 86
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.3
+  concept_confidence: medium

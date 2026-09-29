@@ -1,0 +1,22 @@
+id: EE-H-0088
+aliases:
+- H-88
+hypothesis: Determinism is a property of a transition relation, the case of exactly one admissible successor,
+  not a feature of the update notation
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Resolves the open question about 𝒰. Branching is not stochasticity and not metaphysical indeterminism:
+    a coarse frame can merge states whose distinct successors it cannot resolve'
+status_text: Retained
+resolve_by: None; the diagnostics of 9.28 test typing case by case
+revisited_in: Formalism (9.5); Distinction (3.7); Orientation (7.9, 7.10)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 335
+import_notes:
+- 'companion_testable false: resolve_by begins "None", although it says the 9.28 diagnostics test typing
+  case by case.'

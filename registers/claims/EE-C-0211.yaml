@@ -1,0 +1,31 @@
+id: EE-C-0211
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: If no stable rank, neighborhood structure, or cross-frame invariant emerges, the result should
+      count against the candidate mechanism rather than being redescribed as a different hidden geometry.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 10 (12.25): Failure visibility'
+dependencies: []
+relations: []
+concepts:
+- Ed
+- Nb
+- Ms
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.25'
+  page: 244
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.T12.25.10
+  concept_confidence: medium

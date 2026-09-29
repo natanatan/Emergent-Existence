@@ -1,0 +1,21 @@
+id: EE-H-0123
+aliases:
+- H-123
+hypothesis: 'Clockhood is a relational role, not a property: a subsystem functions as a clock when it
+  satisfies recurrence, countability, stability and couplability'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Couplability is the condition that catches the hidden failure: if every process is defined
+    by reference to the clock variable from the outset, agreement with the clock has been built in rather
+    than found'
+status_text: Provisional
+resolve_by: The cycle-calibration test of 14.25, with two independently organized recurrences and neither
+  defined through the other
+revisited_in: Time (14.12, 14.13)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 346

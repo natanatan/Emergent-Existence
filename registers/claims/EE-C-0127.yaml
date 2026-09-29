@@ -1,0 +1,35 @@
+id: EE-C-0127
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ Cmp(W, A) ≐ Cmp(A, B) ⟺ W × B ↔ A × A. This is cross-multiplication, written as the bijection
+      it always was.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Proportion by cross-correspondence (10.10)
+dependencies:
+- claim: EE-C-0120
+  role: constitutive
+relations: []
+concepts:
+- Pn
+composition:
+- Cm
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.10'
+  page: 194
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.D10.10
+  concept_confidence: high
+  notes:
+  - Beta cites Distinction (chapter-level reference, not a single claim)
+  - Beta cites Orientation (chapter-level reference, not a single claim)

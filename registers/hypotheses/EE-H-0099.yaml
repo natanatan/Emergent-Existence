@@ -1,0 +1,22 @@
+id: EE-H-0099
+aliases:
+- H-99
+hypothesis: 'Sameness of comparative form is definable by correspondence alone: W stands to A as A stands
+  to B exactly when W × B pairs one to one with A × A'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Cross-multiplication written as the bijection it always was. The construction needs only ordered
+    pairs, which Chapter 3 and Chapter 7 supply between them, so proportion does not depend on ratio:
+    10.11’s ratio is a compression of this correspondence, not its foundation. Established 23 September
+    2026, replacing the declared debt the first draft carried'
+status_text: Retained
+resolve_by: Whether the construction extends beyond finite organizations, where the product and the correspondences
+  are unproblematic
+revisited_in: Scale (10.10, 10.11)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 338

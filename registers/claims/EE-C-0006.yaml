@@ -1,0 +1,29 @@
+id: EE-C-0006
+kind: rule
+use: null
+aliases: []
+versions:
+  v1:
+    text: Do not promote a computational or representational convenience into ontology when a thinner
+      relation already does the work.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: A second constraint
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 1
+  section: null
+  page: 34
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch01.R1.second-constraint
+  concept_confidence: medium
+  concept_note: Methodological anti-reification rule; no element for the book's governing constraints.

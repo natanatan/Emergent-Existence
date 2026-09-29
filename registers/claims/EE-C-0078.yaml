@@ -1,0 +1,39 @@
+id: EE-C-0078
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ Σn ∈ ℭF and (Σn, Σn+1) ∈ 𝒰 ⇒? Σn+1 ∈ ℭF [...] Structural closure is internal sufficiency of
+      an identity-relevant organization at a relational state. Dynamic closure is the preservation or
+      recurrent recovery of that sufficiency under the system's endogenous state-to-state updates. ▪ structural
+      closure + preservation under 𝒰 ⇝ dynamic closure
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Working distinction. (§6.7) structural vs dynamic closure
+dependencies:
+- claim: EE-C-0073
+  role: constitutive
+- claim: EE-C-0015
+  role: constitutive
+relations: []
+concepts:
+- Dc
+composition:
+- Cl
+- Cn
+- Ds
+- Rc
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 6
+  section: '6.7'
+  page: 109
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch06.D6.7
+  concept_confidence: high

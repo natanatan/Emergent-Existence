@@ -1,0 +1,36 @@
+id: EE-C-0159
+kind: criterion
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ L(π₁ ∘ π₂) = L(π₁) + L(π₂) [...] Metric distance requires a compositional magnitude law for
+      relational mediation. Addition is one candidate law. It is not primitive merely because familiar
+      geometry uses it.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Compositional magnitude law (11.8)
+dependencies:
+- claim: EE-C-0158
+  role: constitutive
+relations: []
+concepts:
+- Rn
+- Tr
+composition:
+- Dt
+- Rn
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.8'
+  page: 212
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.C11.8
+  concept_confidence: low
+  concept_note: No element for compositional magnitude law (additivity).

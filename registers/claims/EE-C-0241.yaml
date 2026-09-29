@@ -1,0 +1,48 @@
+id: EE-C-0241
+kind: criterion
+use: null
+aliases: []
+versions:
+  v1:
+    text: 'A metric temporal quantity becomes defensible only if at least the following conditions can
+      be satisfied: ordered comparability: the relevant states admit stable precedence relations; repeatable
+      standard: a recurrent process provides distinguishable, countable cycles or phases; cross-standard
+      calibration: independently realized recurrent processes exhibit stable comparative ratios over a
+      regime; resolution robustness: the inferred temporal measure is not an artifact of one arbitrary
+      decomposition into update steps; frame coherence: overlapping local frames agree on precedence where
+      dependency is shared, even if their quantitative clock readings later differ; non-circularity: no
+      external time variable or target relativistic behavior is built into the update rules that supposedly
+      derive the measure. These conditions do not prove that metric time must emerge.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Minimal Conditions for Metric Time (14.24)
+dependencies:
+- claim: EE-C-0232
+  role: constitutive
+- claim: EE-C-0239
+  role: constitutive
+- claim: EE-C-0238
+  role: constitutive
+relations: []
+concepts:
+- Tq
+- Ck
+composition:
+- Ck
+- Eo
+- Md
+- Tq
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.24'
+  page: 286
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.C14.24
+  concept_confidence: medium
+  concept_note: no element for metric time as such

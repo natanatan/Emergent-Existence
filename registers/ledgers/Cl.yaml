@@ -1,0 +1,67 @@
+stage: Cl
+title: Closure
+current_chapter:
+  book-1/beta: 6
+claim: Closure occurs when the relations required to preserve a higher-order organization become internally
+  sufficient as a domain, and that sufficiency remains available across the transformations by which the
+  organization persists. A closed organization can then become a new relatum for higher-order relational
+  construction.
+inherits:
+- item: mutual constraint
+  from: Rl
+- item: structural invariance
+  from: Rl
+- item: criterion-based identity ~F
+  from: Bd
+- item: admissible possibility sets 𝒫
+  from: Bd
+- item: retained-dependency precedence ≺
+  from: Bd
+- item: separation of resolving frames W from identity criteria F
+  from: Bd
+- item: organization-level invariant F (of the kind introduced in 5.6)
+  from: Rl
+- item: object-like identity OF = [Σ]~F
+  from: Rl
+- item: higher-order membership via mutual constraint (5.12)
+  from: Rl
+- item: admissible transition relation 𝒰
+  from: Ds
+- item: diagnostic transformation family (specialized here as 𝔗C)
+  from: Bd
+earns:
+- item: structural closure (internal dependency sufficiency)
+  detail: ClosedF(ℛ) as a predicate, tested by internal sufficiency, constraint participation and consistent
+    realizability; closure with respect to F ≠ isolation.
+- item: dynamic closure
+  detail: Preservation or recurrent recovery of internal sufficiency under endogenous state-to-state updates
+    𝒰, tested without making closure an operation of 𝒰.
+- item: relational inside/outside (closure-based membership)
+  detail: insideF = participation in the F-maintaining closure; outsideF = non-participation; closure
+    and boundary become reciprocal. No aggregation primitive.
+- item: non-exclusive (overlapping) membership
+  detail: Closure need not imply exclusive membership; a relation can participate in more than one compatible
+    closure.
+- item: representative-independent higher-order addressability
+  detail: E(Σa) ~F′ E(Σb) whenever Σa ~F Σb; a closed organization can enter further relations as one
+    relatum.
+- item: endogenous organizational reference / anchor AF (higher-order originhood)
+  detail: A closed identity functioning in the earned reference role; a re-instantiated reference role,
+    not a transmitted primitive center.
+withholds:
+- item: spatial enclosure
+- item: metric distance
+- item: physical dimensionality
+- item: orientation
+  deferred_to: Or
+- item: metric time
+  deferred_to: Tm
+- item: threshold aggregation
+- item: self-consciousness / internal self-model
+  scope: book-2
+- item: physical causation
+- item: physical instantiation
+- item: geometry from closure
+- item: memory
+  scope: book-2
+- item: path dependence

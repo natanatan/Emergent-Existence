@@ -1,0 +1,21 @@
+id: EE-H-0047
+aliases:
+- H-47
+hypothesis: Transitional membership cases are cases in which the constraint predicate P(r) has not yet
+  stabilized; latent integration (4.9) settles the inputs and quantification then settles the verdict,
+  so no further primitive is needed
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Follows once aggregation is quantification (5.12): a verdict over a settled predicate cannot
+    be disputed. Not yet shown in a worked example'
+status_text: Provisional
+resolve_by: A worked edge case in which P(r) stabilizes under Σ_n ↦ L_n ↦ Σ_n+1 and the quantified verdict
+  follows
+revisited_in: Boundary (4.9); Relation (5.13)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 324

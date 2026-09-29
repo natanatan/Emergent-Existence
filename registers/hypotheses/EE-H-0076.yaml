@@ -1,0 +1,22 @@
+id: EE-H-0076
+aliases:
+- H-76
+hypothesis: A relational domain may support multiple independent orientational modes (d_O); orientation
+  implies no single global axis, and is weaker than partial order, so directed cycles remain admissible
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Follows from the constraint structure being a network rather than a line; the relation of d_O
+    to d_R and d_P is open
+status_text: Retained
+resolve_by: None planned for the claim itself; d_O needs a definition before linear algebra is earned
+revisited_in: Orientation (7.11, 7.12); Formalism, 10
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 332
+import_notes:
+- Bare chapter number "10" mapped to ch10 Scale under current numbering; may reflect an older chapter
+  numbering (uncertain).

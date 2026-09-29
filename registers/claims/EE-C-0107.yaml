@@ -1,0 +1,32 @@
+id: EE-C-0107
+kind: rule
+use: null
+aliases: []
+versions:
+  v1:
+    text: A symbol, operator, relation or construction may perform ontological work only when its content
+      is inherited from earlier chapters or definable from inherited structure. Richer mathematics may
+      be used externally for proof, simulation or bookkeeping, but its additional structure must not be
+      silently read back into the modeled world.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Formal Admissibility Rule (9.3)
+dependencies: []
+relations: []
+concepts:
+- Fa
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 9
+  section: '9.3'
+  page: 166
+  version: v1
+  label: Formal Admissibility Rule
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch09.FAR
+  concept_confidence: high

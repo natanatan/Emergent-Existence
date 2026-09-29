@@ -1,0 +1,40 @@
+id: EE-C-0026
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ Σa ≺ Σb when Σb contains, or its admissibility depends on, a retained consequence inherited
+      from Σa such that removing the relevant retained contribution changes Σb or changes the admissible
+      possibility set leading to it. This is retained-dependency precedence.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §4.11) retained-dependency precedence ≺
+dependencies:
+- claim: EE-C-0024
+  role: constitutive
+- claim: EE-C-0025
+  role: constitutive
+- claim: EE-C-0015
+  role: constitutive
+relations: []
+concepts:
+- Pr
+composition:
+- Ds
+- Ps
+- Rc
+- Rd
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 4
+  section: '4.11'
+  page: 71
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch04.D4.11
+  concept_confidence: high

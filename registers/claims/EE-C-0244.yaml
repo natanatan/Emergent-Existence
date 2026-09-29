@@ -1,0 +1,30 @@
+id: EE-C-0244
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Construct at least two independently organized recurrent subsystems and test whether their comparative
+      cycle ratios stabilize without one clock being defined from the other.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Cycle-calibration test (14.25)
+dependencies: []
+relations: []
+concepts:
+- Ck
+- Tq
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.25'
+  page: 287
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.T14.25c
+  concept_confidence: high

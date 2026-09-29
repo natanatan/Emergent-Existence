@@ -1,0 +1,41 @@
+id: EE-C-0161
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: '▪ d(A,C) ≤ d(A,B) + d(B,C). The triangle inequality is not inserted as a geometric axiom. It
+      follows from: chain composition + additive magnitude + minimality [...] the triangle inequality
+      inherits that Provisional status.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Derived triangle inequality (11.10)
+dependencies:
+- claim: EE-C-0156
+  role: constitutive
+- claim: EE-C-0159
+  role: constitutive
+relations: []
+concepts:
+- Tr
+composition:
+- Dt
+- Rn
+- Tr
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.10'
+  page: 214
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.P11.10
+  concept_confidence: high

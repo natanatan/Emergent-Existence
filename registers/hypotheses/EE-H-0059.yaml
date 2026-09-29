@@ -1,0 +1,18 @@
+id: EE-H-0059
+aliases:
+- H-59
+hypothesis: Closure is a predicate, not an operator, and 𝒰 keeps its state-to-state type
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Required by the parsimony rule; avoids a new primitive and keeps dynamic closure a property
+    of trajectories rather than a meaning of 𝒰
+status_text: Retained
+resolve_by: None planned
+revisited_in: Closure (6.3, 6.7)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 327

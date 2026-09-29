@@ -1,0 +1,32 @@
+id: EE-C-0184
+kind: other
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ number of relational layers ≠ number of geometric dimensions
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Layer is not dimension (12.6)
+dependencies:
+- claim: EE-C-0183
+  role: constitutive
+relations: []
+concepts:
+- Ly
+- Ed
+composition:
+- Ly
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.6'
+  page: 231
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.X12.6
+  concept_confidence: high

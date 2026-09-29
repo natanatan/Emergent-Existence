@@ -1,0 +1,37 @@
+id: EE-C-0135
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'If the same comparative relation can be reconstructed each time, it becomes an endogenous standard:
+      ▪ Cmp(On+1, On) ≈ Cmp* whenever the identity recurs'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Endogenous standard (10.18)
+dependencies:
+- claim: EE-C-0088
+  role: constitutive
+- claim: EE-C-0089
+  role: constitutive
+relations: []
+concepts:
+- Sd
+composition:
+- Ad
+- An
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.18'
+  page: 198
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.D10.18
+  concept_confidence: high
+  notes:
+  - Beta cites Return (chapter-level reference, not a single claim)

@@ -1,0 +1,32 @@
+id: EE-C-0033
+kind: rule
+use: representational
+aliases: []
+versions:
+  v1:
+    text: ▪ R ↦ R^π, with (R^π)ij = rπ(i)π(j). Here π is a relabeling, a permutation of the relational
+      positions. [...] It is that the ontology remain invariant under mere renaming.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §5.2) relabeling invariance
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0032
+concepts:
+- Do
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.2'
+  page: 84
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.2b
+  concept_confidence: medium
+  concept_note: Relabeling invariance of the relational matrix; no dedicated element (cf. Es at dyad level).

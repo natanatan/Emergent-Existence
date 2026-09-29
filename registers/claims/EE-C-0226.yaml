@@ -1,0 +1,30 @@
+id: EE-C-0226
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Apply substantially different resolution maps and determine whether candidate spatial invariants
+      survive.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Probe-heterogeneity test (13.26)
+dependencies: []
+relations: []
+concepts:
+- Sp
+- Pj
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.26'
+  page: 268
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch13.T13.26d
+  concept_confidence: medium

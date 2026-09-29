@@ -1,0 +1,17 @@
+id: EE-H-0016
+aliases:
+- H-16
+hypothesis: Our universe is simply inside a black hole
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Replaced by the more defensible conjecture in the next row
+status_text: Rejected
+resolve_by: None planned
+revisited_in: Recursive Cosmogenesis
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 318

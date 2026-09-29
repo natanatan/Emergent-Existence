@@ -1,0 +1,35 @@
+id: EE-C-0239
+kind: criterion
+use: null
+aliases: []
+versions:
+  v1:
+    text: 'A candidate clock K should satisfy at least four conditions: recurrence: the system repeatedly
+      returns to a comparison-equivalent state; countability: cycles or phases can be distinguished and
+      retained; stability: the relevant cycle structure remains sufficiently invariant across the domain
+      of use; couplability: other processes can be compared with the clock without the comparison relation
+      itself silently defining the desired temporal result.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: conditions for a candidate clock (14.13; extractor-assigned ID)
+dependencies:
+- claim: EE-C-0238
+  role: constitutive
+relations: []
+concepts:
+- Ck
+composition:
+- Tq
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.13'
+  page: 281
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.C14.13
+  concept_confidence: high

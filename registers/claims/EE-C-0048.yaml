@@ -1,0 +1,33 @@
+id: EE-C-0048
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ H ↦ D ↦ M ↦ P, with H ≠ D ≠ M ≠ P and H ~F D ~F M ~F P [...] Relational re-instantiation is
+      the production of a new state or realization whose organization preserves selected relational invariants
+      of an earlier structured state.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled definition, §5.7) relational re-instantiation
+dependencies:
+- claim: EE-C-0028
+  role: constitutive
+relations: []
+concepts:
+- Ri
+composition:
+- Id
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.7'
+  page: 88
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.7
+  concept_confidence: high

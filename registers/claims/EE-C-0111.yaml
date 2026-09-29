@@ -1,0 +1,35 @@
+id: EE-C-0111
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: Σ (𝒰 ∘ 𝒰) Σ″ ⟺ there exists Σ′ such that Σ 𝒰 Σ′ and Σ′ 𝒰 Σ″
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Relational composition (9.7)
+dependencies:
+- claim: EE-C-0109
+  role: constitutive
+relations: []
+concepts:
+- Ut
+- Ic
+composition:
+- Cf
+- Fm
+- Ut
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 9
+  section: '9.7'
+  page: 170
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch09.COMP9.7
+  concept_confidence: low
+  concept_note: relational composition 𝒰∘𝒰 (§9.7) has no element

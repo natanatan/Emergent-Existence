@@ -1,0 +1,29 @@
+id: EE-C-0141
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Establish equal magnitude and magnitude order by bijections and injections before any integer
+      label is assigned.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 1 (10.25): Correspondence first'
+dependencies: []
+relations: []
+concepts:
+- Cm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.25'
+  page: 201
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.T10.25.1
+  concept_confidence: high

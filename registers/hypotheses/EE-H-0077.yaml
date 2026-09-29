@@ -1,0 +1,21 @@
+id: EE-H-0077
+aliases:
+- H-77
+hypothesis: Return is departure from an independently specified identity class, oriented transformation,
+  and re-entry into that class; Ret(A_F; ·) is a predicate over earned relations, not a new primitive
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Chapter 8’s central claim, and the definition Chapter 7 used in anticipation at 7.8
+status_text: Provisional
+resolve_by: The ten diagnostics of 8.23 under rules containing no cycle template (App G, module 7)
+revisited_in: Return (8.3, 8.5); Orientation (7.8); App G
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 332
+import_notes:
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

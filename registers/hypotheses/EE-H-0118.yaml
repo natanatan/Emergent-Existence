@@ -1,0 +1,21 @@
+id: EE-H-0118
+aliases:
+- H-118
+hypothesis: Whether spatial coordination emerges from relational organization, or spatial locality has
+  been reintroduced through the admissible-coupling rule
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The chapter’s own statement of its principal vulnerability, and the question on which everything
+    in it depends. It is the decomposition problem of Scale and Distance in its sharpest form, since the
+    coupling rule is where locality would hide
+status_text: Open
+resolve_by: An independent criterion for admissible coupling, fixed before locality is tested; without
+  one the chapter has not earned Space
+revisited_in: Space (13.29); Scale (10.27); Distance (11.17)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 344

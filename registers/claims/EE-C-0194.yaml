@@ -1,0 +1,33 @@
+id: EE-C-0194
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: We may therefore define effective geometric objectivity as invariance across a sufficiently
+      broad family of admissible probes. ▪ effective objectivity = cross-frame stability of declared invariants
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Effective geometric objectivity (12.17)
+dependencies:
+- claim: EE-C-0192
+  role: constitutive
+relations: []
+concepts:
+- Ms
+composition:
+- Ms
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.17'
+  page: 239
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.D12.17
+  concept_confidence: high
+  concept_note: effective objectivity is part of Ms definition

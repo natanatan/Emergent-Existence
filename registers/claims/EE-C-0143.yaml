@@ -1,0 +1,31 @@
+id: EE-C-0143
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Reconstruct the Relation threshold condition from a standard collection K before replacing it
+      with numeral shorthand.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 3 (10.25): Threshold recovery'
+dependencies: []
+relations: []
+concepts:
+- Cm
+- Rl
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.25'
+  page: 201
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.T10.25.3
+  concept_confidence: medium
+  concept_note: Tests threshold aggregation (no element).

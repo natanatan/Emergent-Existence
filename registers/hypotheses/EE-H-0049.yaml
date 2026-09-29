@@ -1,0 +1,20 @@
+id: EE-H-0049
+aliases:
+- H-49
+hypothesis: A relational structure is a set of retained relations whose admissible states are mutually
+  constrained by the organization of the set, 𝒫(r_ij | ℛ) ≠ 𝒫(r_ij)
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Central working definition; separates structure from connectivity without causation, but needs
+    formal sharpening against counterexamples
+status_text: Provisional
+resolve_by: A formalization of constraint free of probabilistic or metric language would move it toward
+  Derived
+revisited_in: Relation (5.4); Formalism
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 325

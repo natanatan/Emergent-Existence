@@ -1,0 +1,84 @@
+name: Audit
+
+on:
+  push:
+    branches: [main]
+    paths: ["registers/**", "checks/**", ".github/workflows/audit.yml"]
+  schedule:
+    - cron: "0 12 * * *"   # 12:00 UTC = 5:00 am PDT / 4:00 am PST, before the 6:00 am summary
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Run checks
+        id: checks
+        continue-on-error: true
+        run: python checks/audit.py --out build/audit
+
+      - name: Update the Audit report issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('build/audit/report.json', 'utf8'));
+            const md = fs.readFileSync('build/audit/report.md', 'utf8');
+            const title = 'Audit report';
+            const { owner, repo } = context.repo;
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, { owner, repo, state: 'open', labels: 'audit' });
+            let issue = issues.find(i => i.title === title);
+
+            const keys = report.findings.map(f => f.key);
+            let previous = [];
+            if (issue) {
+              const m = (issue.body || '').match(/<!-- findings:([\s\S]*?)-->/);
+              if (m) { try { previous = JSON.parse(Buffer.from(m[1].trim(), 'base64').toString('utf8')); } catch (e) {} }
+            }
+            const prev = new Set(previous), now = new Set(keys);
+            const added = report.findings.filter(f => !prev.has(f.key));
+            const resolved = previous.filter(k => !now.has(k));
+
+            const delta = issue
+              ? `**Since the previous run:** ${added.length} new, ${resolved.length} resolved.`
+              : '**First run.**';
+            const stamp = Buffer.from(JSON.stringify(keys)).toString('base64');
+            const body = `${delta}\n\n${md}\n<!-- findings:${stamp} -->`;
+
+            if (!issue) {
+              const created = await github.rest.issues.create({ owner, repo, title, body, labels: ['audit'] });
+              issue = created.data;
+            } else {
+              await github.rest.issues.update({ owner, repo, issue_number: issue.number, body });
+            }
+
+            // A comment notifies the author when a run finds something new.
+            if (previous.length && added.length) {
+              const list = added.slice(0, 50).map(f => `- **${f.level === 'error' ? 'Error' : 'Review'}** \`${f.subject}\` ${f.message}`).join('\n');
+              const more = added.length > 50 ? `\n- … and ${added.length - 50} more` : '';
+              await github.rest.issues.createComment({ owner, repo, issue_number: issue.number,
+                body: `@${owner} ${added.length} new finding(s), ${resolved.length} resolved.\n\n${list}${more}` });
+            }
+
+      - name: Fail when errors are open
+        if: steps.checks.outcome == 'failure'
+        run: |
+          echo "Open errors remain. See the Audit report issue."
+          exit 1

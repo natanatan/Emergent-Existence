@@ -1,0 +1,30 @@
+id: EE-C-0106
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: If return occurs only because the admissible transition structure explicitly contains the target
+      cycle or a privileged instruction to restore OF, return has not been derived.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Falsification guardrail (8.23)
+dependencies: []
+relations: []
+concepts:
+- Rt
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 8
+  section: '8.23'
+  page: 158
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch08.FG8
+  concept_confidence: medium
+  concept_note: falsification guardrail for return

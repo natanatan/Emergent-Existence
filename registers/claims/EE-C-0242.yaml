@@ -1,0 +1,30 @@
+id: EE-C-0242
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Remove all external iteration counters, timestamps, and manuscript-order labels. Determine whether
+      the precedence relation can still be reconstructed from retained relational structure.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Index-removal test (14.25)
+dependencies: []
+relations: []
+concepts:
+- Eo
+- Pr
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.25'
+  page: 287
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.T14.25a
+  concept_confidence: medium

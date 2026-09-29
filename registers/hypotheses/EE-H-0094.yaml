@@ -1,0 +1,19 @@
+id: EE-H-0094
+aliases:
+- H-94
+hypothesis: A matroid-like independence system may give d_R a pre-metric definition, formalizing independence
+  before orthogonality
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Formalism adopts it as the conditional definition d_R := rank(Ind_R), available only once a
+    suitable finite independence structure is earned (9.22); no inner product is presupposed
+status_text: Provisional
+resolve_by: Diagnostic 11 of 9.28 (Questions 13 and 14)
+revisited_in: Formalism (9.22); Relation (5.14)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 336

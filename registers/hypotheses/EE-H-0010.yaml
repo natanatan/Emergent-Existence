@@ -1,0 +1,17 @@
+id: EE-H-0010
+aliases:
+- H-10
+hypothesis: The Riemann zeta function is a physical foundation
+status_history:
+- status: Deferred
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Considered as an analogy between global analytic structure and irreducible prime structure only
+status_text: Deferred
+resolve_by: A derivation linking relational structure to zeta-type analytic structure
+revisited_in: App C (analogy note)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 317

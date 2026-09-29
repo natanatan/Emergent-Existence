@@ -1,0 +1,23 @@
+id: EE-H-0095
+aliases:
+- H-95
+hypothesis: 'Magnitude is earned by correspondence before any numeral: bijection gives sameness of amount,
+  injection gives order, and a numeral labels a class the correspondence established'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Chapter 10’s central result, and the route the Register had recorded as the intended one. Supersedes
+    the earlier Provisional entry on cardinality by correspondence
+status_text: Retained
+resolve_by: The ten diagnostics of 10.25, in particular the correspondence-first and relabeling tests
+  (App G, module 9)
+revisited_in: Scale (10.4, 10.5, 10.7); Relation (5.12)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 336
+import_notes:
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

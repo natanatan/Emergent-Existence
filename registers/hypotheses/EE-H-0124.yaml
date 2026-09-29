@@ -1,0 +1,21 @@
+id: EE-H-0124
+aliases:
+- H-124
+hypothesis: Metric time may be recoverable from cross-clock invariance, τ_K(A,B) / τ_J(A,B) approximately
+  constant over a regime, without any primitive universal clock
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The chapter’s most conditional route, and the one the computational programme must demonstrate.
+    A shared calibration within a local domain establishes neither a global cosmic time nor a universal
+    rate
+status_text: Open
+resolve_by: 'The six minimal conditions of 14.24: ordered comparability, repeatable standard, cross-standard
+  calibration, resolution robustness, frame coherence and non-circularity'
+revisited_in: Time (14.14, 14.24)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 346

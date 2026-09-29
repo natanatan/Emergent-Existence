@@ -1,0 +1,35 @@
+id: EE-C-0196
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ curvature-like structure = persistent failure of local geometric standards to remain globally
+      compatible
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Curvature-like structure (12.20)
+dependencies:
+- claim: EE-C-0181
+  role: constitutive
+- claim: EE-C-0135
+  role: constitutive
+relations: []
+concepts:
+- Cu
+composition:
+- Nb
+- Sd
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.20'
+  page: 241
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.D12.20
+  concept_confidence: high

@@ -1,0 +1,22 @@
+id: EE-H-0108
+aliases:
+- H-108
+hypothesis: 'Whether the structural and operational senses of effective dimension agree: d_R, the rank
+  of stable independent modes, and d_probe, the fewest parameters preserving declared invariants across
+  probes'
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A single symbol for both would assume they coincide, which is not argued. They agree when every
+    structural mode is separately resolvable, which the framework has not shown. The two are written separately
+    so the equivocation cannot hide
+status_text: Open
+resolve_by: 'Diagnostics 5 and 6 of 12.25 run together: measure rank from the organization, then measure
+  it again across heterogeneous probes'
+revisited_in: Geometry (12.6, 12.18)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 341

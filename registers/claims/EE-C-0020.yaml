@@ -1,0 +1,33 @@
+id: EE-C-0020
+kind: definition
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Let 𝔗test denote a declared family of transformations used in the theory's metalanguage to test
+      preservation. A member T may alter the carrier, the realization of the poles, the relation that
+      instantiates non-equivalence, or the embedding of the dyad, provided its source and target types
+      are explicit.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled definition, §4.4) diagnostic transformation family 𝔗test
+dependencies: []
+relations:
+- type: tests
+  claim: EE-C-0015
+concepts:
+- Dg
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 4
+  section: '4.4'
+  page: 68
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch04.D4.4
+  concept_confidence: high

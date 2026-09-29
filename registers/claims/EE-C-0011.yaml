@@ -1,0 +1,33 @@
+id: EE-C-0011
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Difference = non-equivalence; Distinction = non-equivalence made operative
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Difference = non-equivalence; Distinction = non-equivalence made operative (2.10)
+dependencies:
+- claim: EE-C-0009
+  role: constitutive
+relations: []
+concepts:
+- Df
+- Ds
+composition:
+- Df
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 2
+  section: '2.10'
+  page: 51
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch02.X2.difference-vs-distinction
+  concept_confidence: medium
+  concept_note: Ds is ch3; the claim explicitly contrasts Difference with Distinction.

@@ -1,0 +1,35 @@
+id: EE-C-0098
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: A relational domain is oriented wherever its internal dependency structure contains persistent,
+      consequential non-equivalence between otherwise exchangeable relational roles.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Working definition (7.2)
+dependencies:
+- claim: EE-C-0025
+  role: constitutive
+- claim: EE-C-0024
+  role: constitutive
+relations: []
+concepts:
+- Or
+composition:
+- Ps
+- Rd
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 7
+  section: '7.2'
+  page: 128
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch07.WD7
+  concept_confidence: high

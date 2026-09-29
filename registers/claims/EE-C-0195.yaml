@@ -1,0 +1,39 @@
+id: EE-C-0195
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ dprobe = minimum number of independent parameters required to preserve the declared geometric
+      invariants [...] The two need not coincide. [...] ▪ projected dimension ≠ fundamental dimensional
+      complexity
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Operational effective dimension (12.18)
+dependencies:
+- claim: EE-C-0185
+  role: constitutive
+- claim: EE-C-0194
+  role: constitutive
+relations: []
+concepts:
+- Ed
+composition:
+- Dd
+- Ed
+- Ix
+- Ms
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.18'
+  page: 239
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.D12.18
+  concept_confidence: high
+  concept_note: operational d_probe sense

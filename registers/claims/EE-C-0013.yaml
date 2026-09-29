@@ -1,0 +1,35 @@
+id: EE-C-0013
+kind: rule
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: (x, y) ∈ 𝒰 ⟺ (σx, σy) ∈ 𝒰 for every σ ∈ Aut(𝔇)
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: “no analyst-imposed labels” rule (symmetry covariance, 3.5)
+dependencies:
+- claim: EE-C-0012
+  role: constitutive
+- claim: EE-C-0010
+  role: constitutive
+relations: []
+concepts:
+- Cv
+composition:
+- Cf
+- Es
+- Ut
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 3
+  section: '3.5'
+  page: 58
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch03.R3.covariance
+  concept_confidence: high

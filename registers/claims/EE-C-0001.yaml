@@ -1,0 +1,29 @@
+id: EE-C-0001
+kind: ledger
+use: null
+aliases: []
+versions:
+  v1:
+    text: derivational priority ≠ temporal priority
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: L 1.1
+dependencies: []
+relations: []
+concepts:
+- Dp
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 1
+  section: '1.1'
+  page: 29
+  version: v1
+  label: '1.1'
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch01.L1.1
+  concept_confidence: high

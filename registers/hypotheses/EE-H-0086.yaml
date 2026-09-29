@@ -1,0 +1,19 @@
+id: EE-H-0086
+aliases:
+- H-86
+hypothesis: Whether 𝒰 is genuinely a single-valued function on relational states, or shorthand for an
+  admissible-transition relation that may permit more than one successor
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Settled: 𝒰 enters Distinction as a relation on configurations (3.3), and Formalism states that
+    a unique successor must be separately earned (9.5). See H-88 and H-131'
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Distinction (3.3); Formalism (9.5)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 334

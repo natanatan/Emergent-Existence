@@ -1,0 +1,38 @@
+id: EE-C-0008
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: The framework provisionally treats difference, a bare non-equivalence prior to measure, direction
+      or observer, as the first commitment from which relational differentiation begins, and admissible
+      transformation, a constraint on what may follow what, as the second. Distinction is the later achievement
+      by which difference becomes operative in that succession.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Proposition 1B - two working commitments
+dependencies: []
+relations: []
+concepts:
+- Df
+- Ut
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 1
+  section: null
+  page: 35
+  version: v1
+  label: 1B
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch01.P1B
+  concept_confidence: high
+  concept_note: Previews the two working commitments defined in ch2/ch3 (Df, Ut); explicitly about them.

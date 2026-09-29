@@ -1,0 +1,23 @@
+id: EE-H-0002
+aliases:
+- H-2
+hypothesis: The substrate follows diffusion dynamics, wave dynamics, or separate regimes of one deeper
+  evolution
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The diffusion and wave equations behave differently, and the book must say which governs which
+    regime
+status_text: Open
+resolve_by: A formal statement of substrate dynamics that assigns each regime
+revisited_in: Distance; App D
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 316
+import_notes:
+- companion_testable set true on the strength of App D p.352, which names "whether diffusion and wave
+  behaviour diverge on a relational graph" as a runnable companion test, although resolve_by here asks
+  for a formal statement.

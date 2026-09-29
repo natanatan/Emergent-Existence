@@ -1,0 +1,31 @@
+id: EE-C-0228
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Search for scales or regions in which a smooth approximation ceases to fit while higher-order
+      localization remains recoverable.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Smoothness-failure test (13.26)
+dependencies: []
+relations: []
+concepts:
+- Lc
+- Gm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.26'
+  page: 268
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch13.T13.26f
+  concept_confidence: low
+  concept_note: no element for smoothness

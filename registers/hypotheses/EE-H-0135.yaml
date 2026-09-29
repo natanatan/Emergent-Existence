@@ -1,0 +1,20 @@
+id: EE-H-0135
+aliases:
+- H-135
+hypothesis: Memory remains downstream of Life and upstream of Knowing; before Life, the book uses retention,
+  record or path dependence rather than the stronger biological sense of memory. No fixed total chapter
+  count is imposed in advance
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The ordering preserves the distinction between generic retained consequence and internally consequential
+    retention in a self-maintaining system, while letting Book II’s length follow the dependency architecture
+status_text: Retained
+resolve_by: None planned
+revisited_in: Life, Memory and Knowing; Volume I architecture
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 349

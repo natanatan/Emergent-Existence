@@ -1,0 +1,19 @@
+id: EE-H-0113
+aliases:
+- H-113
+hypothesis: 'Physical does not mean material: a geometric distinction is physically consequential when
+  changing it changes the admissible relational organization of other instantiated structures'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Lets Space call itself physical without circularity while Matter remains underived, through
+    Adm(A,B | ·), the admissible couplings under a given geometric organization
+status_text: Retained
+resolve_by: The locality-prediction test of 13.26, against randomized baselines
+revisited_in: Space (13.8)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 343

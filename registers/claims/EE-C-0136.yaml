@@ -1,0 +1,32 @@
+id: EE-C-0136
+kind: other
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Re-instantiable comparison can supply an endogenous standard without an external unit. Closure
+      and Return provide reusable identity and reference; Scale adds repeatable magnitude comparison.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: STRONG verdict (10.18)
+dependencies:
+- claim: EE-C-0135
+  role: constitutive
+relations: []
+concepts:
+- Sd
+composition:
+- Sd
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.18'
+  page: 198
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.V10.18
+  concept_confidence: high

@@ -1,0 +1,32 @@
+id: EE-C-0059
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ pA = λW(OA), pB = λW(OB), pA ≠ pB [...] Relational position is the distinctive relational
+      profile an organization occupies within a larger resolving domain.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled definition, §5.11) relational position
+dependencies:
+- claim: EE-C-0056
+  role: constitutive
+relations: []
+concepts:
+- Po
+composition:
+- Hd
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.11'
+  page: 92
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.11
+  concept_confidence: high

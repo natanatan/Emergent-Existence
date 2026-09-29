@@ -1,0 +1,20 @@
+id: EE-H-0107
+aliases:
+- H-107
+hypothesis: 'A layer is not a dimension: the number of metric-relational layers is independent of the
+  number of geometric dimensions'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The discipline a multilayer proposal most needs, stated before the proposal can be misread.
+    Dimension enters only where a local state can vary in more than one irreducible way
+status_text: Retained
+resolve_by: Diagnostic 5 of 12.25, measuring rank from the generated organization rather than stipulating
+  it
+revisited_in: Geometry (12.6); Formalism (9.22)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 340

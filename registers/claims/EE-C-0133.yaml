@@ -1,0 +1,37 @@
+id: EE-C-0133
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ magn+1 = a·magn + b·magn-1, with characteristic relation λ² = aλ + b [...] ▪ stable recursive
+      scaling ⇏ φ
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Non-privilege of φ (10.16)
+dependencies:
+- claim: EE-C-0131
+  role: constitutive
+relations: []
+concepts:
+- Sf
+composition:
+- Sf
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.16'
+  page: 197
+  version: v1
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.X10.16
+  concept_confidence: high
+  concept_note: Non-privilege of phi is in Sf definition.

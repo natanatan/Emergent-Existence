@@ -1,0 +1,20 @@
+id: EE-H-0087
+aliases:
+- H-87
+hypothesis: The earned ontology can be carried by one weak formal signature, 𝔊 = (𝒞, ℜ, 𝒰), with closure,
+  orientation and return as predicates over it rather than components of it
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Chapter 9’s central claim. The core assumes no metric, topology, vector structure or measure,
+    and does not restrict relations to binary arity
+status_text: Provisional
+resolve_by: Whether a weaker adequate carrier exists, or 𝒰 reduces to a dependency already in ℜ (Question
+  1)
+revisited_in: Formalism (9.4, 9.26)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 334

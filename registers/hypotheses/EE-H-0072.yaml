@@ -1,0 +1,19 @@
+id: EE-H-0072
+aliases:
+- H-72
+hypothesis: A lower-order non-equivalence becomes effective at a higher level when it survives that level’s
+  identity and resolution criterion and alters its admissible transformations
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Separates latent from effective asymmetry; uses 4.3’s frames only, since the coarse-graining
+    operator is earned in Chapter 10
+status_text: Provisional
+resolve_by: A worked case in which unresolved variation crosses a higher-order threshold
+revisited_in: Orientation (7.4)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 331

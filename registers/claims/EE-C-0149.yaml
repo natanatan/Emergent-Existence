@@ -1,0 +1,30 @@
+id: EE-C-0149
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Compare a recursively self-similar model against a non-self-similar one that still supports
+      magnitude comparison.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 9 (10.25): Self-similarity control'
+dependencies: []
+relations: []
+concepts:
+- Sc
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.25'
+  page: 201
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.T10.25.9
+  concept_confidence: low
+  concept_note: Self-similarity control; no scale-invariance element.

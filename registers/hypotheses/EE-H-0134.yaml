@@ -1,0 +1,22 @@
+id: EE-H-0134
+aliases:
+- H-134
+hypothesis: Volume I, Book I, comprises Chapters 1 to 14 and ends with Time. Book II begins where the
+  earned structures of Space and Time must be shown to support physical spacetime and subsequent physical
+  dynamics
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The seam tracks the ontological transition from formal and relational construction to physical
+    instantiation, rather than the earlier appearance of metric structure
+status_text: Retained
+resolve_by: None planned
+revisited_in: Volume I architecture; Time handoff; Book II opening
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 349
+import_notes:
+- '"Time handoff" mapped to ch14 (the Time chapter''s handoff).'

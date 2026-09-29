@@ -1,0 +1,17 @@
+id: EE-H-0027
+aliases:
+- H-27
+hypothesis: Recursion at the foundation presupposes physical time
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: n indexes the order of derivation, not duration
+status_text: Rejected
+resolve_by: None planned
+revisited_in: Time
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 320

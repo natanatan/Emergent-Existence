@@ -1,0 +1,40 @@
+id: EE-C-0158
+kind: definition
+use: representational
+aliases: []
+versions:
+  v1:
+    text: ▪ L(κ) = Σr ∈ κ w(r) [...] ▪ d(A,B) = minκ ∈ K(A,B) Σr ∈ κ w(r). [...] The weighted construction
+      therefore remains Provisional until its weights can be derived from independently justified relational
+      magnitude.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Weighted distance (11.7)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0156
+concepts:
+- Dt
+- Rn
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.7'
+  page: 211
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.D11.7
+  concept_confidence: medium
+  concept_note: No element for weighted distance.
+  notes:
+  - Beta cites Scale (chapter-level reference, not a single claim)

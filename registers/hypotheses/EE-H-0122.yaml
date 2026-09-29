@@ -1,0 +1,20 @@
+id: EE-H-0122
+aliases:
+- H-122
+hypothesis: 'Counting retained updates is not measuring duration: N_C(eₐ,eᵦ) is a structural quantity,
+  and becomes a temporal measure only where the counted unit is stable and reproducible'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The temporal counterpart of Distance’s warning that counting mediators is not measuring extent.
+    Two chains may differ in update count while carrying the same higher-order transformation
+status_text: Provisional
+resolve_by: 'The coarse-graining test of 14.25: change temporal resolution and check that precedence and
+  any metric ratios survive'
+revisited_in: Time (14.11, 14.22); Distance (11.18)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 345

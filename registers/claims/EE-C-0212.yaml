@@ -1,0 +1,29 @@
+id: EE-C-0212
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: Let Joint(A,B) mean that A and B are recoverable as distinct loci within the same effective
+      geometry Geo. ▪ Joint(A,B) ≠ A and B exist at the same time
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Joint(A,B) (13.4; extractor-assigned ID)
+dependencies: []
+relations: []
+concepts:
+- Jr
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.4'
+  page: 255
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch13.D13.4
+  concept_confidence: high

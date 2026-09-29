@@ -1,0 +1,70 @@
+stage: Gm
+title: Geometry
+current_chapter:
+  book-1/beta: 12
+claim: Geometry becomes available when relational distances organize into mutually constraining layers
+  that support stable neighborhoods, independent modes of variation, and transformations reproducible
+  across scale. A probe that repeatedly resolves the same lower-order invariants of such a substrate then
+  sees them as persistent multidimensional geometric properties, while the organization that generates
+  them can hold more than any one projection shows.
+inherits:
+- item: relational identity
+- item: closure
+  from: Cl
+- item: orientation
+  from: Or
+- item: return
+  from: Rt
+- item: formal composability; dR and independence before orthogonality; quotient identity
+  from: Fm
+- item: endogenous magnitude
+  from: Sc
+- item: scale (incl. coarse-graining)
+  from: Sc
+- item: intrinsic metric separation d(A,B), including directed d(A,B) ≠ d(B,A)
+  from: Dt
+- item: bounded frames that need not resolve every distinction ('Earlier chapters already allowed distinct
+    underlying states to become indistinguishable to a given frame')
+earns:
+- item: stable metric neighborhoods
+  detail: N_ε(A) for an internally available scale; local geometric coherence = stable neighborhood relations
+    under admissible transformation.
+- item: higher-order constraints among distances
+  detail: Geometry concerns organized constraints among systems of separations; overlap is the first collective
+    geometric constraint.
+- item: coupled metric-relational layers (possibility)
+  detail: '''the possibility of several coupled metric-relational layers''; layer ≠ dimension.'
+- item: rank-like independent collective modes / candidate effective dimension
+  detail: dR := rank(IndR) on stable independent modes; operational dprobe alongside; 'candidate effective
+    dimension'. Independence before orthogonality.
+- item: coordinate representations of stable modes
+  detail: Coordinates 'earned as efficient representations of stable mode structure, not admitted as primitive
+    addresses'.
+- item: scale-dependent smooth approximation
+  detail: 𝔏^(σ) ≈ 𝔏smooth over a declared scale regime; effective, not fundamental, continuity.
+- item: curvature-like incompatibility among local standards
+  detail: Persistent failure of local geometric standards to remain globally compatible (route-dependent
+    failed return).
+- item: distinction between underlying organization and probe-resolved effective geometry
+  detail: ΠF, IF, OF = ΠF(IF(𝔏)); effective objectivity as cross-frame stability of declared invariants.
+withholds:
+- item: physical spatial dimensions (that its dimensions are physical)
+  deferred_to: Sp
+- item: that three dimensions are uniquely selected
+- item: whether the substrate is fundamentally continuous or discrete
+- item: global smoothness of the effective geometry
+- item: matter
+- item: quantum fields
+- item: particles
+- item: metric time
+- item: spacetime
+- item: gravity
+- item: energy
+- item: action
+- item: causal speed
+- item: that a measured field excitation is literally a projection from a multilayer geometric substrate
+- item: that measurement back-action is quantum collapse
+- item: that every physical property can be reduced to geometry
+- item: orthogonality / inner product
+- item: locality, extension, adjacency, spatial position (physical)
+  deferred_to: Sp

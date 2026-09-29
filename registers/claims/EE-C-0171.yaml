@@ -1,0 +1,31 @@
+id: EE-C-0171
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Small changes in arbitrary descriptive partition should not radically alter distance unless
+      those changes correspond to genuine changes in the organization.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 3 (11.21): Decomposition perturbation'
+dependencies: []
+relations: []
+concepts:
+- Dt
+- Rn
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.21'
+  page: 220
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.T11.21.3
+  concept_confidence: medium
+  concept_note: Tests decomposition admissibility.

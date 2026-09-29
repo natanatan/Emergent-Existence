@@ -1,0 +1,32 @@
+id: EE-C-0154
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ κAB = (A, X₁, …, Xₙ, B) such that each neighboring pair participates in a relation admitted
+      by the organization under the declared criterion.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Admissible relational chain (11.3)
+dependencies:
+- claim: EE-C-0153
+  role: constitutive
+relations: []
+concepts:
+- Rn
+composition:
+- Rn
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.3'
+  page: 209
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.D11.3
+  concept_confidence: high

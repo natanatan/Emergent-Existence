@@ -1,0 +1,20 @@
+id: EE-H-0125
+aliases:
+- H-125
+hypothesis: 'Propagation is not earned in Book I: speed as spatial separation over temporal duration is
+  unavailable, since numerator and denominator have not been shown to participate in one invariant structure'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The seam Book I hands to Book II, and the reason Time’s derivation does not depend on any carrier.
+    Whatever propagates, and at what rate, is the next book’s problem
+status_text: Retained
+resolve_by: 'The spacetime-withholding test of 14.25: verify that no propagation speed, Lorentzian signature,
+  null relation or invariant c is required for the temporal construction to work'
+revisited_in: Time (14.16, 14.28, 14.31)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 346

@@ -1,0 +1,18 @@
+id: EE-H-0039
+aliases:
+- H-39
+hypothesis: A frame’s failure to resolve two states does not entail their ontological identity
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Follows from the separation of difference from its resolution (2.8) and from weak discernibility
+    (2.5): resolvability is frame-relative, non-equivalence is not'
+status_text: Retained
+resolve_by: None planned
+revisited_in: Difference (2.5, 2.8); Boundary
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 322

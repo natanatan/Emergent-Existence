@@ -1,0 +1,18 @@
+id: EE-H-0040
+aliases:
+- H-40
+hypothesis: Measurement in this chapter means structural resolvability, not observer-mediated interaction
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Observer-mediated measurement is one later implementation of a resolving frame, not a primitive
+    requirement
+status_text: Retained
+resolve_by: None planned
+revisited_in: Boundary (4.2, 4.13 Obj. 4)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 323

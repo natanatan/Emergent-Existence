@@ -1,0 +1,21 @@
+id: EE-H-0068
+aliases:
+- H-68
+hypothesis: 'Sameness and comparison of size can be earned relationally before any numeral: two collections
+  are the same size when their members pair one-to-one (Hume’s principle), and one is no larger than another
+  when it maps one-to-one into it (made well-behaved by the Cantor–Schröder–Bernstein theorem)'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Established mathematics supplies the route; it remains to show that the framework’s recursive
+    levels support the needed correspondences without assuming them
+status_text: Provisional
+resolve_by: A Chapter 10 construction deriving the correspondences between recursive levels from relational
+  structure alone
+revisited_in: Scale; Relation (5.12, threshold aggregation)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 329

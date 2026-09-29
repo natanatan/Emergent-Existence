@@ -1,0 +1,24 @@
+id: EE-H-0026
+aliases:
+- H-26
+hypothesis: The primitive dyad could be reconstructed from a recursive rule whose only prior reference
+  role is Ω, so that Origin’s recursive self-relation would generate Difference
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Retained from the distinction-first architecture as a reduction hypothesis, not a working claim;
+    no rule yet yields the dyad without already containing two differentiated states, orientation, metric,
+    time or an external mark (2.12)
+status_text: Speculative
+resolve_by: Such a rule would make Difference derived rather than primitive and move this entry toward
+  Provisional
+revisited_in: Difference (2.12); Closure, 10
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 320
+import_notes:
+- Bare chapter number "10" mapped to ch10 Scale under current numbering; may reflect an older chapter
+  numbering (uncertain).

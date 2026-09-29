@@ -1,0 +1,24 @@
+id: EE-H-0071
+aliases:
+- H-71
+hypothesis: 'Orientation is derived, not primitive: it is persistent, consequential non-equivalence among
+  relational dependency roles (K_ij ≁ K_ji), and an arrow is notation applied after that non-equivalence
+  is established'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Chapter 7’s central claim. Excludes latent and transient asymmetry by requiring entry into dependency
+    structure and persistence to return
+status_text: Provisional
+resolve_by: The role-exchange and reversal tests of 7.15 under rules that encode no direction (App G,
+  module 6)
+revisited_in: Orientation (7.2, 7.5); App G
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 330
+import_notes:
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

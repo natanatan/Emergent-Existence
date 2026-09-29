@@ -1,0 +1,32 @@
+id: EE-C-0012
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: '𝒞𝔇 = {a, b} ... The update relation is typed as: 𝒰 ⊆ 𝒞𝔇 × 𝒞𝔇'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: type promotion (3.3)
+dependencies:
+- claim: EE-C-0009
+  role: constitutive
+relations: []
+concepts:
+- Cf
+- Ut
+composition:
+- Df
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 3
+  section: '3.3'
+  page: 57
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch03.X3.carrier
+  concept_confidence: high

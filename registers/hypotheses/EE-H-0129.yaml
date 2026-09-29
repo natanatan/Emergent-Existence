@@ -1,0 +1,23 @@
+id: EE-H-0129
+aliases:
+- H-129
+hypothesis: 'Distinction is difference made operative in admissible succession: the poles are promoted
+  to a minimal configuration carrier 𝒞_𝔇, and a nontrivial transition relation 𝒰, covariant under Aut(𝔇),
+  licenses succession between them, forcing reciprocal exchange without privileging either pole (Proposition
+  3A)'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Replaces the resolver definition: the reciprocal map J_𝒰 is derived from 𝒰, and identity arises
+    from composition rather than primitive stasis (3.8, 3.9)'
+status_text: Provisional
+resolve_by: 'Counts against it: 𝒰 cannot be specified without the Distinction it grounds, or no downstream
+  consequence separates the role of 𝒰 from that of ≬ (3.18). Dependency precedence ≺ (4.11) is the first
+  such consequence'
+revisited_in: Distinction; Boundary
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 347

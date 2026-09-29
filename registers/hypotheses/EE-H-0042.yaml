@@ -1,0 +1,19 @@
+id: EE-H-0042
+aliases:
+- H-42
+hypothesis: The capacity and saturation formalism drafted for Chapter 4 (resolving capacity, relational
+  density, effective dimensionality) is archived pending a chapter with more than one relation
+status_history:
+- status: Deferred
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Needs a multi-relation domain Chapter 4 does not have; placed in Chapter 10 (Scale) on 22 September
+    2026
+status_text: Deferred
+resolve_by: Placement decided once the relevant chapter is drafted (Blueprint Reminder 3)
+revisited_in: Boundary (archived); Scale
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 323

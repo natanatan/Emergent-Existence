@@ -1,0 +1,21 @@
+id: EE-H-0114
+aliases:
+- H-114
+hypothesis: 'Detecting a failure of smoothness is not resolving fundamental structure: a probe may reach
+  an intermediate organizational regime and no further'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Governs how any evidence of granular geometry should be read, in this framework and in quantum-gravity
+    phenomenology generally. The pothole: a tyre finds where the smooth description fails without resolving
+    aggregate or binder'
+status_text: Retained
+resolve_by: The smoothness-failure test of 13.26, which must distinguish loss of continuity from loss
+  of localization
+revisited_in: Space (13.14, 13.15)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 343

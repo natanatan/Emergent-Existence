@@ -1,0 +1,21 @@
+id: EE-H-0065
+aliases:
+- H-65
+hypothesis: 'Volume I architecture: Memory placed at Chapter 20 between Life and Knowing; 21 chapters
+  kept; Book I/II seam at 9/10; pre-life “memory” titles renamed to record'
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'The entry bundles claims that no longer share one status: the 9/10 seam and the fixed 21-chapter
+    cap are retired, while the ordering of Memory and the terminology discipline survive'
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Superseded by H-134 and H-135
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 329
+import_notes:
+- Revisited in names a superseding entry rather than a chapter.

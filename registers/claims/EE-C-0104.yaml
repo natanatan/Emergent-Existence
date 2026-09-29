@@ -1,0 +1,45 @@
+id: EE-C-0104
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'Anchor identity: an independently constrained identity class OF exists and functions in the
+      Closure-earned reference role AF. Oriented transformation: admissible orientational dependencies
+      generate a nontrivial sequence from a realization of OF. Departure: at least one intermediate configuration
+      lies outside OF while F remains applicable to it (8.4). Re-entry: a resultant configuration ΣR again
+      lies inside OF. ▪ Ret(AF; ·) = departure from OF ∧ oriented transformation ∧ re-entry into OF'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Minimal formal conditions for return (8.5)
+dependencies:
+- claim: EE-C-0102
+  role: constitutive
+- claim: EE-C-0103
+  role: constitutive
+- claim: EE-C-0089
+  role: constitutive
+- claim: EE-C-0098
+  role: constitutive
+relations: []
+concepts:
+- Rt
+- Dr
+composition:
+- An
+- Dr
+- Or
+- Rt
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 8
+  section: '8.5'
+  page: 148
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch08.MIN8.5
+  concept_confidence: high

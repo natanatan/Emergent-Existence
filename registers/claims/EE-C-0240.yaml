@@ -1,0 +1,42 @@
+id: EE-C-0240
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: '▪ 𝒯 = (𝓔/≈ , ≺ₜ, Rec, Cyc) where: 𝓔/≈ is the quotient of resolvable relational events by mutual
+      dependency reachability; ≺ₜ is the strict partial-order candidate induced by one-way dependency
+      reachability between those quotient classes; Rec is the family of retained records or constraints
+      by which precedence can be recovered, lettered to stay clear of the relation set ℜ of Formalism;
+      Cyc is an optional family of recurrent comparison processes, lettered to stay clear of the configuration
+      set 𝒞 of Formalism, that can support endogenous metric standards when they satisfy stability conditions.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: The Candidate Formal Object 𝒯 (14.23)
+dependencies:
+- claim: EE-C-0231
+  role: constitutive
+- claim: EE-C-0232
+  role: constitutive
+- claim: EE-C-0239
+  role: constitutive
+relations: []
+concepts:
+- Tm
+composition:
+- Ck
+- Eo
+- Md
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.23'
+  page: 286
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.D14.23
+  concept_confidence: high

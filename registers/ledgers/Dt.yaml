@@ -1,0 +1,80 @@
+stage: Dt
+title: Distance
+current_chapter:
+  book-1/beta: 11
+claim: Distance becomes available when distinct relational loci can be connected through admissible chains
+  of mediation whose comparative burden is recoverable from the organization itself, allowing separation
+  between loci to acquire magnitude.
+inherits:
+- item: relational identity
+- item: closure
+  from: Cl
+- item: orientation (non-equivalence under role reversal)
+  from: Or
+- item: return
+  from: Rt
+- item: formal composability; typed transition relation 𝒰
+  from: Fm
+- item: comparative magnitude
+  from: Sc
+- item: proportion
+  from: Sc
+- item: recursive scale
+  from: Sc
+- item: endogenous standards
+  from: Sc
+- item: 'decomposition debt (unresolved: arbitrary decomposition makes magnitude arbitrary)'
+  from: Sc
+- item: non-identity A ≠ B
+  from: Ds
+- item: relational position (non-spatial)
+  from: Rl
+- item: scale-indexed coarse-graining (standard s)
+  from: Sc
+earns:
+- item: comparable separation / chain magnitude
+  detail: '''relational mediation + earned magnitude ⇝ comparable separation''; Lu(κ) = n u — one chain
+    contains more, fewer, or the same number of equivalent mediating relations as another.'
+- item: intrinsic magnitude of relational separation (distance)
+  detail: '''What Distance earns is narrower: intrinsic magnitude of relational separation'' — distance
+    as the least sufficient relational mediation du(A,B) = min Lu(κ), without coordinates or embedding.'
+- item: metric or directed metric-like structure over relational loci
+  detail: '''and, under additional conditions: a metric or directed metric-like structure over relational
+    loci''. Directed distance may appear first; symmetry only under reversible equivalence.'
+- item: triangle inequality as derived result
+  detail: Follows from chain composition + additive magnitude + minimality; inherits Provisional status
+    of additivity (11.8, 11.10).
+- item: zero-separation quotients (metric identity)
+  detail: A ~₀ B iff d(A,B)=0; zero-separated states treated as one higher-order locus; 'Metric identity
+    may emerge by quotienting distinctions that carry no relational separation.'
+- item: near and far (relational)
+  detail: If d(A,B)<d(A,C), B is relationally nearer to A than C is under the declared metric regime;
+    'relational near/far ≠ physical spatial near/far'.
+withholds:
+- item: physical spatial length
+- item: a metre or any physical calibration unit
+- item: coordinates
+  deferred_to: Gm
+- item: angles
+- item: inner products
+- item: orthogonality
+- item: basis vectors
+- item: spatial dimension
+  deferred_to: Gm
+- item: a manifold
+- item: continuity
+- item: curvature
+- item: physical locality
+  deferred_to: Sp
+- item: velocity
+- item: metric time
+  deferred_to: Tm
+- item: light cones
+- item: causal speed
+- item: energy
+- item: action
+- item: geodesic motion
+- item: general relativity
+- item: spacetime
+- item: geometry (mutually constraining organization of distances)
+  deferred_to: Gm

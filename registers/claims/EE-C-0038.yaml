@@ -1,0 +1,31 @@
+id: EE-C-0038
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ λi = (ri1, ri2, …, rin)
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §5.3) relational profile λi
+dependencies:
+- claim: EE-C-0032
+  role: constitutive
+relations: []
+concepts:
+- Pf
+composition:
+- Do
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.3'
+  page: 85
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.3
+  concept_confidence: high

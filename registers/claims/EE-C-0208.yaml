@@ -1,0 +1,30 @@
+id: EE-C-0208
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Coarse-graining may change lower-order distances, but it should preserve the declared higher-order
+      relations when the effective geometry is claimed to survive.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 7 (12.25): Scale transition'
+dependencies: []
+relations: []
+concepts:
+- Cs
+- Gm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.25'
+  page: 243
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.T12.25.7
+  concept_confidence: medium

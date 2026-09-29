@@ -1,0 +1,32 @@
+id: EE-C-0152
+kind: other
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ A ≠ B ⇏ d(A,B) [...] Call their pre-metric separation ρ(A,B). At this stage ρ is not a number.
+      [...] ▪ relational separation ≠ metric distance
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Difference is not separation (11.2)
+dependencies: []
+relations: []
+concepts:
+- Rs
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.2'
+  page: 208
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.X11.2
+  concept_confidence: high
+  notes:
+  - Beta cites Distinction (chapter-level reference, not a single claim)
+  - Beta cites Relation (chapter-level reference, not a single claim)

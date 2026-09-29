@@ -1,0 +1,36 @@
+id: EE-C-0053
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: 'An object-like identity is then, provisionally, an equivalence class: ▪ O = [Σ]~F [...] Object-like
+      persistence is preserving identity-relevant relational organization across admissible transformation.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §5.9) object-like identity
+dependencies:
+- claim: EE-C-0029
+  role: constitutive
+- claim: EE-C-0045
+  role: constitutive
+relations: []
+concepts:
+- Ob
+composition:
+- Dg
+- Id
+- Sy
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.9'
+  page: 90
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.9a
+  concept_confidence: high

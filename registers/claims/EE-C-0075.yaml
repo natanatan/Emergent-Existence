@@ -1,0 +1,39 @@
+id: EE-C-0075
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Whether the three-part test can be reduced further, and whether each clause can be expressed
+      using one common formal object in Formalism.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ◌ OPEN (§6.4)
+dependencies:
+- claim: EE-C-0073
+  role: constitutive
+relations: []
+concepts:
+- Cl
+- Fm
+composition:
+- Cl
+- Cn
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 6
+  section: '6.4'
+  page: 107
+  version: v1
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch06.M6.4b
+  concept_confidence: medium
+  concept_note: Fm (ch9) listed because claim explicitly defers to Formalism

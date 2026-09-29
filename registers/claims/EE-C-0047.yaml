@@ -1,0 +1,38 @@
+id: EE-C-0047
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: What the weakest sufficient criterion is, and which later physical dynamics, if any, select
+      a privileged realized transformation regime rather than leaving 𝔗R purely diagnostic.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ◌ OPEN (§5.6)
+dependencies:
+- claim: EE-C-0045
+  role: constitutive
+relations: []
+concepts:
+- Sy
+- Dg
+composition:
+- Dg
+- Sy
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.6'
+  page: 88
+  version: v1
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.6b
+  concept_confidence: medium

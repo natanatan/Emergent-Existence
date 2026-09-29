@@ -1,0 +1,30 @@
+id: EE-C-0203
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Equivalent graph, hypergraph, matrix, tensor-network, or other faithful encodings should preserve
+      the declared geometric invariants.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 2 (12.25): Representation invariance'
+dependencies: []
+relations: []
+concepts:
+- Gm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.25'
+  page: 243
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.T12.25.2
+  concept_confidence: medium
+  concept_note: representation invariance; no specific element

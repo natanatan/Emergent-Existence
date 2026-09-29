@@ -1,0 +1,21 @@
+id: EE-H-0073
+aliases:
+- H-73
+hypothesis: An orientational asymmetry need persist only long enough to alter the conditions or state
+  of anchor-relative return; this uses 6.12’s identity criterion and nothing from Chapter 8
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Makes persistence functional rather than a matter of duration. The dependency runs one way:
+    if Chapter 8 revises what return means, this threshold moves with it'
+status_text: Provisional
+resolve_by: 'Resolved 22 September 2026: Chapter 8 (8.5) defines the return condition as re-satisfaction
+  of F after genuine departure, and the 7.7 threshold is unchanged. Now a cross-reference, not a forward
+  dependency'
+revisited_in: Orientation (7.7); Return
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 331

@@ -1,0 +1,30 @@
+id: EE-C-0168
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: metric separation ≠ geometry
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Distance is not yet geometry (11.20)
+dependencies: []
+relations: []
+concepts:
+- Dt
+- Gm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.20'
+  page: 220
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.X11.20
+  concept_confidence: medium
+  concept_note: Explicitly contrasts with later Geometry (ch12).

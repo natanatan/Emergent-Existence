@@ -1,0 +1,33 @@
+id: EE-C-0139
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Scale invariance means that some identified organization is preserved when the scale relation
+      is applied. [...] ▪ scale invariance ≠ geometric self-similarity
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Scale invariance vs self-similarity (10.21)
+dependencies:
+- claim: EE-C-0138
+  role: constitutive
+relations: []
+concepts:
+- Sc
+composition:
+- Cs
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.21'
+  page: 199
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.X10.21
+  concept_confidence: low
+  concept_note: No element for scale invariance / self-similarity.

@@ -1,0 +1,23 @@
+id: EE-H-0030
+aliases:
+- H-30
+hypothesis: First-order recursion does not exclude finite-order retained history, since a finite-order
+  recurrence is first-order on an enlarged state
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Standard mathematics, used in 3.7
+status_text: Retained
+resolve_by: None planned
+revisited_in: Formalism, 20
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 321
+import_notes:
+- Bare chapter number "20" lies outside Book I (chapters 1-14); likely older 21-chapter numbering (cf.
+  H-45, H-65). Not mapped.
+- '"20" is outside Book I; under the older 21-chapter plan (H-65) Chapter 20 is Memory, cf. H-91 which
+  lists Memory for the same topic.'

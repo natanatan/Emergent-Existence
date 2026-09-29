@@ -1,0 +1,30 @@
+id: EE-C-0030
+kind: other
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: '▪ e : 𝒞𝔇 → X'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §4.16) embedding e
+dependencies: []
+relations:
+- type: tests
+  claim: EE-C-0021
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 4
+  section: '4.16'
+  page: 74
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch04.D4.16
+  concept_confidence: low
+  concept_note: 'Embedding e of the carrier into a realization space (4.16); no element. Nearest: Cf/Dg.'

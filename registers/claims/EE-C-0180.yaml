@@ -1,0 +1,36 @@
+id: EE-C-0180
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'For a locus A and an internally available scale ε, consider the family of loci whose relational
+      distance from A lies below that scale. In conventional notation one might write N_ε(A) = {X : d(A,X)
+      < ε}.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Scale-relative relational neighborhood (12.2)
+dependencies:
+- claim: EE-C-0156
+  role: constitutive
+- claim: EE-C-0135
+  role: constitutive
+relations: []
+concepts:
+- Nb
+composition:
+- Dt
+- Sd
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.2'
+  page: 229
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.D12.2a
+  concept_confidence: high

@@ -1,0 +1,20 @@
+id: EE-H-0034
+aliases:
+- H-34
+hypothesis: Information is retained relational distinguishability that remains resolvable by at least
+  one frame and constrains later relational possibilities
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A working definition, deliberately functional and pre-statistical; extends the 𝒟 to persistence
+    to r_ij to I chain from 3.9
+status_text: Provisional
+resolve_by: Derivation of conventional information measures as special or coarse-grained cases would move
+  it toward Retained
+revisited_in: Boundary (4.10); Formalism
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 321

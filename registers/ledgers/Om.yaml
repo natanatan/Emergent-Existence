@@ -1,0 +1,27 @@
+stage: Om
+title: Origin
+current_chapter:
+  book-1/beta: 1
+claim: Origin is the minimally resolved reference condition from which no operative distinction is available
+  at the framework’s initial resolution. We approach it by conceptually unbuilding the richly compressed
+  world of ordinary experience.
+inherits: []
+earns: []
+withholds:
+- item: physical first moment or temporal beginning
+  deferred_to: Tm
+- item: spatial location, metric, coordinate system, topology
+- item: geometry
+  deferred_to: Gm
+- item: matter, fields, energy, action, entropy, thermodynamic dynamics
+- item: objects, observers, agents, consciousness, meaning as primitives
+- item: causation or physical law of evolution
+- item: information (retained, consequential sense)
+  deferred_to: Bd
+- item: mechanism for the first distinction
+- item: proof that Ω is an entity
+- item: hidden structure in Ω
+- item: absolute featurelessness of Ω
+- item: physical instantiation of relational ontology
+- item: physical spacetime
+  scope: book-2

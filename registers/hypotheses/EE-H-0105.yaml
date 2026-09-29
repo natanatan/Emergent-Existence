@@ -1,0 +1,21 @@
+id: EE-H-0105
+aliases:
+- H-105
+hypothesis: 'The decomposition vulnerability inherited from Scale is amplified in Distance: loci, mediating
+  relations, chain admissibility and the scale standard must all be independently constrained'
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: If the analyst may choose these after seeing the desired result, almost any metric can be manufactured.
+    11.17 calls this the chapter’s most important falsifiability condition, and it is the same entry as
+    Chapter 10’s Objection 12 with more surface
+status_text: Open
+resolve_by: 'Diagnostics 3 and 10 of 11.21: decomposition perturbation, and comparison against matched
+  random organizations (Question 7)'
+revisited_in: Distance (11.17); Scale (10.27)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 340

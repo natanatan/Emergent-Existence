@@ -1,0 +1,20 @@
+id: EE-H-0055
+aliases:
+- H-55
+hypothesis: Stable dynamics can select effective orthogonality through decoupling rather than orthogonality
+  being a capacity of the domain
+status_history:
+- status: Deferred
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Reserved for the physical-emergence program; must not be assumed in Book I
+status_text: Deferred
+resolve_by: A model in which cross-coupling between collective modes decreases under coarse-graining
+revisited_in: Relation (5.14); Distance to Space
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 326
+import_notes:
+- '"Distance to Space" read as the inclusive chapter range ch11-ch13.'

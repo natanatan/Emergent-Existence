@@ -1,0 +1,20 @@
+id: EE-H-0119
+aliases:
+- H-119
+hypothesis: 'Retained consequence defines intrinsic dependency precedence, Σₐ ≺ Σᵦ, without physical time
+  as a primitive: Σᵦ contains consequences whose removal would change Σᵦ or its admissibility'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Time’s foundation, and the chapter’s strongest step. The counterfactual criterion stops notation
+    from generating order: writing states in a list does not order them'
+status_text: Provisional
+resolve_by: The index-removal and counterfactual-dependency tests of 14.25, which are the chapter’s T-1
+  condition
+revisited_in: Time (14.3, 14.4); Boundary (4.4)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 344

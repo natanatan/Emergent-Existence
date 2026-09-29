@@ -1,0 +1,29 @@
+id: EE-C-0207
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Heterogeneous admissible probes should recover the same higher-order geometric invariants over
+      the regime in which effective objectivity is claimed.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 6 (12.25): Probe robustness'
+dependencies: []
+relations: []
+concepts:
+- Ms
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.25'
+  page: 243
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.T12.25.6
+  concept_confidence: high

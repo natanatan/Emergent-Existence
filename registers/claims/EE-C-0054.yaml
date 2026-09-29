@@ -1,0 +1,32 @@
+id: EE-C-0054
+kind: criterion
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ ∃ r ∈ C such that removing r changes F(C), while not every r′ ∉ C does
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §5.9) constitutive asymmetry of cluster C
+dependencies:
+- claim: EE-C-0053
+  role: constitutive
+relations: []
+concepts:
+- Ob
+composition:
+- Ob
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.9'
+  page: 90
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.9b
+  concept_confidence: medium
+  concept_note: Constitutive asymmetry of a cluster; no dedicated element (anticipates Cn, ch6).

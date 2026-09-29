@@ -1,0 +1,21 @@
+id: EE-H-0050
+aliases:
+- H-50
+hypothesis: Structural persistence can preserve relational invariants without preserving particular states
+  or carriers
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The logical distinction is strong and mirrors multiple realizability; the claim that nature
+    works this way remains under development
+status_text: Retained (logical form); Provisional (ontological extension)
+resolve_by: None planned for the logical form; a physical case for the extension
+revisited_in: Relation (5.6-5.7)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 325
+import_notes:
+- Compound status; `status` gives the first-named status, full text in status_text.

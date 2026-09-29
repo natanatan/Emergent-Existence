@@ -1,0 +1,32 @@
+id: EE-C-0230
+kind: criterion
+use: null
+aliases: []
+versions:
+  v1:
+    text: 'A useful counterfactual criterion is therefore: Σₐ ≺ Σᵦ only if removing the retained contribution
+      inherited from Σₐ changes Σᵦ or changes the admissibility of a dependency chain leading to it.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: counterfactual criterion for dependency precedence (14.4; extractor-assigned ID)
+dependencies:
+- claim: EE-C-0026
+  role: constitutive
+relations: []
+concepts:
+- Pr
+composition:
+- Pr
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.4'
+  page: 275
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.C14.4
+  concept_confidence: high

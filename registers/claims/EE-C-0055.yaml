@@ -1,0 +1,37 @@
+id: EE-C-0055
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: This is a candidate route from relation to objecthood. It has not shown that all physical objects
+      are equivalence classes of relational configurations, and it earns nothing if any grouping can be
+      made persistent by choosing F after the fact (5.19, item 5).
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ◌ SPECULATIVE (§5.9)
+dependencies:
+- claim: EE-C-0053
+  role: constitutive
+relations: []
+concepts:
+- Ob
+composition:
+- Ob
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.9'
+  page: 90
+  version: v1
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.9
+  concept_confidence: high

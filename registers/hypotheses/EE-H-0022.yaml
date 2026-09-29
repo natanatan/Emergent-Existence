@@ -1,0 +1,19 @@
+id: EE-H-0022
+aliases:
+- H-22
+hypothesis: Any observable physical reality containing persistent states requires retained distinction
+  (Proposition 1A)
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A near-definitional necessary condition that adds no primitive; the status applies to the necessity
+    of retained distinction, not to any claim about the ultimate primitive (see H-128)
+status_text: Retained
+resolve_by: None planned
+revisited_in: Preface; Distinction; Boundary
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 319

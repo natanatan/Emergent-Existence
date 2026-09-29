@@ -1,0 +1,21 @@
+id: EE-H-0130
+aliases:
+- H-130
+hypothesis: Weak discernibility characterizes the primitive dyad’s minimal individuation but does not
+  ground its numerical diversity, which Proposition 2A admits as an explicit primitive cost
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Concedes the circularity objection (Ladyman, Linnebo and Pettigrew, 2012) and Hawley’s objection
+    (2006) against any inference from weak discernibility to two poles, and assigns weak discernibility
+    only a diagnostic role (2.5, 2.15)
+status_text: Provisional
+resolve_by: A later chapter that needs the relation itself to ground numerical diversity, or needs absolute
+  or relative discernibility from the start, would count against it (2.16)
+revisited_in: Difference (2.6, 2.15, 2.16)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 348

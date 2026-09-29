@@ -1,0 +1,32 @@
+id: EE-C-0128
+kind: other
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Proportion is definable by correspondence alone; ratio, when it arrives, represents a relation
+      that pairing had already fixed.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: STRONG verdict (10.10)
+dependencies:
+- claim: EE-C-0127
+  role: constitutive
+relations: []
+concepts:
+- Pn
+composition:
+- Pn
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.10'
+  page: 195
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.V10.10
+  concept_confidence: high

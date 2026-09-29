@@ -1,0 +1,21 @@
+id: EE-H-0097
+aliases:
+- H-97
+hypothesis: Recursive composition can produce a stable comparative ratio, and the stability belongs to
+  the relation rather than to any level’s magnitude; φ is one such ratio among many
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'This is what scale was defined to be. Section 10.16 demonstrates the existing rejection of
+    golden-ratio universality rather than asserting it: the general recurrence selects other ratios for
+    other coefficients'
+status_text: Provisional
+resolve_by: 'Diagnostics 6 to 8 of 10.25: ratio convergence, recurrence perturbation and robustness to
+  initial conditions'
+revisited_in: Scale (10.13 to 10.17); Distinction (3.7)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 337

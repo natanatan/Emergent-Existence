@@ -1,0 +1,23 @@
+id: EE-H-0037
+aliases:
+- H-37
+hypothesis: Retained dependency order (Σ_a ≺ Σ_b) is a candidate precursor of causal order, possibly the
+  same asymmetry as orientation or derivation order seen a third way
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Defined without a metric or clock, consistent with 3.7 and 4.5, but not yet shown sufficient
+    for causal-set-like structure
+status_text: Open
+resolve_by: A construction recovering relativistic causal cones from dependency order alone would move
+  it to Provisional; Chapter 12 is where the three candidate asymmetries are to be reconciled
+revisited_in: Boundary (4.9); Time
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 322
+import_notes:
+- resolve_by says "Chapter 12 is where the three candidate asymmetries are to be reconciled"; under current
+  numbering ch12 is Geometry, while revisited_in names Time (ch14). Likely older numbering.

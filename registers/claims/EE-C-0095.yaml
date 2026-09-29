@@ -1,0 +1,43 @@
+id: EE-C-0095
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Closure can exist before it is represented. Its identification is initially external to the
+      closed domain; reflexive cognition begins only when the domain can internally represent and evaluate
+      conditions of its own persistence. Whether that is sufficient for phenomenal self-consciousness
+      remains open.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ◌ OPEN (forward pointer to Volume II) (§6.15)
+dependencies:
+- claim: EE-C-0094
+  role: constitutive
+relations: []
+concepts:
+- Oc
+- Sm
+- Cc
+composition:
+- Oc
+- Rf
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 6
+  section: '6.15'
+  page: 117
+  version: v1
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch06.M6.15
+  concept_confidence: low
+  concept_note: 'forward pointer to Volume II: Sm, Cc are later (unnumbered-chapter) stages, explicitly
+    referenced'

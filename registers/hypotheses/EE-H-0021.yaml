@@ -1,0 +1,18 @@
+id: EE-H-0021
+aliases:
+- H-21
+hypothesis: An external creator is the first explanatory primitive
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The framework does not disprove creation; it asks whether recursive distinction and stability
+    suffice without one
+status_text: Open
+resolve_by: Not resolvable by the framework alone
+revisited_in: Vol III
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 318

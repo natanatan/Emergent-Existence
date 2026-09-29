@@ -1,0 +1,21 @@
+id: EE-H-0089
+aliases:
+- H-89
+hypothesis: 'Quotient-compatible dynamics is sufficient for higher-order formal autonomy: an independently
+  constrained equivalence compatible with admissible transformation yields dynamics independent of the
+  lower-order representative'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Gives emergence a testable criterion. Deliberately not claimed necessary for every emergent
+    phenomenon, and 9.27 exhibits an equivalence that fails it
+status_text: Provisional
+resolve_by: Conditions for branching transitions (Question 2), and whether exact congruence is too strong
+  for real systems (Question 10)
+revisited_in: Formalism (9.9, 9.10, 9.27); Closure (6.12)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 335

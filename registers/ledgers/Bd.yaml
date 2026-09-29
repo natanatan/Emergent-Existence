@@ -1,0 +1,65 @@
+stage: Bd
+title: Boundary
+current_chapter:
+  book-1/beta: 4
+claim: An operative Distinction becomes retained when its non-equivalence remains recoverable under declared
+  structural variation and can constrain what remains admissible downstream. Boundary is the criterion
+  under which that recoverability is preserved. The chapter earns frame-relative resolvability, admissible
+  possibility, retained-dependency precedence, and criterion-based identity, all from retained distinction.
+inherits:
+- item: non-equivalence ≬ (glyph missing in extraction; inferred from Objection 5)
+  from: Df
+- item: 𝔇𝒞𝔇 (reciprocal dyad / Distinction; glyph possibly garbled)
+  from: Ds
+- item: minimal update relation 𝒰min
+  from: Ds
+- item: induced exchange map J𝒰 (J𝒰² = id)
+  from: Ds
+- item: internal admissible succession 𝒰
+  from: Ds
+- item: Origin's set-valued Res notation (ResW₀(Ω) = ∅)
+  from: Om
+- item: Proposition 1A (distinguishability surviving transformation)
+  from: Om
+- item: no-stasis decision (no self-loop in 𝒰min)
+  from: Ds
+earns:
+- item: frame-relative resolvability
+  detail: Frame-relative resolvability through a structural resolving frame W, with ResW remaining set-valued.
+- item: preservation predicate PresW
+  detail: A preservation predicate PresW distinct from Return's Ret(AF; ·).
+- item: retained distinction rab
+  detail: The retained distinction rab without Ω, primitive orientation, or binary value.
+- item: admissible-possibility set 𝒫
+  detail: The admissible-possibility set 𝒫 as a set of reachable configurations, not a probability distribution.
+- item: retained-dependency precedence ≺
+  detail: Retained-dependency precedence ≺ as a non-temporal precursor of later causal/temporal order.
+- item: boundary as preserved criterion of non-collapse
+  detail: Boundary as a preserved criterion of non-collapse rather than a spatial surface.
+- item: identity criterion F, ~F, O=[Σ]~F
+  detail: A minimal identity criterion F, identity equivalence ~F, and candidate identity class O=[Σ]~F
+    without an anchor.
+- item: weak functional information
+  detail: A weak functional bridge from retained distinction to information through changed admissible
+    possibilities.
+- item: constitutive/diagnostic separation
+  detail: A principled separation between constitutive internality in Chapter 3 and diagnostic robustness
+    testing in Chapter 4.
+withholds:
+- item: privileged physical transformation family
+- item: anchor / Ω-designated pole / higher-order origin / intrinsic center
+  deferred_to: Cl
+- item: orientation and orientational dependency ≺ₒ
+  deferred_to: Or
+- item: spatial geometry
+- item: distance
+- item: inside/outside, enclosure
+- item: physical time, causal cone, duration, clock
+  deferred_to: Tm
+- item: entropy, Shannon measure, thermodynamic erasure cost
+- item: material carrier
+- item: mature object (integrated organization, endogenous reference)
+  deferred_to: Rl
+- item: transitive/acyclic/total/causal/temporal ≺
+- item: physically grounded coarse-graining
+  deferred_to: Sc

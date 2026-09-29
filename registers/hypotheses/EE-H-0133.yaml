@@ -1,0 +1,21 @@
+id: EE-H-0133
+aliases:
+- H-133
+hypothesis: A dynamically persistent closed identity O_F that is addressable independently of its lower-order
+  representatives earns an organizational reference role, the anchor A_F, without privileging any primitive
+  pole
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The anchor is a role of the closed equivalence class, not an added entity or a privileged member;
+    a new origin is a re-instantiated reference role, not a transmitted centre (6.13)
+status_text: Provisional
+resolve_by: Whether every closed organization yields a unique anchor, and what localizes or distributes
+  it, remains open (6.13)
+revisited_in: Closure (6.13); Orientation; Return
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 348

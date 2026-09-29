@@ -1,0 +1,24 @@
+id: EE-H-0057
+aliases:
+- H-57
+hypothesis: Simplicial completion (K4 and higher simplices) is one possible mathematical realization of
+  closure, not its definition
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Useful where structure is given a simplicial encoding (T_ijkl, G.4); whether closure is ever
+    realized simplicially is a Book II question
+status_text: Provisional
+resolve_by: Chapters 9 and 11 showing that a simplicial realization satisfies the 6.4 test
+revisited_in: Closure (6.1); Formalism, 11; App G
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 327
+import_notes:
+- Bare chapter number "11" mapped to ch11 Distance under current numbering; may reflect an older chapter
+  numbering (uncertain).
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

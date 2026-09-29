@@ -1,0 +1,18 @@
+id: EE-H-0020
+aliases:
+- H-20
+hypothesis: Sacred-geometry claims are evidence
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Flower of Life and similar motifs serve as structural metaphor (center, boundary, new center),
+    not empirical support
+status_text: Rejected
+resolve_by: None planned
+revisited_in: Lineage note
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 318

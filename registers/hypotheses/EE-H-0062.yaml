@@ -1,0 +1,21 @@
+id: EE-H-0062
+aliases:
+- H-62
+hypothesis: The invariant F that individuates an object can be constrained by dynamics and perturbation
+  (F_dyn) rather than chosen after the fact by a frame (F_obs)
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'The chapter’s most serious risk: without an observer-independent constraint on F, objecthood
+    reduces to descriptive coarse-graining'
+status_text: Open
+resolve_by: Preregistered perturbation and ablation tests showing F_dyn is recoverable
+revisited_in: Closure (6.14; 6.19, Objection 4)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 328
+import_notes:
+- revisited_in kept as one item because the semicolon falls inside the parentheses.

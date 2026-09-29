@@ -1,0 +1,19 @@
+id: EE-H-0098
+aliases:
+- H-98
+hypothesis: Whether the membership and decomposition criteria that fix an organization’s magnitude can
+  be constrained independently, or whether magnitude is an artifact of how the analyst divides the structure
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Chapter 10’s most serious vulnerability, conceded at Objection 12. It is the same risk the invariant
+    F carries in Chapters 6 and 8, now attached to amount rather than identity
+status_text: Open
+resolve_by: An independent constraint on decomposition, of the kind F_dyn would supply for identity
+revisited_in: Scale (10.27); Closure (6.14); Return (8.3)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 337

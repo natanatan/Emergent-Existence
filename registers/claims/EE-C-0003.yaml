@@ -1,0 +1,36 @@
+id: EE-C-0003
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'Origin, Ω, is the minimally resolved reference condition: the condition from which no operative
+      distinction is available within the framework’s initial resolving frame. ResW₀(Ω) = ∅'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Origin, Ω (continuation of the Definition in 1.5)
+dependencies:
+- claim: EE-C-0002
+  role: constitutive
+relations: []
+concepts:
+- Om
+composition:
+- Ud
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 1
+  section: '1.5'
+  page: 31
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch01.D1.origin
+  concept_confidence: high

@@ -1,0 +1,17 @@
+id: EE-H-0018
+aliases:
+- H-18
+hypothesis: The cosmic web is literally a global T³ cosmology
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The cosmic web is kept separate from literal global 3-torus cosmology
+status_text: Rejected
+resolve_by: None planned
+revisited_in: Complexity
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 318

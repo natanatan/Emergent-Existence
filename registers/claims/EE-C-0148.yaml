@@ -1,0 +1,28 @@
+id: EE-C-0148
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Determine when a stable ratio is robust to admissible changes in starting magnitude classes.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 8 (10.25): Initial conditions'
+dependencies: []
+relations: []
+concepts:
+- Sf
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.25'
+  page: 201
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.T10.25.8
+  concept_confidence: high

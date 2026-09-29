@@ -1,0 +1,21 @@
+id: EE-H-0116
+aliases:
+- H-116
+hypothesis: Local neighborhoods can persist while global metric separations change, so localization survives
+  what separation does not
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Preserves a route by which cosmological expansion could later read as evolving relational scale
+    rather than motion through a container. Recorded because later volumes will lean on it; it is a route
+    kept open, not a result
+status_text: Provisional
+resolve_by: The scale test of 13.26, repeated coarse-graining with localization and adjacency measured
+  separately from global separation
+revisited_in: Space (13.18); Scale (10.20)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 344

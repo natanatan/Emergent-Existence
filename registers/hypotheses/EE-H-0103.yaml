@@ -1,0 +1,21 @@
+id: EE-H-0103
+aliases:
+- H-103
+hypothesis: Mediation between loci is not the transition relation 𝒰 between configurations
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Conflating them would make distance a count of updates, misdescribing separation and leaving
+    Time nothing of its own to earn. Stated in 11.3 rather than left to the apparatus
+status_text: Retained
+resolve_by: None; the distinction is definitional and is tested by diagnostic 9, the hidden-geometry control
+revisited_in: Distance (11.3); Formalism (9.5)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 339
+import_notes:
+- 'companion_testable false: resolve_by begins "None", although it says the distinction is tested by diagnostic
+  9 (hidden-geometry control).'

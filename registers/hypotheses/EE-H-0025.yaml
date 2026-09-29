@@ -1,0 +1,18 @@
+id: EE-H-0025
+aliases:
+- H-25
+hypothesis: Designating one pole of the primitive dyad as Ω is a stated cost, paid in Distinction
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Distinction no longer designates a reference pole: reciprocal exchange preserves the dyad’s
+    symmetry (3.6), and a reference role is deferred to Closure (4.18)'
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Distinction; Boundary (4.18); Closure
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 319

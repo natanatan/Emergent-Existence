@@ -1,0 +1,35 @@
+id: EE-C-0185
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: If a change available through one mode cannot be reproduced, under the declared equivalence
+      criterion, by admissible combinations of the others, then that mode contributes an independent degree
+      of variation. [...] ▪ dR := rank(IndR), evaluated here on the stable independent relational modes
+      that survive the declared geometric regime
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Effective dimension as rank (12.6)
+dependencies: []
+relations: []
+concepts:
+- Ed
+- Dd
+- Ix
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.6'
+  page: 232
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.D12.6
+  concept_confidence: high
+  notes:
+  - Beta cites Formalism (chapter-level reference, not a single claim)

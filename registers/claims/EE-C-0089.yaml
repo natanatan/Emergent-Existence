@@ -1,0 +1,43 @@
+id: EE-C-0089
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: '▪ ClosedF(ℛ) + dynamic persistence + representative-independent addressability ⇝ endogenous
+      reference. Definition — organizational anchor. Write AF for a closed identity OF when it is functioning
+      in this earned reference role: subsequent higher-order distinctions can be specified relative to
+      OF without selecting an arbitrary lower-order representative. AF is therefore not an additional
+      entity and not a privileged internal member. It names a role of the already-earned closed equivalence
+      class.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Definition — organizational anchor. (§6.13)
+dependencies:
+- claim: EE-C-0072
+  role: constitutive
+- claim: EE-C-0078
+  role: constitutive
+- claim: EE-C-0088
+  role: constitutive
+relations: []
+concepts:
+- An
+composition:
+- Ad
+- Cl
+- Dc
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 6
+  section: '6.13'
+  page: 114
+  version: v1
+  label: Definition — organizational anchor
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch06.AF
+  concept_confidence: high

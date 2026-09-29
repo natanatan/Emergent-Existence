@@ -1,0 +1,20 @@
+id: EE-H-0036
+aliases:
+- H-36
+hypothesis: Whether the anchor stays fixed at Ω, relocates, or distributes once a domain grows past the
+  primitive pair
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The question presupposed an inherited anchor. Relation withholds reference (5.15), and Closure
+    earns it as a role of the closed organization as a whole; whether that role later localizes or distributes
+    is recorded in H-133
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Relation (5.15); Closure (6.13)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 322

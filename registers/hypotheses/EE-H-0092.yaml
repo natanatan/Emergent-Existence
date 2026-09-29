@@ -1,0 +1,19 @@
+id: EE-H-0092
+aliases:
+- H-92
+hypothesis: 'No medium is required beneath the relations: the formal carrier is the relational organization
+  itself, and “substrate”, if retained, names that structure rather than a substance'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Discharges RM-14 conservatively. If later physics requires a further carrier, the framework
+    must declare it
+status_text: Retained
+resolve_by: None; a later chapter needing a medium would reopen it
+revisited_in: Formalism (9.24)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 336

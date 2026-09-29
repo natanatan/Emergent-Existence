@@ -1,0 +1,35 @@
+id: EE-C-0068
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: How should relational independence be defined before vector-space structure is available, and
+      do stable relational dynamics generate persistent approximately decoupled modes without dimensionality
+      being written into the update rules?
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ◌ OPEN (§5.14)
+dependencies: []
+relations: []
+concepts:
+- Ix
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.14'
+  page: 95
+  version: v1
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.14
+  concept_confidence: medium
+  concept_note: Explicitly about relational independence, a later element (Ix, ch9 9.22); cf. Dd.

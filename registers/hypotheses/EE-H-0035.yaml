@@ -1,0 +1,18 @@
+id: EE-H-0035
+aliases:
+- H-35
+hypothesis: At the minimal domain the anchor is Ω
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: No anchor is inherited from Ω at any stage; the first reference role is earned in Closure as
+    the organizational anchor A_F (H-133)
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Boundary (4.18); Relation (5.15); Closure (6.13)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 322

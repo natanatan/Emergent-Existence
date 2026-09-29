@@ -1,0 +1,19 @@
+id: EE-H-0074
+aliases:
+- H-74
+hypothesis: An oriented recursive organization is anchor-relatively irreversible when reversing its orientational
+  conditions fails to recover the same identity anchor
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A candidate precursor of temporal irreversibility, with no duration, entropy or metric invoked
+status_text: Speculative
+resolve_by: Later chapters showing physical irreversibility as a realization of it, or showing it cannot
+  be
+revisited_in: Orientation (7.8); Time
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 331

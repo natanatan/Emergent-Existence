@@ -1,0 +1,20 @@
+id: EE-H-0112
+aliases:
+- H-112
+hypothesis: 'Space becomes available when localizations constrain localizations: distinct loci in an effective
+  geometry become mutually coordinated, so that no position can be varied independently of the others'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The volume’s pattern applied a third time, after relations constraining relations and distances
+    constraining distances. A point becomes a place only when its placement belongs to a mutually constraining
+    organization
+status_text: Provisional
+resolve_by: The coordinate-removal and perturbation-coordination tests of 13.26
+revisited_in: Space (13.6, 13.23); Geometry; Relation (5.9)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 342

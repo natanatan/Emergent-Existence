@@ -1,0 +1,22 @@
+id: EE-H-0128
+aliases:
+- H-128
+hypothesis: 'Relational physical structure can be reconstructed from two foundational commitments so far:
+  primitive Difference, the minimum symmetric, irreflexive dyad whose poles are co-constituted with it
+  (Proposition 1B; stated formally as Proposition 2A), and admissible transformation 𝒰 (H-131)'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Difference carries no magnitude, orientation, persistence, representation or observer (2.3,
+    2.14). Static non-equivalence cannot license succession, so the second commitment is counted openly
+    rather than hidden (3.2)
+status_text: Provisional
+resolve_by: A cheaper primitive, an incoherent account of co-constitution, or a later need for absolute
+  or relative discernibility from the start would count against it (2.16)
+revisited_in: Difference; Distinction; Boundary; Parts II-III
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 347

@@ -1,0 +1,18 @@
+id: EE-H-0052
+aliases:
+- H-52
+hypothesis: Two internally equivalent persistent objects require a higher-order relational difference,
+  λ_F(O_A) ≠ λ_F(O_B), to remain observably distinguishable within one frame
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Extends weak discernibility recursively; needs formal treatment of exchange symmetry and observables
+status_text: Provisional
+resolve_by: A worked case identifying the minimum reference structure that breaks exchange symmetry
+revisited_in: Relation (5.10); Orientation
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 325

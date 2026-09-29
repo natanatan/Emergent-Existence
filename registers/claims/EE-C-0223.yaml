@@ -1,0 +1,31 @@
+id: EE-C-0223
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Strip coordinate labels, embeddings, drawing positions, and target spatial metadata. Attempt
+      to recover the same localization relations intrinsically. If Space disappears when the coordinates
+      disappear, Space was encoded.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Coordinate-removal test (13.26)
+dependencies: []
+relations: []
+concepts:
+- Lc
+- Sp
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.26'
+  page: 268
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch13.T13.26a
+  concept_confidence: medium

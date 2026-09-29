@@ -1,0 +1,45 @@
+id: EE-C-0015
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: A primitive Difference becomes an operative Distinction when the dyad’s poles are promoted to
+      a minimal configuration carrier and a nontrivial admissible transition relation 𝒰, invariant under
+      Aut(𝔇), licenses succession between them. At the two-pole minimum, covariance forces reciprocal
+      exchange without privileging either pole. ▪ 𝒰min = {(a, b), (b, a)}
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Proposition 3A - reciprocal distinction
+dependencies:
+- claim: EE-C-0009
+  role: constitutive
+- claim: EE-C-0012
+  role: constitutive
+- claim: EE-C-0013
+  role: constitutive
+- claim: EE-C-0014
+  role: constitutive
+relations: []
+concepts:
+- Ds
+- Rc
+composition:
+- Cf
+- Cv
+- Df
+- Ut
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 3
+  section: null
+  page: 58
+  version: v1
+  label: 3A
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch03.P3A
+  concept_confidence: high

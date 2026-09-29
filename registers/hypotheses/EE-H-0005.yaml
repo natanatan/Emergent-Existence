@@ -1,0 +1,18 @@
+id: EE-H-0005
+aliases:
+- H-5
+hypothesis: The substrate is a medium beneath relations, or the evolving relational structure itself
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The parsimonious version, substrate as the total evolving structure of relational distinction,
+    is preferred
+status_text: Open
+resolve_by: A result that requires a medium, or shows the structure alone suffices
+revisited_in: Formalism
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 316

@@ -1,0 +1,19 @@
+id: EE-H-0001
+aliases:
+- H-1
+hypothesis: The relational substrate is intrinsically oscillatory (waveform) at the foundational level
+status_history:
+- status: Deferred
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Wave-like modes may arise from spectral dynamics of relational structures, so assuming a waveform
+    ontology adds a primitive before derivation requires it
+status_text: Deferred
+resolve_by: Coherent phase dynamics cannot emerge without an oscillatory primitive, or a prediction requires
+  one
+revisited_in: Matter (scoped section); App B, D
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 315

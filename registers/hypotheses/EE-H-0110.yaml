@@ -1,0 +1,20 @@
+id: EE-H-0110
+aliases:
+- H-110
+hypothesis: Variation in cross-layer coupling may produce variation in effective metric relations, a candidate
+  route to curvature-like structure
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The most speculative claim in the volume, and the one place Geometry reaches toward Gravity.
+    A generative hypothesis to be modelled, not an interpretation of known gravitational physics
+status_text: Speculative
+resolve_by: Diagnostic 8 of 12.25, distinguishing route-dependent failure from coordinate artifacts, and
+  the modelling programme of 12.26
+revisited_in: Geometry (12.20, 12.22)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 341

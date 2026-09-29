@@ -1,0 +1,29 @@
+id: EE-C-0108
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: formal resource = inherited ∨ derived ∨ explicitly representational
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Formal resource admissibility (9.2)
+dependencies: []
+relations: []
+concepts:
+- Fa
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 9
+  section: '9.2'
+  page: 166
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch09.FR9.2
+  concept_confidence: medium
+  concept_note: formal resource admissibility §9.2, precursor to Fa

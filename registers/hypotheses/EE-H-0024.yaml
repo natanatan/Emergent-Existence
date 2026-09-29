@@ -1,0 +1,19 @@
+id: EE-H-0024
+aliases:
+- H-24
+hypothesis: Two distinguishable states, one of which is the origin Ω itself, are the minimum scaffold
+  for relational existence
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Replaced by H-128. The minimum is a symmetric dyad whose poles are not Ω; Origin is a resolution
+    condition, not a pole, and the Ω designation moves to Distinction (H-25)
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Difference (2.3, 2.9)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 319

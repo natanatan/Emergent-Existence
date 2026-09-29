@@ -1,0 +1,76 @@
+stage: Sc
+title: Scale
+current_chapter:
+  book-1/beta: 10
+claim: Scale becomes available when relational organizations can establish stable comparisons of magnitude
+  from correspondences recoverable within the structure itself, so that magnitude is measured by the organization’s
+  own standards.
+inherits:
+- item: reusable higher-order identity OF
+  from: Cl
+- item: organizational reference role AF
+  from: Cl
+- item: Return (reusable, re-addressable identity)
+  from: Rt
+- item: quotient structure / equivalence classes
+  from: Fm
+- item: admissible transition relations 𝒰
+  from: Fm
+- item: candidate pre-metric independence measure dR
+  from: Fm
+- item: distinguishable members and pairing
+  from: Ds
+- item: ordered pairs (asymmetry of roles)
+  from: Or
+- item: resolution (which distinctions a frame can resolve), 'available since 4.3'
+  from: Bd
+- item: threshold aggregation debt (deferred at 5.12)
+  from: Rl
+- item: coarse-graining operator debt (deferred by Orientation 'by name')
+  from: Or
+earns:
+- item: sameness of cardinal magnitude (equinumerosity)
+  detail: Sameness of magnitude is definable by correspondence alone, with no numeral and no unit (A ~#
+    B via bijection).
+- item: order of magnitude (no larger / larger)
+  detail: Injection gives A no larger than B; 'We have an order of magnitude without a ruler.' same, no
+    larger, larger — all available before numerical labelling.
+- item: finite cardinal labels (numerals)
+  detail: With finite magnitude classes established relationally, natural-number symbols may be used as
+    labels for them; mag(A) = n reads as compression. 'Scale is where finite cardinal magnitude begins
+    to belong to the modelled world rather than to the notation.'
+- item: threshold aggregation
+  detail: Threshold aggregation (most, at least three, a majority) expressed as K ↪ AP, compressing to
+    mag(AP) ≥ k; closes the Relation (5.12) deferral.
+- item: proportion (comparison of comparative form)
+  detail: Cmp(W, A) ≐ Cmp(A, B) ⟺ W × B ↔ A × A; proportion definable by correspondence alone; ratio mag(X)/mag(Y)
+    is a compression of it.
+- item: stable inter-level ratio / recursive scale factor
+  detail: 'When successive comparative ratios approach λ*, λ* functions as a stable scale factor; ''the
+    stability belongs to the relation rather than to any level’s magnitude.'' Conditional: not every recursion
+    converges.'
+- item: endogenous standard
+  detail: A re-instantiable comparison Cmp* supplied repeatedly by the structure; 'still not a metre or
+    a second. It is the more primitive achievement that makes a calibrated unit conceivable later.'
+- item: scale-indexed coarse-graining CGs
+  detail: 'CGs : 𝒞 ↦ 𝒞/≈s, admissible only where the comparative standard s is earned relationally; ''the
+    first legitimate scale-aware reduction of detail in our framework, and it is still pre-geometric.''
+    Pays Orientation''s deferral.'
+- item: relational bound
+  detail: 'Comparative magnitude lets us state a bound without stating a size: no larger / no smaller
+    than a standard, as pairings rather than measurements.'
+withholds:
+- item: metric distance or length
+  deferred_to: Dt
+- item: a physical unit (metre, second, Planck length, energy scale)
+- item: a coordinate system
+- item: vector-space structure, inner products, angles, basis vectors, orthogonality
+- item: a manifold, continuum or metric topology
+- item: physical dimensionality or an embedding dimension
+- item: fractal dimension as a property of physical space
+- item: a universal law of self-similarity, or any universal role for Fibonacci or φ
+- item: renormalization-group flow as physical dynamics
+- item: a probability measure or a stochastic distribution over scales
+- item: weighted aggregation
+- item: genuine self-similarity across levels
+  scope: book-2

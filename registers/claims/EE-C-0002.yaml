@@ -1,0 +1,29 @@
+id: EE-C-0002
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: A condition is undifferentiated relative to a resolving frame when no relation available within
+      that frame distinguishes one part, state, or feature from another.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Definition.
+dependencies: []
+relations: []
+concepts:
+- Ud
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 1
+  section: null
+  page: 30
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch01.D1.undifferentiated
+  concept_confidence: high

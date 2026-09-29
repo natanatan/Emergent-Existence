@@ -1,0 +1,35 @@
+id: EE-C-0044
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Constraint propagation allows a retained distinction to persist through consequences rather
+      than through literal preservation of its original carrier.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ○ INTERPRETIVE (§5.5)
+dependencies:
+- claim: EE-C-0043
+  role: constitutive
+relations: []
+concepts:
+- St
+- Rd
+composition:
+- Pr
+- St
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.5'
+  page: 87
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.5
+  concept_confidence: medium
+  concept_note: Constraint propagation (5.5) has no dedicated element.

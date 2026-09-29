@@ -1,0 +1,82 @@
+stage: Fm
+title: Formalism
+current_chapter:
+  book-1/beta: 9
+claim: Formalism becomes justified when the relational commitments already earned can be represented in
+  one composable structure whose operations preserve their intended meanings using only what has been
+  earned.
+inherits:
+- item: Difference (dyadic carrier, non-equivalence)
+  from: Df
+- item: admissible transition relation 𝒰 (typed as relation)
+  from: Ds
+- item: retained distinction r_ij, PresW, resolving frames W / ~W
+  from: Bd
+- item: admissible possibilities 𝒫 (reachability)
+  from: Bd
+- item: retained-dependency precedence ≺
+  from: Bd
+- item: identity equivalence ~F, OF = [Σ]~F
+  from: Bd
+- item: declared transformation / test classes 𝔗
+  from: Bd
+- item: mutual constraint, relational matrix R = [rij]
+  from: Rl
+- item: ClosedF, representative-independent addressability (6.12), organizational anchor AF
+  from: Cl
+- item: oriented dependency ≺ₒ, orientation structure 𝔒, Kij
+  from: Or
+- item: Ret(AF; ·)
+  from: Rt
+earns:
+- item: common formal language / weak formal carrier 𝔊 = (𝒞, ℜ, 𝒰)
+  detail: '''We earn something narrower but foundational. A common formal language in which the earlier
+    ontology can be expressed, transformed and quotiented without silently importing later physical structure.''
+    (9.31)'
+- item: Formal Admissibility Rule (encoding vs commitment)
+  detail: Ontological work only for inherited or definable content; richer mathematics used externally
+    must not be read back (9.3).
+- item: transition typing (determinism as singleton-successor case)
+  detail: Successor set may be empty, singleton or multiple; determinism is a property of 𝒰 on a domain;
+    effective branching ≠ fundamental randomness (9.5).
+- item: relational composition and trajectories without metric time
+  detail: Trajectories as composable chains of admissible transitions; transition order ≠ elapsed duration
+    (9.6, 9.7).
+- item: compatible equivalence and quotient dynamics (higher-order formal autonomy)
+  detail: Quotient-compatible dynamics is sufficient for a form of higher-order autonomy; equivalence
+    alone is insufficient (9.9, 9.10, 9.27).
+- item: distinct sameness relations ~F, ~W, ≈𝒰
+  detail: Identity, frame and behavioral equivalence are not interchangeable (9.12).
+- item: return as quotient recurrence; identity-class fixed point
+  detail: '[Σ₀]F = [Σk]F while Σ₀ ≠ Σk; identity-class fixed points separate microscopic stasis from higher-order
+    persistence; attractor language deferred (9.14, 9.15).'
+- item: formal reading of orientation as broken exchange automorphism
+  detail: gswap(𝔊oriented) ≇ 𝔊oriented; not defined as a smaller automorphism group (9.16).
+- item: state-sufficiency transformation (finite-order recurrence as first-order on enlarged state)
+  detail: '''Formalism earns only the state-sufficiency transformation.'' (9.21)'
+- item: independence structure IndR and candidate dR
+  detail: SPECULATIVE; representational until axioms shown to arise from relational organization; counts
+    independent relational modes, not spatial/vector dimension (9.22).
+- item: typed notation / arrow semantics
+  detail: ⇝ derivational progression; ↦ explicit map/coupling/update; ≺ retained-dependency precedence;
+    ≺ₒ oriented dependency; 𝒰 admissible succession; → map between sets or limit; ⇒ logical implication
+    (9.25, Appendix A.2).
+- item: representation-invariant relational content as candidate ontological commitment
+  detail: Representational pluralism with a minimal common core, not formal relativism (9.26).
+withholds:
+- item: metric distance, length, duration, speed, angle or norm
+- item: vector-space structure, inner products, orthogonality or basis vectors
+- item: physical topology, manifold, continuum or coordinate chart
+- item: probability weights, stochastic dynamics or quantum amplitudes
+- item: physical causality or a causal cone
+- item: Hamiltonian, action, energy or field equation
+- item: claim that reality literally is a graph, matrix, simplex, category, automaton or quotient algebra
+- item: universal claim that every emergent entity must be a quotient structure
+- item: proof that binary relations suffice for every higher-order constraint
+- item: proof that physical or spatial dimensionality is dR, or that dR must equal a matroid rank
+- item: proof that determinism (or indeterminism) is fundamental
+- item: physical interpretation of fixed points, attractors or recurrence periods
+- item: numerical scale, proportion or measurement units, and physical dimensionality
+  deferred_to: Sc
+- item: endogenous magnitude (vs external cardinal bookkeeping)
+  deferred_to: Sc

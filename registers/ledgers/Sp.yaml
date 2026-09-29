@@ -1,0 +1,84 @@
+stage: Sp
+title: Space
+current_chapter:
+  book-1/beta: 13
+claim: 'Space becomes available when distinct loci in an effective geometry are coordinated as stable
+  localization relations: their positions cannot vary independently of the larger organization, and their
+  neighborhoods constrain which couplings are available. Geometric separation then becomes physically
+  consequential as locality, extension, adjacency and position, all earned from the relations themselves.'
+inherits:
+- item: neighborhoods
+  from: Gm
+- item: independent modes of variation (δ₁, δ₂, …, δₙ)
+  from: Gm
+- item: effective dimensionality
+  from: Gm
+- item: geometric loci and metric relations (inherited geometry supplies loci, metric relations, neighborhoods,
+    effective dimensional organization; 13.25)
+  from: Gm
+- item: distances constraining distances / geometric coherence
+  from: Gm
+- item: relations constrain relations (structural significance of Relation; 13.6)
+  from: Rl
+- item: boundary as preserved non-equivalence (13.19)
+  from: Bd
+- item: closure as distinct from boundary (13.20)
+  from: Cl
+- item: mediation burden ⇝ metric separation (13.12)
+earns:
+- item: coordinated localization
+  detail: 'If the candidate derivation succeeds, Space earns coordinated localization: localization relations
+    mutually constrained so that changing the localization of one locus changes the larger pattern of
+    relations (13.2, 13.6).'
+- item: physical spatial position
+  detail: spatial position = stable localization role within coordinated geometry (13.7).
+- item: spatial separation
+  detail: 'an already-earned metric relation interpreted within coordinated physical localization: dS(A,B)
+    = dG( L(A), L(B) ) (13.12).'
+- item: consequential locality
+  detail: geometric neighborhood + consequential accessibility ⇝ physical locality (13.9).
+- item: spatial adjacency
+  detail: incidence ⇝ metric neighborhood ⇝ stable coordination ⇝ consequential locality ⇝ spatial adjacency
+    (13.10).
+- item: physical extension
+  detail: extension = non-collapsible plurality of coordinated localization (13.11).
+- item: spatial dimensionality
+  detail: geometric independent mode + localization consequence ⇝ spatial dimension (13.13).
+- item: spatial regions and boundaries
+  detail: relational boundary ⇝ geometric boundary ⇝ spatial boundary; inside, outside, region, enclosure
+    and surface acquire literal spatial interpretation (13.19).
+- item: intrinsic spatial organization
+  detail: physical spatiality does not require external spatial embedding if localization relations are
+    internally sufficient (13.21).
+- item: scale-relative smoothness
+  detail: effective smoothness does not imply fundamental continuity; GeoF ~ Geosmooth when ℓr ≪ ℓF (13.14).
+- item: the possibility of responsive spatial coordination
+  detail: 'the possibility (not a derived law) that effective geometry responds to relational transformation:
+    Φ ↦ ΔGeoₑff ↦ ΔΦ′ (13.16).'
+- item: distinct neighboring local reference frames
+  detail: WA ≠ WB can now mean distinct spatially localized frames within one coordinated domain (13.27).
+withholds:
+- item: metric duration
+  deferred_to: Tm
+- item: propagation interval
+  deferred_to: Tm
+- item: velocity
+- item: causal speed
+- item: temporal simultaneity
+- item: proper time
+- item: Lorentzian signature
+- item: spacetime
+- item: cosmological expansion as an actual physical law
+- item: gravity
+- item: gravitational field equations
+- item: matter
+  scope: book-2
+- item: particles
+- item: quantum fields
+- item: wavefunctions
+- item: Hilbert space
+- item: superposition
+- item: Born statistics
+- item: energy
+- item: action
+- item: fundamental continuity or fundamental discreteness of geometry

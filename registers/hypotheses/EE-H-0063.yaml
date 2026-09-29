@@ -1,0 +1,21 @@
+id: EE-H-0063
+aliases:
+- H-63
+hypothesis: 'Relational independence is not embedding dimension: a system can have many non-redundant
+  relational modes without each becoming a spatial axis'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Relation keeps the two apart but withholds any comparison such as d_R ≤ d_P until both quantities,
+    and the magnitude needed to compare them, are earned (5.14)
+status_text: Retained (distinction); comparison of d_R with d_P Deferred
+resolve_by: Earning d_R (see H-54) and d_P (Book II)
+revisited_in: Relation (5.14); Book II
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 328
+import_notes:
+- Compound status; `status` gives the first-named status, full text in status_text.

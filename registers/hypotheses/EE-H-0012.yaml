@@ -1,0 +1,27 @@
+id: EE-H-0012
+aliases:
+- H-12
+hypothesis: Dimension and 3+1 Lorentzian geometry emerge from simple recursive relational rules
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Toy-model targets: first, stable low-dimensional geometry; second, 3+1 Lorentzian geometry
+    as an attractor'
+status_text: Open
+resolve_by: Computational toy-model results
+revisited_in: Closure, 9, 13; App E
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 317
+import_notes:
+- Bare chapter number "9" mapped to ch09 Formalism under current numbering; may reflect an older chapter
+  numbering (uncertain).
+- Bare chapter number "13" mapped to ch13 Space under current numbering; may reflect an older chapter
+  numbering (uncertain).
+- App D p.352 names "whether recursive relational rules settle into a stable low-dimensional regime" as
+  a companion test.
+- References App E, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

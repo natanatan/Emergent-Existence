@@ -1,0 +1,18 @@
+id: EE-H-0044
+aliases:
+- H-44
+hypothesis: The “informational black hole” is a scoped analogy for representational saturation, not a
+  claim about gravitational black holes
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Boundary defers any substantive link to Book II; verbal similarity alone is not evidence
+status_text: Open
+resolve_by: A nontrivial physical prediction connecting the two would move it to Provisional
+revisited_in: Boundary; Book II
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 323

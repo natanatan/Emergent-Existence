@@ -1,0 +1,18 @@
+id: EE-H-0079
+aliases:
+- H-79
+hypothesis: Persistence without departure is not return; recurrence requires at least one configuration
+  that fails the tested identity criterion
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Without it every stable object would count as continuously returning to itself
+status_text: Retained
+resolve_by: None planned
+revisited_in: Return (8.4)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 332

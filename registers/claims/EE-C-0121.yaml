@@ -1,0 +1,31 @@
+id: EE-C-0121
+kind: other
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Sameness of magnitude is definable by correspondence alone, with no numeral and no unit.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: STRONG verdict (10.4)
+dependencies:
+- claim: EE-C-0120
+  role: constitutive
+relations: []
+concepts:
+- Cm
+composition:
+- Cm
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.4'
+  page: 191
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.V10.4
+  concept_confidence: high

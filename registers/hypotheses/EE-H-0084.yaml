@@ -1,0 +1,23 @@
+id: EE-H-0084
+aliases:
+- H-84
+hypothesis: 'Non-identical recurrence supplies a structural precursor to phase: the same identity invariant
+  with a different internal condition'
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Phase itself needs a parameterized cycle, algebra and often metric time or angle; a return count
+    is an external index until Formalism earns more
+status_text: Speculative
+resolve_by: Chapter 9 earning the algebra, and Chapter 12 the metric, that would turn a count into winding
+  or phase
+revisited_in: Return (8.21); Formalism, 12
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 333
+import_notes:
+- Bare chapter number "12" mapped to ch12 Geometry under current numbering; may reflect an older chapter
+  numbering (uncertain).

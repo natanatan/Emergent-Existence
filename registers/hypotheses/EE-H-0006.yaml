@@ -1,0 +1,20 @@
+id: EE-H-0006
+aliases:
+- H-6
+hypothesis: Conventional information theory is a coarse-grained special case of relational distinction
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Framed as a research question, not a conclusion
+status_text: Open
+resolve_by: A derivation of Shannon entropy from the relational formalism
+revisited_in: Boundary, 9; App B
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 316
+import_notes:
+- Bare chapter number "9" mapped to ch09 Formalism under current numbering; may reflect an older chapter
+  numbering (uncertain).

@@ -1,0 +1,28 @@
+id: EE-C-0147
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Change the coefficients and verify that φ is not generically selected.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 7 (10.25): Recurrence perturbation'
+dependencies: []
+relations: []
+concepts:
+- Sf
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.25'
+  page: 201
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.T10.25.7
+  concept_confidence: high

@@ -1,0 +1,31 @@
+id: EE-C-0245
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Change temporal resolution and determine whether precedence and any proposed metric ratios remain
+      stable over a finite regime.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Coarse-graining test (14.25)
+dependencies: []
+relations: []
+concepts:
+- Eo
+- Tq
+- Cs
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.25'
+  page: 287
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.T14.25d
+  concept_confidence: medium

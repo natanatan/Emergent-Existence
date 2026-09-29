@@ -1,0 +1,40 @@
+id: EE-C-0234
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: A temporal order is a stable, recursively recoverable strict ordering of relational transformations
+      derived from retained dependency, such that the ordering constrains admissible histories without
+      requiring an external time parameter. Raw ≺ is the inherited dependency relation; ≺ₜ denotes the
+      stronger order earned only after cycle reduction and the additional coherence conditions stated
+      here.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Working definition of temporal order
+dependencies:
+- claim: EE-C-0232
+  role: constitutive
+- claim: EE-C-0026
+  role: constitutive
+relations: []
+concepts:
+- Tm
+- Eo
+composition:
+- Eo
+- Md
+- Pr
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: null
+  page: 278
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.D14.7
+  concept_confidence: high

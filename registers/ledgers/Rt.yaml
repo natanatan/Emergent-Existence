@@ -1,0 +1,86 @@
+stage: Rt
+title: Return
+current_chapter:
+  book-1/beta: 8
+claim: Return occurs when a nontrivially transformed, oriented relational sequence genuinely departs from
+  and later re-enters the identity class OF referenced by the Closure-earned organizational anchor AF,
+  even when the underlying state differs.
+inherits:
+- item: orientation / oriented dependency ≺ₒ
+  from: Or
+- item: criterion-based identity OF = [Σ]~F
+  from: Bd
+- item: organizational anchor AF
+  from: Cl
+- item: representative-independent addressability / lumpability analogy (6.12)
+  from: Cl
+- item: retained-dependency precedence ≺
+  from: Bd
+- item: retained dependency (path consequence)
+  from: Bd
+- item: declared diagnostic transformation family 𝔗test
+  from: Bd
+- item: anchor-relative relational irreversibility criterion (7.8)
+  from: Or
+- item: orientation persistence threshold (7.7)
+  from: Or
+earns:
+- item: return predicate Ret(AF; ·) (defined, not posited)
+  detail: Return now defines the predicate Orientation used anticipatorily; Ret(AF; ·) abbreviates conditions
+    on previously earned structure (8.3); decomposes into anchor identity, oriented transformation, departure
+    and re-entry (8.5).
+- item: ordered identity recurrence after nontrivial transformation
+  detail: '''Return earns one identifiable layer: ordered identity recurrence after nontrivial transformation.''
+    (8.27)'
+- item: departure vs dissolution; persistence vs return
+  detail: Return requires departure under a criterion that remains applicable throughout; persistence
+    without departure is not return (8.4).
+- item: non-identical (transformative) return; difference within preserved identity
+  detail: ΣR ∈ OF does not require ΣR = ΣA; difference can accumulate within an equivalence class; conservative
+    vs transformative return (8.6, 8.12, 8.13).
+- item: type return with token acyclicity
+  detail: 'Identity recurrence can coexist with event-token acyclicity: A₀ ≺ B ≺ C ≺ A₁ with A₀ ~F A₁
+    but A₀ ≠ A₁ (8.7).'
+- item: return as relational re-addressability
+  detail: 'Return characterized operationally as restoration of the higher-order address after departure:
+    E(ΣR) ~G E(ΣA) (8.8).'
+- item: retained path consequence (not memory)
+  detail: same OF identity + different return-conditioned state = retained path consequence; retention
+    ≠ path dependence ≠ memory (8.14).
+- item: grounding of Orientation’s irreversibility criterion
+  detail: Return supplies the explicit departure-and-re-entry semantics used by 7.8’s criterion, making
+    it 'grounded rather than promissory'; it does not add a second irreversibility principle (8.16).
+- item: identity domain DomF and robustness of return
+  detail: A return mechanism is robust when admissible perturbations T ∈ 𝔗test alter route or microstate
+    while the resultant still re-enters DomF (8.18).
+- item: reference-level-indexed (nested) return
+  detail: Ret(AF; ·) ≠ Ret(HG; ·); return is indexed to an organizational reference level (8.19).
+- item: pre-phase distinction (anchor identity vs internal condition χ)
+  detail: 'SPECULATIVE: A₀ ~F A₁ while χ(A₀) ≠ χ(A₁); Return supplies only the prerequisite distinction
+    for later phase/winding (8.21).'
+- item: re-identifiable reference structure (precondition for reusable standards)
+  detail: stable identity + repeatable return ⇝ reusable relational reference; Return does not itself
+    create a unit, it makes unit-like reuse conceivable (8.22).
+withholds:
+- item: metric time, temporal duration, period or frequency
+  deferred_to: Tm
+- item: synchronization between recurring relational modes
+- item: spatial circularity, orbit, rotation or geometric loop
+- item: topology, homotopy class or physical winding number
+  deferred_to: Fm
+- item: physical phase or angular coordinate
+- item: causal loops or closed timelike curves
+- item: Poincaré recurrence as a physical theorem of this model
+  deferred_to: Fm
+- item: entropy, thermodynamic irreversibility or an arrow of time
+- item: biological or cognitive memory
+  scope: book-2
+- item: oscillation, wave propagation or resonance
+- item: conservation laws
+- item: universal principle that all persistent structures must return
+- item: proof that return-compatible structures are generically selected
+- item: quantification of reuse as period, phase, winding or metric recurrence
+- item: units / endogenous standards
+  deferred_to: Sc
+- item: life / self-maintenance
+  scope: book-2

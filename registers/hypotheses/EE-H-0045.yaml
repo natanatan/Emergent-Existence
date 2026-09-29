@@ -1,0 +1,21 @@
+id: EE-H-0045
+aliases:
+- H-45
+hypothesis: Volume I divides into Book I (Formal Existence, Chapters 1-9) and Book II (Physical Existence,
+  Chapters 10-21), split where the argument turns from combinatorial/topological structure to metric structure
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The rebuilt derivation shows that Scale through Time are still prephysical prerequisites; metric
+    structure alone does not mark the transition to physical instantiation
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Superseded by H-134
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 324
+import_notes:
+- Revisited in names a superseding entry rather than a chapter.

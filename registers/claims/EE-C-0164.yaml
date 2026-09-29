@@ -1,0 +1,31 @@
+id: EE-C-0164
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: metric relation ≠ coordinate representation; intrinsic distance ≠ embedding distance; local
+      metric structure ⇏ global geometry
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Separation bullets (11.13-11.15)
+dependencies: []
+relations: []
+concepts:
+- Dt
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.13'
+  page: 216
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.X11.13
+  concept_confidence: low
+  concept_note: Coordinates/embedding/global geometry separations; no element (Od is legacy construct,
+    not this).

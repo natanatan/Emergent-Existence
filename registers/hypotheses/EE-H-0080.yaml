@@ -1,0 +1,21 @@
+id: EE-H-0080
+aliases:
+- H-80
+hypothesis: Identity-class recurrence can occur through distinct state tokens, so it need not violate
+  acyclic dependency order
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Lets any later causal order stay acyclic while higher-order organizations recur; keeps physical
+    cycles distinct from closed timelike curves
+status_text: Retained
+resolve_by: None planned; relevant when causal order is derived
+revisited_in: Return (8.7); Time to Space
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 332
+import_notes:
+- '"Time to Space" read as the inclusive chapter range ch13-ch14.'

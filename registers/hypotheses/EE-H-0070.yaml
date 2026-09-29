@@ -1,0 +1,21 @@
+id: EE-H-0070
+aliases:
+- H-70
+hypothesis: Whether any difference exists in Ω below the framework’s initial resolution, and whether a
+  richer frame could resolve it
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The definition of Origin deliberately makes no claim either way, and Difference preserves that
+    modesty (2.1, 2.14). If such structure were resolvable it would bear on the symmetry-breaking objection
+    (1.7, Objection 4) and on retiring the designation cost (H-25)
+status_text: Open
+resolve_by: A construction in which a richer frame resolves structure in Ω without reintroducing an external
+  marker
+revisited_in: Origin (1.3, 1.7); Difference (2.1, 2.14); Distinction
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 330

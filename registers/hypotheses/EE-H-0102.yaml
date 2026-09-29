@@ -1,0 +1,20 @@
+id: EE-H-0102
+aliases:
+- H-102
+hypothesis: 'The triangle inequality is derived, not assumed: chain composition plus additive magnitude
+  plus minimality yields d(A,C) ≤ d(A,B) + d(B,C)'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'The strongest formal result in the volume, and its premise travels with it: additivity is earned
+    only where the organization supports concatenation without interference, so the inequality inherits
+    that status. Where composition is non-additive, a weaker inequality may survive'
+status_text: Provisional
+resolve_by: Diagnostics 8 and the additivity condition of 11.8 (Questions 3 and 4)
+revisited_in: Distance (11.8, 11.10)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 339

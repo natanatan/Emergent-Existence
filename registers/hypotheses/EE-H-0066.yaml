@@ -1,0 +1,23 @@
+id: EE-H-0066
+aliases:
+- H-66
+hypothesis: Recursion can yield relative magnitude, a comparison of the size of organizations across recursive
+  levels, before metric distance; relative magnitude is not distance
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Chapter 10’s central claim; it must earn comparison of size, and with it cardinality, without
+    importing a metric
+status_text: Provisional
+resolve_by: A construction of comparative size from recursion alone, checked against Chapter 11’s distance
+  for independence
+revisited_in: Scale, 11
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 329
+import_notes:
+- Bare chapter number "11" mapped to ch11 Distance under current numbering; may reflect an older chapter
+  numbering (uncertain).

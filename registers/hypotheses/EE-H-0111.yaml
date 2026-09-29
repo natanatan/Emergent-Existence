@@ -1,0 +1,27 @@
+id: EE-H-0111
+aliases:
+- H-111
+hypothesis: Whether a relational substrate with no target dimensionality in its rules converges on a stable
+  low-dimensional effective rank
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The dimensionality programme of 12.26. Convergence on rank three would show that low-dimensional
+    geometric organization can arise from this machinery, not that space is three-dimensional; the guard
+    against fine-tuning must stay adjacent to the target, since a wandering or non-integer result is the
+    outcome most likely to be quietly retuned away
+status_text: Open
+resolve_by: 'Diagnostics 4, 5, 9 and 10 of 12.25 together: no hidden dimension in the rules, rank recovered
+  rather than stipulated, comparison against matched random organizations, and failure reported'
+revisited_in: Geometry (12.26); App G
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 342
+import_notes:
+- App D p.352 names "whether recursive relational rules settle into a stable low-dimensional regime" as
+  a companion test.
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

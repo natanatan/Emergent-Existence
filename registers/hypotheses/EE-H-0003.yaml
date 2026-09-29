@@ -1,0 +1,18 @@
+id: EE-H-0003
+aliases:
+- H-3
+hypothesis: A discrete relational spectrum is sufficient for quantum behavior
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Discrete eigenvalues do not equal quantum mechanics; phase and superposition structure are also
+    needed
+status_text: Rejected
+resolve_by: A derivation of phase-carrying dynamics and superposition from the relational formalism
+revisited_in: Matter
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 316

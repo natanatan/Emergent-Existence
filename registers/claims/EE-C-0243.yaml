@@ -1,0 +1,29 @@
+id: EE-C-0243
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Delete or perturb a purported predecessor and test whether the admissibility or structure of
+      the claimed successor changes in the predicted way.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Counterfactual-dependency test (14.25)
+dependencies: []
+relations: []
+concepts:
+- Pr
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.25'
+  page: 287
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.T14.25b
+  concept_confidence: high

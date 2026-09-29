@@ -1,0 +1,37 @@
+id: EE-C-0113
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'quotient-compatible dynamics ⇒ higher-order formal autonomy [...] The chapter adopts the middle
+      claim: quotient-compatible dynamics is sufficient for a form of higher-order autonomy. Is not asserted
+      to be necessary for every emergent phenomenon.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Quotient-compatible dynamics ⇒ higher-order formal autonomy (9.10)
+dependencies:
+- claim: EE-C-0112
+  role: constitutive
+- claim: EE-C-0089
+  role: constitutive
+relations: []
+concepts:
+- Qd
+- Cg
+composition:
+- An
+- Cg
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 9
+  section: '9.10'
+  page: 171
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch09.QA9.10
+  concept_confidence: high

@@ -1,0 +1,29 @@
+id: EE-C-0218
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: Spatial distance is not a wholly new metric. It is an already-earned metric relation interpreted
+      within coordinated physical localization. ▪ dS(A,B) = dG( L(A), L(B) )
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: spatial distance (13.12; extractor-assigned ID)
+dependencies: []
+relations: []
+concepts:
+- Sa
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.12'
+  page: 259
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch13.D13.12
+  concept_confidence: high

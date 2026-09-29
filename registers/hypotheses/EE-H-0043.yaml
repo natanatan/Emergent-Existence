@@ -1,0 +1,19 @@
+id: EE-H-0043
+aliases:
+- H-43
+hypothesis: Independence of relational variation requires more than one retained distinction, and Relation
+  earns an independence problem rather than a numerical dimension
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Counting is not earned until Scale, so the number of independent modes cannot yet be stated
+    (5.14)
+status_text: Retained
+resolve_by: None planned
+revisited_in: Relation (5.14); Formalism; Scale
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 323

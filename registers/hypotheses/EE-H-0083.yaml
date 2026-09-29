@@ -1,0 +1,22 @@
+id: EE-H-0083
+aliases:
+- H-83
+hypothesis: Return-compatible organizations may be differentially retained or re-instantiated under recursive
+  dynamics, without reproduction, fitness or a preferred direction
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The Chapter 8 counterpart of Chapter 7’s structural selection; invalid if a model rewards return
+    explicitly
+status_text: Speculative
+resolve_by: Simulations showing differential retention with no return reward encoded
+revisited_in: Return (8.17); App G
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 333
+import_notes:
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

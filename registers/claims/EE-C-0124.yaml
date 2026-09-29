@@ -1,0 +1,33 @@
+id: EE-C-0124
+kind: definition
+use: representational
+aliases: []
+versions:
+  v1:
+    text: ▪ correspondence ⇝ equinumerosity class ⇝ cardinal label. For a finite organization A, writing
+      mag(A) = n now reads as compression. A belongs to the finite magnitude class conventionally labelled
+      n. The numeral did not create the magnitude.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Numerals as labels (10.7)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0123
+concepts:
+- Cm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.7'
+  page: 192
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.D10.7
+  concept_confidence: medium
+  concept_note: No element for numerals/cardinal labels as compression; mapped to Cm.

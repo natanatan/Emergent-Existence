@@ -1,0 +1,37 @@
+id: EE-C-0051
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ underlying non-identity ≠ identity equivalence ~F ≠ frame equivalence ~W [...] ▪ Xa ~W Xb
+      does not imply Xa ~F Xb
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §5.8) three separated relations
+dependencies:
+- claim: EE-C-0022
+  role: constitutive
+- claim: EE-C-0028
+  role: constitutive
+relations: []
+concepts:
+- Id
+- Rf
+composition:
+- Id
+- Rf
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.8'
+  page: 89
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.8
+  concept_confidence: high
+  concept_note: Separation of non-identity, ~F and ~W; no element for the three-way separation itself.

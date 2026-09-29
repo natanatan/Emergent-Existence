@@ -1,0 +1,19 @@
+id: EE-H-0061
+aliases:
+- H-61
+hypothesis: Closure does not require exclusive membership; one relation can belong to several compatible
+  closures
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The definition contains no exclusivity axiom. Incompatible overlap, two closures demanding contrary
+    states of one relation, remains open
+status_text: Retained
+resolve_by: None for compatible overlap; incompatible overlap needs a resolution rule
+revisited_in: Closure (6.11)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 328

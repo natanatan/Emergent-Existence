@@ -1,0 +1,39 @@
+id: EE-C-0232
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: 'On the quotient 𝓔/≈ , define a strict candidate temporal precedence relation ≺ₜ by: ▪ [eᵢ]
+      ≺ₜ [eⱼ] iff eᵢ ≺⁺ eⱼ and not(eⱼ ≺⁺ eᵢ). This quotient construction does not assume that the original
+      dependency graph is acyclic. [...] The transitive reachability relation then supplies strict partial-order
+      structure on the quotient [...] A temporal interpretation is still not automatic. ≺ₜ is a structural
+      order candidate.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: strict candidate temporal precedence ≺ₜ (14.5; extractor-assigned ID)
+dependencies:
+- claim: EE-C-0231
+  role: constitutive
+- claim: EE-C-0026
+  role: constitutive
+relations: []
+concepts:
+- Eo
+- Md
+composition:
+- Md
+- Pr
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.5'
+  page: 276
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.D14.5b
+  concept_confidence: high

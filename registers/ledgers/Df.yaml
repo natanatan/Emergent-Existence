@@ -1,0 +1,38 @@
+stage: Df
+title: Difference
+current_chapter:
+  book-1/beta: 2
+claim: Difference is the minimum dyadic structure of relational non-equivalence. Its two poles are co-constituted
+  within that structure and stand symmetrically, each only as the other’s counterpart. Difference is therefore
+  the first constructive commitment beyond Origin.
+inherits:
+- item: Ω, minimally resolved reference condition; ResW₀(Ω) = ∅
+  from: Om
+- item: derivational (not temporal) sense of 'next'
+  from: Om
+earns:
+- item: primitive dyad 𝔇
+  detail: A minimal dyadic carrier 𝔇 with two jointly admitted poles.
+- item: symmetric irreflexive non-equivalence ≬
+  detail: Symmetric, irreflexive non-equivalence ≬.
+- item: weak relational discernibility
+  detail: Weak relational discernibility without intrinsic qualitative asymmetry.
+- item: exchange symmetry under relabeling
+  detail: Exchange symmetry under relabeling in the theory’s metalanguage.
+- item: separation of dyadicity from Distinction
+  detail: A clean separation between numerical dyadicity and later operational Distinction.
+withholds:
+- item: update relation, succession, transformation history, admissible operation
+  deferred_to: Ds
+- item: reference pole, anchor
+  deferred_to: Cl
+- item: source, target, orientation, direction
+  deferred_to: Or
+- item: magnitude, metric, probability, information measure, spatial separation
+- item: persistence, retained distinction, boundary, information, memory
+  deferred_to: Bd
+- item: a and b as configurations
+  deferred_to: Ds
+- item: a and b as physical objects or events in time
+- item: relational organization
+  deferred_to: Rl

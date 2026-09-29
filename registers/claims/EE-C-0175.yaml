@@ -1,0 +1,28 @@
+id: EE-C-0175
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Where symmetry is claimed, reversing admissible relational chains must preserve their magnitude.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 7 (11.21): Symmetry test'
+dependencies: []
+relations: []
+concepts:
+- Dx
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.21'
+  page: 220
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.T11.21.7
+  concept_confidence: high

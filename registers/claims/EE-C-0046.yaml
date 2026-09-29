@@ -1,0 +1,33 @@
+id: EE-C-0046
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Structural persistence is preservation of identity-relevant relational organization through
+      an explicitly stated diagnostic transformation family.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ▪ STRONG (§5.6)
+dependencies:
+- claim: EE-C-0045
+  role: constitutive
+relations: []
+concepts:
+- Sy
+composition:
+- Dg
+- Sy
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.6'
+  page: 88
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.6a
+  concept_confidence: high

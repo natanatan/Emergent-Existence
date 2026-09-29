@@ -1,0 +1,19 @@
+id: EE-H-0090
+aliases:
+- H-90
+hypothesis: An ontological result must survive faithful changes of representation; one that exists in
+  a single encoding is a representational artifact
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Representational pluralism as a falsifiability gain rather than a loss. Generalizes the relabeling
+    invariance of 5.2 to the whole formal apparatus
+status_text: Retained
+resolve_by: Diagnostic 1 of 9.28, applied to the results of Chapters 5 to 8 (Question 5)
+revisited_in: Formalism (9.26, 9.30); Relation (5.2)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 335

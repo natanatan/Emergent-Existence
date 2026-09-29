@@ -1,0 +1,35 @@
+id: EE-C-0140
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: relational bound ≠ geometric boundary
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Bound vs boundary (10.22)
+dependencies:
+- claim: EE-C-0122
+  role: constitutive
+relations: []
+concepts:
+- Sc
+- Bd
+composition:
+- Cm
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.22'
+  page: 200
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.X10.22
+  concept_confidence: low
+  concept_note: No element for relational bound; contrasted with Boundary (ch4).
+  notes:
+  - Beta cites Boundary (chapter-level reference, not a single claim)

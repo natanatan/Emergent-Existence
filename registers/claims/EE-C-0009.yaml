@@ -1,0 +1,36 @@
+id: EE-C-0009
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'The least constructive structure beyond the unresolved Origin is a symmetric dyad whose two
+      poles are numerically two as a primitive cost and are related by a symmetric, irreflexive relation
+      of non-equivalence. Difference and its poles are co-constitutive: neither independently constituted
+      relata nor a relation existing prior to all relata is asserted. ▪ 𝔇 = ⟨a, b ; ≬⟩ ▪ a ≬ b ⟺ b ≬ a
+      ▪ ¬(a ≬ a) and ¬(b ≬ b)'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Proposition 2A - primitive difference
+dependencies:
+- claim: EE-C-0003
+  role: constitutive
+relations: []
+concepts:
+- Df
+composition:
+- Om
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 2
+  section: null
+  page: 47
+  version: v1
+  label: 2A
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch02.P2A
+  concept_confidence: high

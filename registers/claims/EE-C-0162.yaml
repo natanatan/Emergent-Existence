@@ -1,0 +1,36 @@
+id: EE-C-0162
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ d(A,B) ≠ d(B,A) [...] If every relevant mediating relation is reversibly equivalent under
+      the distance criterion, and every admissible chain has a reverse chain of equal magnitude, symmetry
+      follows. ▪ relational distance ⇝ directed metric-like structure ⇝ symmetric metric under reversible
+      equivalence
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Symmetry is not free (11.11)
+dependencies:
+- claim: EE-C-0156
+  role: constitutive
+relations: []
+concepts:
+- Dx
+composition:
+- Dt
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.11'
+  page: 215
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.P11.11
+  concept_confidence: high
+  notes:
+  - Beta cites Orientation (chapter-level reference, not a single claim)

@@ -1,0 +1,30 @@
+id: EE-C-0202
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Renaming lower-order elements must not change the effective geometry.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 1 (12.25): Relabeling invariance'
+dependencies: []
+relations: []
+concepts:
+- Gm
+- Nb
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.25'
+  page: 243
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.T12.25.1
+  concept_confidence: medium
+  concept_note: relabeling invariance of effective geometry

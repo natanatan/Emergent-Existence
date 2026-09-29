@@ -1,0 +1,19 @@
+id: EE-H-0011
+aliases:
+- H-11
+hypothesis: Nature universally prefers the golden ratio
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The ratio phi is the stable fixed point only under the canonical two-state additive recurrence
+status_text: Rejected in universal form; Retained in conditional form
+resolve_by: None planned for the universal form
+revisited_in: Formalism; App C
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 317
+import_notes:
+- Compound status; `status` gives the first-named status, full text in status_text.

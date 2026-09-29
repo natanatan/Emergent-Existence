@@ -1,0 +1,19 @@
+id: EE-H-0100
+aliases:
+- H-100
+hypothesis: A scale-indexed coarse-graining operator CG_s is admissible once its comparison standard is
+  earned relationally, and remains pre-geometric
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Discharges the deferral Chapter 7 made by name at 7.4. Smallness by metric distance stays unavailable
+    until Chapter 11
+status_text: Provisional
+resolve_by: Diagnostic 10 of 10.25, admitting the quotient only after its standard is independently earned
+revisited_in: Scale (10.20); Orientation (7.4)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 338

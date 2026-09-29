@@ -1,0 +1,21 @@
+id: EE-H-0004
+aliases:
+- H-4
+hypothesis: “Information is fundamental” (strong form)
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Replaced by the more defensible substrate claim: a universal relational substrate encodes primitive
+    distinctions, and its higher-order organization projects into experienced reality'
+status_text: Rejected
+resolve_by: None planned
+revisited_in: Boundary, 10
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 316
+import_notes:
+- Bare chapter number "10" mapped to ch10 Scale under current numbering; may reflect an older chapter
+  numbering (uncertain).

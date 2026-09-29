@@ -1,0 +1,30 @@
+id: EE-C-0137
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: higher-order ≠ larger; resolution ≠ scale
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Separation bullets (10.19)
+dependencies: []
+relations: []
+concepts:
+- Sc
+- Cs
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.19'
+  page: 198
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.X10.19
+  concept_confidence: medium
+  concept_note: Level/resolution vs scale separation; no specific element.

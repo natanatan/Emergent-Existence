@@ -1,0 +1,20 @@
+id: EE-H-0093
+aliases:
+- H-93
+hypothesis: Whether binary relations are expressively sufficient for every higher-order constraint, or
+  genuine n-ary relations are required
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Has a known repair bill: Chapter 5’s matrix formulation and Chapter 7’s K_ij are both pairwise,
+    and both change if higher arity is required'
+status_text: Open
+resolve_by: Diagnostic 7 of 9.28, comparing binary and hypergraph encodings for changed invariants (Question
+  6)
+revisited_in: Formalism (9.18); Relation (5.2); Orientation (7.2)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 336

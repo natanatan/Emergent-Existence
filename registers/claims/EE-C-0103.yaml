@@ -1,0 +1,33 @@
+id: EE-C-0103
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'departure: the relata F concerns persist, but the organization does not satisfy F; the criterion
+      is applicable and false / dissolution: the relata or roles F concerns are themselves unavailable,
+      so the criterion has no subject and is inapplicable rather than false'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Departure vs dissolution (8.4)
+dependencies:
+- claim: EE-C-0028
+  role: constitutive
+relations: []
+concepts:
+- Dr
+composition:
+- Id
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 8
+  section: '8.4'
+  page: 147
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch08.DEP8.4
+  concept_confidence: high

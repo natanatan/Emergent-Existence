@@ -1,0 +1,20 @@
+id: EE-H-0131
+aliases:
+- H-131
+hypothesis: Admissible transformation 𝒰 is the second foundational commitment so far, not derived from
+  Difference
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A static relation cannot license succession (3.2). Admissibility is primitive, must not be defined
+    through resolution (3.4), and is constrained by nontriviality and covariance under Aut(𝔇) (3.5)
+status_text: Provisional
+resolve_by: A derivation of 𝒰 from Difference, or of both from a single weaker principle, would retire
+  it (3.19)
+revisited_in: Distinction; Formalism
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 348

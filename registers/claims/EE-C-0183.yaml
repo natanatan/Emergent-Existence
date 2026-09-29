@@ -1,0 +1,33 @@
+id: EE-C-0183
+kind: definition
+use: representational
+aliases: []
+versions:
+  v1:
+    text: Call such a family a metric-relational layer. A layer is not a sheet, a hidden spatial surface,
+      or a field already defined over a manifold. It is a distributed family of relational constraints
+      whose members support internally comparable separation. [...] 𝔏α = (Xα, dα, Kα) [...] ▪ 𝔏 = { 𝔏α
+      , Kαβ }
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Metric-relational layer (12.5)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0156
+concepts:
+- Ly
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.5'
+  page: 231
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.D12.5
+  concept_confidence: high

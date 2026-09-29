@@ -1,0 +1,37 @@
+id: EE-C-0186
+kind: other
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ▪ independent variation ⇝ basis-like structure ⇝ comparison among modes ⇝ angle ⇝ orthogonality
+      [...] a relational organization can require multiple irreducible ways of changing before any meaningful
+      relation of ninety degrees exists among them.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Independence before orthogonality (12.7)
+dependencies:
+- claim: EE-C-0185
+  role: constitutive
+relations: []
+concepts:
+- Ix
+- Ed
+composition:
+- Dd
+- Ed
+- Ix
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.7'
+  page: 232
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.X12.7
+  concept_confidence: medium
+  concept_note: no element for orthogonality/angle

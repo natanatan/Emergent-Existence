@@ -1,0 +1,19 @@
+id: EE-H-0033
+aliases:
+- H-33
+hypothesis: 'Loss of retention is collapse, not return to Ω: a transformation after which no admissible
+  frame recovers the distinction between a and b'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Follows from the preservation predicate once no pole is designated as Ω (4.7); collapse removes
+    the distinction without restoring an origin
+status_text: Retained
+resolve_by: None planned
+revisited_in: Boundary (4.7)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 321

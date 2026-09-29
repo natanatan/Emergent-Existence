@@ -1,0 +1,38 @@
+id: EE-C-0087
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: What formal conditions permit compatible overlap, and what happens when two candidate closures
+      impose contradictory constraints on a shared relation.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ◌ OPEN (§6.11)
+dependencies:
+- claim: EE-C-0085
+  role: constitutive
+relations: []
+concepts:
+- Cl
+composition:
+- Cl
+- Io
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 6
+  section: '6.11'
+  page: 113
+  version: v1
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch06.M6.11b
+  concept_confidence: medium
+  concept_note: 'overlapping closure: no dedicated element'

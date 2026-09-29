@@ -1,0 +1,20 @@
+id: EE-H-0067
+aliases:
+- H-67
+hypothesis: Scale must be derived as a stable relation among relational changes, not introduced as an
+  external ruler
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Methodological constraint on Chapter 10: the book’s rule against importing what it must derive,
+    applied to magnitude'
+status_text: Retained
+resolve_by: None planned; a Chapter 10 draft that assumes a unit or numeral before earning it fails the
+  constraint
+revisited_in: Scale
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 329

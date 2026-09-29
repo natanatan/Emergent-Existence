@@ -1,0 +1,36 @@
+id: EE-C-0050
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Whether re-instantiation supplies a generalizable invariant criterion or remains an analogy
+      (Question 3; 5.19, item 4).
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ◌ OPEN (§5.7)
+dependencies:
+- claim: EE-C-0048
+  role: constitutive
+relations: []
+concepts:
+- Ri
+composition:
+- Ri
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.7'
+  page: 89
+  version: v1
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.7b
+  concept_confidence: medium

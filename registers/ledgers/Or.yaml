@@ -1,0 +1,72 @@
+stage: Or
+title: Orientation
+current_chapter:
+  book-1/beta: 7
+claim: 'Orientation is derived: it arises when an asymmetry in relational constraint becomes internally
+  resolvable and persists long enough to bear on whether a higher-order identity can re-enter the identity
+  class referenced by its Closure-earned organizational anchor AF.'
+inherits:
+- item: retained distinctions r_ij
+  from: Bd
+- item: admissible possibilities 𝒫
+  from: Bd
+- item: retained-dependency precedence ≺
+  from: Bd
+- item: mutually constraining organization
+  from: Rl
+- item: criterion-based identity ~F
+  from: Bd
+- item: closure
+  from: Cl
+- item: higher-order addressability (representative-independent)
+  from: Cl
+- item: organizational anchor AF
+  from: Cl
+- item: admissible transition relation 𝒰 (typed as transition relation, not single-valued function)
+  from: Ds
+- item: resolution-relative minimally resolved origin Ω / least-resolving frame W₀
+  from: Om
+- item: resolving frames W / W⁽ᴸ⁾
+  from: Bd
+earns:
+- item: oriented dependency ≺ₒ
+  detail: Once asymmetric dependency has been earned, ≺ₒ denotes orientational dependency; no additional
+    primitive directed-edge relation is introduced (7.2). 'Orientation earns the relation ≺ₒ' (7.12).
+- item: derived orientation (persistent consequential non-equivalence of dependency roles)
+  detail: Persistent consequential asymmetry can justify oriented dependency without making direction
+    primitive; we leave with a derived bearing (7.21).
+- item: asymmetric constraint structure K = [Kij]
+  detail: The richer object is the whole asymmetric constraint structure K = [Kij], which may branch,
+    converge, overlap, or support several non-redundant orientational modes (7.5).
+- item: latent / effective asymmetry / orientation thresholds
+  detail: 'Three thresholds separated: latent asymmetry (does not survive the higher-order resolving criterion),
+    effective asymmetry (survives W⁽ᴸ⁾ and changes admissible organization), orientation (persistent asymmetric
+    dependency affecting re-entry relative to AF) (7.4).'
+- item: functional orientation persistence threshold
+  detail: Orientation persistence threshold = the minimum retention required to affect anchor-relative
+    identity re-entry; persistence defined by consequence, not duration (7.7).
+- item: anchor-relative relational irreversibility
+  detail: If Ret(AF; 𝔒) = 1 while Ret(AF; 𝔒⁻¹) = 0, the organization is relationally irreversible with
+    respect to AF; not thermodynamic irreversibility nor an arrow of physical time (7.8).
+- item: orientational independence problem
+  detail: 'At this stage the framework earns an independence problem, not a cardinal orientational dimension:
+    cardinality, rank, and orthogonality remain later formal achievements (7.11).'
+withholds:
+- item: spatial direction or coordinates
+- item: metric distance or scale
+- item: metric time
+  deferred_to: Tm
+- item: thermodynamic irreversibility or entropy production
+- item: physical causation or relativistic light cones
+- item: global partial order
+- item: geometry or dimensionality from orientation alone
+  deferred_to: Gm
+- item: chirality or parity violation
+- item: universal law that return compatibility always selects stable orientations
+- item: specified mechanism for unresolved variation beneath the minimally resolved origin
+- item: recurrence, departure, exact vs non-identical return, path consequence, winding, phase
+  deferred_to: Rt
+- item: coarse-graining operator CG[·]
+  deferred_to: Sc
+- item: cardinal orientational dimension / rank / orthogonality
+  deferred_to: Fm

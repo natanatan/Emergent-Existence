@@ -1,0 +1,20 @@
+id: EE-H-0008
+aliases:
+- H-8
+hypothesis: Hopf-fibration structure derives particle spin
+status_history:
+- status: Deferred
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Used as inspiration for linked fibers, phase and orientation; a direct derivation of known spin
+    is premature
+status_text: Deferred
+resolve_by: A construction recovering spinor structure from the relational formalism
+revisited_in: Orientation to Return
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 317
+import_notes:
+- '"Orientation to Return" read as the inclusive chapter range ch07-ch08.'

@@ -1,0 +1,18 @@
+id: EE-H-0014
+aliases:
+- H-14
+hypothesis: General relativity is the laminar regime of relational dynamics
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The book asks what microscopic relational dynamics could recover Einstein-like curvature and
+    approximate Lorentz invariance
+status_text: Open
+resolve_by: A derivation of Einstein-like behavior in the continuum limit
+revisited_in: Gravity
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 317

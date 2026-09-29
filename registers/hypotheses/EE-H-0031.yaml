@@ -1,0 +1,18 @@
+id: EE-H-0031
+aliases:
+- H-31
+hypothesis: A designation marking one pole as Ω could eventually be replaced by content-based distinction
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'No pole is ever designated as Ω: reference is earned as an organizational role of a closed
+    identity (H-133)'
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Closure (6.13)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 321

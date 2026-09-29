@@ -1,0 +1,20 @@
+id: EE-H-0032
+aliases:
+- H-32
+hypothesis: Retention is the survival of the reciprocal distinction under admissible transformation, the
+  images of a and b remaining non-equivalent as resolved by a frame W, not the invariance of the transformed
+  state itself
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Near-definitional core of Proposition 1A, stated symmetrically: no pole is distinguished from
+    Ω, and the preserved distinction may change its realization (4.6, 4.8, 4.9)'
+status_text: Retained
+resolve_by: None planned
+revisited_in: Boundary (4.6, 4.8, 4.9)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 321

@@ -1,0 +1,33 @@
+id: EE-C-0021
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: 'Let W denote a resolving frame: a structural criterion or map that determines which distinctions
+      are accessible at a declared organizational level. [...] ▪ ResW(Σ) = the set of distinctions resolvable
+      from Σ under W'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §4.5) resolving frame W and ResW
+dependencies:
+- claim: EE-C-0003
+  role: constitutive
+relations: []
+concepts:
+- Rf
+composition:
+- Om
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 4
+  section: '4.5'
+  page: 69
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch04.D4.5a
+  concept_confidence: high

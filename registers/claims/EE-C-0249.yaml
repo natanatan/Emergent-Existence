@@ -1,0 +1,32 @@
+id: EE-C-0249
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Verify that no propagation speed, Lorentzian signature, null relation, or invariant c is required
+      to make the temporal construction work.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Spacetime-withholding test (14.25)
+dependencies: []
+relations: []
+concepts:
+- Tm
+- Sx
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.25'
+  page: 288
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.T14.25h
+  concept_confidence: medium
+  concept_note: Sx (Spacetime, later stage) listed because the test is explicitly about withholding spacetime
+    structure

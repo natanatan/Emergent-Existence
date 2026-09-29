@@ -1,0 +1,30 @@
+id: EE-C-0174
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Coarse-grained distances should preserve declared higher-order relations where the coarse-graining
+      is claimed to be valid.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 6 (11.21): Scale consistency'
+dependencies: []
+relations: []
+concepts:
+- Dt
+- Cs
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.21'
+  page: 220
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.T11.21.6
+  concept_confidence: medium

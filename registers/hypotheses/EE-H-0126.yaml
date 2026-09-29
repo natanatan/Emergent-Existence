@@ -1,0 +1,20 @@
+id: EE-H-0126
+aliases:
+- H-126
+hypothesis: 'Record asymmetry makes dependency orientation internally recoverable: Record_B(A) non-empty
+  while Record_A(B) is empty along the realized chain'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Temporal direction need not be painted on from outside. This is a structural orientation only:
+    the thermodynamic arrow, entropy and cosmological boundary conditions are explicitly not claimed'
+status_text: Provisional
+resolve_by: 'The reverse-rule test of 14.25: use microscopically reversible laws and check that irreversibility
+  is not manufactured'
+revisited_in: Time (14.17, 14.18)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 346

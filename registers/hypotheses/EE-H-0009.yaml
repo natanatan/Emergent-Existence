@@ -1,0 +1,17 @@
+id: EE-H-0009
+aliases:
+- H-9
+hypothesis: The torus is dynamically selected rather than assumed
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Currently a candidate stable topology; selection is untested
+status_text: Open
+resolve_by: A toy model in which closed circulation emerges as an attractor
+revisited_in: Return
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 317

@@ -1,0 +1,31 @@
+id: EE-C-0130
+kind: other
+use: representational
+aliases: []
+versions:
+  v1:
+    text: Ratio is a compression of the correspondence of 10.10, not an additional primitive.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: STRONG verdict (10.11)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0129
+concepts:
+- Pn
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.11'
+  page: 195
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.V10.11
+  concept_confidence: medium
+  concept_note: See 0129.

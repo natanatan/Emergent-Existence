@@ -1,0 +1,30 @@
+id: EE-C-0248
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Use transformation laws that are microscopically reversible and determine whether the framework
+      incorrectly manufactures thermodynamic irreversibility from dependency notation alone.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Reverse-rule test (14.25)
+dependencies: []
+relations: []
+concepts:
+- Re
+- Ir
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.25'
+  page: 288
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.T14.25g
+  concept_confidence: medium

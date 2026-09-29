@@ -1,6 +1,8 @@
 # Checks
 
-> Pending: the code comes once the claims design is signed off. The rules follow [`docs/claims-model.md`](../docs/claims-model.md).
+The rules follow [`docs/claims-model.md`](../docs/claims-model.md). Run them locally with `python checks/audit.py`; the report is written to `build/audit/`. The workflow in `.github/workflows/audit.yml` runs them on every change to the registers and once a day.
+
+Four checks need material the repository does not hold yet and are listed in each report as not yet checked: untyped later references and labels-to-manuscript mapping (both need the manuscript text), and composition-change and frozen-edition checks (both need history across runs).
 
 Run on every change to `registers/`. **Errors** fail the check and are written to a standing error report, where each one stays open until a sync corrects it. **Review flags** are listed until someone resolves them.
 
@@ -22,6 +24,8 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 | Labels map to claims | Error | A labelled statement in the manuscript has no derivation appearance, or a derivation's label is not in the manuscript |
 | Superseded claims stay out | Error | A superseded claim appears in a new edition without being marked historical |
 | Status history is well formed | Error | A status change has no date, edition or reason |
+| Use not classified | Review | A claim's use (constitutive, representational or diagnostic) is not yet recorded |
+| Claim not mapped to elements | Review | A claim has no element concepts |
 | Withholdings accounted for | Review | A withheld item names no destination and is not marked beyond the series or open |
 | Released editions frozen | Error | The record or appearances of a released edition change |
 

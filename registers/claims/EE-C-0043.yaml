@@ -1,0 +1,40 @@
+id: EE-C-0043
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ (Σn, Σn+1) ∈ 𝒰, (Σn+1, Σn+2) ∈ 𝒰 [...] ▪ retained ra ⇒ Δ𝒫(rb | ℛ)
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §5.5) constraint propagation
+dependencies:
+- claim: EE-C-0015
+  role: constitutive
+- claim: EE-C-0026
+  role: constitutive
+- claim: EE-C-0040
+  role: constitutive
+relations: []
+concepts:
+- St
+- Pr
+composition:
+- Ds
+- Pr
+- Rc
+- St
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.5'
+  page: 87
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.5
+  concept_confidence: medium
+  concept_note: Constraint propagation (5.5) has no dedicated element.

@@ -1,0 +1,17 @@
+id: EE-H-0015
+aliases:
+- H-15
+hypothesis: The singularity is an evolving compressed relational state
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A speculative reconception of the static point-object
+status_text: Open
+resolve_by: A model of how infalling information updates the compressed state
+revisited_in: Black Holes to Recursive Cosmogenesis
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 318

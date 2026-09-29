@@ -1,0 +1,23 @@
+id: EE-H-0051
+aliases:
+- H-51
+hypothesis: Object-like identity can be modeled as an equivalence class of configurations preserving identity-relevant
+  organization, O = [Σ]_~F
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Useful formal scaffold; not established as a general ontology of physical objects, and vacuous
+    if F can be chosen after the fact
+status_text: Speculative
+resolve_by: Nontrivial persistence criteria or a computational test that separates integrated clusters
+  from arbitrary groupings
+revisited_in: Relation (5.9, 5.16); App G
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 325
+import_notes:
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

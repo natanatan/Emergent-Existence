@@ -1,0 +1,20 @@
+id: EE-H-0115
+aliases:
+- H-115
+hypothesis: 'Spatial coordination may be responsive: a distributed relational transformation can alter
+  couplings, hence separations, hence the effective geometry, which then constrains subsequent transformation'
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'A candidate proposition, not a dynamical law and not gravity. Its value here is negative: it
+    prevents Space from being defined as rigid before later chapters need it to respond'
+status_text: Speculative
+resolve_by: The responsive-geometry test of 13.26, perturbing the substrate without changing geometric
+  variables explicitly
+revisited_in: Space (13.16, 13.17); Geometry (12.22)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 343

@@ -1,0 +1,30 @@
+id: EE-C-0132
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: recursion depth ≠ scale
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Separation bullet (10.13)
+dependencies: []
+relations: []
+concepts:
+- Sf
+- Rv
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.13'
+  page: 196
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.X10.13
+  concept_confidence: high
+  concept_note: Sf definition states recursion depth != scale.

@@ -1,0 +1,19 @@
+id: EE-H-0023
+aliases:
+- H-23
+hypothesis: Distinction is the primitive operation from which relational physical structure ultimately
+  emerges (former Proposition 1B)
+status_history:
+- status: Superseded
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Replaced by H-128. Distinction is now the operative resolution of a prior difference, not the
+    primitive
+status_text: Superseded
+resolve_by: None planned
+revisited_in: Preface; Difference (2.2)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 319

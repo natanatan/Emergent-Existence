@@ -1,0 +1,24 @@
+id: EE-H-0082
+aliases:
+- H-82
+hypothesis: Robust recurrence can make a relational identity reusable as a comparison standard, a prerequisite
+  for later Scale and Time
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'The justification for placing Return before Scale: measurement needs a re-identifiable reference.
+    Return makes unit-like reuse conceivable without creating a unit'
+status_text: Provisional
+resolve_by: Chapter 10 deriving endogenous standards from recurring structures
+revisited_in: Return (8.22); Scale, 12
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 333
+import_notes:
+- Bare chapter number "12" mapped to ch12 Geometry under current numbering; may reflect an older chapter
+  numbering (uncertain).
+- '"12" follows "Scale"; the hypothesis says "a prerequisite for later Scale and Time", so 12 may denote
+  Time under an older numbering rather than current ch12 Geometry.'

@@ -1,0 +1,36 @@
+id: EE-C-0100
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Relational irreversibility appears when reversing the orientational dependency conditions destroys,
+      changes, or redirects re-entry into the identity class referenced by AF.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Working proposition (7.8)
+dependencies:
+- claim: EE-C-0089
+  role: constitutive
+relations:
+- type: foreshadows
+  claim: EE-C-0102
+  note: Orientation 7.8 introduces irreversibility in anticipatory form; Return 8.16 confirms it does
+    not derive it a second time
+concepts:
+- Ir
+composition:
+- An
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 7
+  section: '7.8'
+  page: 133
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch07.WP7
+  concept_confidence: high

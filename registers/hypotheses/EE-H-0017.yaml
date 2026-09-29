@@ -1,0 +1,18 @@
+id: EE-H-0017
+aliases:
+- H-17
+hypothesis: Black-hole formation and cosmological origin are opposite reference-frame descriptions of
+  a deeper spacetime transition
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Conjecture; needs a bounce or topology-change mechanism
+status_text: Open
+resolve_by: A model of horizon crossing into a new expanding domain
+revisited_in: Recursive Cosmogenesis
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 318

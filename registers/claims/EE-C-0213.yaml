@@ -1,0 +1,33 @@
+id: EE-C-0213
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: 'Let λGeo(A) denote the geometric relational profile through which A is situated within Geo.
+      Then define a candidate localization class: ▪ Loc(A) = [λGeo(A)]~Sp where ~Sp identifies lower-order
+      realizations that preserve the geometric profile through which A is situated.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: candidate localization class Loc(A) (13.5; extractor-assigned ID)
+dependencies:
+- claim: EE-C-0212
+  role: constitutive
+relations: []
+concepts:
+- Lc
+composition:
+- Jr
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.5'
+  page: 255
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch13.D13.5
+  concept_confidence: high

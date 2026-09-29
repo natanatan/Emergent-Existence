@@ -1,0 +1,33 @@
+id: EE-C-0189
+kind: other
+use: representational
+aliases: []
+versions:
+  v1:
+    text: A mature differential-geometric representation might write ds^2 = gij(x) dx^i dx^j. [...] ▪
+      gij ~ effective local relation among variation modes and separation
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Local metric coupling (12.11)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0188
+concepts:
+- Gm
+- Ed
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.11'
+  page: 235
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.X12.11
+  concept_confidence: low
+  concept_note: no element for local metric coupling g_ij

@@ -1,0 +1,32 @@
+id: EE-C-0120
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'If every member of A matches exactly one member of B and every member of B is matched, the
+      pairing is a bijection. ▪ f : A ↔ B [...] ▪ A ~# B. Read plainly, A and B are the same size in the
+      cardinal sense. [...] ▪ A ~# A; A ~# B ⇒ B ~# A; A ~# B ∧ B ~# C ⇒ A ~# C'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Equinumerosity by bijection (10.4)
+dependencies: []
+relations: []
+concepts:
+- Cm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.4'
+  page: 191
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.D10.4
+  concept_confidence: high
+  notes:
+  - Beta cites Distinction (chapter-level reference, not a single claim)

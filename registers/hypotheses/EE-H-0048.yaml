@@ -1,0 +1,19 @@
+id: EE-H-0048
+aliases:
+- H-48
+hypothesis: Threshold boundary aggregation (membership when enough relations satisfy P, absolutely or
+  proportionally)
+status_history:
+- status: Deferred
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Needs a count of satisfying relations, a comparison with a bound and, for proportions, a ratio;
+    describing a finite collection does not earn its cardinality, and Book I has not earned it
+status_text: Deferred
+resolve_by: Chapter 10 (Scale), which earns relative magnitude and with it cardinality
+revisited_in: Relation (5.12); Scale
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 325

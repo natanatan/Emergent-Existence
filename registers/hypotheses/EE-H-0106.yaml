@@ -1,0 +1,20 @@
+id: EE-H-0106
+aliases:
+- H-106
+hypothesis: 'Geometry begins where metric relations cease to be pairwise and become mutually constraining:
+  stable neighborhoods under admissible transformation, with overlap as the first collective constraint'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Keeps Geometry from renaming a metric space as emergent geometry. Distance relates loci; Geometry
+    relates systems of distances
+status_text: Provisional
+resolve_by: 'Diagnostics 1 to 3 of 12.25: relabeling and representation invariance, and decomposition
+  perturbation'
+revisited_in: Geometry (12.2, 12.3); Distance
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 340

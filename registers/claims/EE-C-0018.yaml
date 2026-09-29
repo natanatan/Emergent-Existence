@@ -1,0 +1,30 @@
+id: EE-C-0018
+kind: other
+use: representational
+aliases: []
+versions:
+  v1:
+    text: J𝒰² = id
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: identity from composition (3.9)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0017
+concepts:
+- Ic
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 3
+  section: '3.9'
+  page: 60
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch03.X3.identity
+  concept_confidence: high

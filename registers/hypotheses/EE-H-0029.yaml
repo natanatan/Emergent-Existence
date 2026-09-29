@@ -1,0 +1,23 @@
+id: EE-H-0029
+aliases:
+- H-29
+hypothesis: An oriented relation makes order a consequence of direction rather than a further, independent
+  cost
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Definitional: telling source from target is what a directed relation means (3.6, Scaffold B).
+    Distinguished from the rejected claim that a state’s own change must be asymmetric on some intrinsic
+    property'
+status_text: Retained
+resolve_by: None planned
+revisited_in: Distinction (3.6); Orientation, 12
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 320
+import_notes:
+- Bare chapter number "12" mapped to ch12 Geometry under current numbering; may reflect an older chapter
+  numbering (uncertain).

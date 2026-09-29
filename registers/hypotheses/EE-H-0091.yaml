@@ -1,0 +1,21 @@
+id: EE-H-0091
+aliases:
+- H-91
+hypothesis: Finite historical dependence is first-order update on a sufficiently specified state, so retained
+  dependence needs no primitive memory
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Discharges the formal debt left by 3.7. The ontology stores no literal tuple; the present configuration
+    carries the retained consequences
+status_text: Retained
+resolve_by: Diagnostic 10 of 9.28
+revisited_in: Formalism (9.21); Distinction (3.7); Memory
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 335
+import_notes:
+- '"Memory" is not a Book I chapter (downstream of Life per H-135).'

@@ -1,0 +1,35 @@
+id: EE-C-0040
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ 𝒫(rij | ℛ) ≠ 𝒫(rij) [...] A relational structure is a set of retained relations whose admissible
+      states are constrained by the organization of other relations in the set.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled working definition, §5.4) relational structure / mutual constraint
+dependencies:
+- claim: EE-C-0025
+  role: constitutive
+- claim: EE-C-0032
+  role: constitutive
+relations: []
+concepts:
+- St
+composition:
+- Do
+- Ps
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.4'
+  page: 86
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.D5.4
+  concept_confidence: high

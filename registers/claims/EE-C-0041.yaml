@@ -1,0 +1,32 @@
+id: EE-C-0041
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: Mutual constraint, defined as a difference between 𝒫(rij) and 𝒫(rij | ℛ), separates structure
+      from mere connectivity without invoking causation.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ▪ STRONG (§5.4)
+dependencies:
+- claim: EE-C-0040
+  role: constitutive
+relations: []
+concepts:
+- St
+composition:
+- St
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 5
+  section: '5.4'
+  page: 86
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch05.M5.4a
+  concept_confidence: high

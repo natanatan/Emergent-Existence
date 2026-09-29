@@ -1,0 +1,32 @@
+id: EE-C-0134
+kind: definition
+use: representational
+aliases: []
+versions:
+  v1:
+    text: 'Let R be a map on comparative ratios, taken in the analyst’s metalanguage rather than as a
+      relation of the modelled world. [...] rn+1 = R(rn). A stable scale factor is then a fixed point:
+      ▪ R(λ) = λ'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Scale as relational fixed point (10.17)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0131
+concepts:
+- Sf
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.17'
+  page: 197
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.D10.17
+  concept_confidence: high

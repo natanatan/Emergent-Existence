@@ -1,0 +1,20 @@
+id: EE-H-0117
+aliases:
+- H-117
+hypothesis: 'Space is intrinsic before it is embedded: an embedding ι may be useful representationally
+  and cannot be inferred from its convenience'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The same discipline Geometry applied to curvature, now applied to space itself, and the reason
+    closure still does not mean enclosure
+status_text: Retained
+resolve_by: The coordinate-removal test of 13.26, stripping embeddings and drawing positions before recovery
+  is attempted
+revisited_in: Space (13.20, 13.21)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 344

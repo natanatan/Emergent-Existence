@@ -1,0 +1,23 @@
+id: EE-H-0060
+aliases:
+- H-60
+hypothesis: A closed organization is relationally addressable, and can serve as a new higher-order origin,
+  exactly when external relations descend to its equivalence class (the quotient, or lumpability, condition)
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A precise criterion (6.12), not yet tested on generated networks. When the closed identity is
+    also dynamically persistent, addressability earns an organizational reference role, the anchor A_F
+    (6.13; H-133)
+status_text: Provisional
+resolve_by: The addressability diagnostic of 6.17 against matched controls (App G, module 5)
+revisited_in: Closure (6.12, 6.13, 6.17)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 327
+import_notes:
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

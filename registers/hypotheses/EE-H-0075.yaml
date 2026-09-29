@@ -1,0 +1,24 @@
+id: EE-H-0075
+aliases:
+- H-75
+hypothesis: 'Structural selection: among accessible asymmetric configurations, compatibility with recursive
+  closure and anchor-relative return can differentially stabilize some orientations without a primitive
+  preferred direction'
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: “Differential” means persistence under the declared dynamics, not probability, optimization
+    or fitness. Does not explain the first fluctuation, and should not be raised to a universal law
+status_text: Speculative
+resolve_by: Simulations in which symmetric rules yield branch-specific persistence without programmer-supplied
+  direction
+revisited_in: Orientation (7.9, 7.10); App G
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 331
+import_notes:
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

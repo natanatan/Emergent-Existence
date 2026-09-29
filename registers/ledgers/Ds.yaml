@@ -1,0 +1,42 @@
+stage: Ds
+title: Distinction
+current_chapter:
+  book-1/beta: 3
+claim: 'Difference becomes an operative Distinction when a second foundational commitment is introduced:
+  an admissible transition relation 𝒰 on the minimal configuration carrier. If 𝒰 is nontrivial and covariant
+  under the symmetries of the primitive dyad, it induces reciprocal exchange. Distinction is therefore
+  the point at which non-equivalence first becomes usable in the structure’s own succession.'
+inherits:
+- item: primitive dyad 𝔇 = ⟨a,b; ≬⟩ (non-equivalent, exchange-symmetric poles)
+  from: Df
+- item: automorphisms Aut(𝔇) / exchange symmetry
+  from: Df
+- item: primitive Difference as first foundational commitment
+  from: Df
+earns:
+- item: minimal configuration carrier 𝒞𝔇
+  detail: The minimal configuration carrier 𝒞𝔇 = {a,b}.
+- item: admissible transition relation 𝒰
+  detail: 'A second foundational commitment so far: admissible transition relation 𝒰.'
+- item: covariant nontrivial succession
+  detail: Nontrivial succession constrained by covariance under Aut(𝔇).
+- item: reciprocal map J𝒰 and identity under composition
+  detail: Derived reciprocal map J𝒰 and derived identity under composition.
+- item: operative distinction (static non-equivalence vs operational succession)
+  detail: A formal distinction between static non-equivalence and operational succession.
+withholds:
+- item: physical time, duration, causal order, propagation speed
+  deferred_to: Tm
+- item: orientation, source/target privilege
+  deferred_to: Or
+- item: reference pole, anchor, Ω designation
+  deferred_to: Cl
+- item: primitive stasis, branching, probability, metric, information quantity
+- item: retained distinction, boundary, memory
+  deferred_to: Bd
+- item: higher-order identity
+  deferred_to: Cl
+- item: information
+- item: why admissible transformation exists
+- item: physical clock
+  deferred_to: Tm

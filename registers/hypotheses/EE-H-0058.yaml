@@ -1,0 +1,19 @@
+id: EE-H-0058
+aliases:
+- H-58
+hypothesis: Structural closure is internal sufficiency, participation and joint realizability of the dependencies
+  constitutive of an invariant F; dynamic closure adds persistence under 𝒰, and robust closure adds survival
+  across a preregistered 𝔗
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Working definition; the three-part test is stated as necessary, not yet shown sufficient
+status_text: Provisional
+resolve_by: A necessary-and-sufficient formal criterion (Chapter 9)
+revisited_in: Closure (6.2-6.8)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 327

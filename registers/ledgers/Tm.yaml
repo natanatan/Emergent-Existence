@@ -1,0 +1,70 @@
+stage: Tm
+title: Time
+current_chapter:
+  book-1/beta: 14
+claim: 'Time emerges where retained-dependency precedence, inherited from Boundary, supports an intrinsic
+  order: where dependency cycles can be separated from ordered precedence, where that order is recoverable
+  from retained structure itself, and where recurrent processes furnish endogenous standards of comparison.
+  Time is thus earned from within; metric duration remains conditional.'
+inherits:
+- item: retained-dependency precedence ≺ (not assumed transitive, acyclic, total, asymmetric, causal or
+    temporal; 4.11)
+  from: Bd
+- item: 'retained distinction: a distinction can remain available after transformation'
+  from: Bd
+- item: admissible possibility set 𝒫 (retaining or removing a distinction changes it)
+  from: Bd
+- item: admissible transition relation 𝒰
+  from: Ds
+- item: coordinated domain of localization, adjacency, extension, and neighboring local reference frames
+  from: Sp
+- item: relation set ℜ and configuration set 𝒞 of Formalism (referenced only to avoid notation clash)
+  from: Fm
+- item: scale-robustness tests used for Geometry and Space (14.22)
+  from: Gm
+earns:
+- item: retained-dependency precedence ≺ as pre-temporal substrate
+  detail: inherited retained-dependency precedence ≺ as the pre-temporal substrate for ordering
+- item: strict partial-order candidate ≺ₜ
+  detail: a derived strict partial-order candidate ≺ₜ on dependency-cycle equivalence classes, without
+    a universal external clock
+- item: chains, branches, merges, incomparable events
+  detail: ordered chains, branches, merges, and dependency-incomparable events
+- item: succession distinct from indexing
+  detail: a distinction between succession and mere manuscript or algorithmic indexing
+- item: structural record asymmetry
+  detail: a structural record asymmetry by which some dependency orientations can be internally recovered
+- item: endogenous temporal standards
+  detail: a candidate route from recurrent relational processes to endogenous temporal standards
+- item: metric temporal comparison
+  detail: a candidate route from cross-clock calibration to metric temporal comparison
+- item: local temporal organization
+  detail: local temporal organization compatible with, but not yet equivalent to, later relativistic time
+withholds:
+- item: Lorentzian metric
+  scope: book-2
+- item: invariant light speed
+- item: light cones and intervals
+- item: proper time
+- item: relative simultaneity
+- item: time dilation
+- item: gravitational redshift
+- item: cosmological time
+- item: preferred foliation
+- item: universal present
+- item: 'thermodynamic arrow: entropy increase'
+- item: microscopic irreversibility
+- item: gravity
+- item: field equations
+- item: matter
+- item: quantum fields
+- item: energy
+- item: action
+- item: observed value of any physical constant
+- item: identity/unification of space and time as one metric structure (physical spacetime)
+  scope: book-2
+- item: propagation / propagation speed
+  scope: book-2
+- item: physical causal structure / causal geometry
+  scope: book-2
+- item: psychological memory and cosmological temporal asymmetry

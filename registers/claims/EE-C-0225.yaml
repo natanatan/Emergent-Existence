@@ -1,0 +1,29 @@
+id: EE-C-0225
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Change one recovered localization and measure whether the surrounding localization relations
+      change systematically rather than arbitrarily.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Perturbation-coordination test (13.26)
+dependencies: []
+relations: []
+concepts:
+- Lc
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.26'
+  page: 268
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch13.T13.26c
+  concept_confidence: medium

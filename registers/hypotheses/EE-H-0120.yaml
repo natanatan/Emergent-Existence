@@ -1,0 +1,22 @@
+id: EE-H-0120
+aliases:
+- H-120
+hypothesis: 'Temporal order is a partial order, not a total sequence: dependency-incomparable events are
+  admitted rather than forced onto one line'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Raw dependency ≺ need not be acyclic, so the order is earned on the quotient by mutual dependency:
+    ≺ₜ between classes is a strict partial order by construction (14.5). A universal total order would
+    be a hidden global clock. Incomparability is a feature of the derivation, and it is what lets the
+    framework remain compatible with the absence of frame-independent simultaneity without assuming relativity'
+status_text: Retained
+resolve_by: 'The branching test of 14.25: introduce incomparable update structures and verify no artificial
+  global order is forced'
+revisited_in: Time (14.5, 14.10)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 345

@@ -1,0 +1,29 @@
+id: EE-H-0085
+aliases:
+- H-85
+hypothesis: 'Departure is not dissolution: return requires an identity criterion that stays applicable
+  while unsatisfied. Whether an identity whose criterion ceased to apply can later be reconstructed, and
+  whether that re-instantiation is a stronger form of return or a different relation, is unresolved'
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: A criterion can be evaluated only while the relations and roles it speaks about are present.
+    Departure leaves it applicable and false; dissolution leaves it without a subject. Chapter 8 defines
+    return on the weaker case only. The distinction matters downstream for death and recovery, phase change,
+    horizons, reconstruction from records and substrate replacement
+status_text: Open
+resolve_by: An account of reconstruction after dissolution that does not rely on an external record of
+  the lost criterion
+revisited_in: Return (8.4, 8.5); Black Holes, 19, 20
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 334
+import_notes:
+- Bare chapter number "19" lies outside Book I (chapters 1-14); likely older 21-chapter numbering (cf.
+  H-45, H-65). Not mapped.
+- Bare chapter number "20" lies outside Book I (chapters 1-14); likely older 21-chapter numbering (cf.
+  H-45, H-65). Not mapped.
+- '"19, 20" are outside Book I (older numbering; cf. H-65); "Black Holes" is not a Book I chapter.'

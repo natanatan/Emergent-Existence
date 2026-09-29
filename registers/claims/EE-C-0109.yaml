@@ -1,0 +1,36 @@
+id: EE-C-0109
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: 𝔊 = (𝒞, ℜ, 𝒰) [...] 𝒰 ⊆ 𝒞 × 𝒞, where Σ 𝒰 Σ′ means that Σ′ is an admissible successor configuration
+      of Σ
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Minimum relational signature (9.4)
+dependencies:
+- claim: EE-C-0012
+  role: constitutive
+relations: []
+concepts:
+- Fm
+- Ut
+- Cf
+composition:
+- Cf
+- Ut
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 9
+  section: '9.4'
+  page: 167
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch09.SIG9.4
+  concept_confidence: medium
+  concept_note: 'minimum relational signature 𝔊=(𝒞,ℜ,𝒰): no dedicated signature element'

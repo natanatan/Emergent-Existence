@@ -1,0 +1,43 @@
+id: EE-C-0163
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: On the relevant quotient domain, require non-negativity, zero-distance identity, and the triangle
+      inequality. If reversible equivalence additionally yields symmetry, the quotient domain supports
+      an ordinary metric. ▪ relational organization ⇝ metric axioms as consequences
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: A metric is a special case (11.12)
+dependencies:
+- claim: EE-C-0160
+  role: constitutive
+- claim: EE-C-0161
+  role: constitutive
+- claim: EE-C-0162
+  role: constitutive
+relations: []
+concepts:
+- Dt
+- Tr
+- Zs
+- Dx
+composition:
+- Dx
+- Tr
+- Zs
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.12'
+  page: 216
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.P11.12
+  concept_confidence: medium
+  concept_note: No element for metric-as-special-case; composes Tr, Zs, Dx.

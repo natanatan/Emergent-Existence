@@ -1,0 +1,29 @@
+id: EE-C-0205
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: No coordinate tuple, target dimensionality, Euclidean neighborhood, or embedding may be encoded
+      in the generative rules if dimensionality is the quantity being tested.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 4 (12.25): Hidden-dimension control'
+dependencies: []
+relations: []
+concepts:
+- Ed
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.25'
+  page: 243
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.T12.25.4
+  concept_confidence: medium

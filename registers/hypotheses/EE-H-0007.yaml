@@ -1,0 +1,17 @@
+id: EE-H-0007
+aliases:
+- H-7
+hypothesis: The physical universe is literally a mathematical empty set
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The empty/non-empty distinction is a logical analogy only
+status_text: Rejected
+resolve_by: None planned
+revisited_in: Origin
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 316

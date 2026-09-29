@@ -1,0 +1,19 @@
+id: EE-H-0038
+aliases:
+- H-38
+hypothesis: A primitive boundary is a relational criterion of separability, not a spatial surface
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Definitional at this stage; spatial boundary is deferred to later geometric chapters
+status_text: Retained
+resolve_by: None planned
+revisited_in: Boundary (4.7); Relation to Closure
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 322
+import_notes:
+- '"Relation to Closure" read as the inclusive chapter range ch05-ch06.'

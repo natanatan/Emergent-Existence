@@ -1,0 +1,19 @@
+id: EE-H-0056
+aliases:
+- H-56
+hypothesis: 'Closure is simplicial completion: an origin plus three independent differentiations gives
+  minimum three-dimensional closure, whose edge graph is K4'
+status_history:
+- status: Rejected
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Superseded by Chapter 6 as a definition: it inserts geometric structure (simplices, a target
+    dimension) that Book I is trying to earn. Survives only as one realization (next entry)'
+status_text: Rejected
+resolve_by: None planned
+revisited_in: Closure (6.1); App A, G
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 326

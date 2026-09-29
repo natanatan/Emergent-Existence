@@ -1,0 +1,37 @@
+id: EE-C-0165
+kind: proposition
+use: null
+aliases: []
+versions:
+  v1:
+    text: Distance may be scale-relative while still being structurally objective within a declared scale
+      regime. This is a candidate proposition, not yet a result.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Scale-relative distance (11.16)
+dependencies:
+- claim: EE-C-0156
+  role: constitutive
+- claim: EE-C-0138
+  role: constitutive
+relations: []
+concepts:
+- Dt
+- Sc
+composition:
+- Cs
+- Dt
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.16'
+  page: 217
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.P11.16
+  concept_confidence: medium
+  concept_note: No element for scale-relative distance.

@@ -1,0 +1,22 @@
+id: EE-H-0028
+aliases:
+- H-28
+hypothesis: The poles of the primitive dyad are weakly discernible only via ≬; telling them apart from
+  within needs a structural resolver, an Ω designation, or an oriented relation
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Follows from the swap automorphism of the dyad (2.5); each route to breaking it is a separate
+    later cost
+status_text: Provisional
+resolve_by: Tested in Distinction, Orientation and Geometry
+revisited_in: Difference (2.5); Distinction; Orientation, 12
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 320
+import_notes:
+- Bare chapter number "12" mapped to ch12 Geometry under current numbering; may reflect an older chapter
+  numbering (uncertain).

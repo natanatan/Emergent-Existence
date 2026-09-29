@@ -1,0 +1,19 @@
+id: EE-H-0054
+aliases:
+- H-54
+hypothesis: Independent relational degrees of variation d_R can later support dimensional geometry
+status_history:
+- status: Deferred
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Relation earns only the independence problem (5.14). Formalism introduces d_R conditionally,
+    as the rank of an independence system Ind_R, once a suitable finite independence structure is earned
+    (9.22); metric dimensionality and orthogonality belong later
+status_text: Deferred
+resolve_by: Geometry showing that stable, decoupled relational modes realize d_R
+revisited_in: Relation (5.14); Formalism (9.22); Geometry
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 326

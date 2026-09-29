@@ -1,0 +1,31 @@
+id: EE-C-0027
+kind: definition
+use: representational
+aliases: []
+versions:
+  v1:
+    text: '▪ Bab(W, 𝔗*) = {T ∈ 𝔗* : PresW(a,b;T)}'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: (unlabelled display, §4.12) preservation class Bab
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0023
+concepts:
+- Bd
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 4
+  section: '4.12'
+  page: 73
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch04.D4.12
+  concept_confidence: high
+  concept_note: B_ab is the Boundary element's own symbol (4.12).

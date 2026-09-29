@@ -1,0 +1,33 @@
+id: EE-C-0016
+kind: other
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ≬ constrains what differs; 𝒰 constrains what may follow
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: ≬ constrains what differs; 𝒰 constrains what may follow (3.7)
+dependencies:
+- claim: EE-C-0015
+  role: constitutive
+relations: []
+concepts:
+- Df
+- Ut
+composition:
+- Ds
+- Rc
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 3
+  section: '3.7'
+  page: 59
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch03.X3.roles
+  concept_confidence: high

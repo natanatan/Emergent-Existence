@@ -1,0 +1,68 @@
+stage: Rl
+title: Relation
+current_chapter:
+  book-1/beta: 5
+claim: Structure begins when retained distinctions cease to vary independently and become mutually constraining
+  parts of a persistent relational organization.
+inherits:
+- item: symmetric retained distinctions rij
+  from: Bd
+- item: frame-relative resolvability through W
+  from: Bd
+- item: admissible possibility sets 𝒫
+  from: Bd
+- item: retained-dependency precedence ≺
+  from: Bd
+- item: criterion-based identity F and ~F
+  from: Bd
+- item: diagnostic transformation family 𝔗test (specialized as 𝔗R)
+  from: Bd
+- item: admissible transition relation 𝒰
+  from: Ds
+- item: weak-discernibility / numerical dyadicity as explicit primitive cost
+  from: Df
+earns:
+- item: relational domain ℛ (joint representation of retained distinctions)
+  detail: Multiple retained distinctions can be represented jointly (R = [rij], ℛ = {qi, rij}) without
+    spatial positions, distances or directions; R is bookkeeping.
+- item: relabeling invariance
+  detail: 'The ontology remains invariant under mere renaming: R ↦ R^π.'
+- item: relational profile
+  detail: λi; different relational profiles make state-positions structurally distinguishable without
+    intrinsic properties.
+- item: mutual constraint / relational structure
+  detail: 'A relational structure is a set of retained relations whose admissible states are constrained
+    by the organization of other relations in the set: 𝒫(rij | ℛ) ≠ 𝒫(rij).'
+- item: structural invariance / structural persistence
+  detail: Preservation of identity-relevant relational organization through an explicitly stated diagnostic
+    transformation family 𝔗R; state persistence ≠ structural persistence.
+- item: relational re-instantiation
+  detail: Persistence of organization does not require persistence of carrier.
+- item: object-like identity
+  detail: O = [Σ]~F as a provisional model of persistence (marked SPECULATIVE as a route to objecthood).
+- item: higher-order discernibility
+  detail: 'λW(OA) ≠ λW(OB): some relation in the larger frame must preserve non-equivalence of internally
+    equivalent persistent objects.'
+- item: relational position
+  detail: Relational position is the distinctive relational profile an organization occupies within a
+    larger resolving domain; not spatial, no anchor required.
+- item: constitutive membership
+  detail: Mℛ(r) ⟺ 𝒫(r | ℛ) ≠ 𝒫(r); no aggregation primitive required.
+- item: structural path dependence (precursor of history)
+  detail: Relation earns only the possibility that retained history can constrain present organization
+    (PROVISIONAL).
+withholds:
+- item: spatial direction
+  deferred_to: Or
+- item: linear order
+- item: metric distance
+  deferred_to: Dt
+- item: orthogonality
+- item: physical dimensionality / numerical relational dimension dR
+  deferred_to: Fm
+- item: metric time
+- item: physical instantiation
+- item: reference structure / anchor
+  deferred_to: Cl
+- item: cardinal, weighted, threshold membership
+- item: memory (stronger biological sense)

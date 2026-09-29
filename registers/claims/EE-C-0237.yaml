@@ -1,0 +1,33 @@
+id: EE-C-0237
+kind: definition
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ NC(eₐ,eᵦ) = number of retained update steps along chain C. But N is not automatically duration.
+      [...] Counting provides a candidate precursor of duration only when the counted unit is itself stable,
+      reproducible, and relationally accessible.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: update count N_C (14.11; extractor-assigned ID)
+dependencies:
+- claim: EE-C-0236
+  role: constitutive
+relations: []
+concepts:
+- Uc
+composition:
+- Eo
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 14
+  section: '14.11'
+  page: 280
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch14.D14.11
+  concept_confidence: high

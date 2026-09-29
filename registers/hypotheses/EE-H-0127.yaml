@@ -1,0 +1,20 @@
+id: EE-H-0127
+aliases:
+- H-127
+hypothesis: Whether temporal order emerges from retained dependency inside the organization, or physical
+  time has been reintroduced through the update rule used to generate the sequence
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The chapter’s own statement of its principal vulnerability, and the form Space’s coupling-rule
+    question takes for Time. If it cannot be answered, the chapter has not earned Time
+status_text: Open
+resolve_by: An update rule specified without reference to an external time variable, then the index-removal
+  and counterfactual tests run against it
+revisited_in: Time (14.29); Space (13.29)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 347

@@ -1,0 +1,30 @@
+id: EE-C-0204
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Small arbitrary changes in descriptive partition should not radically alter the effective geometry
+      unless they correspond to genuine changes in the organization.
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: 'Diagnostic 3 (12.25): Decomposition perturbation'
+dependencies: []
+relations: []
+concepts:
+- Gm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 12
+  section: '12.25'
+  page: 243
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch12.T12.25.3
+  concept_confidence: medium
+  concept_note: decomposition perturbation; no specific element

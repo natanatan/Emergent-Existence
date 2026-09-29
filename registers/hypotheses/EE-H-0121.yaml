@@ -1,0 +1,23 @@
+id: EE-H-0121
+aliases:
+- H-121
+hypothesis: 'Derivation order is not physical time: an ordering that vanishes when counters, equation
+  labels and manuscript sequence are removed was never derived'
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The sharpest falsifiable criterion in the volume, and a methodological result beyond this framework.
+    The dependency must belong to the system modelled rather than to the account of it
+status_text: Retained
+resolve_by: The index-removal test of 14.25, run before any other temporal claim is assessed
+revisited_in: Time (14.8); App G
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 345
+import_notes:
+- App D p.352 names "whether temporal order survives the removal of every index" as a companion test.
+- References App G, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

@@ -1,0 +1,17 @@
+id: EE-H-0019
+aliases:
+- H-19
+hypothesis: Cosmic voids and filaments carry signatures of scale-recursive circulation
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Highly speculative and kept explicitly separate from standard structure formation
+status_text: Open
+resolve_by: A testable signature that distinguishes it from standard structure formation
+revisited_in: Complexity
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 318

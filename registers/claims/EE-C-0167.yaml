@@ -1,0 +1,32 @@
+id: EE-C-0167
+kind: other
+use: null
+aliases: []
+versions:
+  v1:
+    text: ▪ near/far = comparative metric relations ▪ relational near/far ≠ physical spatial near/far
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Near and far (11.19)
+dependencies:
+- claim: EE-C-0156
+  role: constitutive
+relations: []
+concepts:
+- Dt
+composition:
+- Dt
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 11
+  section: '11.19'
+  page: 219
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch11.X11.19
+  concept_confidence: medium
+  concept_note: No element for near/far.

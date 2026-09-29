@@ -1,0 +1,33 @@
+id: EE-C-0110
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: '𝒰[Σ] = { Σ′ ∈ 𝒞 : Σ 𝒰 Σ′ }'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Successor set (9.5)
+dependencies:
+- claim: EE-C-0109
+  role: constitutive
+relations: []
+concepts:
+- Ss
+composition:
+- Cf
+- Fm
+- Ut
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 9
+  section: '9.5'
+  page: 167
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch09.SUC9.5
+  concept_confidence: high

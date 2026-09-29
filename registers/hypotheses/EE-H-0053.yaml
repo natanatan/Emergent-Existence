@@ -1,0 +1,21 @@
+id: EE-H-0053
+aliases:
+- H-53
+hypothesis: Relational position precedes spatial position
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Defined as a distinct relational profile to a persistent frame; spatial interpretation explicitly
+    deferred
+status_text: Provisional
+resolve_by: Chapters 7 and 11 must show that spatial order can be built on it
+revisited_in: Relation (5.11); Orientation, 11
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 326
+import_notes:
+- Bare chapter number "11" mapped to ch11 Distance under current numbering; may reflect an older chapter
+  numbering (uncertain).

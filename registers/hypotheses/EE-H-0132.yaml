@@ -1,0 +1,20 @@
+id: EE-H-0132
+aliases:
+- H-132
+hypothesis: Retention can be defined as counterfactual robustness under a declared diagnostic family 𝔗_test,
+  without a third ontological commitment
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Distinction’s claim is constitutive and requires internality; retention’s is modal, so declared
+    tests are legitimate (4.4; 4.24, Objection 2)
+status_text: Provisional
+resolve_by: A later need for a privileged, underived family of physically realized transformations would
+  add a third commitment (4.25)
+revisited_in: Boundary
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 348

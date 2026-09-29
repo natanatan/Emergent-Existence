@@ -1,0 +1,23 @@
+id: EE-H-0046
+aliases:
+- H-46
+hypothesis: 'Existential and universal boundary aggregation over a multi-relation domain need no new primitive:
+  judged by one shared predicate P (the constraint test of 5.4), they are quantification over P, and 𝒜
+  survives only as a notational convention. Distinct from frame reconciliation, which combines verdicts
+  not judged by a shared predicate'
+status_history:
+- status: Derived
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Derived in 5.12 within stated assumptions: a structural shared predicate, and quantification
+    declared as a logical resource at 4.2. Order-independence of ∃ and ∀ keeps any computing enumeration
+    from becoming an ordering of the relations'
+status_text: Derived
+resolve_by: A case in which ∃/∀ membership over a shared predicate still needed an operation beyond quantification
+  would reopen it
+revisited_in: Boundary (4.2, 4.8); Relation (5.12)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 324

@@ -1,0 +1,19 @@
+id: EE-H-0078
+aliases:
+- H-78
+hypothesis: Return of higher-order identity does not require exact repetition of lower-order state, so
+  difference can accumulate within an equivalence class
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Follows from identity being an equivalence class (5.9, 6.12); separates “is this still A?” from
+    “in what condition is this realization of A?”
+status_text: Retained
+resolve_by: None planned
+revisited_in: Return (8.6, 8.13)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 332

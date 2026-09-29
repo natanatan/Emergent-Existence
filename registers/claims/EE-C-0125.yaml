@@ -1,0 +1,36 @@
+id: EE-C-0125
+kind: definition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: '▪ AP = { r ∈ ℜ : P(r) } [...] The threshold condition is relationally expressible as an injection:
+      ▪ K ↪ AP. Once cardinal labels exist, the same condition compresses to mag(AP) ≥ k.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Threshold aggregation as injection (10.8)
+dependencies:
+- claim: EE-C-0122
+  role: constitutive
+relations: []
+concepts:
+- Cm
+- Rl
+composition:
+- Cm
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 10
+  section: '10.8'
+  page: 193
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch10.D10.8
+  concept_confidence: medium
+  concept_note: No element for threshold aggregation; closes Relation deferral.
+  notes:
+  - Beta cites Relation (chapter-level reference, not a single claim)

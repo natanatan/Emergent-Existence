@@ -1,0 +1,20 @@
+id: EE-H-0013
+aliases:
+- H-13
+hypothesis: Lorentzian signature (-,+,+,+) can be recovered
+status_history:
+- status: Open
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Acknowledged in the outline as a hard challenge
+status_text: Open
+resolve_by: A causal-order construction that yields the signature
+revisited_in: Space; App E
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 317
+import_notes:
+- References App E, which does not exist in this manuscript (appendices end at C plus the unlettered Origin
+  Inheritance Ledger and Companion note); possibly the separate Computational Companion or a planned appendix.

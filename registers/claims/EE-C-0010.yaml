@@ -1,0 +1,30 @@
+id: EE-C-0010
+kind: other
+use: representational
+aliases: []
+versions:
+  v1:
+    text: σ(a) = b, σ(b) = a, σ(𝔇) = 𝔇
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: exchange automorphism (2.7)
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0009
+concepts:
+- Es
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 2
+  section: '2.7'
+  page: 49
+  version: v1
+status_history: []
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch02.X2.exchange
+  concept_confidence: high

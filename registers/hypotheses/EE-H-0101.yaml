@@ -1,0 +1,21 @@
+id: EE-H-0101
+aliases:
+- H-101
+hypothesis: 'Distance is the least magnitude of relational mediation sufficient to connect two loci: d_u(A,B)
+  = min over admissible chains of L_u(κ)'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Chapter 11’s central claim. The minimum is selection over an ordered finite set, not an optimization
+    principle: nothing moves and no action is minimized. Well defined only where the chain set is non-empty
+    and finite, so unconnected loci have no distance rather than infinite distance'
+status_text: Provisional
+resolve_by: Whether minimum mediation is the weakest adequate definition, and whether pairwise invariants
+  could generate metric structure without chains (Questions 1 and 2)
+revisited_in: Distance (11.5); Scale (10.5)
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 339

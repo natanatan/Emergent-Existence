@@ -1,0 +1,35 @@
+id: EE-C-0115
+kind: definition
+use: representational
+aliases: []
+versions:
+  v1:
+    text: 'Only if a suitable finite independence structure is earned may the framework introduce a rank-like
+      count as a candidate pre-metric relational dimensionality: dR := rank(IndR). This is the first legitimate
+      introduction of dR in the derivation.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: dR := rank(IndR) (9.22)
+dependencies: []
+relations: []
+concepts:
+- Dd
+- Ix
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 9
+  section: '9.22'
+  page: 177
+  version: v1
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Status stated in Book I Beta
+history: []
+import:
+  source: Book I Beta, automated extraction
+  interim_id: ch09.DR9.22
+  concept_confidence: high

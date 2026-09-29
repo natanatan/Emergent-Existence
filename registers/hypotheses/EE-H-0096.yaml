@@ -1,0 +1,20 @@
+id: EE-H-0096
+aliases:
+- H-96
+hypothesis: Threshold aggregation, deferred at 5.12, is expressible as an injection from a standard collection
+  and needs no primitive beyond comparative magnitude
+status_history:
+- status: Derived
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Resolved 23 September 2026 by 10.8. The Chapter 5 deferral is discharged: K ↪ A_P states the
+    condition before any numeral, and mag(A_P) ≥ k is its compression'
+status_text: Derived
+resolve_by: Diagnostic 3 of 10.25, which reconstructs the condition from a standard collection before
+  using numeral shorthand
+revisited_in: Scale (10.8); Relation (5.12); Closure (6.9)
+companion_testable: true
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 337

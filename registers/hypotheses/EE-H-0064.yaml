@@ -1,0 +1,25 @@
+id: EE-H-0064
+aliases:
+- H-64
+hypothesis: Retention, dependency order and path dependence are foundational and are not yet memory; memory
+  requires a self-maintaining system for which retained change is internally consequential, and does not
+  require a self-model or self-awareness
+status_history:
+- status: Retained
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Separates two senses the book had run together; removes the circularity of using temporal-sounding
+    memory before time is earned; keeps memory short of Knowing
+status_text: Retained
+resolve_by: None planned; the later chapters on Life, Memory and Knowing must respect the thresholds
+revisited_in: Boundary to Closure, 19-21
+companion_testable: false
+appearances:
+- edition: book-1/beta
+  where: Appendix C
+  page: 328
+import_notes:
+- '"Boundary to Closure" read as the inclusive chapter range ch04-ch06.'
+- Bare chapter number "19-21" lies outside Book I (chapters 1-14); likely older 21-chapter numbering (cf.
+  H-45, H-65). Not mapped.
+- '"19-21" is outside Book I; under the older plan (H-65) these are Life, Memory, Knowing.'

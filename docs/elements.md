@@ -1,6 +1,6 @@
 # Element table
 
-The concepts of the Linking Lexicon, each with a two-letter code. Rows follow the stages of the series, like the periods of a periodic table. Generated from [`registers/elements/elements.yaml`](../registers/elements/elements.yaml); do not edit by hand.
+The concepts of the Linking Lexicon, each with a two-letter code. Rows are conceptual stages, like the periods of a periodic table. Stage is conceptual and chapter is editorial: the chapter shown is where that stage is currently developed, and codes never change if chapters are reordered. Generated from [`registers/elements/elements.yaml`](../registers/elements/elements.yaml); do not edit by hand.
 
 **Foundations:** `Om` Origin (Ω) · `Df` Difference (𝔇) · `Ut` Admissible transformation (𝒰)
 

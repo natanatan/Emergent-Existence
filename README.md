@@ -33,7 +33,7 @@ At a given stage, the ontology may not use a property that stage has not earned.
 
 ## Status
 
-The repository structure is in place. The manuscript text, register data and checks will be added once the claim notation is final.
+The registers hold Book I Beta: 249 claims, 135 hypotheses, 121 elements and 14 stage ledgers. The checks run on every change and daily; open findings are listed in the **Audit report** issue. The manuscript text is not imported yet.
 
 ## License
 

@@ -10,4 +10,4 @@ The source of truth for claims, hypotheses and what each chapter earns. See [`do
 | `elements/` | The element table: Linking Lexicon concepts with two-letter codes |
 | `editions/` | One frozen record per released edition of a book |
 
-> Empty until the claims design is signed off. A draft extraction from Book I Beta exists and will be imported then.
+Imported from Book I Beta on 29 September 2026. Each claim's `import` block records how it was extracted; appearance roles are left for the author to assign.

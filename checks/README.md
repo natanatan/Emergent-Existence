@@ -27,10 +27,10 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 
 ## Daily audit
 
-The checks also run once a day on a schedule, whether or not anything changed. Each run updates one standing **Audit report** issue in this repository with:
+The checks also run once a day on a schedule, whether or not anything changed, finishing before 6:00 am Pacific. Each run updates one standing **Audit report** issue in this repository with:
 
 - every open error and review flag, grouped by check;
 - what is new since the previous run, and what was resolved;
 - a count of claims still missing a derivation appearance.
 
-A run that finds new errors or flags notifies the author through GitHub. After each run, a scheduled Claude session reads the Audit report issue and sends the author a short plain-language summary. Both are set up together with the checks.
+A run that finds new errors or flags notifies the author through GitHub. At 6:00 am Pacific (America/Los_Angeles) each day, a scheduled Claude session reads the Audit report issue and sends the author a short plain-language summary. Both are set up together with the checks.

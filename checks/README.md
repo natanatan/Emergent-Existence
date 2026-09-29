@@ -2,7 +2,7 @@
 
 > Pending: the code comes once the claims design is signed off. The rules follow [`docs/claims-model.md`](../docs/claims-model.md).
 
-Run on every change to `registers/`. **Errors** block a change. **Review flags** are listed until someone resolves them.
+Run on every change to `registers/`. **Errors** fail the check and are written to a standing error report, where each one stays open until a sync corrects it. **Review flags** are listed until someone resolves them.
 
 | Check | Result | When |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Run on every change to `registers/`. **Errors** block a change. **Review flags**
 | Superseded dependency | Review | A claim still depends on a superseded claim and has not been repointed to its successor or re-registered |
 | Correction recorded | Review | A dependency was added to an existing claim as a correction |
 | Labels unique per edition | Error | Two derivation appearances in one edition share a label |
-| One derivation per claim | Review / Error | A claim printed in an edition has no derivation appearance there (review), or has more than one (error) |
+| One derivation per claim | Error | A claim printed in an edition has no derivation appearance there, or has more than one |
 | Only derivations are labelled | Error | A foreshadowing or restatement appearance carries a label of its own |
 | Citations resolve | Error | A foreshadowing or restatement cites a label that is not a derivation in the same edition |
 | Labels map to claims | Error | A labelled statement in the manuscript has no derivation appearance, or a derivation's label is not in the manuscript |

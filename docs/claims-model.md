@@ -54,7 +54,7 @@ Every appearance has a **role**:
 | `foreshadowing` | An earlier mention pointing ahead to the derivation | No label. Cites the derivation's label forward, e.g. "(see 14.3)" |
 | `restatement` | A later return to a claim already derived | No label. Cites the derivation's label back, e.g. "(4.2)" |
 
-- **Exactly one derivation appearance per claim per edition.** The author assigns it, and the build flags any claim without one.
+- **Exactly one derivation appearance per claim per edition.** The author assigns it. A claim without one is a hard error, which stays in the error report until a sync corrects it.
 - **Only the derivation carries a label.** The label is a locator: the chapter and the order of derivations within it, for example `4.2`. The chapter counter counts derivation appearances only.
 - **A type word may be printed with it** ("Definition 4.2"), but the type word is presentation, not identity.
 - **Numbering resets in each edition.** The same claim can be `4.2` in the Beta and `5.1` in the first edition.

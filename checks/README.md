@@ -24,3 +24,13 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 | Status history is well formed | Error | A status change has no date, edition or reason |
 | Withholdings accounted for | Review | A withheld item names no destination and is not marked beyond the series or open |
 | Released editions frozen | Error | The record or appearances of a released edition change |
+
+## Daily audit
+
+The checks also run once a day on a schedule, whether or not anything changed. Each run updates one standing **Audit report** issue in this repository with:
+
+- every open error and review flag, grouped by check;
+- what is new since the previous run, and what was resolved;
+- a count of claims still missing a derivation appearance.
+
+A run that finds new errors or flags notifies the author. The workflow is written with the checks.

@@ -11,17 +11,50 @@ withholds:
 - item: physical first moment or temporal beginning
   deferred_to: Tm
 - item: spatial location, metric, coordinate system, topology
+  deferred_to: Sp
+  basis: 13.27 Space earns "coordinated localization, physical spatial position ... consequential locality";
+    metric is earned earlier in Distance (11.12) and coordinates in Geometry (12.10)
 - item: geometry
   deferred_to: Gm
 - item: matter, fields, energy, action, entropy, thermodynamic dynamics
+  scope: book-2
+  basis: 'Intro: "Physical construction begins in Book II"; 14.28 Time withholds "physical content (gravity,
+    field equations, matter, quantum fields, energy, action...)"; matter alone would be Mt'
 - item: objects, observers, agents, consciousness, meaning as primitives
+  scope: beyond-series
+  basis: 'Intro: the series "repeatedly takes such starting points and asks whether they can themselves
+    become destinations"; 1.13 Obj 9 "A later volume must derive agency rather than assume it" -- as primitives
+    they are refused (objects earned in Rl'
 - item: causation or physical law of evolution
+  deferred_to: Sx
+  basis: '14.19 "the point at which Book II must determine whether a causal geometry emerges"; Intro:
+    Book II opens on "whether the space and time derived here can be forced into a single causal geometry"'
 - item: information (retained, consequential sense)
   deferred_to: Bd
 - item: mechanism for the first distinction
+  scope: open
+  basis: '1.13 Obj 4/6: "Origin does not solve that problem ... the framework still owes an account of
+    why Difference becomes available"; "A future reduction would have to show how non-equivalence arises
+    from weaker structure" -- owed, not refused'
 - item: proof that Ω is an entity
+  scope: beyond-series
+  basis: '1.13 Obj 2: "Ω is a working term whose entity-like reading remains provisional"; "If Ω can ultimately
+    be reduced to ''no operative distinction is yet available,'' the ontology becomes cheaper"; 1.15 "rather
+    than a definitional role"'
 - item: hidden structure in Ω
+  scope: open
+  basis: 1.5 "does not assert that Ω contains hidden structure, and it does not assert that hidden structure
+    is impossible"; 1.13 Obj 5 "Any specific hidden variation introduced later would require independent
+    justification"
 - item: absolute featurelessness of Ω
+  scope: beyond-series
+  basis: 1.12 "Absolute nothing, perfect uniformity, and unresolved variation ... Ω commits to none of
+    them"; 7.17 applying absolute symmetry "to an absolutely structureless prephysical origin would exceed
+    what this framework can justify"
 - item: physical instantiation of relational ontology
+  scope: book-2
+  basis: 1.11 "Book II begins where the separately earned structures of Space and Time must be shown to
+    support a physically instantiated spacetime"; 14.31 success would mean "a candidate account of physical
+    instantiation"
 - item: physical spacetime
   scope: book-2

@@ -65,17 +65,53 @@ earns:
   detail: Representational pluralism with a minimal common core, not formal relativism (9.26).
 withholds:
 - item: metric distance, length, duration, speed, angle or norm
+  deferred_to: Dt
+  basis: 11.12 metric on the quotient domain; duration goes to Tm 14.14, speed to Book II (14.16), angle
+    never earned
 - item: vector-space structure, inner products, orthogonality or basis vectors
+  scope: open
+  basis: 9.33 Questions "What later evidence would force vector-space structure, topology or probability
+    to enter as ontology"; 12.19 inner product "the framework has not earned"
 - item: physical topology, manifold, continuum or coordinate chart
+  deferred_to: Sp
+  basis: 13.14 "Space Need Not Be Fundamentally Smooth"; 13.27 Space earns "scale-relative smoothness";
+    coordinate representations arrive in Gm 12.10
 - item: probability weights, stochastic dynamics or quantum amplitudes
+  scope: open
+  basis: 9.11 "probabilistic lumpability later, if probability is earned"; no stage takes probability
+    up; quantum amplitudes are Book II physics
 - item: physical causality or a causal cone
+  deferred_to: Sx
+  basis: 14.19 "retained dependency ⇝ temporal ordering ⇝ spatiotemporal constraint ⇝ ? ⇝ physical causal
+    structure"; 14.31 "causal cones" are research targets for Book II
 - item: Hamiltonian, action, energy or field equation
+  scope: book-2
+  basis: 14.28 physical content "(gravity, field equations, matter, quantum fields, energy, action ...)"
+    not established; 14.31 Book II tests "physical dynamics"
 - item: claim that reality literally is a graph, matrix, simplex, category, automaton or quotient algebra
+  scope: beyond-series
+  basis: 9.2 "Formalism Is Not Ontology"; 9.19 "Matrices Remain Representations"; 9.20 "Simplicial Structure
+    as One Realization, Not the Definition"
 - item: universal claim that every emergent entity must be a quotient structure
+  scope: open
+  basis: 9.33 Questions "Does exact congruence capture too strong a notion of higher-order autonomy for
+    physical and biological systems?"
 - item: proof that binary relations suffice for every higher-order constraint
+  scope: open
+  basis: 9.18 "one of the few open questions in Book I with a known repair bill"
 - item: proof that physical or spatial dimensionality is dR, or that dR must equal a matroid rank
+  scope: open
+  basis: 13.13 "d_relational ≠ d_geometric ≠ d_spatial"; 13.30 "Can spatial dimensionality differ from
+    total geometric dimensionality?"; 9.33 "Which formal operation, if any, is needed before an independence
+    count becomes a physically meaningful dim
 - item: proof that determinism (or indeterminism) is fundamental
+  scope: open
+  basis: 9.5 branching "does not establish metaphysical indeterminism"; 9.33 "What forms of coarse-graining
+    preserve determinism"
 - item: physical interpretation of fixed points, attractors or recurrence periods
+  deferred_to: Tm
+  basis: 14.12-14.13 recurrence acquires a physical role only as clockhood; fixed points/attractors get
+    no physical reading anywhere in Book I
 - item: numerical scale, proportion or measurement units, and physical dimensionality
   deferred_to: Sc
 - item: endogenous magnitude (vs external cardinal bookkeeping)

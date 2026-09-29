@@ -1,6 +1,6 @@
 id: EE-C-0023
 kind: definition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -21,11 +21,13 @@ composition:
 - Rf
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 4
   section: '4.6'
   page: 69
   version: v1
+  type_word: Definition
+  label: '4.5'
 status_history: []
 history: []
 import:

@@ -50,18 +50,41 @@ earns:
     not a transmitted primitive center.
 withholds:
 - item: spatial enclosure
+  deferred_to: Sp
+  basis: 13.20 "Once Space exists, however, enclosure can become one possible realization of relational
+    closure"
 - item: metric distance
+  deferred_to: Dt
+  basis: 11.12 "A Metric Is a Special Case"; 11.25 "We can now say ... how far"
 - item: physical dimensionality
+  deferred_to: Sp
+  basis: 13.13 "A geometric mode becomes a spatial dimension when variation along that mode changes localization";
+    13.27 earns "spatial dimensionality"
 - item: orientation
   deferred_to: Or
 - item: metric time
   deferred_to: Tm
 - item: threshold aggregation
+  deferred_to: Sc
+  basis: '10.8 "Coming Back for Unfinished Work: Threshold Aggregation"'
 - item: self-consciousness / internal self-model
   scope: book-2
 - item: physical causation
+  deferred_to: Sx
+  basis: 6.20 "may later support causal coarse-graining, but causal structure has not yet been derived";
+    14.19 "Book II must determine whether a causal geometry emerges"
 - item: physical instantiation
+  scope: book-2
+  basis: 6.20 "has not shown why closed relational organization acquires the dynamics identified with
+    physics"; 1.11 physical instantiation is Book II's frontier
 - item: geometry from closure
+  deferred_to: Gm
+  basis: 6.22 Questions "Can repeated higher-order closure generate stable relational modes from which
+    position, metric separation and effective dimensionality can later be derived"; 12.32 Pulse lists
+    Closure among Geometry's lower-order dependencie
 - item: memory
   scope: book-2
 - item: path dependence
+  deferred_to: Fm
+  basis: 6.22 "Path dependence in the formal chapters, time in Time"; 9.21 "Finite-Order Recurrence Is
+    First-Order on an Enlarged State"

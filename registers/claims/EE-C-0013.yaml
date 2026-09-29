@@ -11,24 +11,33 @@ versions:
 dependencies:
 - claim: EE-C-0012
   role: constitutive
-- claim: EE-C-0010
+- claim: EE-C-0009
   role: constitutive
-relations: []
+relations:
+- type: refines
+  claim: EE-C-0010
 concepts:
 - Cv
 composition:
 - Cf
-- Es
+- Df
 - Ut
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 3
   section: '3.5'
   page: 58
   version: v1
+  type_word: Rule
+  label: '3.2'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: correction
+  note: 'Editor review: added constitutive dependency EE-C-0009. Correction: the symmetry of ≬ from 2A
+    is the actual premise of Aut(𝔇)-covariance.'
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch03.R3.covariance

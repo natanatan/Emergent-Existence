@@ -1,0 +1,35 @@
+id: EE-C-0273
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: intrinsic distance ≠ embedding distance
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts:
+- Dt
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 11
+  section: '11.14'
+  version: v1
+  type_word: Ledger
+  label: '11.15'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Map № 11.8: ''If d(A,B) is determined entirely by relations internal to the domain, then
+    the distance is intrinsic to that relational organization.'' It is currently bundled into EE-C-0164
+    and needs its own record.'
+  missing_element: Embedding (extrinsic) distance

@@ -1,6 +1,6 @@
 id: EE-C-0188
-kind: other
-use: representational
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -10,20 +10,20 @@ versions:
     edition: book-1/beta
     beta_heading: Coordinates after stable modes (12.10)
 dependencies: []
-relations:
-- type: represents
-  claim: EE-C-0185
+relations: []
 concepts:
 - Ed
 - Po
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.10'
   page: 234
   version: v1
+  type_word: Ledger
+  label: '12.9'
 status_history: []
 history: []
 import:

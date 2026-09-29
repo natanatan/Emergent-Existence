@@ -31,12 +31,38 @@ composition:
 - Ut
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 3
-  section: null
+  section: '3.6'
   page: 58
   version: v1
-  label: 3A
+  type_word: Proposition
+  label: '3.4'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 2
+  section: '2.18'
+  version: v1
+  cites: '3.4'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Chapter 3 opening
+  cites: '3.4'
+- edition: book-1/beta
+  role: restatement
+  chapter: 4
+  section: '4.1'
+  version: v1
+  cites: '3.4'
+- edition: book-1/beta
+  role: restatement
+  chapter: 4
+  section: '4.29'
+  version: v1
+  cites: '3.4'
 status_history: []
 history: []
 import:

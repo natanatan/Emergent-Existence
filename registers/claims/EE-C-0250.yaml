@@ -12,6 +12,8 @@ versions:
     edition: book-1/beta
     beta_heading: Localizations Constrain Localizations (13.6)
     note: The displayed map is a schematic dependency, not a derived formal result.
+    ledger_form: relations constrain relations ⇝ distances constrain distances ⇝ localizations constrain
+      localizations
 dependencies:
 - claim: EE-C-0213
   role: constitutive
@@ -26,11 +28,38 @@ composition:
 - Lc
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 13
   section: '13.6'
   page: 255
   version: v1
+  type_word: Criterion
+  label: '13.7'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: 13 (opening)
+  cites: '13.7'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 13
+  section: '13.2'
+  version: v1
+  cites: '13.7'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 13
+  section: '13.3'
+  version: v1
+  cites: '13.7'
+- edition: book-1/beta
+  role: restatement
+  chapter: 13
+  section: '13.23'
+  version: v1
+  cites: '13.7'
 status_history:
 - status: Provisional
   date: '2026-09-29'

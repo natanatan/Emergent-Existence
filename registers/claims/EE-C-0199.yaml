@@ -23,11 +23,19 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.24'
   page: 243
   version: v1
+  type_word: Criterion
+  label: '12.24'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.29'
+  version: v1
+  cites: '12.24'
 status_history: []
 history: []
 import:

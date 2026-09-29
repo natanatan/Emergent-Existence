@@ -1,0 +1,37 @@
+id: EE-C-0289
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: fine relational distinctions ⇝ local geometric microstructure ⇝ mesoscopic irregularity ⇝ smooth
+      effective space
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts:
+- Rd
+- Gm
+- Sp
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 13
+  section: '13.15'
+  version: v1
+  type_word: Ledger
+  label: '13.19'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: Map № 13.15 (medium). 'A failure of smoothness at one scale may expose only an intermediate
+    organizational regime.' A layered possibility supported by analogy; the editor may prefer status Provisional.
+  missing_element: Smoothness / continuity

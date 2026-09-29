@@ -52,29 +52,77 @@ earns:
     'relational near/far ≠ physical spatial near/far'.
 withholds:
 - item: physical spatial length
+  deferred_to: Sp
+  basis: 13.12 "Spatial Distance Is Not Merely Relational Distance"; 13.27 Space earns "spatial separation"
 - item: a metre or any physical calibration unit
+  scope: book-2
+  basis: 14.28 no "observed value of any physical constant"; 10.30 Questions "What further structure turns
+    a repeatable comparison into a calibrated unit?"
 - item: coordinates
   deferred_to: Gm
 - item: angles
+  scope: open
+  basis: 12.7 "independent variation ⇝ basis-like structure ⇝ comparison among modes ⇝ angle ⇝ orthogonality"
+    is a route only; 12.19 the angle "is what has not yet arrived"
 - item: inner products
+  scope: open
+  basis: 12.19 orthogonality "costs an inner product the framework has not earned"; Gm ledger itself withholds
+    inner product
 - item: orthogonality
+  scope: open
+  basis: 12.7/12.19 "Independence Is Not Orthogonality"; 5.21 "under what later conditions can their effective
+    independence be represented as orthogonality"
 - item: basis vectors
+  deferred_to: Gm
+  basis: 12.7 "The terms basis and span are representational conveniences here"; 12.30 earns "rank-like
+    independent collective modes ... coordinate representations"
 - item: spatial dimension
   deferred_to: Gm
 - item: a manifold
+  deferred_to: Gm
+  basis: 12.12 "Effective Smoothness, Not Fundamental Continuity"; 12.33 "Can smooth differential geometry
+    arise as a controlled approximation"; manifolds treated as "later representations"
 - item: continuity
+  deferred_to: Gm
+  basis: 12.12 "Effective Smoothness, Not Fundamental Continuity"; fundamental continuity stays open (Gm
+    12.31, Sp 13.28)
 - item: curvature
+  deferred_to: Gm
+  basis: 12.20 "Curvature as Failure of Global Compatibility"; 12.30 earns "curvature-like incompatibility
+    among local standards"
 - item: physical locality
   deferred_to: Sp
 - item: velocity
+  deferred_to: Sx
+  basis: 14.16 "speed = spatial separation / temporal duration ... the numerator and denominator have
+    not yet been shown to participate in one invariant physical structure. ... central handoff at the
+    end of Book I"
 - item: metric time
   deferred_to: Tm
 - item: light cones
+  deferred_to: Sx
+  basis: '14.31 not earned: "null separation, invariant c, causal cones" -- "Book II begins at the question
+    mark"'
 - item: causal speed
+  deferred_to: Sx
+  basis: 14.30 "Can a null boundary or invariant maximal rate emerge from the coupled relational dynamics";
+    14.31
 - item: energy
+  scope: book-2
+  basis: 14.28 physical content incl. "energy" not established; no single Book II stage named
 - item: action
+  scope: book-2
+  basis: 14.28 physical content incl. "action" not established
 - item: geodesic motion
+  deferred_to: Gv
+  basis: 'Intro: "Gravity asks whether relationally generated geometry can acquire effective curvature
+    dynamics"'
 - item: general relativity
+  deferred_to: Gv
+  basis: 'Intro: Gravity "effective curvature dynamics"; 12.31 "It has not shown that curvature is gravity"'
 - item: spacetime
+  deferred_to: Sx
+  basis: 'Intro: Book II "opens on that problem: whether the space and time derived here can be forced
+    into a single causal geometry"'
 - item: geometry (mutually constraining organization of distances)
   deferred_to: Gm

@@ -1,0 +1,35 @@
+id: EE-C-0270
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: external cardinal bookkeeping ≠ endogenous magnitude
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts:
+- Fa
+- Cm
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 9
+  section: '9.23'
+  version: v1
+  type_word: Ledger
+  label: '9.17'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: Derivation map № 9.10. 'refusing to read them as intrinsic measures available to the modeled
+    system'. Restated at 10.7 ('external counting does not become internal magnitude because the analyst
+    writes a number').

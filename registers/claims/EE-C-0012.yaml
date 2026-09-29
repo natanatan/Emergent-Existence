@@ -19,11 +19,19 @@ composition:
 - Df
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 3
   section: '3.3'
   page: 57
   version: v1
+  type_word: Definition
+  label: '3.1'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 2
+  section: '2.8'
+  version: v1
+  cites: '3.1'
 status_history: []
 history: []
 import:

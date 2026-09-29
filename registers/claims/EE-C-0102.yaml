@@ -21,11 +21,19 @@ composition:
 - Id
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 8
   section: '8.3'
   page: 146
   version: v1
+  type_word: Definition
+  label: '8.1'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 7
+  section: '7.8'
+  version: v1
+  cites: '8.1'
 status_history: []
 history: []
 import:

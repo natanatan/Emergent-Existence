@@ -1,5 +1,5 @@
 id: EE-C-0124
-kind: definition
+kind: representation
 use: representational
 aliases: []
 versions:
@@ -19,11 +19,25 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.7'
   page: 192
   version: v1
+  type_word: Representation
+  label: '10.6'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 10
+  section: '10.3'
+  version: v1
+  cites: '10.6'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.30'
+  version: v1
+  cites: '10.6'
 status_history: []
 history: []
 import:

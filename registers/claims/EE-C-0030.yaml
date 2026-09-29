@@ -1,5 +1,5 @@
 id: EE-C-0030
-kind: other
+kind: test
 use: diagnostic
 aliases: []
 versions:
@@ -12,15 +12,18 @@ dependencies: []
 relations:
 - type: tests
   claim: EE-C-0021
-concepts: []
+concepts:
+- Cf
+- Dg
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 4
   section: '4.16'
   page: 74
   version: v1
+  type_word: Test
 status_history: []
 history: []
 import:
@@ -28,3 +31,4 @@ import:
   interim_id: ch04.D4.16
   concept_confidence: low
   concept_note: 'Embedding e of the carrier into a realization space (4.16); no element. Nearest: Cf/Dg.'
+  missing_element: 'Embedding / realization space (e : C_D -> X)'

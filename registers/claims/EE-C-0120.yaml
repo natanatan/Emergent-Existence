@@ -1,7 +1,9 @@
 id: EE-C-0120
 kind: definition
 use: constitutive
-aliases: []
+aliases:
+- EE-C-0121
+- ch10.V10.4
 versions:
   v1:
     text: 'If every member of A matches exactly one member of B and every member of B is matched, the
@@ -17,13 +19,34 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.4'
   page: 191
   version: v1
+  type_word: Definition
+  label: '10.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.4'
+  page: 191
+  version: v1
+  merged_from: EE-C-0121
+  cites: '10.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.24'
+  version: v1
+  cites: '10.3'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0121 was a duplicate registration of this claim (restatement at 10.4); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch10.D10.4

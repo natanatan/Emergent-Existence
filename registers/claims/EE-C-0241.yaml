@@ -1,6 +1,6 @@
 id: EE-C-0241
 kind: criterion
-use: null
+use: diagnostic
 aliases: []
 versions:
   v1:
@@ -34,11 +34,13 @@ composition:
 - Tq
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 14
   section: '14.24'
   page: 286
   version: v1
+  type_word: Criterion
+  label: '14.11'
 status_history: []
 history: []
 import:

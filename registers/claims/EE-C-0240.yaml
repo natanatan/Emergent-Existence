@@ -1,6 +1,6 @@
 id: EE-C-0240
-kind: definition
-use: null
+kind: representation
+use: representational
 aliases: []
 versions:
   v1:
@@ -29,11 +29,13 @@ composition:
 - Md
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 14
   section: '14.23'
   page: 286
   version: v1
+  type_word: Representation
+  label: '14.10'
 status_history: []
 history: []
 import:

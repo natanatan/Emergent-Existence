@@ -1,6 +1,6 @@
 id: EE-C-0071
-kind: other
-use: null
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -18,11 +18,25 @@ composition:
 - Cl
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 6
   section: '6.2'
   page: 105
   version: v1
+  type_word: Ledger
+  label: '6.2'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.5'
+  version: v1
+  cites: '6.2'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
+  version: v1
+  cites: '6.2'
 status_history: []
 history: []
 import:

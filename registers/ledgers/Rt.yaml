@@ -65,21 +65,50 @@ withholds:
 - item: metric time, temporal duration, period or frequency
   deferred_to: Tm
 - item: synchronization between recurring relational modes
+  deferred_to: Tm
+  basis: 8.20 "Synchronization requires a shared temporal metric"; 14.14 cross-clock calibration "τK(A,B)
+    / τJ(A,B) ≈ constant"
 - item: spatial circularity, orbit, rotation or geometric loop
+  deferred_to: Gm
+  basis: '12.21 "Curvature as Failed Return": a standard "carried around a closed route through overlapping
+    neighborhoods and comes back rotated"; orbit/rotation as physical motion is not assigned'
 - item: topology, homotopy class or physical winding number
   deferred_to: Fm
 - item: physical phase or angular coordinate
+  deferred_to: Tm
+  basis: '8.21 phase needs "metric time or angle"; 14.13 clock condition "countability: cycles or phases
+    can be distinguished and retained"; angles are never earned in Book I'
 - item: causal loops or closed timelike curves
+  deferred_to: Sx
+  basis: 8.7 prevents "physical cycles from being conflated with closed timelike curves"; causal geometry
+    is Book II's opening problem (14.19, 14.31)
 - item: Poincaré recurrence as a physical theorem of this model
   deferred_to: Fm
 - item: entropy, thermodynamic irreversibility or an arrow of time
+  scope: book-2
+  basis: 14.18 a record structure "is not by itself the thermodynamic arrow of time"; 14.28 Tm withholds
+    "a thermodynamic arrow"; Tm supplies only a structural arrow
 - item: biological or cognitive memory
   scope: book-2
 - item: oscillation, wave propagation or resonance
+  scope: book-2
+  basis: 14.16 "Propagation Is Not Yet Earned ... This boundary becomes the central handoff at the end
+    of Book I"
 - item: conservation laws
+  scope: book-2
+  basis: 8.27 lists it only; physical laws belong to Book II (14.31 "physical dynamics")
 - item: universal principle that all persistent structures must return
+  scope: beyond-series
+  basis: 8.4 "A system that never leaves its identity class has persisted; it has not necessarily returned"
+    -- the framework separates persistence from return
 - item: proof that return-compatible structures are generically selected
+  scope: open
+  basis: 8.29 Questions "Do return-compatible structures become more prevalent under recursive dynamics
+    without explicit selection rules?"; 8.17 speculative
 - item: quantification of reuse as period, phase, winding or metric recurrence
+  deferred_to: Tm
+  basis: 8.29 "still lacks the mathematical right to quantify that reuse"; 14.12 "τK(A,B) = nK(A,B) ·
+    uK" from counted cycles; winding is not treated in Fm
 - item: units / endogenous standards
   deferred_to: Sc
 - item: life / self-maintenance

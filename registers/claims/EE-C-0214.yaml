@@ -1,7 +1,9 @@
 id: EE-C-0214
 kind: definition
-use: null
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0060
+- ch05.M5.11
 versions:
   v1:
     text: A spatial position participates in coordinated localization such that its geometric relations
@@ -10,6 +12,7 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: spatial position (13.7; extractor-assigned ID)
+    ledger_form: reference state ⇝ relational locus ⇝ metric locus ⇝ geometric locus ⇝ spatial position
 dependencies: []
 relations: []
 concepts:
@@ -18,13 +21,28 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 13
   section: '13.7'
   page: 257
   version: v1
+  type_word: Definition
+  label: '13.8'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 5
+  section: '5.11'
+  page: 92
+  version: v1
+  merged_from: EE-C-0060
+  cites: '13.8'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0060 was a duplicate registration of this claim (foreshadowing at 5.11); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch13.D13.7

@@ -1,6 +1,6 @@
 id: EE-C-0109
 kind: definition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -22,11 +22,19 @@ composition:
 - Ut
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 9
   section: '9.4'
   page: 167
   version: v1
+  type_word: Definition
+  label: '9.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.1'
+  version: v1
+  cites: '9.3'
 status_history: []
 history: []
 import:

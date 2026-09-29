@@ -1,0 +1,35 @@
+id: EE-C-0292
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: closure ≠ enclosure
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts:
+- Cl
+- Sp
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 13
+  section: '13.20'
+  version: v1
+  type_word: Ledger
+  label: '13.24'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Map № 13.19 (medium). Argued both ways: ''dependency-closed without occupying a spatially
+    enclosed region … enclosed while remaining relationally open''.'
+  missing_element: Enclosure (spatial)

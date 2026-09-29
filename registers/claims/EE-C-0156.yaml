@@ -20,11 +20,31 @@ composition:
 - Sd
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.5'
   page: 210
   version: v1
+  type_word: Definition
+  label: '11.6'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 11
+  section: '11.1'
+  version: v1
+  cites: '11.6'
+- edition: book-1/beta
+  role: restatement
+  chapter: 11
+  section: '11.25'
+  version: v1
+  cites: '11.6'
+- edition: book-1/beta
+  role: restatement
+  chapter: 11
+  section: '11.22'
+  version: v1
+  cites: '11.6'
 status_history: []
 history: []
 import:

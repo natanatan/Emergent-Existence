@@ -1,6 +1,6 @@
 id: EE-C-0222
 kind: criterion
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -42,11 +42,19 @@ composition:
 - Sp
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 13
   section: '13.23'
   page: 265
   version: v1
+  type_word: Criterion
+  label: '13.26'
+- edition: book-1/beta
+  role: restatement
+  chapter: 13
+  section: '13.25'
+  version: v1
+  cites: '13.26'
 status_history: []
 history: []
 import:

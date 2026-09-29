@@ -1,0 +1,37 @@
+id: EE-C-0275
+kind: ledger
+use: representational
+aliases: []
+versions:
+  v1:
+    text: fewest mediators ≠ least ground covered
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts:
+- Rn
+- Dt
+- Sd
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 11
+  section: '11.18'
+  version: v1
+  type_word: Ledger
+  label: '11.19'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Map № 11.9 (medium): computed from the Lagos–Perth example (2u vs 3u, 14 900 vs 14 100 km).
+    The text says ''the kilometres are borrowed from the everyday reading, not derived by the framework'',
+    so it illustrates rather than grounds. Low confidence; the editor may treat it as not a claim, which
+    is the'

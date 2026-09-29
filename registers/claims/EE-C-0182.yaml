@@ -1,7 +1,9 @@
 id: EE-C-0182
-kind: other
+kind: proposition
 use: constitutive
-aliases: []
+aliases:
+- EE-C-0179
+- ch12.P12.1
 versions:
   v1:
     text: 'A geometry requires that members of D are not freely assignable independently of one another.
@@ -9,24 +11,55 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: Distance vs geometry (12.3)
-dependencies:
-- claim: EE-C-0179
-  role: constitutive
+dependencies: []
 relations: []
 concepts:
 - Gm
 - Dt
-composition:
-- Gm
+composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.3'
   page: 230
   version: v1
+  type_word: Proposition
+  label: '12.3'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 12
+  section: '12.1'
+  page: 229
+  version: v1
+  merged_from: EE-C-0179
+  cites: '12.3'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 11
+  section: '11.25'
+  version: v1
+  cites: '12.3'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: 12 (opening)
+  cites: '12.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.33'
+  version: v1
+  cites: '12.3'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0179 was a duplicate registration of this claim (foreshadowing at 12.1); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch12.X12.3

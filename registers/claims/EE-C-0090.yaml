@@ -1,6 +1,6 @@
 id: EE-C-0090
-kind: other
-use: null
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -20,11 +20,26 @@ composition:
 - An
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 6
   section: '6.13'
   page: 115
   version: v1
+  type_word: Ledger
+  label: '6.13'
+- edition: book-1/beta
+  role: restatement
+  chapter: 9
+  section: '9.17'
+  version: v1
+  cites: '6.13'
+- edition: book-1/beta
+  role: restatement
+  chapter: null
+  section: null
+  version: v1
+  location: Appendix A.5
+  cites: '6.13'
 status_history: []
 history: []
 import:

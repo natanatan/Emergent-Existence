@@ -20,11 +20,13 @@ composition:
 - Cm
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.6'
   page: 192
   version: v1
+  type_word: Definition
+  label: '10.5'
 status_history: []
 history: []
 import:

@@ -1,6 +1,6 @@
 id: EE-C-0157
-kind: definition
-use: null
+kind: representation
+use: representational
 aliases: []
 versions:
   v1:
@@ -9,22 +9,29 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: Relational work (11.6)
-dependencies:
-- claim: EE-C-0156
-  role: constitutive
-relations: []
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0156
 concepts:
 - Dt
 - Rn
-composition:
-- Dt
+composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.6'
   page: 211
   version: v1
+  type_word: Representation
+  label: '11.7'
+- edition: book-1/beta
+  role: restatement
+  chapter: 11
+  section: '11.22'
+  version: v1
+  cites: '11.7'
 status_history: []
 history: []
 import:

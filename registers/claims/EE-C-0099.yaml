@@ -1,5 +1,5 @@
 id: EE-C-0099
-kind: other
+kind: proposition
 use: constitutive
 aliases: []
 versions:
@@ -24,11 +24,13 @@ composition:
 - Or
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 7
   section: '7.6'
   page: 132
   version: v1
+  type_word: Proposition
+  label: '7.2'
 status_history: []
 history: []
 import:

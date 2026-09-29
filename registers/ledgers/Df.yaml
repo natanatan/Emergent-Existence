@@ -29,10 +29,17 @@ withholds:
 - item: source, target, orientation, direction
   deferred_to: Or
 - item: magnitude, metric, probability, information measure, spatial separation
+  deferred_to: Sc
+  basis: 10.6 "Magnitude as a Stable Class" (Scale earns magnitude first); metric follows in Distance,
+    spatial separation in Space 13.27; probability and information measure are never earned in Book I
 - item: persistence, retained distinction, boundary, information, memory
   deferred_to: Bd
 - item: a and b as configurations
   deferred_to: Ds
 - item: a and b as physical objects or events in time
+  scope: book-2
+  basis: 'physical objects: Intro "Matter asks whether persistent relational modes can appear as localized
+    physical excitations"; events in time only get relational order in Tm (14.7) and physical interpretation
+    in Book II (14.31)'
 - item: relational organization
   deferred_to: Rl

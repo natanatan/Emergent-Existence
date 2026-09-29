@@ -1,6 +1,6 @@
 id: EE-C-0183
 kind: definition
-use: representational
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -11,20 +11,23 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: Metric-relational layer (12.5)
-dependencies: []
-relations:
-- type: represents
-  claim: EE-C-0156
+dependencies:
+- claim: EE-C-0156
+  role: constitutive
+relations: []
 concepts:
 - Ly
-composition: []
+composition:
+- Dt
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.5'
   page: 231
   version: v1
+  type_word: Definition
+  label: '12.4'
 status_history: []
 history: []
 import:

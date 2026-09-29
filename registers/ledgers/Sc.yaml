@@ -63,14 +63,43 @@ withholds:
 - item: metric distance or length
   deferred_to: Dt
 - item: a physical unit (metre, second, Planck length, energy scale)
+  scope: book-2
+  basis: 14.12 uK is only "the conventional unit assigned to one cycle"; 14.28 no "observed value of any
+    physical constant"
 - item: a coordinate system
+  deferred_to: Gm
+  basis: 12.10 "Coordinates Arrive After Stable Modes"; 12.30 earns "coordinate representations of those
+    modes"
 - item: vector-space structure, inner products, angles, basis vectors, orthogonality
+  scope: open
+  basis: 12.19 orthogonality "costs an inner product the framework has not earned"; 9.33 vector-space
+    structure as later ontology is an open question
 - item: a manifold, continuum or metric topology
+  deferred_to: Gm
+  basis: 12.4 "When Distances Become Neighborhoods"; 12.12 "Effective Smoothness, Not Fundamental Continuity";
+    12.30 "scale-dependent smooth approximation"
 - item: physical dimensionality or an embedding dimension
+  deferred_to: Sp
+  basis: 13.13 "Dimension Becomes Spatial Dimension"; 13.21 "Space Is Intrinsic Before It Is Embedded"
 - item: fractal dimension as a property of physical space
+  scope: open
+  basis: 10.21 "The familiar fractal reading needs a metric and an embedding ... the abstract form the
+    geometric version will later instantiate if the geometry earns it"; 12.33 "Can a noninteger or scale-dependent
+    relational dimension converge towar
 - item: a universal law of self-similarity, or any universal role for Fibonacci or φ
+  scope: beyond-series
+  basis: 10.16 "The Register records golden-ratio universality as Rejected, and this section is where
+    that rejection is demonstrated"
 - item: renormalization-group flow as physical dynamics
+  scope: book-2
+  basis: 10.28 lists it; 7.4 RG only as "an established analogue"; physical dynamics are Book II (14.31)
 - item: a probability measure or a stochastic distribution over scales
+  scope: open
+  basis: 9.11 "if probability is earned"; no later stage takes probability up
 - item: weighted aggregation
+  scope: open
+  basis: '10.8 "Open question: whether weighted aggregation, which needs more than cardinality, can be
+    earned at all in this volume"; 6.9 "Cardinal and weighted membership await machinery that can justify
+    magnitude or valuation" (possible Va)'
 - item: genuine self-similarity across levels
   scope: book-2

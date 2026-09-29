@@ -1,6 +1,6 @@
 id: EE-C-0051
-kind: other
-use: null
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -23,11 +23,25 @@ composition:
 - Rf
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.8'
   page: 89
   version: v1
+  type_word: Ledger
+  label: '5.11'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.12'
+  version: v1
+  cites: '5.11'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.18'
+  version: v1
+  cites: '5.11'
 status_history: []
 history: []
 import:

@@ -1,5 +1,5 @@
 id: EE-C-0016
-kind: other
+kind: ledger
 use: constitutive
 aliases: []
 versions:
@@ -20,11 +20,25 @@ composition:
 - Rc
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 3
   section: '3.7'
   page: 59
   version: v1
+  type_word: Ledger
+  label: '3.5'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 3
+  section: '3.6'
+  version: v1
+  cites: '3.5'
+- edition: book-1/beta
+  role: restatement
+  chapter: 3
+  section: '3.17'
+  version: v1
+  cites: '3.5'
 status_history: []
 history: []
 import:

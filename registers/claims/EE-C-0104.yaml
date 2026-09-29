@@ -32,11 +32,19 @@ composition:
 - Rt
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 8
   section: '8.5'
   page: 148
   version: v1
+  type_word: Definition
+  label: '8.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 8
+  section: '8.26'
+  version: v1
+  cites: '8.3'
 status_history: []
 history: []
 import:

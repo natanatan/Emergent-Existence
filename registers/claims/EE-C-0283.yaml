@@ -1,0 +1,34 @@
+id: EE-C-0283
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: A′ ≠ A, while Loc(A′) ~ Loc(A)
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts:
+- Lc
+- Ri
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 13
+  section: '13.5'
+  version: v1
+  type_word: Proposition
+  label: '13.6'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'The map classes this as a ''formal'' step (to be labelled as Definition/Proposition, not
+    a ledger number): a consequence of the Loc(A) definition EE-C-0213. It is not registered.'

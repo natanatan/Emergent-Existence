@@ -1,5 +1,5 @@
 id: EE-C-0158
-kind: definition
+kind: representation
 use: representational
 aliases: []
 versions:
@@ -20,11 +20,13 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.7'
   page: 211
   version: v1
+  type_word: Representation
+  label: '11.8'
 status_history:
 - status: Provisional
   date: '2026-09-29'

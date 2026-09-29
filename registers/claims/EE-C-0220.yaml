@@ -1,6 +1,6 @@
 id: EE-C-0220
 kind: proposition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -17,11 +17,25 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 13
   section: '13.16'
   page: 262
   version: v1
+  type_word: Proposition
+  label: '13.20'
+- edition: book-1/beta
+  role: restatement
+  chapter: 13
+  section: '13.24'
+  version: v1
+  cites: '13.20'
+- edition: book-1/beta
+  role: restatement
+  chapter: 13
+  section: '13.31'
+  version: v1
+  cites: '13.20'
 status_history: []
 history: []
 import:

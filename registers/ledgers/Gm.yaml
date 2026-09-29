@@ -51,20 +51,62 @@ withholds:
 - item: physical spatial dimensions (that its dimensions are physical)
   deferred_to: Sp
 - item: that three dimensions are uniquely selected
+  deferred_to: Sx
+  basis: 14.31 Book I has not earned "a 3+1-dimensional spacetime regime"; Book II must "generate stable
+    dimensionality"; 12.26 rank-three research program
 - item: whether the substrate is fundamentally continuous or discrete
+  deferred_to: Qg
+  basis: 'Intro: "Quantum Gravity asks where the smooth description must fail and what more primitive
+    organization may become visible there"; 13.15 "A Breakdown of Smoothness Is Not the Bottom Layer"'
 - item: global smoothness of the effective geometry
+  deferred_to: Sp
+  basis: 13.17 "Smooth Neighborhoods and Irregular Regions Can Coexist"; 13.27 Space earns "scale-relative
+    smoothness"
 - item: matter
+  deferred_to: Mt
+  basis: 'Intro: "Matter asks whether persistent relational modes can appear as localized physical excitations"'
 - item: quantum fields
+  deferred_to: Mt
+  basis: 'Intro: Matter as "localized physical excitations"; 12.33 "why stable field-excitation observables
+    appear object-like"'
 - item: particles
+  deferred_to: Mt
+  basis: 'Intro: Matter "localized physical excitations with stable internal properties"'
 - item: metric time
+  deferred_to: Tm
+  basis: 14.14 "From Local Temporal Standards to Shared Metric Time"
 - item: spacetime
+  deferred_to: Sx
+  basis: 14.31 "Space + Time + unknown coupling constraints ⇝ ? ⇝ physical spacetime ... Book II begins
+    at the question mark"
 - item: gravity
+  deferred_to: Gv
+  basis: 'Intro: "Gravity asks whether relationally generated geometry can acquire effective curvature
+    dynamics"; 12.31 "not shown that curvature is gravity"'
 - item: energy
+  scope: book-2
+  basis: 14.28 physical content incl. "energy" not established
 - item: action
+  scope: book-2
+  basis: 14.28 physical content incl. "action" not established
 - item: causal speed
+  deferred_to: Sx
+  basis: 14.30 "invariant maximal rate"; 14.31 "invariant c" is a Book II research target
 - item: that a measured field excitation is literally a projection from a multilayer geometric substrate
+  deferred_to: Mt
+  basis: 12.33 "Can the same projection framework later explain why stable field-excitation observables
+    appear object-like"; Intro Matter "localized physical excitations"
 - item: that measurement back-action is quantum collapse
+  scope: book-2
+  basis: 12.31 "It has not shown that measurement back-action is quantum collapse"; no Book II stage covers
+    quantum measurement explicitly
 - item: that every physical property can be reduced to geometry
+  scope: beyond-series
+  basis: 12.31 "Those restrictions ... keep the chapter from converting a candidate generative mechanism
+    into a total ontology"; Intro "The central wager ... is not that one primitive explains everything"
 - item: orthogonality / inner product
+  scope: open
+  basis: '12.19 caption: orthogonality "is a further comparison rule that costs an inner product the framework
+    has not earned"; 12.33 "before vector spaces and inner products are available" is an open question'
 - item: locality, extension, adjacency, spatial position (physical)
   deferred_to: Sp

@@ -18,11 +18,20 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 9
   section: '9.22'
   page: 177
   version: v1
+  type_word: Definition
+  label: '9.16'
+- edition: book-1/beta
+  role: restatement
+  chapter: null
+  section: null
+  version: v1
+  location: Ch 10 opening
+  cites: '9.16'
 status_history:
 - status: Speculative
   date: '2026-09-29'

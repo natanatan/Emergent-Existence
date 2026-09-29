@@ -1,6 +1,6 @@
 id: EE-C-0027
 kind: definition
-use: representational
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -17,11 +17,13 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 4
   section: '4.12'
   page: 73
   version: v1
+  type_word: Definition
+  label: '4.9'
 status_history: []
 history: []
 import:

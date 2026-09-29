@@ -9,6 +9,7 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: Coarse-graining map (10.20)
+    ledger_form: relative magnitude ⇝ comparison standard ⇝ scale-relative equivalence ⇝ coarse-graining
 dependencies:
 - claim: EE-C-0135
   role: constitutive
@@ -19,11 +20,25 @@ composition:
 - Sd
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.20'
   page: 199
   version: v1
+  type_word: Definition
+  label: '10.16'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 7
+  section: '7.4'
+  version: v1
+  cites: '10.16'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.27'
+  version: v1
+  cites: '10.16'
 status_history: []
 history: []
 import:

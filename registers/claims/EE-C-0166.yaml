@@ -21,11 +21,25 @@ composition:
 - Dt
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.17'
   page: 217
   version: v1
+  type_word: Criterion
+  label: '11.18'
+- edition: book-1/beta
+  role: restatement
+  chapter: 11
+  section: '11.22'
+  version: v1
+  cites: '11.18'
+- edition: book-1/beta
+  role: restatement
+  chapter: 11
+  section: '11.24'
+  version: v1
+  cites: '11.18'
 status_history: []
 history: []
 import:

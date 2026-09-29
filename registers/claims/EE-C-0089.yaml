@@ -1,7 +1,9 @@
 id: EE-C-0089
 kind: definition
-use: null
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0091
+- ch06.M6.13a
 versions:
   v1:
     text: '▪ ClosedF(ℛ) + dynamic persistence + representative-independent addressability ⇝ endogenous
@@ -29,14 +31,40 @@ composition:
 - Dc
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 6
   section: '6.13'
   page: 114
   version: v1
-  label: Definition — organizational anchor
+  type_word: Definition
+  label: '6.12'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.13'
+  page: 115
+  version: v1
+  merged_from: EE-C-0091
+  cites: '6.12'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
+  version: v1
+  cites: '6.12'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.22'
+  version: v1
+  cites: '6.12'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0091 was a duplicate registration of this claim (restatement at 6.13); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch06.AF

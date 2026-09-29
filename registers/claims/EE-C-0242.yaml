@@ -1,7 +1,9 @@
 id: EE-C-0242
 kind: test
 use: diagnostic
-aliases: []
+aliases:
+- EE-C-0235
+- ch14.T14.8
 versions:
   v1:
     text: Remove all external iteration counters, timestamps, and manuscript-order labels. Determine whether
@@ -22,8 +24,26 @@ appearances:
   section: '14.25'
   page: 287
   version: v1
+  type_word: Test
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 14
+  section: '14.8'
+  page: 278
+  version: v1
+  merged_from: EE-C-0235
+- edition: book-1/beta
+  role: restatement
+  chapter: 14
+  section: '14.29'
+  version: v1
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0235 was a duplicate registration of this claim (foreshadowing at 14.8); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch14.T14.25a

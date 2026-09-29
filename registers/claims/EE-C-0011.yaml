@@ -1,6 +1,6 @@
 id: EE-C-0011
-kind: other
-use: null
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -19,11 +19,32 @@ composition:
 - Df
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 2
   section: '2.10'
   page: 51
   version: v1
+  type_word: Ledger
+  label: '2.3'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Chapter 2 opening
+  cites: '2.3'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 2
+  section: '2.2'
+  version: v1
+  cites: '2.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 3
+  section: '3.15'
+  version: v1
+  cites: '2.3'
 status_history: []
 history: []
 import:

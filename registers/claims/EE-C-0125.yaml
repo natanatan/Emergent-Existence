@@ -1,7 +1,9 @@
 id: EE-C-0125
 kind: definition
 use: constitutive
-aliases: []
+aliases:
+- EE-C-0126
+- ch10.V10.8
 versions:
   v1:
     text: '▪ AP = { r ∈ ℜ : P(r) } [...] The threshold condition is relationally expressible as an injection:
@@ -20,13 +22,28 @@ composition:
 - Cm
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.8'
   page: 193
   version: v1
+  type_word: Definition
+  label: '10.7'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.8'
+  page: 193
+  version: v1
+  merged_from: EE-C-0126
+  cites: '10.7'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0126 was a duplicate registration of this claim (restatement at 10.8); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch10.D10.8

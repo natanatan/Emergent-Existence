@@ -1,6 +1,6 @@
 id: EE-C-0073
-kind: test
-use: null
+kind: criterion
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -23,11 +23,25 @@ composition:
 - Cl
 appearances:
 - edition: book-1/beta
-  role: statement
+  role: derivation
   chapter: 6
   section: '6.4'
   page: 106
   version: v1
+  type_word: Criterion
+  label: '6.4'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.18'
+  version: v1
+  cites: '6.4'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
+  version: v1
+  cites: '6.4'
 status_history: []
 history: []
 import:

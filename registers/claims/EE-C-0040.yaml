@@ -1,7 +1,9 @@
 id: EE-C-0040
 kind: definition
-use: null
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0041
+- ch05.M5.4a
 versions:
   v1:
     text: ▪ 𝒫(rij | ℛ) ≠ 𝒫(rij) [...] A relational structure is a set of retained relations whose admissible
@@ -22,13 +24,47 @@ composition:
 - Ps
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.4'
   page: 86
   version: v1
+  type_word: Definition
+  label: '5.5'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.4'
+  page: 86
+  version: v1
+  merged_from: EE-C-0041
+  cites: '5.5'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Ch 5 opening
+  cites: '5.5'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.16'
+  version: v1
+  cites: '5.5'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.18'
+  version: v1
+  cites: '5.5'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0041 was a duplicate registration of this claim (restatement at 5.4); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.D5.4

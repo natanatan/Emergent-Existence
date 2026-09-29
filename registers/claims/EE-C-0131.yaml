@@ -11,22 +11,51 @@ versions:
     edition: book-1/beta
     beta_heading: Stable scale factor (10.13)
 dependencies:
-- claim: EE-C-0129
+- claim: EE-C-0127
   role: constitutive
-relations: []
+relations:
+- type: derives_from
+  claim: EE-C-0129
 concepts:
 - Sf
 composition:
 - Pn
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.13'
   page: 196
   version: v1
+  type_word: Definition
+  label: '10.10'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Ch 10 opening
+  cites: '10.10'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.15'
+  version: v1
+  cites: '10.10'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.30'
+  version: v1
+  cites: '10.10'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: correction
+  note: 'Editor review: added constitutive dependency EE-C-0127. The scale factor is written in ratio
+    notation (EE-C-0129, representational), but 10.13 says ''the stability belongs to the relation rather
+    than to any level''s magnitude'', i.e. to the comparative relati'
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch10.D10.13

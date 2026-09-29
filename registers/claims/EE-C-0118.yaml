@@ -1,5 +1,5 @@
 id: EE-C-0118
-kind: other
+kind: ledger
 use: constitutive
 aliases: []
 versions:
@@ -15,11 +15,26 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.2'
   page: 190
   version: v1
+  type_word: Ledger
+  label: '10.2'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Ch 10 opening
+  cites: '10.2'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.26'
+  version: v1
+  cites: '10.2'
 status_history: []
 history: []
 import:

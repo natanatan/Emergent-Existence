@@ -47,19 +47,41 @@ earns:
     testing in Chapter 4.
 withholds:
 - item: privileged physical transformation family
+  scope: book-2
+  basis: 4.23 "𝔗test remains diagnostic until later theory identifies realized transformations"; 4.26
+    "What later physical principle selects the transformation family"
 - item: anchor / Ω-designated pole / higher-order origin / intrinsic center
   deferred_to: Cl
 - item: orientation and orientational dependency ≺ₒ
   deferred_to: Or
 - item: spatial geometry
+  deferred_to: Sp
+  basis: Geometry earns geometry but 12.33 "We have not yet earned physical space"; 13.19 "relational
+    boundary ⇝ geometric boundary ⇝ spatial boundary"
 - item: distance
+  deferred_to: Dt
+  basis: 11.3 "Separation Requires Mediation"; 11.25 "Distance gives magnitude to separation"
 - item: inside/outside, enclosure
+  deferred_to: Sp
+  basis: 13.19 "Only at this stage do familiar terms such as inside, outside, region, enclosure, and surface
+    acquire literal spatial interpretation"
 - item: physical time, causal cone, duration, clock
   deferred_to: Tm
 - item: entropy, Shannon measure, thermodynamic erasure cost
+  scope: open
+  basis: '4.29 Questions "Can quantitative information theory be recovered from consequential retained
+    distinctions rather than imported" -- no destination; entropy/erasure are thermodynamic (14.17: "none
+    of which Book I has yet earned")'
 - item: material carrier
+  deferred_to: Mt
+  basis: Intro "Matter asks whether persistent relational modes can appear as localized physical excitations
+    with stable internal properties"; 5.7 carrier persistence vs structural persistence
 - item: mature object (integrated organization, endogenous reference)
   deferred_to: Rl
 - item: transitive/acyclic/total/causal/temporal ≺
+  deferred_to: Tm
+  basis: 14.5 "Earning a Partial Order from Weak Dependency"; 14.27 "a derived strict partial-order candidate
+    ≺ₜ"; 14.19 causal order deferred further to Book II; 14.5 "A universal total order would already resemble
+    a hidden global clock"
 - item: physically grounded coarse-graining
   deferred_to: Sc

@@ -1,6 +1,6 @@
 id: EE-C-0194
-kind: definition
-use: null
+kind: criterion
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -19,11 +19,31 @@ composition:
 - Ms
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.17'
   page: 239
   version: v1
+  type_word: Criterion
+  label: '12.18'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 12
+  section: '12.16'
+  version: v1
+  cites: '12.18'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.27'
+  version: v1
+  cites: '12.18'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.29'
+  version: v1
+  cites: '12.18'
 status_history: []
 history: []
 import:

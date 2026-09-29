@@ -1,6 +1,6 @@
 id: EE-C-0239
 kind: criterion
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -22,11 +22,25 @@ composition:
 - Tq
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 14
   section: '14.13'
   page: 281
   version: v1
+  type_word: Criterion
+  label: '14.8'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 3
+  section: '3.10'
+  version: v1
+  cites: '14.8'
+- edition: book-1/beta
+  role: restatement
+  chapter: 14
+  section: '14.26'
+  version: v1
+  cites: '14.8'
 status_history: []
 history: []
 import:

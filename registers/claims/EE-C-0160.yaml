@@ -19,11 +19,13 @@ composition:
 - Dt
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.9'
   page: 213
   version: v1
+  type_word: Definition
+  label: '11.10'
 status_history: []
 history: []
 import:

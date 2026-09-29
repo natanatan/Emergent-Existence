@@ -1,6 +1,6 @@
 id: EE-C-0001
 kind: ledger
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -15,12 +15,25 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 1
-  section: '1.1'
+  section: '1.3'
   page: 29
   version: v1
+  type_word: Ledger
   label: '1.1'
+- edition: book-1/beta
+  role: restatement
+  chapter: 2
+  section: '2.15'
+  version: v1
+  cites: '1.1'
+- edition: book-1/beta
+  role: restatement
+  chapter: 2
+  section: '2.1'
+  version: v1
+  cites: '1.1'
 status_history: []
 history: []
 import:

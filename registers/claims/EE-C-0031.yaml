@@ -1,6 +1,6 @@
 id: EE-C-0031
 kind: criterion
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -21,11 +21,25 @@ composition:
 - Rd
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 4
   section: '4.17'
   page: 75
   version: v1
+  type_word: Criterion
+  label: '4.12'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 1
+  section: '1.15'
+  version: v1
+  cites: '4.12'
+- edition: book-1/beta
+  role: restatement
+  chapter: 4
+  section: '4.22'
+  version: v1
+  cites: '4.12'
 status_history: []
 history: []
 import:

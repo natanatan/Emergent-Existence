@@ -1,7 +1,9 @@
 id: EE-C-0064
-kind: other
-use: null
-aliases: []
+kind: forward_pointer
+use: diagnostic
+aliases:
+- EE-C-0083
+- ch06.M6.9b
 versions:
   v1:
     text: Cardinal, weighted, and threshold membership remain deferred until the required magnitude or
@@ -16,17 +18,40 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 5
   section: '5.12'
   page: 93
+  version: v1
+  type_word: Forward pointer
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.9'
+  page: 111
+  version: v1
+  merged_from: EE-C-0083
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.20'
+  version: v1
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
   version: v1
 status_history:
 - status: Open
   date: '2026-09-29'
   edition: book-1/beta
   reason: Status stated in Book I Beta
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0083 was a duplicate registration of this claim (restatement at 6.9); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.M5.12b

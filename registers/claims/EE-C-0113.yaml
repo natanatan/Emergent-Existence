@@ -24,11 +24,19 @@ composition:
 - Cg
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 9
   section: '9.10'
   page: 171
   version: v1
+  type_word: Proposition
+  label: '9.10'
+- edition: book-1/beta
+  role: restatement
+  chapter: 9
+  section: '9.33'
+  version: v1
+  cites: '9.10'
 status_history: []
 history: []
 import:

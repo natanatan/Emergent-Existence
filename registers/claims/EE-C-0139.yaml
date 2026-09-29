@@ -1,6 +1,6 @@
 id: EE-C-0139
-kind: other
-use: null
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -19,11 +19,13 @@ composition:
 - Cs
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.21'
   page: 199
   version: v1
+  type_word: Ledger
+  label: '10.17'
 status_history: []
 history: []
 import:

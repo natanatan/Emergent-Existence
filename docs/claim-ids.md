@@ -20,4 +20,4 @@ Agreed 29 September 2026. The full model is in [`claims-model.md`](claims-model.
 
 ## Labels
 
-A printed label belongs to an **appearance**: one place where one edition prints the claim. The label is a locator (for example `4.2`, printed perhaps as "Definition 4.2"), unique within an edition, and reset in each new edition. The type word is presentation, not identity. A claim printed twice in one edition has two labels that point to the same ID.
+A printed label belongs to the claim's **derivation appearance**: the one place in an edition where the claim is formally derived. The label is a locator (for example `4.2`, printed perhaps as "Definition 4.2"), unique within an edition, and reset in each new edition. The type word is presentation, not identity. Foreshadowing and restatement appearances carry no label; they cite the derivation's label. A claim printed twice in one edition has two labels that point to the same ID.

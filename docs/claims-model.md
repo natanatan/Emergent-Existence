@@ -11,7 +11,7 @@ Canonical design, 29 September 2026. This is the reference for every register, c
 | **Claim** | `EE-C-0137` | One proposition and its inferential identity | Never. A materially different assertion or inferential basis is a different claim |
 | **Version** | `EE-C-0137@v3` | One wording or formalization of that proposition | The wording or notation improves without changing the assertion |
 | **Edition** | `book-1/beta` | One release of one book's manuscript | A new release is cut. Released editions are frozen |
-| **Appearance** | Beta, `4.2` | One place where one edition prints one version of the claim, and its label there | Per edition |
+| **Appearance** | Beta, `4.2` | One place where one edition prints one version of the claim, with its role (derivation, foreshadowing or restatement) | Per edition |
 | **Element** | `Rd` (retained distinction) | One concept from the Linking Lexicon | The lexicon is revised |
 
 ## Claims
@@ -46,17 +46,27 @@ Until someone reviews it, the build lists every claim that still depends on a su
 
 ## Appearances and labels
 
-- **The label is a locator.** It gives the chapter and the order of appearance within it, for example `4.2`. A type word may be printed with it ("Definition 4.2"), but the type word is presentation, not identity.
+Every appearance has a **role**:
+
+| Role | What it is | In print |
+| --- | --- | --- |
+| `derivation` | The claim's official formal derivation | Carries the label, e.g. Definition 4.2 |
+| `foreshadowing` | An earlier mention pointing ahead to the derivation | No label. Cites the derivation's label forward, e.g. "(see 14.3)" |
+| `restatement` | A later return to a claim already derived | No label. Cites the derivation's label back, e.g. "(4.2)" |
+
+- **Exactly one derivation appearance per claim per edition.** The author assigns it, and the build flags any claim without one.
+- **Only the derivation carries a label.** The label is a locator: the chapter and the order of derivations within it, for example `4.2`. The chapter counter counts derivation appearances only.
+- **A type word may be printed with it** ("Definition 4.2"), but the type word is presentation, not identity.
 - **Numbering resets in each edition.** The same claim can be `4.2` in the Beta and `5.1` in the first edition.
-- **Each appearance gets its own label.** If an edition prints the same claim twice, for example restated in a later chapter, each appearance has its own label and both point to the same claim ID.
 - **A label is unique within one edition.** Different editions may reuse a label for different claims.
 - **Use is never encoded in the label.** Whether a statement is a premise, a diagnostic or a representation is carried by the prose and recorded in the register.
 
 ```yaml
 appearances:
-  - { edition: book-1/beta, label: "4.2", type_word: Definition, chapter: 4, section: "4.9",  version: v2 }
-  - { edition: book-1/beta, label: "9.6", type_word: Definition, chapter: 9, section: "9.10", version: v2 }   # restated in Formalism
-  - { edition: book-1/ed1,  label: "5.1", type_word: Definition, chapter: 5, section: "5.2",  version: v3 }
+  - { edition: book-1/beta, role: foreshadowing, cites: "4.2", chapter: 1, section: "1.9",  version: v2 }
+  - { edition: book-1/beta, role: derivation, label: "4.2", type_word: Definition, chapter: 4, section: "4.9", version: v2 }
+  - { edition: book-1/beta, role: restatement,   cites: "4.2", chapter: 9, section: "9.10", version: v2 }
+  - { edition: book-1/ed1,  role: derivation, label: "5.1", type_word: Definition, chapter: 5, section: "5.2", version: v3 }
 ```
 
 ## Dependencies and relations
@@ -124,7 +134,7 @@ relations:
   - { type: contrasts_with, claim: EE-C-0023 }
 composition: [Rd, Ps]    # derived from dependencies
 appearances:
-  - { edition: book-1/beta, label: "4.9", type_word: Criterion, chapter: 4, section: "4.17", version: v1 }
+  - { edition: book-1/beta, role: derivation, label: "4.9", type_word: Criterion, chapter: 4, section: "4.17", version: v1 }
 status_history:
   - { status: Provisional, date: 2026-09-29, edition: book-1/beta, reason: "Registered from Book I Beta" }
 history:                 # corrections and lineage substitutions, with dates

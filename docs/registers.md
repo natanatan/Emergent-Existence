@@ -16,7 +16,7 @@ One file per claim.
 | `composition` | Element codes the claim rests on, derived from its current dependencies |
 | `aliases` | Earlier or informal names that resolve to this claim |
 | `versions` | Wording and formal statement of each version, with the date and the edition that first printed it |
-| `appearances` | Each place an edition prints the claim: edition, label (locator), type word, chapter, section, version |
+| `appearances` | Each place an edition prints the claim: edition, role (derivation, foreshadowing or restatement), chapter, section, version; a derivation adds its label (locator) and type word, the others the label they cite |
 | `status_history` | Dated events: status, date, edition, reason. The current status is the latest event |
 | `history` | Dated events for dependency corrections and lineage substitutions, and any resulting change to the composition |
 

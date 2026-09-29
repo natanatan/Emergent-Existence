@@ -42,7 +42,9 @@ history:
   note: 'Editor review: added constitutive dependency EE-C-0024. ℛ collects the retained distinctions
     r_ij of 4.9 (''The entries of R are the already-retained relations of Boundary''); that is a constitutive
     premise, not a representation of 0024.'
-  reviewed: false
+  reviewed: true
+  reviewed_by: Natan Mallinger
+  reviewed_on: '2026-09-29'
 - date: '2026-09-29'
   kind: merge
   note: EE-C-0036 was a duplicate registration of this claim (restatement at 5.2); merged, its ID retired

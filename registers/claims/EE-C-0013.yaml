@@ -37,7 +37,9 @@ history:
   kind: correction
   note: 'Editor review: added constitutive dependency EE-C-0009. Correction: the symmetry of ≬ from 2A
     is the actual premise of Aut(𝔇)-covariance.'
-  reviewed: false
+  reviewed: true
+  reviewed_by: Natan Mallinger
+  reviewed_on: '2026-09-29'
 import:
   source: Book I Beta, automated extraction
   interim_id: ch03.R3.covariance

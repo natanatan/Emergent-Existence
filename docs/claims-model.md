@@ -34,6 +34,10 @@ A change to the dependency record is one of three things. Only the third creates
 
 Until someone reviews it, the build lists every claim that still depends on a superseded claim.
 
+### When two registrations turn out to be the same claim (merge)
+
+The surviving claim lists the other ID in `aliases`, and takes over its appearances (each marked `merged_from`). The retired record stays in the register with `merged_into` pointing to the survivor and no appearances of its own. Its ID is never reused, and nothing may depend on it; references are repointed to the survivor.
+
 ## Versions
 
 - A version holds the claim's wording and formal statement, the date it was introduced and the edition that first printed it.
@@ -53,7 +57,7 @@ Every appearance has a **role**:
 | `derivation` | The claim's official formal derivation | Carries the label, e.g. Definition 4.2 |
 | `foreshadowing` | An earlier mention pointing ahead to the derivation | No label. Cites the derivation's label forward, e.g. "(see 14.3)" |
 | `restatement` | A later return to a claim already derived | No label. Cites the derivation's label back, e.g. "(4.2)" |
-| `statement` | Where a test or a forward pointer is stated. These kinds are stated, never derived | May carry a label |
+| `statement` | Where a test or a forward pointer is stated. These kinds are stated, never derived | No label in Book I Beta; mentions of it cite its section |
 
 - **Tests and forward pointers are stated, not derived.** A claim of kind `test` (a diagnostic) or `forward_pointer` (a sketch of work deferred beyond the book) has exactly one `statement` appearance per edition and never a derivation. No derivation is to be invented for it.
 - **Exactly one derivation appearance per claim per edition** for every other claim. The author assigns it. A claim without one is a hard error, which stays in the error report until a sync corrects it.

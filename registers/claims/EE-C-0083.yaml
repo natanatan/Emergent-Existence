@@ -1,4 +1,5 @@
 id: EE-C-0083
+merged_into: EE-C-0064
 kind: other
 use: null
 aliases: []
@@ -14,19 +15,18 @@ relations: []
 concepts:
 - Mb
 composition: []
-appearances:
-- edition: book-1/beta
-  role: null
-  chapter: 6
-  section: '6.9'
-  page: 111
-  version: v1
+appearances: []
 status_history:
 - status: Open
   date: '2026-09-29'
   edition: book-1/beta
   reason: Status stated in Book I Beta
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: 'Duplicate registration of EE-C-0064; merged into it and retired. Its appearances now live on
+    EE-C-0064 (merged_from: EE-C-0083). The ID is kept and never reused.'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch06.M6.9b

@@ -1,4 +1,5 @@
 id: EE-C-0108
+merged_into: EE-C-0107
 kind: other
 use: null
 aliases: []
@@ -13,15 +14,14 @@ relations: []
 concepts:
 - Fa
 composition: []
-appearances:
-- edition: book-1/beta
-  role: null
-  chapter: 9
-  section: '9.2'
-  page: 166
-  version: v1
+appearances: []
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: 'Duplicate registration of EE-C-0107; merged into it and retired. Its appearances now live on
+    EE-C-0107 (merged_from: EE-C-0108). The ID is kept and never reused.'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch09.FR9.2

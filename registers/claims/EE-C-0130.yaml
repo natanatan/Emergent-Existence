@@ -1,4 +1,5 @@
 id: EE-C-0130
+merged_into: EE-C-0129
 kind: other
 use: representational
 aliases: []
@@ -15,15 +16,14 @@ relations:
 concepts:
 - Pn
 composition: []
-appearances:
-- edition: book-1/beta
-  role: null
-  chapter: 10
-  section: '10.11'
-  page: 195
-  version: v1
+appearances: []
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: 'Duplicate registration of EE-C-0129; merged into it and retired. Its appearances now live on
+    EE-C-0129 (merged_from: EE-C-0130). The ID is kept and never reused.'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch10.V10.11

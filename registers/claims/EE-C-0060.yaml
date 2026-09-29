@@ -1,4 +1,5 @@
 id: EE-C-0060
+merged_into: EE-C-0214
 kind: other
 use: null
 aliases: []
@@ -17,19 +18,18 @@ concepts:
 - Po
 composition:
 - Po
-appearances:
-- edition: book-1/beta
-  role: null
-  chapter: 5
-  section: '5.11'
-  page: 92
-  version: v1
+appearances: []
 status_history:
 - status: Provisional
   date: '2026-09-29'
   edition: book-1/beta
   reason: Status stated in Book I Beta
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: 'Duplicate registration of EE-C-0214; merged into it and retired. Its appearances now live on
+    EE-C-0214 (merged_from: EE-C-0060). The ID is kept and never reused.'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.M5.11

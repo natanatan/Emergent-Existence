@@ -105,8 +105,23 @@ def audit(root):
         pick = der or apps
         return pick[0].get("chapter") if pick else None
 
-    # references
+    # merged claims: a retired duplicate points to the claim that absorbed it
+    merged = {cid: c["merged_into"] for cid, c in claims.items() if c.get("merged_into")}
+    for cid, target in merged.items():
+        if target not in claims:
+            add("references", cid, f"merged into {target}, which does not exist")
+        elif cid not in as_list(claims[target].get("aliases")):
+            add("references", cid, f"merged into {target}, which does not list it as an alias")
+        if as_list(claims[cid].get("appearances")):
+            add("references", cid, "retired by merge but still has appearances")
     for cid, c in claims.items():
+        for d in dep_ids(c) + [r.get("claim") for r in as_list(c.get("relations"))]:
+            if d in merged:
+                add("references", cid, f"points to {d}, which was merged into {merged[d]}")
+    active = {cid: c for cid, c in claims.items() if cid not in merged}
+
+    # references
+    for cid, c in active.items():
         for d in dep_ids(c):
             if d not in claims:
                 add("references", cid, f"dependency {d} does not exist")
@@ -115,7 +130,7 @@ def audit(root):
                 add("references", cid, f"unknown relation type {r.get('type')}")
             if r.get("claim") not in claims and r.get("claim") not in hyps:
                 add("references", cid, f"relation target {r.get('claim')} does not exist")
-        if c.get("use") is None:
+        if c.get("use") is None and cid not in merged:
             add("unclassified-use", cid, "use not yet classified (constitutive, representational or diagnostic)")
         elif c.get("use") not in USES:
             add("references", cid, f"use must be one of {sorted(USES)}")
@@ -177,7 +192,7 @@ def audit(root):
                 add("interpretation-premise", cid, f"depends on {d}, whose use is representational")
 
     # composition = union of the concepts of the dependencies
-    for cid, c in claims.items():
+    for cid, c in active.items():
         if not as_list(c.get("concepts")):
             add("unmapped", cid, "no element concepts recorded")
         derived = set()
@@ -207,6 +222,7 @@ def audit(root):
         per_claim = collections.defaultdict(list)
         for cid, a in apps:
             per_claim[cid].append(a)
+        labelled = {cid for cid, a in apps if a.get("role") in ("derivation", "statement") and a.get("label")}
         for cid, al in per_claim.items():
             stated = claims[cid].get("kind") in STATED_KINDS
             want, other = ("statement", "derivation") if stated else ("derivation", "statement")
@@ -223,8 +239,8 @@ def audit(root):
                         add("only-derivations-labelled", cid, f"{ed}: {a['role']} carries label {a['label']}")
                     if a.get("cites") and str(a["cites"]) not in labels:
                         add("citations", cid, f"{ed}: cites {a['cites']}, which is not a derivation or statement label")
-                    if not a.get("cites"):
-                        add("citations", cid, f"{ed}: {a['role']} does not cite the derivation")
+                    if not a.get("cites") and cid in labelled:
+                        add("citations", cid, f"{ed}: {a['role']} does not cite the label of its derivation or statement")
         released = (editions.get(ed) or {}).get("released")
         for cid, al in per_claim.items():
             c = claims[cid]

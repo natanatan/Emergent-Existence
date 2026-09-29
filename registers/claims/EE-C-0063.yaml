@@ -1,4 +1,5 @@
 id: EE-C-0063
+merged_into: EE-C-0062
 kind: other
 use: null
 aliases: []
@@ -17,15 +18,14 @@ concepts:
 - Mb
 composition:
 - Mb
-appearances:
-- edition: book-1/beta
-  role: null
-  chapter: 5
-  section: '5.12'
-  page: 93
-  version: v1
+appearances: []
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: 'Duplicate registration of EE-C-0062; merged into it and retired. Its appearances now live on
+    EE-C-0062 (merged_from: EE-C-0063). The ID is kept and never reused.'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.M5.12a

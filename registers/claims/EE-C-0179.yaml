@@ -1,4 +1,5 @@
 id: EE-C-0179
+merged_into: EE-C-0182
 kind: proposition
 use: constitutive
 aliases: []
@@ -17,15 +18,14 @@ concepts:
 - Gm
 composition:
 - Dt
-appearances:
-- edition: book-1/beta
-  role: null
-  chapter: 12
-  section: '12.1'
-  page: 229
-  version: v1
+appearances: []
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: 'Duplicate registration of EE-C-0182; merged into it and retired. Its appearances now live on
+    EE-C-0182 (merged_from: EE-C-0179). The ID is kept and never reused.'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch12.P12.1

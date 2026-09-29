@@ -33,4 +33,4 @@ The checks also run once a day on a schedule, whether or not anything changed. E
 - what is new since the previous run, and what was resolved;
 - a count of claims still missing a derivation appearance.
 
-A run that finds new errors or flags notifies the author. The workflow is written with the checks.
+A run that finds new errors or flags notifies the author through GitHub. After each run, a scheduled Claude session reads the Audit report issue and sends the author a short plain-language summary. Both are set up together with the checks.

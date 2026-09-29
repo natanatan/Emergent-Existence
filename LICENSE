@@ -1,0 +1,22 @@
+Emergent Existence
+Copyright (c) 2026 The Emergent Existence authors
+
+This repository contains three kinds of material under three licenses.
+
+1. Manuscript: everything in manuscript/
+   Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+   (CC BY-NC-ND 4.0). Full text: LICENSES/CC-BY-NC-ND-4.0.txt
+   You may read and share the text with attribution. You may not sell it or
+   distribute altered versions. For translations or other permissions, contact
+   the authors.
+
+2. Registers and exports: everything in registers/ and exports/
+   Creative Commons Attribution 4.0 International (CC BY 4.0).
+   Full text: LICENSES/CC-BY-4.0.txt
+   You may reuse and build on the claims, hypotheses and ledgers for any
+   purpose, provided you credit Emergent Existence and cite claim IDs.
+
+3. Code: everything in checks/ and any other source code
+   MIT License. Full text: LICENSES/MIT.txt
+
+Anything not listed above (for example docs/) is licensed under CC BY 4.0.

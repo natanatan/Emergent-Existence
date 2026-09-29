@@ -1,2 +1,23 @@
+# OS and editors
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Build output (rendered PDFs, sites, generated views)
 build/
+dist/
+_site/
+
+# Working files from writing tools
+~$*
+*.tmp
+
+# Python, for the checks once they exist
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Edition PDFs go in GitHub Releases, not the commit history.
+# exports/ is committed on purpose: other repositories read it.

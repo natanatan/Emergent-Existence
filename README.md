@@ -34,3 +34,13 @@ At a given stage, the ontology may not use a property that stage has not earned.
 ## Status
 
 The repository structure is in place. The manuscript text, register data and checks will be added once the claim notation is final.
+
+## License
+
+| Part | License |
+| --- | --- |
+| `manuscript/` | [CC BY-NC-ND 4.0](LICENSES/CC-BY-NC-ND-4.0.txt): share with credit; no commercial use, no altered versions |
+| `registers/`, `exports/`, `docs/` | [CC BY 4.0](LICENSES/CC-BY-4.0.txt): reuse freely with credit |
+| `checks/` and other code | [MIT](LICENSES/MIT.txt) |
+
+See [`LICENSE`](LICENSE) for details. Edition PDFs are published as GitHub Releases.

@@ -46,21 +46,27 @@ jobs:
             const issues = await github.paginate(github.rest.issues.listForRepo, { owner, repo, state: 'open', labels: 'audit' });
             let issue = issues.find(i => i.title === title);
 
-            const keys = report.findings.map(f => f.key);
+            const crypto = require('crypto');
+            const h = k => crypto.createHash('sha1').update(k).digest('hex').slice(0, 10);
+            report.findings.forEach(f => { f.hash = h(f.key); });
+            const keys = report.findings.map(f => f.hash);
             let previous = [];
             if (issue) {
               const m = (issue.body || '').match(/<!-- findings:([\s\S]*?)-->/);
               if (m) { try { previous = JSON.parse(Buffer.from(m[1].trim(), 'base64').toString('utf8')); } catch (e) {} }
             }
             const prev = new Set(previous), now = new Set(keys);
-            const added = report.findings.filter(f => !prev.has(f.key));
+            const added = report.findings.filter(f => !prev.has(f.hash));
             const resolved = previous.filter(k => !now.has(k));
 
             const delta = issue
               ? `**Since the previous run:** ${added.length} new, ${resolved.length} resolved.`
               : '**First run.**';
             const stamp = Buffer.from(JSON.stringify(keys)).toString('base64');
-            const body = `${delta}\n\n${md}\n<!-- findings:${stamp} -->`;
+            const tail = `\n<!-- findings:${stamp} -->`;
+            const limit = 65000 - delta.length - tail.length - 200;
+            const shown = md.length > limit ? md.slice(0, limit) + '\n\n… report truncated; the full report is in the run artifact.' : md;
+            const body = `${delta}\n\n${shown}${tail}`;
 
             if (!issue) {
               const created = await github.rest.issues.create({ owner, repo, title, body, labels: ['audit'] });
@@ -76,6 +82,13 @@ jobs:
               await github.rest.issues.createComment({ owner, repo, issue_number: issue.number,
                 body: `@${owner} ${added.length} new finding(s), ${resolved.length} resolved.\n\n${list}${more}` });
             }
+
+      - name: Keep the full report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: build/audit/
 
       - name: Fail when errors are open
         if: steps.checks.outcome == 'failure'

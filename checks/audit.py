@@ -286,10 +286,18 @@ def render(findings, claims, hyps, editions, elements):
         if not items:
             continue
         lines += ["", f"<details><summary><b>{title}</b> ({len(items)})</summary>", ""]
-        for f in items[:300]:
+        msgs = collections.Counter(f["message"] for f in items)
+        common, n = msgs.most_common(1)[0]
+        if len(items) > 20 and n > len(items) / 2:
+            # one message shared by most findings: list the subjects compactly
+            subs = [f["subject"] for f in items if f["message"] == common]
+            lines.append(f"{common}: " + ", ".join(f"`{s}`" for s in subs[:400]) + (" …" if len(subs) > 400 else ""))
+            items = [f for f in items if f["message"] != common]
+            lines.append("")
+        for f in items[:80]:
             lines.append(f"- `{f['subject']}` {f['message']}")
-        if len(items) > 300:
-            lines.append(f"- … and {len(items) - 300} more")
+        if len(items) > 80:
+            lines.append(f"- … and {len(items) - 80} more (full list in report.json)")
         lines += ["", "</details>"]
     lines += ["", "Not yet checked: " + "; ".join(PENDING) + ".", "", f"_Run {now}_"]
     return "\n".join(lines), {"errors": errors, "reviews": reviews, "missing_derivations": missing}

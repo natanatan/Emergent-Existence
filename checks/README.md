@@ -18,7 +18,7 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 | Superseded dependency | Review | A claim still depends on a superseded claim and has not been repointed to its successor or re-registered |
 | Correction recorded | Review | A dependency was added to an existing claim as a correction |
 | Labels unique per edition | Error | Two derivation appearances in one edition share a label |
-| One derivation per claim | Error | A claim printed in an edition has no derivation appearance there, or has more than one |
+| One derivation per claim | Error | A claim printed in an edition has no derivation appearance there, or more than one. Tests and forward pointers need exactly one statement appearance instead, and never a derivation |
 | Only derivations are labelled | Error | A foreshadowing or restatement appearance carries a label of its own |
 | Citations resolve | Error | A foreshadowing or restatement cites a label that is not a derivation in the same edition |
 | Labels map to claims | Error | A labelled statement in the manuscript has no derivation appearance, or a derivation's label is not in the manuscript |

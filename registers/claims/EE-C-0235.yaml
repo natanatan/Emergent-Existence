@@ -19,7 +19,7 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 14
   section: '14.8'
   page: 278

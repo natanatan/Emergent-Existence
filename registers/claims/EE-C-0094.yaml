@@ -1,6 +1,6 @@
 id: EE-C-0094
-kind: other
-use: null
+kind: forward_pointer
+use: representational
 aliases: []
 versions:
   v1:
@@ -8,24 +8,33 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: (unlabelled displays, §6.15) internal identification
-dependencies:
-- claim: EE-C-0093
-  role: constitutive
-relations: []
+dependencies: []
+relations:
+- type: refines
+  claim: EE-C-0093
 concepts:
 - Oc
 - Rf
-composition:
-- Oc
+composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 6
   section: '6.15'
   page: 117
   version: v1
-status_history: []
-history: []
+status_history:
+- status: Speculative
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: The self-model W_S(ℛ_S) ↦ σ_S is a forward model sketch deferred to Volume II, not derived in
+    Book I
+history:
+- kind: reclassification
+  date: '2026-09-29'
+  note: 'Author disposition, 29 Sep 2026: forward pointer / speculative, removed from the constitutive
+    layer'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch06.D6.15

@@ -17,7 +17,8 @@ import sys
 import yaml
 
 STATUSES = {"Retained", "Provisional", "Derived", "Open", "Deferred", "Rejected", "Speculative", "Superseded"}
-ROLES = {"derivation", "foreshadowing", "restatement"}
+ROLES = {"derivation", "statement", "foreshadowing", "restatement"}
+STATED_KINDS = {"test", "forward_pointer"}   # stated, never derived
 RELATION_TYPES = {"derives_from", "supersedes", "refines", "equivalent_to", "contrasts_with", "generalizes",
                   "specializes", "foreshadows", "diagnoses", "tests", "represents"}
 USES = {"constitutive", "representational", "diagnostic"}
@@ -197,6 +198,9 @@ def audit(root):
         for cid, a in apps:
             if a.get("role") == "derivation" and a.get("label"):
                 labels[str(a["label"])].append(cid)
+        for cid, a in apps:
+            if a.get("role") == "statement" and a.get("label"):
+                labels[str(a["label"])].append(cid)
         for lab, cids in labels.items():
             if len(set(cids)) > 1:
                 add("labels-unique", f"{ed} {lab}", "shared by " + ", ".join(sorted(set(cids))))
@@ -204,17 +208,21 @@ def audit(root):
         for cid, a in apps:
             per_claim[cid].append(a)
         for cid, al in per_claim.items():
-            n = sum(1 for a in al if a.get("role") == "derivation")
+            stated = claims[cid].get("kind") in STATED_KINDS
+            want, other = ("statement", "derivation") if stated else ("derivation", "statement")
+            n = sum(1 for a in al if a.get("role") == want)
             if n == 0:
-                add("one-derivation", cid, f"{ed}: no derivation appearance assigned")
+                add("one-derivation", cid, f"{ed}: no {want} appearance assigned")
             elif n > 1:
-                add("one-derivation", cid, f"{ed}: {n} derivation appearances")
+                add("one-derivation", cid, f"{ed}: {n} {want} appearances")
+            if any(a.get("role") == other for a in al):
+                add("one-derivation", cid, f"{ed}: a {claims[cid].get('kind') or 'claim'} cannot have a {other} appearance")
             for a in al:
                 if a.get("role") in ("foreshadowing", "restatement"):
                     if a.get("label"):
                         add("only-derivations-labelled", cid, f"{ed}: {a['role']} carries label {a['label']}")
                     if a.get("cites") and str(a["cites"]) not in labels:
-                        add("citations", cid, f"{ed}: cites {a['cites']}, which is not a derivation label")
+                        add("citations", cid, f"{ed}: cites {a['cites']}, which is not a derivation or statement label")
                     if not a.get("cites"):
                         add("citations", cid, f"{ed}: {a['role']} does not cite the derivation")
         released = (editions.get(ed) or {}).get("released")
@@ -269,12 +277,12 @@ def render(findings, claims, hyps, editions, elements):
         by[f["check"]].append(f)
     errors = sum(len(by[c]) for c, _, lvl in CHECKS if lvl == "error")
     reviews = sum(len(by[c]) for c, _, lvl in CHECKS if lvl == "review")
-    missing = len({f["subject"] for f in by["one-derivation"] if "no derivation" in f["message"]})
+    missing = len({f["subject"] for f in by["one-derivation"] if "appearance assigned" in f["message"]})
     lines = [
         f"**{errors} open errors · {reviews} review flags** · {len(claims)} claims · {len(hyps)} hypotheses · "
         f"{len(elements)} elements · {len(editions)} editions",
         "",
-        f"Claims still missing a derivation appearance: **{missing}**",
+        f"Claims still missing a derivation (or, for tests and forward pointers, a statement) appearance: **{missing}**",
         "",
         "| Check | Level | Open |",
         "| --- | --- | --- |",

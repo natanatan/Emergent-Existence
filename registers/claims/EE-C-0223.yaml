@@ -18,13 +18,18 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 13
   section: '13.26'
   page: 268
   version: v1
 status_history: []
-history: []
+history:
+- kind: reclassification
+  date: '2026-09-29'
+  note: 'Author disposition, 29 Sep 2026: a diagnostic in the 13.26 battery, not a derivation; no derivation
+    is to be invented'
+  reviewed: true
 import:
   source: Book I Beta, automated extraction
   interim_id: ch13.T13.26a

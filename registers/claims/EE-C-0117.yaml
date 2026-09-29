@@ -20,7 +20,7 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 9
   section: '9.28'
   page: 181

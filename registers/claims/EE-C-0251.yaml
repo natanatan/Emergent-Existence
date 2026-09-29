@@ -1,0 +1,47 @@
+id: EE-C-0251
+kind: representation
+use: representational
+aliases: []
+versions:
+  v1:
+    text: 'Once localization classes that distinguish membership in a domain D are spatially coordinated,
+      a relational membership boundary may be represented geometrically as ∂D: relational boundary ⇝ geometric
+      boundary ⇝ spatial boundary. Only then do inside, outside, region, enclosure and surface acquire
+      literal spatial interpretation.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Boundary Can Now Become Spatial (13.19)
+    note: Stays representational unless a constitutive criterion is added that licenses when a relational
+      membership boundary counts as spatially realized.
+dependencies: []
+relations:
+- type: represents
+  claim: EE-C-0027
+- type: represents
+  claim: EE-C-0084
+- type: represents
+  claim: EE-C-0250
+concepts:
+- Bd
+- Io
+- Lc
+composition: []
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.19'
+  page: 257
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: 'Interpretive realization: the step from geometric to spatial boundary is asserted, not derived'
+history:
+- kind: registration
+  date: '2026-09-29'
+  note: 'Author disposition, 29 Sep 2026: interpretive realization, not a derivation'
+  reviewed: true
+import:
+  source: Registered by author disposition, 29 Sep 2026

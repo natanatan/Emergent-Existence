@@ -53,8 +53,10 @@ Every appearance has a **role**:
 | `derivation` | The claim's official formal derivation | Carries the label, e.g. Definition 4.2 |
 | `foreshadowing` | An earlier mention pointing ahead to the derivation | No label. Cites the derivation's label forward, e.g. "(see 14.3)" |
 | `restatement` | A later return to a claim already derived | No label. Cites the derivation's label back, e.g. "(4.2)" |
+| `statement` | Where a test or a forward pointer is stated. These kinds are stated, never derived | May carry a label |
 
-- **Exactly one derivation appearance per claim per edition.** The author assigns it. A claim without one is a hard error, which stays in the error report until a sync corrects it.
+- **Tests and forward pointers are stated, not derived.** A claim of kind `test` (a diagnostic) or `forward_pointer` (a sketch of work deferred beyond the book) has exactly one `statement` appearance per edition and never a derivation. No derivation is to be invented for it.
+- **Exactly one derivation appearance per claim per edition** for every other claim. The author assigns it. A claim without one is a hard error, which stays in the error report until a sync corrects it.
 - **Only the derivation carries a label.** The label is a locator: the chapter and the order of derivations within it, for example `4.2`. The chapter counter counts derivation appearances only.
 - **A type word may be printed with it** ("Definition 4.2"), but the type word is presentation, not identity.
 - **Numbering resets in each edition.** The same claim can be `4.2` in the Beta and `5.1` in the first edition.
@@ -122,7 +124,7 @@ Hypotheses follow the same model. `EE-H-nnnn` is the identity, and the legacy `H
 
 ```yaml
 id: EE-C-0031
-kind: criterion          # proposition | definition | criterion | test | ledger | representation | rule
+kind: criterion          # proposition | definition | criterion | test | ledger | representation | rule | forward_pointer
 use: constitutive        # constitutive | representational | diagnostic
 aliases: []
 versions:

@@ -1,0 +1,46 @@
+id: EE-C-0250
+kind: criterion
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'The organization of jointly resolvable loci becomes spatially coordinated when the localization
+      of one cannot be varied freely without changing the relational localization structure around it:
+      spatial localizations are not independently assignable. Schematically: ΔL(A) ↦ Δ{d(A,B), d(A,C),
+      N(A), …}.'
+    introduced: '2026-09-29'
+    edition: book-1/beta
+    beta_heading: Localizations Constrain Localizations (13.6)
+    note: The displayed map is a schematic dependency, not a derived formal result.
+dependencies:
+- claim: EE-C-0213
+  role: constitutive
+- claim: EE-C-0212
+  role: constitutive
+relations: []
+concepts:
+- Lc
+- Sp
+composition:
+- Jr
+- Lc
+appearances:
+- edition: book-1/beta
+  role: null
+  chapter: 13
+  section: '13.6'
+  page: 255
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Candidate criterion; the text concedes the precise formal criterion remains to be developed
+history:
+- kind: registration
+  date: '2026-09-29'
+  note: 'Author disposition, 29 Sep 2026: candidate criterion / schematic dependency, not a derived formal
+    map'
+  reviewed: true
+import:
+  source: Registered by author disposition, 29 Sep 2026

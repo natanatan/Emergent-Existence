@@ -16,7 +16,7 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 12
   section: '12.25'
   page: 243

@@ -1,7 +1,9 @@
 id: EE-C-0107
 kind: rule
-use: null
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0108
+- ch09.FR9.2
 versions:
   v1:
     text: A symbol, operator, relation or construction may perform ontological work only when its content
@@ -11,6 +13,7 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: Formal Admissibility Rule (9.3)
+    ledger_form: metalanguage richness ≠ object-language richness
 dependencies: []
 relations: []
 concepts:
@@ -18,14 +21,41 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 9
   section: '9.3'
   page: 166
   version: v1
-  label: Formal Admissibility Rule
+  type_word: Rule
+  label: '9.2'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 9
+  section: '9.2'
+  page: 166
+  version: v1
+  merged_from: EE-C-0108
+  cites: '9.2'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Methodology
+  cites: '9.2'
+- edition: book-1/beta
+  role: restatement
+  chapter: 9
+  section: '9.29'
+  version: v1
+  cites: '9.2'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0108 was a duplicate registration of this claim (foreshadowing at 9.2); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch09.FAR

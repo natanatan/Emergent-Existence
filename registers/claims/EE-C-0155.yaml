@@ -23,11 +23,13 @@ composition:
 - Sd
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.4'
   page: 209
   version: v1
+  type_word: Definition
+  label: '11.5'
 status_history: []
 history: []
 import:

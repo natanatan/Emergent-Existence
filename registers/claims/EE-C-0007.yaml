@@ -21,12 +21,25 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 1
-  section: null
+  section: '1.9'
   page: 34
   version: v1
-  label: 1A
+  type_word: Proposition
+  label: '1.10'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 1
+  section: '1.2'
+  version: v1
+  cites: '1.10'
+- edition: book-1/beta
+  role: restatement
+  chapter: 4
+  section: '4.2'
+  version: v1
+  cites: '1.10'
 status_history: []
 history: []
 import:

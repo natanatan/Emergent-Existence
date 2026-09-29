@@ -1,6 +1,6 @@
 id: EE-C-0088
 kind: criterion
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -20,11 +20,32 @@ composition:
 - Ob
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 6
   section: '6.12'
   page: 113
   version: v1
+  type_word: Criterion
+  label: '6.11'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Ch 6 opening
+  cites: '6.11'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.18'
+  version: v1
+  cites: '6.11'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
+  version: v1
+  cites: '6.11'
 status_history: []
 history: []
 import:

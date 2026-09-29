@@ -1,6 +1,6 @@
 id: EE-C-0198
 kind: proposition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -25,11 +25,13 @@ composition:
 - Sb
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.23'
   page: 242
   version: v1
+  type_word: Proposition
+  label: '12.23'
 status_history: []
 history: []
 import:

@@ -21,11 +21,19 @@ composition:
 - Dt
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.11'
   page: 215
   version: v1
+  type_word: Proposition
+  label: '11.12'
+- edition: book-1/beta
+  role: restatement
+  chapter: 11
+  section: '11.22'
+  version: v1
+  cites: '11.12'
 status_history: []
 history: []
 import:

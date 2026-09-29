@@ -1,6 +1,6 @@
 id: EE-C-0094
 kind: forward_pointer
-use: representational
+use: diagnostic
 aliases: []
 versions:
   v1:
@@ -23,6 +23,7 @@ appearances:
   section: '6.15'
   page: 117
   version: v1
+  type_word: Forward pointer
 status_history:
 - status: Speculative
   date: '2026-09-29'

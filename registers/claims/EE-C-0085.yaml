@@ -1,7 +1,9 @@
 id: EE-C-0085
-kind: other
-use: null
-aliases: []
+kind: proposition
+use: constitutive
+aliases:
+- EE-C-0086
+- ch06.M6.11a
 versions:
   v1:
     text: ▪ ri ∈ ℛA and ri ∈ ℛB provided the two closures are defined by different but compatible relational
@@ -20,13 +22,34 @@ composition:
 - Cl
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 6
   section: '6.11'
   page: 112
   version: v1
+  type_word: Proposition
+  label: '6.10'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.11'
+  page: 113
+  version: v1
+  merged_from: EE-C-0086
+  cites: '6.10'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
+  version: v1
+  cites: '6.10'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0086 was a duplicate registration of this claim (restatement at 6.11); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch06.D6.11

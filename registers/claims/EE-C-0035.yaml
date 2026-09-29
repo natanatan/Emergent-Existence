@@ -1,6 +1,6 @@
 id: EE-C-0035
-kind: other
-use: null
+kind: forward_pointer
+use: diagnostic
 aliases: []
 versions:
   v1:
@@ -16,11 +16,12 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 5
   section: '5.1'
   page: 83
   version: v1
+  type_word: Forward pointer
 status_history:
 - status: Open
   date: '2026-09-29'

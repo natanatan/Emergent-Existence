@@ -1,0 +1,32 @@
+id: EE-C-0259
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: retention ≠ path dependence ≠ memory
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 8
+  section: '8.14'
+  version: v1
+  type_word: Ledger
+  label: '8.4'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Derivation map № 8.1. ''Memory requires the stronger condition: retained change must become
+    internally consequential to a self-maintaining system.'' Related to EE-C-0067 (5.13), which it sharpens.'

@@ -20,11 +20,13 @@ composition:
 - Ut
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 3
   section: '3.5'
   page: 58
   version: v1
+  type_word: Criterion
+  label: '3.3'
 status_history: []
 history: []
 import:

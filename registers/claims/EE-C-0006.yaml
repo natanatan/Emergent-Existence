@@ -1,6 +1,6 @@
 id: EE-C-0006
 kind: rule
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -15,11 +15,13 @@ concepts: []
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 1
-  section: null
+  section: '1.8'
   page: 34
   version: v1
+  type_word: Rule
+  label: '1.8'
 status_history: []
 history: []
 import:

@@ -20,11 +20,19 @@ composition:
 - Cm
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.5'
   page: 192
   version: v1
+  type_word: Definition
+  label: '10.4'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.24'
+  version: v1
+  cites: '10.4'
 status_history: []
 history: []
 import:

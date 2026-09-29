@@ -1,0 +1,33 @@
+id: EE-C-0253
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Ω ≠ ∅
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 1
+  section: '1.7'
+  version: v1
+  type_word: Ledger
+  label: '1.6'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Standalone ≠ line; map № 1.4 (derivation, high). Argued in place: ''Set theory already presupposes
+    logic, axioms, and membership. It is therefore far too structured to serve as the literal ontology
+    of Origin.'''

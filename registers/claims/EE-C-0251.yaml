@@ -28,11 +28,13 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 13
   section: '13.19'
   page: 257
   version: v1
+  type_word: Representation
+  label: '13.23'
 status_history:
 - status: Provisional
   date: '2026-09-29'

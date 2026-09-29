@@ -1,7 +1,11 @@
 id: EE-C-0062
-kind: other
-use: null
-aliases: []
+kind: proposition
+use: constitutive
+aliases:
+- EE-C-0063
+- ch05.M5.12a
+- EE-C-0082
+- ch06.M6.9a
 versions:
   v1:
     text: No independent aggregation primitive is required to state higher-order membership under one
@@ -20,13 +24,47 @@ composition:
 - Mb
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.12'
   page: 93
   version: v1
+  type_word: Proposition
+  label: '5.18'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.12'
+  page: 93
+  version: v1
+  merged_from: EE-C-0063
+  cites: '5.18'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.9'
+  page: 111
+  version: v1
+  merged_from: EE-C-0082
+  cites: '5.18'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
+  version: v1
+  cites: '5.18'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0063 was a duplicate registration of this claim (restatement at 5.12); merged, its ID retired
+    as an alias.
+  reviewed: false
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0082 was a duplicate registration of this claim (restatement at 6.9); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.R5.12

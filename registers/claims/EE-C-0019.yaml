@@ -1,6 +1,6 @@
 id: EE-C-0019
-kind: other
-use: null
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -8,21 +8,22 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: formal recurrence ≠ higher-order Return ≠ physical clock (3.10)
-dependencies:
-- claim: EE-C-0018
-  role: constitutive
-relations: []
+dependencies: []
+relations:
+- type: diagnoses
+  claim: EE-C-0018
 concepts:
 - Fr
-composition:
-- Ic
+composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 3
   section: '3.10'
   page: 61
   version: v1
+  type_word: Ledger
+  label: '3.8'
 status_history: []
 history: []
 import:

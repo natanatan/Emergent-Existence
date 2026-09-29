@@ -1,7 +1,9 @@
 id: EE-C-0056
 kind: criterion
-use: null
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0057
+- ch05.M5.10a
 versions:
   v1:
     text: 'Higher-order discernibility requires at least: ▪ λW(OA) ≠ λW(OB)'
@@ -21,13 +23,34 @@ composition:
 - Pf
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.10'
   page: 91
   version: v1
+  type_word: Criterion
+  label: '5.15'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.10'
+  page: 91
+  version: v1
+  merged_from: EE-C-0057
+  cites: '5.15'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.18'
+  version: v1
+  cites: '5.15'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0057 was a duplicate registration of this claim (restatement at 5.10); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.D5.10

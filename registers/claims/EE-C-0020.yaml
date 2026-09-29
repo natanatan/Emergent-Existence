@@ -20,11 +20,20 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 4
   section: '4.4'
   page: 68
   version: v1
+  type_word: Definition
+  label: '4.2'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Chapter 4 opening
+  cites: '4.2'
 status_history: []
 history: []
 import:

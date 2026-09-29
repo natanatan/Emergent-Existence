@@ -1,7 +1,9 @@
 id: EE-C-0045
 kind: definition
-use: diagnostic
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0046
+- ch05.M5.6a
 versions:
   v1:
     text: 'Suppose an identity-relevant criterion F of the relational organization remains satisfied across
@@ -11,25 +13,52 @@ versions:
     introduced: '2026-09-29'
     edition: book-1/beta
     beta_heading: (unlabelled display, §5.6) structural persistence under 𝔗R
-dependencies: []
+dependencies:
+- claim: EE-C-0028
+  role: constitutive
 relations:
-- type: tests
+- type: specializes
   claim: EE-C-0020
-- type: tests
-  claim: EE-C-0028
 concepts:
 - Sy
 - Dg
-composition: []
+composition:
+- Id
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.6'
   page: 87
   version: v1
+  type_word: Definition
+  label: '5.8'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.6'
+  page: 88
+  version: v1
+  merged_from: EE-C-0046
+  cites: '5.8'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.18'
+  version: v1
+  cites: '5.8'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: correction
+  note: 'Editor review: added constitutive dependency EE-C-0028. F and ~_F are premises of the definition,
+    not something it tests.'
+  reviewed: false
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0046 was a duplicate registration of this claim (restatement at 5.6); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.D5.6

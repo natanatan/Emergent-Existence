@@ -1,6 +1,6 @@
 id: EE-C-0167
-kind: other
-use: null
+kind: definition
+use: representational
 aliases: []
 versions:
   v1:
@@ -18,11 +18,13 @@ composition:
 - Dt
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.19'
   page: 219
   version: v1
+  type_word: Definition
+  label: '11.20'
 status_history: []
 history: []
 import:

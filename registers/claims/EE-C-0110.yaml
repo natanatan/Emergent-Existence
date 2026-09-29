@@ -20,11 +20,13 @@ composition:
 - Ut
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 9
   section: '9.5'
   page: 167
   version: v1
+  type_word: Definition
+  label: '9.4'
 status_history: []
 history: []
 import:

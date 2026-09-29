@@ -16,11 +16,13 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 1
-  section: null
+  section: '1.5'
   page: 30
   version: v1
+  type_word: Definition
+  label: '1.2'
 status_history: []
 history: []
 import:

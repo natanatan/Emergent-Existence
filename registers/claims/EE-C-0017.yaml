@@ -1,5 +1,5 @@
 id: EE-C-0017
-kind: other
+kind: representation
 use: representational
 aliases: []
 versions:
@@ -17,11 +17,13 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 3
   section: '3.8'
   page: 60
   version: v1
+  type_word: Representation
+  label: '3.6'
 status_history: []
 history: []
 import:

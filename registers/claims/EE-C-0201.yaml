@@ -1,6 +1,6 @@
 id: EE-C-0201
 kind: proposition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -28,11 +28,26 @@ composition:
 - Sb
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.30'
   page: 247
   version: v1
+  type_word: Proposition
+  label: '12.26'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: 12 (opening)
+  cites: '12.26'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.33'
+  version: v1
+  cites: '12.26'
 status_history:
 - status: Speculative
   date: '2026-09-29'

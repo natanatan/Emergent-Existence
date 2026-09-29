@@ -1,5 +1,5 @@
 id: EE-C-0004
-kind: rule
+kind: ledger
 use: constitutive
 aliases: []
 versions:
@@ -19,11 +19,32 @@ composition:
 - Om
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 1
-  section: null
+  section: '1.5'
   page: 31
   version: v1
+  type_word: Ledger
+  label: '1.4'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Introduction (What These Neighboring Programs Reveal / Projection paragraph)
+  cites: '1.4'
+- edition: book-1/beta
+  role: restatement
+  chapter: 1
+  section: '1.12'
+  version: v1
+  cites: '1.4'
+- edition: book-1/beta
+  role: restatement
+  chapter: 1
+  section: '1.13'
+  version: v1
+  cites: '1.4'
 status_history: []
 history: []
 import:

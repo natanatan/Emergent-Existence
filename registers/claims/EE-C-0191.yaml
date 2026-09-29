@@ -1,6 +1,6 @@
 id: EE-C-0191
 kind: definition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -21,11 +21,25 @@ composition:
 - Ly
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.13'
   page: 236
   version: v1
+  type_word: Definition
+  label: '12.14'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.14'
+  version: v1
+  cites: '12.14'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.33'
+  version: v1
+  cites: '12.14'
 status_history: []
 history: []
 import:

@@ -1,7 +1,9 @@
 id: EE-C-0026
 kind: definition
-use: null
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0230
+- ch14.C14.4
 versions:
   v1:
     text: ▪ Σa ≺ Σb when Σb contains, or its admissibility depends on, a retained consequence inherited
@@ -27,13 +29,34 @@ composition:
 - Rd
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 4
   section: '4.11'
   page: 71
   version: v1
+  type_word: Definition
+  label: '4.8'
+- edition: book-1/beta
+  role: restatement
+  chapter: 14
+  section: '14.4'
+  page: 275
+  version: v1
+  merged_from: EE-C-0230
+  cites: '4.8'
+- edition: book-1/beta
+  role: restatement
+  chapter: 4
+  section: '4.21'
+  version: v1
+  cites: '4.8'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0230 was a duplicate registration of this claim (restatement at 14.4); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch04.D4.11

@@ -1,6 +1,6 @@
 id: EE-C-0219
 kind: definition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -17,11 +17,19 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 13
   section: '13.13'
   page: 259
   version: v1
+  type_word: Definition
+  label: '13.17'
+- edition: book-1/beta
+  role: restatement
+  chapter: 13
+  section: '13.24'
+  version: v1
+  cites: '13.17'
 status_history: []
 history: []
 import:

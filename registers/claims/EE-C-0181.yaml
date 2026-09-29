@@ -20,11 +20,13 @@ composition:
 - Nb
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.2'
   page: 229
   version: v1
+  type_word: Criterion
+  label: '12.2'
 status_history: []
 history: []
 import:

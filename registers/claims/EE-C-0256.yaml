@@ -1,0 +1,33 @@
+id: EE-C-0256
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: relation count ≠ independence structure ≠ physical dimension
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 5
+  section: '5.14'
+  version: v1
+  type_word: Ledger
+  label: '5.21'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Derivation map № 5.4 (high): ''The present chapter therefore earns an independence problem,
+    not a numerical relational dimension d_R.'' No record in EE-C-0032–0097 contains this line. EE-C-0068
+    is only the 5.14 open question.'

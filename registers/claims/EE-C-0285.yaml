@@ -1,0 +1,32 @@
+id: EE-C-0285
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: edge ≠ spatial adjacency
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 13
+  section: '13.10'
+  version: v1
+  type_word: Ledger
+  label: '13.11'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: Map № 13.9 (medium). 'It becomes spatial adjacency only after several additional conditions
+    are satisfied.' Restated in 13.24 (edge | spatial neighbor).

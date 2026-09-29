@@ -1,6 +1,6 @@
 id: EE-C-0233
 kind: rule
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -20,11 +20,19 @@ composition:
 - Ut
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 14
   section: '14.6'
   page: 278
   version: v1
+  type_word: Rule
+  label: '14.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 14
+  section: '14.26'
+  version: v1
+  cites: '14.3'
 status_history: []
 history: []
 import:

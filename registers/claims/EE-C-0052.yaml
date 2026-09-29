@@ -1,6 +1,6 @@
 id: EE-C-0052
-kind: other
-use: null
+kind: proposition
+use: representational
 aliases: []
 versions:
   v1:
@@ -21,11 +21,13 @@ composition:
 - Rf
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.8'
   page: 90
   version: v1
+  type_word: Proposition
+  label: '5.12'
 status_history: []
 history: []
 import:

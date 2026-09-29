@@ -1,7 +1,9 @@
 id: EE-C-0074
-kind: other
-use: null
-aliases: []
+kind: proposition
+use: constitutive
+aliases:
+- EE-C-0076
+- ch06.D6.6a
 versions:
   v1:
     text: Connectivity and circularity are insufficient for closure.
@@ -19,13 +21,28 @@ composition:
 - Cn
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 6
   section: '6.4'
   page: 107
   version: v1
+  type_word: Proposition
+  label: '6.5'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.6'
+  page: 108
+  version: v1
+  merged_from: EE-C-0076
+  cites: '6.5'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0076 was a duplicate registration of this claim (restatement at 6.6); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch06.M6.4a

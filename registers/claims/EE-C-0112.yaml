@@ -1,6 +1,6 @@
 id: EE-C-0112
 kind: criterion
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -21,11 +21,13 @@ composition:
 - Ss
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 9
   section: '9.9'
   page: 171
   version: v1
+  type_word: Criterion
+  label: '9.8'
 status_history: []
 history: []
 import:

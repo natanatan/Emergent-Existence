@@ -12,7 +12,9 @@ versions:
     edition: book-1/beta
     beta_heading: Effective dimension as rank (12.6)
 dependencies: []
-relations: []
+relations:
+- type: specializes
+  claim: EE-C-0115
 concepts:
 - Ed
 - Dd
@@ -20,11 +22,13 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.6'
   page: 232
   version: v1
+  type_word: Definition
+  label: '12.6'
 status_history: []
 history: []
 import:

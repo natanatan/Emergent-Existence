@@ -1,6 +1,6 @@
 id: EE-C-0133
-kind: other
-use: null
+kind: proposition
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -19,11 +19,13 @@ composition:
 - Sf
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.16'
   page: 197
   version: v1
+  type_word: Proposition
+  label: '10.12'
 status_history:
 - status: Rejected
   date: '2026-09-29'

@@ -22,6 +22,7 @@ appearances:
   section: '13.26'
   page: 268
   version: v1
+  type_word: Test
 status_history: []
 history:
 - kind: reclassification

@@ -1,0 +1,33 @@
+id: EE-C-0284
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: geometric neighborhood + consequential accessibility ⇝ physical locality
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 13
+  section: '13.9'
+  version: v1
+  type_word: Ledger
+  label: '13.10'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: Map № 13.8 (high). 'To earn locality, neighborhood structure must constrain relational accessibility',
+    with Adm(A,B) = f(L(A), L(B), Geo). 13.23 row 5 rests on this; physical locality has no claim record
+    at all.

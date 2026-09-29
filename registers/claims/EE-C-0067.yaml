@@ -1,6 +1,6 @@
 id: EE-C-0067
-kind: other
-use: null
+kind: proposition
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -20,11 +20,25 @@ composition:
 - Pr
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.13'
   page: 94
   version: v1
+  type_word: Proposition
+  label: '5.20'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.19'
+  version: v1
+  cites: '5.20'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.22'
+  version: v1
+  cites: '5.20'
 status_history:
 - status: Provisional
   date: '2026-09-29'

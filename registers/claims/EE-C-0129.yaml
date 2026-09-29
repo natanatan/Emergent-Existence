@@ -1,7 +1,9 @@
 id: EE-C-0129
-kind: other
+kind: representation
 use: representational
-aliases: []
+aliases:
+- EE-C-0130
+- ch10.V10.11
 versions:
   v1:
     text: ▪ Cmp(X, Y) ↦ mag(X)/mag(Y) [...] ▪ mag(W)/mag(A) = mag(A)/mag(B). [...] The ratio represents
@@ -21,13 +23,28 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.11'
   page: 195
   version: v1
+  type_word: Representation
+  label: '10.9'
+- edition: book-1/beta
+  role: restatement
+  chapter: 10
+  section: '10.11'
+  page: 195
+  version: v1
+  merged_from: EE-C-0130
+  cites: '10.9'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0130 was a duplicate registration of this claim (restatement at 10.11); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch10.D10.11

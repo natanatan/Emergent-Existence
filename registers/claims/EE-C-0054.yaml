@@ -1,6 +1,6 @@
 id: EE-C-0054
 kind: criterion
-use: null
+use: diagnostic
 aliases: []
 versions:
   v1:
@@ -18,11 +18,13 @@ composition:
 - Ob
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.9'
   page: 90
   version: v1
+  type_word: Criterion
+  label: '5.14'
 status_history: []
 history: []
 import:

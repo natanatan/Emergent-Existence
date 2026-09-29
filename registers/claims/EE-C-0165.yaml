@@ -1,6 +1,6 @@
 id: EE-C-0165
 kind: proposition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -23,11 +23,19 @@ composition:
 - Dt
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.16'
   page: 217
   version: v1
+  type_word: Proposition
+  label: '11.17'
+- edition: book-1/beta
+  role: restatement
+  chapter: 11
+  section: '11.17'
+  version: v1
+  cites: '11.17'
 status_history: []
 history: []
 import:

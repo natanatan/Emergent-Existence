@@ -22,12 +22,26 @@ composition:
 - Om
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 2
-  section: null
+  section: '2.3'
   page: 47
   version: v1
-  label: 2A
+  type_word: Proposition
+  label: '2.1'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Chapter 2 opening
+  cites: '2.1'
+- edition: book-1/beta
+  role: restatement
+  chapter: 3
+  section: '3.1'
+  version: v1
+  cites: '2.1'
 status_history: []
 history: []
 import:

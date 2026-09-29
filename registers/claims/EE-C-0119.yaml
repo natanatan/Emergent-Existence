@@ -1,6 +1,6 @@
 id: EE-C-0119
-kind: other
-use: null
+kind: proposition
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -16,11 +16,19 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 10
   section: '10.1'
   page: 190
   version: v1
+  type_word: Proposition
+  label: '10.1'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 9
+  section: '9.33'
+  version: v1
+  cites: '10.1'
 status_history: []
 history: []
 import:

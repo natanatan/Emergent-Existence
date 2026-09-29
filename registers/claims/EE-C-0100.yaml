@@ -23,11 +23,37 @@ composition:
 - An
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 7
   section: '7.8'
   page: 133
   version: v1
+  type_word: Proposition
+  label: '7.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 7
+  section: '7.10'
+  version: v1
+  cites: '7.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 7
+  section: '7.16'
+  version: v1
+  cites: '7.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 8
+  section: '8.16'
+  version: v1
+  cites: '7.3'
+- edition: book-1/beta
+  role: restatement
+  chapter: 8
+  section: '8.24'
+  version: v1
+  cites: '7.3'
 status_history: []
 history: []
 import:

@@ -1,0 +1,33 @@
+id: EE-C-0265
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: equivalence ⇝ transformation-compatible equivalence ⇝ quotient-level dynamics
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 9
+  section: '9.9'
+  version: v1
+  type_word: Ledger
+  label: '9.9'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Derivation map № 9.5. Section summary: ''Equivalence and compatibility are different demands,
+    and only the second supports quotient dynamics.'' Sits between EE-C-0112 (criterion) and EE-C-0113
+    (autonomy). Restated in the 9.33 handoff.'

@@ -1,6 +1,6 @@
 id: EE-C-0025
 kind: definition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -19,11 +19,13 @@ composition:
 - Rc
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 4
   section: '4.10'
   page: 71
   version: v1
+  type_word: Definition
+  label: '4.7'
 status_history: []
 history: []
 import:

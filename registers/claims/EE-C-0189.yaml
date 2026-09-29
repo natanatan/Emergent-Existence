@@ -1,5 +1,5 @@
 id: EE-C-0189
-kind: other
+kind: representation
 use: representational
 aliases: []
 versions:
@@ -13,17 +13,21 @@ dependencies: []
 relations:
 - type: represents
   claim: EE-C-0188
+- type: represents
+  claim: EE-C-0185
 concepts:
 - Gm
 - Ed
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.11'
   page: 235
   version: v1
+  type_word: Representation
+  label: '12.10'
 status_history: []
 history: []
 import:

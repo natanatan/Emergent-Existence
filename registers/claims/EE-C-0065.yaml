@@ -1,7 +1,9 @@
 id: EE-C-0065
-kind: other
-use: null
-aliases: []
+kind: ledger
+use: constitutive
+aliases:
+- EE-C-0066
+- ch05.M5.13a
 versions:
   v1:
     text: ▪ Σa ≺ Σb when retained contribution from Σa changes the admissibility of Σb [...] ▪ boundary
@@ -20,13 +22,28 @@ composition:
 - Pr
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.13'
   page: 94
   version: v1
+  type_word: Ledger
+  label: '5.19'
+- edition: book-1/beta
+  role: restatement
+  chapter: 5
+  section: '5.13'
+  page: 94
+  version: v1
+  merged_from: EE-C-0066
+  cites: '5.19'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0066 was a duplicate registration of this claim (restatement at 5.13); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch05.D5.13

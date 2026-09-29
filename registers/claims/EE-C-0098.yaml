@@ -22,11 +22,32 @@ composition:
 - Rd
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 7
   section: '7.2'
   page: 128
   version: v1
+  type_word: Definition
+  label: '7.1'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Ch 7 opening
+  cites: '7.1'
+- edition: book-1/beta
+  role: restatement
+  chapter: 7
+  section: '7.4'
+  version: v1
+  cites: '7.1'
+- edition: book-1/beta
+  role: restatement
+  chapter: 7
+  section: '7.21'
+  version: v1
+  cites: '7.1'
 status_history: []
 history: []
 import:

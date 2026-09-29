@@ -1,5 +1,5 @@
 id: EE-C-0030
-kind: other
+kind: test
 use: diagnostic
 aliases: []
 versions:
@@ -16,11 +16,12 @@ concepts: []
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: statement
   chapter: 4
   section: '4.16'
   page: 74
   version: v1
+  type_word: Test
 status_history: []
 history: []
 import:

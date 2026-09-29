@@ -1,0 +1,33 @@
+id: EE-C-0258
+kind: ledger
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: observer coarse-graining ≠ ontic higher-order equivalence, though the former may model the latter
+    introduced: '2026-09-29'
+    edition: book-1/beta
+dependencies: []
+relations: []
+concepts: []
+composition: []
+appearances:
+- edition: book-1/beta
+  role: derivation
+  chapter: 7
+  section: '7.14'
+  version: v1
+  type_word: Ledger
+  label: '7.5'
+status_history:
+- status: Provisional
+  date: '2026-09-29'
+  edition: book-1/beta
+  reason: Registered from Book I Beta by editor review (derivation map)
+history: []
+import:
+  source: Editor review of Book I Beta, 29 Sep 2026
+  note: Dependencies and element concepts not yet declared
+  evidence: 'Derivation map № 7.2. ''the ontic counterpart comes from Closure ... it has become internally
+    consequential whether or not anyone notices''. Close relative of EE-C-0093 (6.14): relation refines/specializes,
+    not a duplicate.'

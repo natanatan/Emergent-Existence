@@ -1,5 +1,5 @@
 id: EE-C-0184
-kind: other
+kind: ledger
 use: constitutive
 aliases: []
 versions:
@@ -19,11 +19,25 @@ composition:
 - Ly
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 12
   section: '12.6'
   page: 231
   version: v1
+  type_word: Ledger
+  label: '12.5'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.8'
+  version: v1
+  cites: '12.5'
+- edition: book-1/beta
+  role: restatement
+  chapter: 12
+  section: '12.29'
+  version: v1
+  cites: '12.5'
 status_history: []
 history: []
 import:

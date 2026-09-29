@@ -19,12 +19,32 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 1
-  section: null
+  section: '1.9'
   page: 35
   version: v1
-  label: 1B
+  type_word: Proposition
+  label: '1.11'
+- edition: book-1/beta
+  role: restatement
+  chapter: 1
+  section: '1.13'
+  version: v1
+  cites: '1.11'
+- edition: book-1/beta
+  role: restatement
+  chapter: null
+  section: null
+  version: v1
+  location: Chapter 3 opening
+  cites: '1.11'
+- edition: book-1/beta
+  role: restatement
+  chapter: 4
+  section: '4.13'
+  version: v1
+  cites: '1.11'
 status_history:
 - status: Provisional
   date: '2026-09-29'

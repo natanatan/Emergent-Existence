@@ -1,6 +1,6 @@
 id: EE-C-0164
-kind: other
-use: null
+kind: ledger
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -16,11 +16,13 @@ concepts:
 composition: []
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 11
   section: '11.13'
   page: 216
   version: v1
+  type_word: Ledger
+  label: '11.14'
 status_history: []
 history: []
 import:

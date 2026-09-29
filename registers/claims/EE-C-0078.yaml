@@ -1,7 +1,9 @@
 id: EE-C-0078
 kind: definition
-use: null
-aliases: []
+use: constitutive
+aliases:
+- EE-C-0079
+- ch06.M6.7a
 versions:
   v1:
     text: ▪ Σn ∈ ℭF and (Σn, Σn+1) ∈ 𝒰 ⇒? Σn+1 ∈ ℭF [...] Structural closure is internal sufficiency of
@@ -26,13 +28,41 @@ composition:
 - Rc
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 6
   section: '6.7'
   page: 109
   version: v1
+  type_word: Definition
+  label: '6.7'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.7'
+  page: 110
+  version: v1
+  merged_from: EE-C-0079
+  cites: '6.7'
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: null
+  section: null
+  version: v1
+  location: Ch 6 opening
+  cites: '6.7'
+- edition: book-1/beta
+  role: restatement
+  chapter: 6
+  section: '6.18'
+  version: v1
+  cites: '6.7'
 status_history: []
-history: []
+history:
+- date: '2026-09-29'
+  kind: merge
+  note: EE-C-0079 was a duplicate registration of this claim (restatement at 6.7); merged, its ID retired
+    as an alias.
+  reviewed: false
 import:
   source: Book I Beta, automated extraction
   interim_id: ch06.D6.7

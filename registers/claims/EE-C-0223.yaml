@@ -23,6 +23,17 @@ appearances:
   section: '13.26'
   page: 268
   version: v1
+  type_word: Test
+- edition: book-1/beta
+  role: foreshadowing
+  chapter: 13
+  section: '13.25'
+  version: v1
+- edition: book-1/beta
+  role: restatement
+  chapter: 13
+  section: '13.29'
+  version: v1
 status_history: []
 history:
 - kind: reclassification

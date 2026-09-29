@@ -1,6 +1,6 @@
 id: EE-C-0061
 kind: definition
-use: null
+use: constitutive
 aliases: []
 versions:
   v1:
@@ -18,11 +18,13 @@ composition:
 - St
 appearances:
 - edition: book-1/beta
-  role: null
+  role: derivation
   chapter: 5
   section: '5.12'
   page: 92
   version: v1
+  type_word: Definition
+  label: '5.17'
 status_history: []
 history: []
 import:

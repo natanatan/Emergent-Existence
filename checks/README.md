@@ -39,3 +39,11 @@ The checks also run once a day on a schedule, whether or not anything changed, f
 - a count of claims still missing a derivation appearance.
 
 A run that finds new errors or flags notifies the author through GitHub. At 6:00 am Pacific (America/Los_Angeles) each day, a scheduled Claude session reads the Audit report issue and sends the author a short plain-language summary. Both are set up together with the checks.
+
+## Generated views
+
+| Script | Writes | Source |
+| --- | --- | --- |
+| `checks/export.py` | `exports/` | All registers |
+| `checks/elements_doc.py` | `docs/elements.md` | `registers/elements/elements.yaml` |
+| `checks/lexicon_sync.py` | The Linking Lexicon page's data | `registers/elements/elements.yaml`. One way and additive: missing elements become nodes; existing nodes, formulas and notes on the page are never changed. Drift between the two is printed for review |

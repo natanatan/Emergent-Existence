@@ -63,14 +63,45 @@ withholds:
 - item: metric distance or length
   deferred_to: Dt
 - item: a physical unit (metre, second, Planck length, energy scale)
+  scope: open
+  basis: "What further structure turns a repeatable comparison into a calibrated unit? (p.205)"
+  drafted: true
 - item: a coordinate system
+  deferred_to: Gm
+  basis: "Coordinates arrive after stable modes, earned as efficient representations (p.234, p.247)"
+  drafted: true
 - item: vector-space structure, inner products, angles, basis vectors, orthogonality
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "H-55: effective orthogonality is reserved for the physical-emergence program and must not be assumed in Book I (p.326)"
+  drafted: true
 - item: a manifold, continuum or metric topology
+  deferred_to: Gm
+  basis: "Geometry earns scale-dependent smooth approximation, not fundamental continuity (p.235, p.247)"
+  drafted: true
 - item: physical dimensionality or an embedding dimension
+  deferred_to: Sp
+  basis: "Space earns physical spatial position, separation, extension, spatial dimensionality, regions and boundaries (p.268)"
+  drafted: true
 - item: fractal dimension as a property of physical space
+  scope: open
+  basis: "A non-integer or wandering rank is a live outcome of the dimensionality programme (H-111, p.342)"
+  drafted: true
 - item: a universal law of self-similarity, or any universal role for Fibonacci or φ
+  scope: not-earned-in-series
+  basis: "H-11: golden-ratio universality Rejected in universal form (p.317); φ is not a constant of emergence (p.197)"
+  drafted: true
 - item: renormalization-group flow as physical dynamics
+  scope: open
+  basis: "Listed as unearned with no stage named (p.204)"
+  drafted: true
 - item: a probability measure or a stochastic distribution over scales
+  scope: open
+  basis: "Listed as unearned with no stage named (p.204)"
+  drafted: true
 - item: weighted aggregation
+  scope: open
+  basis: "Whether weighted aggregation can be earned at all in this volume is OPEN (p.193)"
+  drafted: true
 - item: genuine self-similarity across levels
   scope: book-2

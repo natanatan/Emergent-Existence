@@ -65,21 +65,54 @@ withholds:
 - item: metric time, temporal duration, period or frequency
   deferred_to: Tm
 - item: synchronization between recurring relational modes
+  deferred_to: Tm
+  basis: "Cross-clock calibration of independent recurrences (p.282; H-124, p.346)"
+  drafted: true
 - item: spatial circularity, orbit, rotation or geometric loop
+  deferred_to: Sp
+  basis: "Space earns physical spatial position, separation, extension, spatial dimensionality, regions and boundaries (p.268)"
+  drafted: true
 - item: topology, homotopy class or physical winding number
   deferred_to: Fm
 - item: physical phase or angular coordinate
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "H-1: coherent phase dynamics revisited in Matter (p.315); phase needs parameterized cycle, algebra, metric (H-84, p.333)"
+  drafted: true
 - item: causal loops or closed timelike curves
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Keeps physical cycles distinct from CTCs; relevant when causal order is derived (H-80, p.332); Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: Poincaré recurrence as a physical theorem of this model
   deferred_to: Fm
 - item: entropy, thermodynamic irreversibility or an arrow of time
+  scope: open
+  basis: "Time derives only a structural record asymmetry; entropic, cosmological and psychological arrows remain separate problems (p.289, p.283)"
+  drafted: true
 - item: biological or cognitive memory
   scope: book-2
 - item: oscillation, wave propagation or resonance
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "H-1: wave-like modes may arise from spectral dynamics; revisited in Matter (p.315)"
+  drafted: true
 - item: conservation laws
+  scope: open
+  basis: "Listed as unearned with no stage named (p.161)"
+  drafted: true
 - item: universal principle that all persistent structures must return
+  scope: not-earned-in-series
+  basis: "Persistence without departure is not return; otherwise every stable object would count as returning (H-79, p.332)"
+  drafted: true
 - item: proof that return-compatible structures are generically selected
+  scope: open
+  basis: "Do return-compatible structures become more prevalent without explicit selection? (p.163); H-83 Speculative (p.333)"
+  drafted: true
 - item: quantification of reuse as period, phase, winding or metric recurrence
+  deferred_to: Tm
+  basis: "Recurrent processes as endogenous temporal standards; clockhood requires recurrence and countability (p.290; H-123, p.346)"
+  drafted: true
 - item: units / endogenous standards
   deferred_to: Sc
 - item: life / self-maintenance

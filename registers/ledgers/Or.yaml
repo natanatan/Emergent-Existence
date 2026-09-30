@@ -53,17 +53,42 @@ earns:
     cardinality, rank, and orthogonality remain later formal achievements (7.11).'
 withholds:
 - item: spatial direction or coordinates
+  deferred_to: Sp
+  basis: "Coordinates earned as representations in Geometry (p.234); spatial position and orientation of localization in Space (p.268)"
+  drafted: true
 - item: metric distance or scale
+  deferred_to: Dt
+  basis: "Scale earns comparative magnitude, Distance applies it to separation (p.205, p.350)"
+  drafted: true
 - item: metric time
   deferred_to: Tm
 - item: thermodynamic irreversibility or entropy production
+  scope: open
+  basis: "Entropy, coarse-graining and statistical mechanics: none earned in Book I; no stage named (p.283)"
+  drafted: true
 - item: physical causation or relativistic light cones
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: global partial order
+  deferred_to: Tm
+  basis: "≺ₜ is a strict partial order on the quotient by mutual dependency (H-120, p.345)"
+  drafted: true
 - item: geometry or dimensionality from orientation alone
   deferred_to: Gm
 - item: chirality or parity violation
+  scope: open
+  basis: "Oriented loops may later supply prerequisites; no stage named (p.141)"
+  drafted: true
 - item: universal law that return compatibility always selects stable orientations
+  scope: not-earned-in-series
+  basis: "Structural selection should not be raised to a universal law (H-75, p.331)"
+  drafted: true
 - item: specified mechanism for unresolved variation beneath the minimally resolved origin
+  scope: open
+  basis: "What kinds of unresolved variation suffice for asymmetry to cross a threshold (p.142); H-70 Open (p.330)"
+  drafted: true
 - item: recurrence, departure, exact vs non-identical return, path consequence, winding, phase
   deferred_to: Rt
 - item: coarse-graining operator CG[·]

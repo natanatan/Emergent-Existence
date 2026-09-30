@@ -47,19 +47,41 @@ earns:
     testing in Chapter 4.
 withholds:
 - item: privileged physical transformation family
+  scope: open
+  basis: "A later need for a privileged family of physically realized transformations would add a third commitment (H-132, p.348; p.77)"
+  drafted: true
 - item: anchor / Ω-designated pole / higher-order origin / intrinsic center
   deferred_to: Cl
 - item: orientation and orientational dependency ≺ₒ
   deferred_to: Or
 - item: spatial geometry
+  deferred_to: Gm
+  basis: "Geometry is constructed only after distance relations acquire stable mutual constraint (p.351)"
+  drafted: true
 - item: distance
+  deferred_to: Dt
+  basis: "Distance must arise from earned relational mediation and scale (p.350); Distance earns magnitude of relational separation (p.223)"
+  drafted: true
 - item: inside/outside, enclosure
+  deferred_to: Sp
+  basis: "Only at Space do inside, outside, region, enclosure acquire literal spatial interpretation (p.264)"
+  drafted: true
 - item: physical time, causal cone, duration, clock
   deferred_to: Tm
 - item: entropy, Shannon measure, thermodynamic erasure cost
+  scope: open
+  basis: "H-6: derivation of Shannon entropy from the relational formalism is Open (p.316); entropy unearned in Book I (p.283)"
+  drafted: true
 - item: material carrier
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter remains underived (H-113, p.343); Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: mature object (integrated organization, endogenous reference)
   deferred_to: Rl
 - item: transitive/acyclic/total/causal/temporal ≺
+  deferred_to: Tm
+  basis: "Time must add conditions to turn weak precedence into an order (p.351); ≺ₜ a strict partial order on the cycle quotient (H-120, p.345)"
+  drafted: true
 - item: physically grounded coarse-graining
   deferred_to: Sc

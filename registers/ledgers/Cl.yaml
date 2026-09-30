@@ -50,18 +50,44 @@ earns:
     not a transmitted primitive center.
 withholds:
 - item: spatial enclosure
+  deferred_to: Sp
+  basis: "Once Space exists, enclosure can become one realization of relational closure (p.264)"
+  drafted: true
 - item: metric distance
+  deferred_to: Dt
+  basis: "Distance must arise from earned relational mediation and scale (p.350); Distance earns magnitude of relational separation (p.223)"
+  drafted: true
 - item: physical dimensionality
+  deferred_to: Sp
+  basis: "Space earns physical spatial position, separation, extension, spatial dimensionality, regions and boundaries (p.268)"
+  drafted: true
 - item: orientation
   deferred_to: Or
 - item: metric time
   deferred_to: Tm
 - item: threshold aggregation
+  deferred_to: Sc
+  basis: "Threshold aggregation deferred to and discharged in Scale (p.193; H-96, p.337)"
+  drafted: true
 - item: self-consciousness / internal self-model
   scope: book-2
 - item: physical causation
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Causation adds constraints incl. causal geometry (p.284); Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: physical instantiation
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test whether Space and Time can become physically instantiated rather than merely formally coherent (p.351)"
+  drafted: true
 - item: geometry from closure
+  deferred_to: Gm
+  basis: "Geometry asks whether metric relations undergo the same higher-order closure (p.229, p.225)"
+  drafted: true
 - item: memory
   scope: book-2
 - item: path dependence
+  deferred_to: Fm
+  basis: "Path dependence in the formal chapters (p.124); finite historical dependence as first-order update (H-91, p.335)"
+  drafted: true

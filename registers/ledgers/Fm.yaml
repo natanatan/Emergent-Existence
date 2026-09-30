@@ -65,17 +65,57 @@ earns:
   detail: Representational pluralism with a minimal common core, not formal relativism (9.26).
 withholds:
 - item: metric distance, length, duration, speed, angle or norm
+  deferred_to: Dt
+  basis: "Distance must arise from earned relational mediation and scale (p.350); Distance earns magnitude of relational separation (p.223); duration in Time; speed beyond Book I (H-125, p.346)"
+  drafted: true
 - item: vector-space structure, inner products, orthogonality or basis vectors
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "H-55: effective orthogonality is reserved for the physical-emergence program and must not be assumed in Book I (p.326)"
+  drafted: true
 - item: physical topology, manifold, continuum or coordinate chart
+  deferred_to: Sp
+  basis: "Geometry earns coordinate representations and scale-dependent smooth approximation (p.247); Space makes it physical (p.268)"
+  drafted: true
 - item: probability weights, stochastic dynamics or quantum amplitudes
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "H-3: phase-carrying dynamics and superposition must be derived; revisited in Matter (p.316)"
+  drafted: true
 - item: physical causality or a causal cone
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: Hamiltonian, action, energy or field equation
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: claim that reality literally is a graph, matrix, simplex, category, automaton or quotient algebra
+  scope: not-earned-in-series
+  basis: "Matrices remain representations (9.19, p.175); a result existing in a single encoding is a representational artifact (H-90, p.335)"
+  drafted: true
 - item: universal claim that every emergent entity must be a quotient structure
+  scope: open
+  basis: "Quotient compatibility deliberately not claimed necessary for every emergent phenomenon (H-89, p.335); approximate autonomy an open question (p.186)"
+  drafted: true
 - item: proof that binary relations suffice for every higher-order constraint
+  scope: open
+  basis: "H-93 Open; one of the few open questions in Book I with a known repair bill (p.175, p.336)"
+  drafted: true
 - item: proof that physical or spatial dimensionality is dR, or that dR must equal a matroid rank
+  scope: open
+  basis: "Whether dR and dprobe agree is Open (H-108, p.341); can spatial dimensionality differ from geometric? (p.270)"
+  drafted: true
 - item: proof that determinism (or indeterminism) is fundamental
+  scope: open
+  basis: "Branching is neither stochasticity nor metaphysical indeterminism (H-88, p.335); what coarse-graining preserves determinism is open (p.187)"
+  drafted: true
 - item: physical interpretation of fixed points, attractors or recurrence periods
+  deferred_to: Tm
+  basis: "Recurrent relational processes as endogenous temporal standards (p.290; H-123, p.346)"
+  drafted: true
 - item: numerical scale, proportion or measurement units, and physical dimensionality
   deferred_to: Sc
 - item: endogenous magnitude (vs external cardinal bookkeeping)

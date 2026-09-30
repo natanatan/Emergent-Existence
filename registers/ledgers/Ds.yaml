@@ -32,11 +32,20 @@ withholds:
 - item: reference pole, anchor, Ω designation
   deferred_to: Cl
 - item: primitive stasis, branching, probability, metric, information quantity
+  deferred_to: Fm
+  basis: "Formalism: determinism is the singleton-successor case; branching admissibility is not yet probability (p.168); identity from composition, not primitive stasis (H-129, p.347)"
+  drafted: true
 - item: retained distinction, boundary, memory
   deferred_to: Bd
 - item: higher-order identity
   deferred_to: Cl
 - item: information
+  deferred_to: Bd
+  basis: "Information is retained relational distinguishability (H-34, Boundary 4.10, p.321)"
+  drafted: true
 - item: why admissible transformation exists
+  scope: open
+  basis: "𝒰 is counted openly as a primitive unless later derived (p.63); H-131 (p.348)"
+  drafted: true
 - item: physical clock
   deferred_to: Tm

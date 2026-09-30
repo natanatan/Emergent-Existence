@@ -29,10 +29,17 @@ withholds:
 - item: source, target, orientation, direction
   deferred_to: Or
 - item: magnitude, metric, probability, information measure, spatial separation
+  deferred_to: Dt
+  basis: "Origin supplies no magnitude (Scale); distance must arise from earned mediation and scale (p.350); probability/information measure not earned in Book I"
+  drafted: true
 - item: persistence, retained distinction, boundary, information, memory
   deferred_to: Bd
 - item: a and b as configurations
   deferred_to: Ds
 - item: a and b as physical objects or events in time
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Physical does not mean material; Matter remains underived (H-113, p.343); Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: relational organization
   deferred_to: Rl

@@ -11,17 +11,47 @@ withholds:
 - item: physical first moment or temporal beginning
   deferred_to: Tm
 - item: spatial location, metric, coordinate system, topology
+  deferred_to: Sp
+  basis: "Space requires geometrically coordinated localization; coordinates/topology come via Geometry (p.351); Space earns physical spatial position (p.268)"
+  drafted: true
 - item: geometry
   deferred_to: Gm
 - item: matter, fields, energy, action, entropy, thermodynamic dynamics
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Physical spacetime, dynamics, fields and matter remain beyond Book I (p.351); Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: objects, observers, agents, consciousness, meaning as primitives
+  scope: not-earned-in-series
+  basis: "Never admitted as primitives: observer-mediated measurement is a later implementation, not a primitive requirement (H-40, p.323); the series builds them late (p.11-13)"
+  drafted: true
 - item: causation or physical law of evolution
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Causation adds constraints not yet present, incl. a causal geometry (p.284); Book II opens on whether Space and Time can be forced into a single causal geometry (p.11-12)"
+  drafted: true
 - item: information (retained, consequential sense)
   deferred_to: Bd
 - item: mechanism for the first distinction
+  scope: open
+  basis: "Origin does not derive Difference from Ω; a future reduction would have to show it (p.39); H-26 speculative (p.320)"
+  drafted: true
 - item: proof that Ω is an entity
+  scope: open
+  basis: "Ω is a working term whose entity-like reading remains provisional (p.38)"
+  drafted: true
 - item: hidden structure in Ω
+  scope: open
+  basis: "H-70: whether any difference exists in Ω below the initial resolution is Open (p.330); framework posits none (p.39)"
+  drafted: true
 - item: absolute featurelessness of Ω
+  scope: not-earned-in-series
+  basis: "Ω commits to neither absolute nothing nor perfect uniformity; refuses the inference from non-resolution to absence (p.38-39)"
+  drafted: true
 - item: physical instantiation of relational ontology
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test whether Space and Time can become physically instantiated rather than merely formally coherent (p.351)"
+  drafted: true
 - item: physical spacetime
   scope: book-2

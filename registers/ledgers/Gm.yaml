@@ -51,20 +51,80 @@ withholds:
 - item: physical spatial dimensions (that its dimensions are physical)
   deferred_to: Sp
 - item: that three dimensions are uniquely selected
+  scope: open
+  basis: "H-111: convergence on low-dimensional rank is Open; rank three would not show space is 3D (p.342); H-12 (p.317)"
+  drafted: true
 - item: whether the substrate is fundamentally continuous or discrete
+  scope: beyond-book-1
+  deferred_to: Qg
+  basis: "Quantum Gravity asks where the smooth description must fail and what more primitive organization may become visible there (p.12)"
+  drafted: true
 - item: global smoothness of the effective geometry
+  scope: beyond-book-1
+  deferred_to: Qg
+  basis: "Quantum Gravity asks where the smooth description must fail and what more primitive organization may become visible there (p.12)"
+  drafted: true
 - item: matter
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: quantum fields
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: particles
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: metric time
+  deferred_to: Tm
+  basis: "Time: cross-clock calibration toward metric temporal comparison (p.290)"
+  drafted: true
 - item: spacetime
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II opens on whether Space and Time can be forced into a single causal geometry (p.11-12)"
+  drafted: true
 - item: gravity
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: energy
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: action
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: causal speed
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Whatever propagates, and at what rate, is the next book's problem (H-125, p.346)"
+  drafted: true
 - item: that a measured field excitation is literally a projection from a multilayer geometric substrate
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: that measurement back-action is quantum collapse
+  scope: open
+  basis: "Quantum measurement may later provide one realization; no interpretation committed (p.246; H-109, p.341)"
+  drafted: true
 - item: that every physical property can be reduced to geometry
+  scope: open
+  basis: "Withheld to avoid converting a candidate mechanism into a total ontology (p.248)"
+  drafted: true
 - item: orthogonality / inner product
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "H-55: effective orthogonality is reserved for the physical-emergence program and must not be assumed in Book I (p.326)"
+  drafted: true
 - item: locality, extension, adjacency, spatial position (physical)
   deferred_to: Sp

@@ -44,23 +44,91 @@ withholds:
 - item: Lorentzian metric
   scope: book-2
 - item: invariant light speed
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: light cones and intervals
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: proper time
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: relative simultaneity
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: time dilation
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: gravitational redshift
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: cosmological time
+  scope: open
+  basis: "Local calibration establishes no global cosmic time (H-124, p.346); cosmological arrow a separate problem (p.289)"
+  drafted: true
 - item: preferred foliation
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "No universal total order (H-120, p.345); Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: universal present
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Compatible with absence of frame-independent simultaneity (H-120, p.345); Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: 'thermodynamic arrow: entropy increase'
+  scope: open
+  basis: "Entropic arrow remains a separate problem (p.289); Entropy, coarse-graining and statistical mechanics: none earned in Book I; no stage named (p.283)"
+  drafted: true
 - item: microscopic irreversibility
+  scope: open
+  basis: "Dynamical reversibility belongs to the eventual physical dynamics; no stage named (p.283)"
+  drafted: true
 - item: gravity
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: field equations
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: matter
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: quantum fields
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: energy
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: action
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: observed value of any physical constant
+  scope: open
+  basis: "Listed as unearned with no stage named (p.290)"
+  drafted: true
 - item: identity/unification of space and time as one metric structure (physical spacetime)
   scope: book-2
 - item: propagation / propagation speed
@@ -68,3 +136,6 @@ withholds:
 - item: physical causal structure / causal geometry
   scope: book-2
 - item: psychological memory and cosmological temporal asymmetry
+  scope: open
+  basis: "Entropic, cosmological and psychological arrows remain separate problems (p.289); record asymmetry needs additional mechanisms (p.284)"
+  drafted: true

@@ -63,22 +63,93 @@ withholds:
 - item: propagation interval
   deferred_to: Tm
 - item: velocity
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Whatever propagates, and at what rate, is the next book's problem (H-125, p.346)"
+  drafted: true
 - item: causal speed
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Whatever propagates, and at what rate, is the next book's problem (H-125, p.346)"
+  drafted: true
 - item: temporal simultaneity
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Time earns only dependency-incomparability; relative simultaneity withheld (p.290); Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: proper time
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: Lorentzian signature
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test stable dimensionality, metric coupling, causal geometry, Lorentzian signature (p.294)"
+  drafted: true
 - item: spacetime
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II opens on whether Space and Time can be forced into a single causal geometry (p.11-12)"
+  drafted: true
 - item: cosmological expansion as an actual physical law
+  scope: open
+  basis: "A route by which later cosmological expansion could be interpreted is kept available, not derived (p.264; H-116, p.344)"
+  drafted: true
 - item: gravity
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: gravitational field equations
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: matter
   scope: book-2
 - item: particles
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: quantum fields
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: wavefunctions
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "A wavefunction requires additional unearned quantum structure (p.267); H-3: phase-carrying dynamics and superposition must be derived; revisited in Matter (p.316)"
+  drafted: true
 - item: Hilbert space
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "H-3: phase-carrying dynamics and superposition must be derived; revisited in Matter (p.316)"
+  drafted: true
 - item: superposition
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "H-3: phase-carrying dynamics and superposition must be derived; revisited in Matter (p.316)"
+  drafted: true
 - item: Born statistics
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "H-3: phase-carrying dynamics and superposition must be derived; revisited in Matter (p.316)"
+  drafted: true
 - item: energy
+  scope: beyond-book-1
+  deferred_to: Mt
+  basis: "Matter asks whether persistent relational modes can appear as localized physical excitations with stable internal properties (p.12)"
+  drafted: true
 - item: action
+  scope: beyond-book-1
+  deferred_to: Gv
+  basis: "Gravity asks whether relationally generated geometry can acquire effective curvature dynamics (p.12)"
+  drafted: true
 - item: fundamental continuity or fundamental discreteness of geometry
+  scope: beyond-book-1
+  deferred_to: Qg
+  basis: "Quantum Gravity asks where the smooth description must fail and what more primitive organization may become visible there (p.12)"
+  drafted: true

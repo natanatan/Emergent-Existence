@@ -55,14 +55,35 @@ withholds:
 - item: spatial direction
   deferred_to: Or
 - item: linear order
+  scope: not-earned-in-series
+  basis: "Temporal order is a partial order, not a total sequence; a universal total order would be a hidden global clock (H-120, p.345)"
+  drafted: true
 - item: metric distance
   deferred_to: Dt
 - item: orthogonality
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "H-55: effective orthogonality is reserved for the physical-emergence program and must not be assumed in Book I (p.326)"
+  drafted: true
 - item: physical dimensionality / numerical relational dimension dR
   deferred_to: Fm
 - item: metric time
+  deferred_to: Tm
+  basis: "Time earns a candidate route from cross-clock calibration to metric temporal comparison (p.290)"
+  drafted: true
 - item: physical instantiation
+  scope: beyond-book-1
+  deferred_to: Sx
+  basis: "Book II must test whether Space and Time can become physically instantiated rather than merely formally coherent (p.351)"
+  drafted: true
 - item: reference structure / anchor
   deferred_to: Cl
 - item: cardinal, weighted, threshold membership
+  deferred_to: Sc
+  basis: "Threshold aggregation closed in Scale via cardinal magnitude (p.193; H-96, p.337); weighted aggregation left open (p.193)"
+  drafted: true
 - item: memory (stronger biological sense)
+  scope: beyond-book-1
+  deferred_to: Mm
+  basis: "Memory waits until retained change is internally consequential to a self-maintaining system (p.94); Memory stage (p.12)"
+  drafted: true

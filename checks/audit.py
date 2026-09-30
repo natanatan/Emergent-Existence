@@ -45,11 +45,11 @@ CHECKS = [
 ]
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sources  # noqa: E402
-CHECKS = CHECKS[:12] + [c for c in sources.CHECKS if c[2] == "error"] + CHECKS[12:] + \
-    [c for c in sources.CHECKS if c[2] == "review"]
+import tags  # noqa: E402
+EXTRA = sources.CHECKS + tags.CHECKS
+CHECKS = CHECKS[:12] + [c for c in EXTRA if c[2] == "error"] + CHECKS[12:] + [c for c in EXTRA if c[2] == "review"]
 PENDING = [
     "Untyped later reference (needs the manuscript text in the repository)",
-    "Labels map to claims (needs the manuscript text in the repository)",
     "Composition change recorded (needs register history across runs)",
     "Released editions frozen (needs register history across runs)",
 ]
@@ -279,6 +279,11 @@ def audit(root):
 
     # the evidence standard (docs/sources.md)
     sources.check(root, claims, hyps, add)
+
+    # claim tags in the manuscript source (style sheet 2a); dormant until tagged text arrives
+    note = "Claim tags match the register (waits for tagged manuscript text)"
+    if not tags.check(root, claims, editions, add) and note not in PENDING:
+        PENDING.append(note)
 
     # exports must match the registers
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

@@ -6,8 +6,8 @@ Emergent Existence is a serious academic nonfiction project exploring how increa
 
 | Volume | Book | Span |
 | --- | --- | --- |
-| I | Book I | Origin to physical reality |
-| I | Book II | Spacetime toward life |
+| I: Existence | Book I: Foundations of Physical Reality | Origin to Time (Chapters 1–14) |
+| I: Existence | Book II | Physical spacetime toward life |
 | II | | The emergence of consciousness from living organization |
 | III | | Consciousness into agency, shared value, institutions and socially mediated meaning |
 

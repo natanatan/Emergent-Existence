@@ -21,7 +21,8 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 | One derivation per claim | Error | A claim printed in an edition has no derivation appearance there, or more than one. Tests and forward pointers need exactly one statement appearance instead, and never a derivation |
 | Only derivations are labelled | Error | A foreshadowing or restatement appearance carries a label of its own |
 | Citations resolve | Error | A foreshadowing or restatement cites a label that is not a derivation in the same edition |
-| Labels map to claims | Error | A labelled statement in the manuscript has no derivation appearance, or a derivation's label is not in the manuscript |
+| Claim tags match the register | Error | In the manuscript source, a `<!-- EE-C-nnnn derivation -->` or `<!-- EE-C-nnnn statement -->` tag names an unknown or merged claim, has the wrong type for the claim's kind, or appears twice; or a claim with a derivation or statement in the current edition has no tag (style sheet, 2a). Dormant until the manuscript holds tags |
+| Claim tag in a different section | Review | A tag sits in a section other than the one the register records. Update the appearance metadata; the ID never changes |
 | Superseded claims stay out | Error | A superseded claim appears in a new edition without being marked historical |
 | Status history is well formed | Error | A status change has no date, edition or reason |
 | Use not classified | Review | A claim's use (constitutive, representational or diagnostic) is not yet recorded |

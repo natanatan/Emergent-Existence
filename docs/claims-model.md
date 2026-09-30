@@ -124,6 +124,10 @@ The claim graph and the element graph overlap but are not the same graph, and th
 
 Hypotheses follow the same model. `EE-H-nnnn` is the identity, and the legacy `H-n` is kept as an alias. Their places in an edition are appearances.
 
+## Sources
+
+Claims and hypotheses cite the outside sources they rely on in a `sources` list, each with a role (premise, support, lineage or foil). An entry's status cannot stand higher than its weakest premise source allows. See [`sources.md`](sources.md).
+
 ## Complete claim record
 
 ```yaml

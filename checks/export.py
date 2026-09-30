@@ -16,6 +16,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from audit import as_list, load  # noqa: E402
+import sources as source_register  # noqa: E402
 
 SCHEMA = "emergent-existence-exports/1"
 
@@ -55,6 +56,7 @@ def build(root):
             "relations": [{"type": r["type"], "claim": r["claim"]} for r in as_list(c.get("relations"))],
             "concepts": as_list(c.get("concepts")),
             "composition": as_list(c.get("composition")),
+            "sources": as_list(c.get("sources")),
             "appearances": [{k: a.get(k) for k in ("edition", "role", "chapter", "section", "label", "type_word", "cites")
                              if a.get(k) is not None} for a in as_list(c.get("appearances"))],
         })
@@ -71,7 +73,10 @@ def build(root):
             "resolve_by": h.get("resolve_by"),
             "revisited_in": h.get("revisited_in"),
             "companion_testable": bool(h.get("companion_testable")),
+            "sources": as_list(h.get("sources")),
         })
+    reg_sources = source_register.load(root)
+    out_sources = [reg_sources[k] for k in sorted(reg_sources)]
 
     out_elements = [elements[k] for k in sorted(elements)]
 
@@ -107,14 +112,15 @@ def build(root):
         "schema": SCHEMA,
         "editions": sorted(editions),
         "counts": {"claims": len(out_claims), "hypotheses": len(out_hyps), "elements": len(out_elements),
-                   "stages": len(ladder), "companion_backlog": len(backlog), "merged_ids": len(merged)},
+                   "stages": len(ladder), "sources": len(out_sources), "companion_backlog": len(backlog), "merged_ids": len(merged)},
         "merged_ids": dict(sorted(merged.items())),
-        "files": ["claims.json", "hypotheses.json", "elements.json", "ladder.json", "companion-backlog.json"],
+        "files": ["claims.json", "hypotheses.json", "sources.json", "elements.json", "ladder.json", "companion-backlog.json"],
     }
     return {
         "manifest.json": manifest,
         "claims.json": out_claims,
         "hypotheses.json": out_hyps,
+        "sources.json": out_sources,
         "elements.json": out_elements,
         "ladder.json": ladder,
         "companion-backlog.json": backlog,
@@ -122,7 +128,7 @@ def build(root):
 
 
 def render(obj):
-    return json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=False) + "\n"
+    return json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=False, default=str) + "\n"
 
 
 def stale_files(root):

@@ -43,6 +43,10 @@ CHECKS = [
     ("unmapped", "Claim not mapped to elements", "review"),
     ("unclassified-use", "Use not classified", "review"),
 ]
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sources  # noqa: E402
+CHECKS = CHECKS[:12] + [c for c in sources.CHECKS if c[2] == "error"] + CHECKS[12:] + \
+    [c for c in sources.CHECKS if c[2] == "review"]
 PENDING = [
     "Untyped later reference (needs the manuscript text in the repository)",
     "Labels map to claims (needs the manuscript text in the repository)",
@@ -272,6 +276,9 @@ def audit(root):
         for w in as_list(led.get("withholds")):
             if not w.get("deferred_to") and not w.get("scope"):
                 add("withholdings", led.get("stage"), f"'{w.get('item')}' names no destination and is not marked beyond the series or open")
+
+    # the evidence standard (docs/sources.md)
+    sources.check(root, claims, hyps, add)
 
     # exports must match the registers
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

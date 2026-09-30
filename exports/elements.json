@@ -20,6 +20,27 @@
   ]
  },
  {
+  "code": "Aj",
+  "lexicon_id": "spatial-adjacency",
+  "label": "Spatial adjacency",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.10",
+  "status": "Candidate",
+  "symbols": [
+   "edge ≠ spatial adjacency"
+  ],
+  "definition": "Primitive incidence becomes spatial adjacency only through metric neighborhood, stable coordination and consequential locality, and a candidate adjacency must survive coarse-graining, coordinate removal, heterogeneous probing, non-destructive perturbation and independent accessibility tests; otherwise spatiality may have been encoded in the representation.",
+  "requires": [
+   "Nb",
+   "Lo"
+  ],
+  "basis": "p.258"
+ },
+ {
   "code": "An",
   "lexicon_id": "anchor",
   "label": "Organizational anchor",
@@ -100,6 +121,47 @@
   ]
  },
  {
+  "code": "Bn",
+  "lexicon_id": "relational-bound",
+  "label": "Relational bound",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.22",
+  "status": "Working definition",
+  "symbols": [
+   "relational bound ≠ geometric boundary"
+  ],
+  "definition": "A bound stated by comparative magnitude without stating a size: an organization can be no larger or no smaller than a standard, as a pairing rather than a measurement. It is a comparison, distinct from a boundary in Boundary's sense of preserved non-equivalence.",
+  "requires": [
+   "Cm"
+  ],
+  "basis": "p.199"
+ },
+ {
+  "code": "Ca",
+  "lexicon_id": "constitutive-asymmetry",
+  "label": "Constitutive asymmetry",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.9",
+  "status": "Working definition (counterfactual diagnostic)",
+  "symbols": [
+   "∃ r ∈ C such that removing r changes F(C), while not every r′ ∉ C does"
+  ],
+  "definition": "An object-like cluster C should show that some relations matter constitutively to its identity criterion F while arbitrary external relations do not. With no metric of coupling strength earned, the diagnostic is counterfactual rather than quantitative and does not define a complete boundary.",
+  "requires": [
+   "Id",
+   "Ob"
+  ],
+  "basis": "p.90"
+ },
+ {
   "code": "Cc",
   "lexicon_id": "consciousness",
   "label": "Consciousness",
@@ -116,6 +178,26 @@
   "follows_in_reading": [
    "Co"
   ]
+ },
+ {
+  "code": "Cd",
+  "lexicon_id": "coordinates",
+  "label": "Coordinates",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.10",
+  "status": "Working definition",
+  "symbols": [
+   "x ↦ (x^1, …, x^n)"
+  ],
+  "definition": "Once a family of independent modes is stable enough to be re-identified, a coordinate tuple is a compressed label for relational position relative to those modes. Coordinates are earned as efficient representations and do not produce the geometry; descriptions preserving the same invariants differ only in labels.",
+  "requires": [
+   "Ed"
+  ],
+  "basis": "p.234"
  },
  {
   "code": "Cf",
@@ -262,6 +344,30 @@
   ]
  },
  {
+  "code": "Cp",
+  "lexicon_id": "constraint-propagation",
+  "label": "Constraint propagation",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.5",
+  "status": "Interpretive",
+  "symbols": [
+   "retained r_(a) ⇒ Δ𝒫(r_(b) | ℛ)",
+   "(Σ_(n), Σ_(n+1)) ∈ 𝒰"
+  ],
+  "definition": "A retained distinction propagates when removing its contribution changes the admissible possibilities of another relation in a later configuration, so it persists through consequences in later admissibility rather than through literal preservation of its original carrier.",
+  "requires": [
+   "Rd",
+   "Ps",
+   "Pr",
+   "St"
+  ],
+  "basis": "p.87"
+ },
+ {
   "code": "Cq",
   "lexicon_id": "cg",
   "label": "Coarse-graining (spatial)",
@@ -276,6 +382,28 @@
    "CG"
   ],
   "definition": "Spatial coarse-graining of a metric, g_(mn) = CG[G_(AB)], appears in no chapter of the current draft and would import a spacetime metric before Space and Time are coupled. Scale's CG_(s) is the earned coarse-graining operator. Kept only as a candidate for Book II."
+ },
+ {
+  "code": "Cr",
+  "lexicon_id": "responsive-coordination",
+  "label": "Responsive coordination",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.16",
+  "status": "Candidate proposition",
+  "symbols": [
+   "Φ ↦ ΔK_(ij) ↦ Δd_(ij) ↦ ΔGeo_(eff)",
+   "Φ ↦ ΔGeo_(eff) ↦ ΔΦ′"
+  ],
+  "definition": "Spatial coordination need not be rigid: a relational transformation may alter local couplings, effective metric relations and neighborhood organization, and the altered geometry may then constrain later transformation. A candidate, not a derived dynamical law, and it establishes neither gravity nor quantum dynamics.",
+  "requires": [
+   "Lc",
+   "Ly"
+  ],
+  "basis": "p.262"
  },
  {
   "code": "Cs",
@@ -353,6 +481,24 @@
   "follows_in_reading": [
    "Rg"
   ]
+ },
+ {
+  "code": "Da",
+  "lexicon_id": "decomposition-admissibility",
+  "label": "Decomposition admissibility",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.17",
+  "status": "Falsifiability condition (stabilization Open)",
+  "symbols": [],
+  "definition": "A relational distance is admissible only when its loci, mediating relations, admissible chains and scale standard are independently constrained rather than chosen after seeing the desired result. Among decompositions representing the same organization, one requiring fewer arbitrary relational commitments is preferable.",
+  "requires": [
+   "Dt"
+  ],
+  "basis": "p.217"
  },
  {
   "code": "Dc",
@@ -587,6 +733,28 @@
   ]
  },
  {
+  "code": "Du",
+  "lexicon_id": "scale-relative-distance",
+  "label": "Scale-relative distance",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.16",
+  "status": "Candidate proposition",
+  "symbols": [
+   "d^(u)(A,B)",
+   "d^(u′)(A,B)"
+  ],
+  "definition": "Distance may differ between scale regimes with standards u and u′, because chains available at a fine level need not survive coarse-graining; this need not make either false. Distance may be scale-relative while structurally objective within a declared regime, provided coarse-grained distance preserves the distinctions relevant at that scale.",
+  "requires": [
+   "Dt",
+   "Cs"
+  ],
+  "basis": "p.217"
+ },
+ {
   "code": "Dx",
   "lexicon_id": "directed-distance",
   "label": "Directed distance",
@@ -648,6 +816,48 @@
   "requires": [
    "Dd"
   ]
+ },
+ {
+  "code": "Ef",
+  "lexicon_id": "effective-smoothness",
+  "label": "Effective smoothness",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.12",
+  "status": "Working definition",
+  "symbols": [
+   "𝔏^(σ) ≈ 𝔏_(smooth)"
+  ],
+  "definition": "Over a declared scale regime σ, coarse-graining may make discrete changes regular enough that a smooth description preserves the invariants of interest. Local smoothness is an earned modeling relation, not fundamental continuity, so smooth and nonsmooth regimes can coexist.",
+  "requires": [
+   "Gm",
+   "Cs"
+  ],
+  "basis": "p.235"
+ },
+ {
+  "code": "Em",
+  "lexicon_id": "embedding",
+  "label": "Embedding",
+  "kind": "term",
+  "row": "Bd",
+  "volume": 1,
+  "book": 1,
+  "chapter": 4,
+  "section": "4.16",
+  "status": "Working definition",
+  "symbols": [
+   "e : 𝒞_𝔇 → X"
+  ],
+  "definition": "A robustness test that maps the dyad into a larger carrier X without claiming X is an integrated relational domain; if e(a) and e(b) stay resolvable as non-equivalent under W, the distinction survives enlargement. X is only the target of the test, and a many-to-one projection can do the opposite, collapsing some distinctions.",
+  "requires": [
+   "Cf",
+   "Rf"
+  ],
+  "basis": "p.74"
  },
  {
   "code": "Eo",
@@ -720,6 +930,27 @@
   "status": "Methodological rule",
   "symbols": [],
   "definition": "A symbol, operator, relation or construction may do ontological work only when its content is inherited from earlier chapters or definable from inherited structure. Richer mathematics may be used externally for proof, simulation or bookkeeping, but its extra structure must not be read back into the modeled world: metalanguage richness ≠ object-language richness."
+ },
+ {
+  "code": "Fb",
+  "lexicon_id": "flexible-boundary",
+  "label": "Flexible boundary",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.13",
+  "status": "Strong",
+  "symbols": [
+   "boundary stability ≠ boundary rigidity"
+  ],
+  "definition": "A higher-order boundary can persist as the criterion F together with a pattern of constitutive participation while individual relations enter, leave, change realization or remain ambiguous; persistence of an identity criterion does not require invariant membership. A transitional case is one that does not yet satisfy the participation pattern of either of two nearby identity-relevant regimes.",
+  "requires": [
+   "Id",
+   "Pr"
+  ],
+  "basis": "p.94"
  },
  {
   "code": "Fm",
@@ -898,6 +1129,28 @@
    "F"
   ],
   "definition": "A minimal identity criterion F, identity equivalence ~_(F), and candidate identity class O = [Σ]_(~F), all without an anchor. F is kept distinct from the resolving frame W so that observation is not smuggled into identity."
+ },
+ {
+  "code": "Ii",
+  "lexicon_id": "internal-identification",
+  "label": "Internal identification",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.15",
+  "status": "Open (forward pointer to Volume II)",
+  "symbols": [
+   "W_(S)(ℛ_(S)) ↦ σ_(S)",
+   "σ_(S)"
+  ],
+  "definition": "The later transition in which a system contains a resolving process mapping aspects of its own state into an internal model σ_S, so that closure becomes internally represented rather than only externally identified. Not yet self-consciousness; no self-model is required for ontic closure.",
+  "requires": [
+   "Oc",
+   "Rf"
+  ],
+  "basis": "p.117"
  },
  {
   "code": "In",
@@ -1181,6 +1434,26 @@
   ]
  },
  {
+  "code": "Mc",
+  "lexicon_id": "magnitude-class",
+  "label": "Magnitude class",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.6",
+  "status": "Working definition",
+  "symbols": [
+   "[A]_(~#)"
+  ],
+  "definition": "The equinumerosity class of an organization A: every member pairs one to one with every other, capturing a comparative property while ignoring which members carry it. It parallels object identity [Σ]_(~F) as cardinal identity.",
+  "requires": [
+   "Cm"
+  ],
+  "basis": "p.192"
+ },
+ {
   "code": "Md",
   "lexicon_id": "mutual-dependency",
   "label": "Mutual dependency (cycle quotient)",
@@ -1200,6 +1473,88 @@
   "requires": [
    "Pr"
   ]
+ },
+ {
+  "code": "Me",
+  "lexicon_id": "metric-special-case",
+  "label": "Metric as a special case",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.12",
+  "status": "Conditional result",
+  "symbols": [
+   "relational organization ⇝ metric axioms as consequences"
+  ],
+  "definition": "On the relevant quotient domain, non-negativity, zero-distance identity and the triangle inequality make the relational construction metric-like, and if reversible equivalence also yields symmetry it supports an ordinary metric. Metric axioms emerge from the organization rather than defining it in advance.",
+  "requires": [
+   "Zs",
+   "Tr",
+   "Dx"
+  ],
+  "basis": "p.216"
+ },
+ {
+  "code": "Mg",
+  "lexicon_id": "metric-tensor",
+  "label": "Local metric coupling (metric tensor)",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.11",
+  "status": "Interpretive",
+  "symbols": [
+   "ds^2 = g_(ij)(x) dx^i dx^j",
+   "g_(ij)"
+  ],
+  "definition": "The coefficients g_ij, read as an effective rule summarizing how changes in independently resolved local modes jointly contribute to separation. The formula is not foundational here; it names content still to be explained, and local metric relations should summarize emerged organization rather than be inserted as unexplained fields.",
+  "requires": [
+   "Cd"
+  ],
+  "basis": "p.235"
+ },
+ {
+  "code": "Mi",
+  "lexicon_id": "metric-time",
+  "label": "Metric time (minimal conditions)",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.24",
+  "status": "Conditional (Open)",
+  "symbols": [],
+  "definition": "A metric temporal quantity becomes defensible only if ordered comparability, a repeatable standard, cross-standard calibration, resolution robustness, frame coherence and non-circularity are satisfied. These conditions do not prove metric time must emerge; they state what must be demonstrated before the stronger claim is licensed.",
+  "requires": [
+   "Eo",
+   "Tq"
+  ],
+  "basis": "p.286"
+ },
+ {
+  "code": "Ml",
+  "lexicon_id": "compositional-magnitude-law",
+  "label": "Compositional magnitude law",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.8",
+  "status": "Requirement (additivity to be earned)",
+  "symbols": [
+   "L(π₁ ∘ π₂) = L(π₁) + L(π₂)"
+  ],
+  "definition": "Metric distance requires a law for how the burdens of concatenated mediating relations combine. Addition is one candidate, justified only if burdens combine without interference; it is not primitive merely because familiar geometry uses it.",
+  "requires": [
+   "Rn"
+  ],
+  "basis": "p.212"
  },
  {
   "code": "Mm",
@@ -1246,6 +1601,24 @@
   "requires": [
    "In"
   ]
+ },
+ {
+  "code": "Mo",
+  "lexicon_id": "methodological-rules",
+  "label": "Methodological rules",
+  "kind": "term",
+  "row": "Om",
+  "volume": 1,
+  "book": 1,
+  "chapter": 1,
+  "section": "1.8",
+  "status": "Governing constraint",
+  "symbols": [
+   "higher-order structure ∉ premises of the derivation; higher-order structure ∈ diagnostics applied to its outputs"
+  ],
+  "definition": "Do not assume at one level what a later level is intended to derive, and do not promote a computational or representational convenience into ontology when a thinner relation already does the work: in constitutive use no property may be used before its stage has earned it, while representational (labelled) and diagnostic uses are admissible. Five standards accompany this (minimize primitives, mark every added assumption, separate formal consequence from physical identification, state where derivation ends and analogy begins, name what cannot yet be derived as a research problem), and diagnostics are declared before the run, with failures reported rather than retuned away.",
+  "requires": [],
+  "basis": "p.24"
  },
  {
   "code": "Mr",
@@ -1324,6 +1697,26 @@
   ]
  },
  {
+  "code": "Nl",
+  "lexicon_id": "numeral-label",
+  "label": "Numerals as labels",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.7",
+  "status": "Working definition",
+  "symbols": [
+   "mag(A) = n"
+  ],
+  "definition": "Once finite magnitude classes are established relationally, natural-number symbols may be used as labels for them; the numeral names a relation available first through correspondence and does not create the magnitude. External counting does not become internal magnitude because the analyst writes a number.",
+  "requires": [
+   "Mc"
+  ],
+  "basis": "p.192"
+ },
+ {
   "code": "Nm",
   "lexicon_id": "norms",
   "label": "Norms and institutions",
@@ -1340,6 +1733,27 @@
   "follows_in_reading": [
    "Sr"
   ]
+ },
+ {
+  "code": "Nt",
+  "lexicon_id": "nontriviality",
+  "label": "Nontriviality",
+  "kind": "term",
+  "row": "Ds",
+  "volume": 1,
+  "book": 1,
+  "chapter": 3,
+  "section": "3.5",
+  "status": "Condition",
+  "symbols": [
+   "∃x, y ∈ 𝒞_𝔇 : x ≠ y and (x, y) ∈ 𝒰"
+  ],
+  "definition": "The requirement that the admissible transition relation contain at least one transition between non-identical configurations. For the symmetric dyad, one such transition plus symmetry covariance forces reciprocity.",
+  "requires": [
+   "Ut",
+   "Cf"
+  ],
+  "basis": "p.58"
  },
  {
   "code": "Ob",
@@ -1397,6 +1811,26 @@
    "d_O"
   ],
   "definition": "An older representational construct: the vector (d_P, d_I) of physical and informational distance. It is not the result of Distance, whose 11.13 is Distance Without Coordinates, and physical distance d_P belongs downstream. Kept for reference only."
+ },
+ {
+  "code": "Og",
+  "lexicon_id": "orthogonality",
+  "label": "Orthogonality",
+  "kind": "term",
+  "row": "Gm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 12,
+  "section": "12.7",
+  "status": "Not yet earned",
+  "symbols": [
+   "g(e_(i), e_(j)) = 0"
+  ],
+  "definition": "A comparison rule among modes equivalent to an inner product, g, which is additional structure beyond independence. The derivational order is independent variation, basis-like structure, comparison among modes, angle, then orthogonality; independence is not orthogonality.",
+  "requires": [
+   "Ix"
+  ],
+  "basis": "p.232"
  },
  {
   "code": "Om",
@@ -1471,6 +1905,26 @@
    "Ad",
    "An"
   ]
+ },
+ {
+  "code": "Ov",
+  "lexicon_id": "overlapping-closure",
+  "label": "Overlapping closure",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.11",
+  "status": "Strong (compatibility conditions Open)",
+  "symbols": [
+   "r_(i) ∈ ℛ_(A) and r_(i) ∈ ℛ_(B)"
+  ],
+  "definition": "A retained relation may participate in more than one closed organization when it contributes to distinct, compatible identity-relevant invariants F_A and F_B; the closure definition contains no exclusivity axiom. What happens when two closures demand incompatible states of a shared relation is left open.",
+  "requires": [
+   "Cl"
+  ],
+  "basis": "p.112"
  },
  {
   "code": "Pc",
@@ -1709,6 +2163,27 @@
   ]
  },
  {
+  "code": "Ra",
+  "lexicon_id": "ratio-representation",
+  "label": "Ratio representation",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.11",
+  "status": "Strong",
+  "symbols": [
+   "Cmp(X, Y) ↦ mag(X)/mag(Y)"
+  ],
+  "definition": "With finite cardinal magnitude available, a proportion established by correspondence compresses to a ratio of magnitudes. The ratio represents the comparative relation rather than creating it and is not an additional primitive.",
+  "requires": [
+   "Pn",
+   "Nl"
+  ],
+  "basis": "p.195"
+ },
+ {
   "code": "Rb",
   "lexicon_id": "rbit",
   "label": "Relational bit",
@@ -1881,6 +2356,28 @@
   ]
  },
  {
+  "code": "Rm",
+  "lexicon_id": "relational-composition",
+  "label": "Relational composition",
+  "kind": "term",
+  "row": "Fm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 9,
+  "section": "9.7",
+  "status": "Defined term",
+  "symbols": [
+   "𝒰 ∘ 𝒰",
+   "𝒰^k",
+   "Id_(𝒞)"
+  ],
+  "definition": "Composition of relations by quantifying over an intermediate configuration: Σ (𝒰 ∘ 𝒰) Σ″ iff some Σ′ has Σ 𝒰 Σ′ and Σ′ 𝒰 Σ″. It gives repeated application a precise meaning without making 𝒰 functional; an identity relation is also available, but a nontrivial transition may preserve F without being the identity.",
+  "requires": [
+   "Ut"
+  ],
+  "basis": "p.170"
+ },
+ {
   "code": "Rn",
   "lexicon_id": "rel-chain",
   "label": "Admissible relational chain (mediation)",
@@ -1905,6 +2402,27 @@
   "kept_distinct_from": [
    "Ut"
   ]
+ },
+ {
+  "code": "Rp",
+  "lexicon_id": "relabeling-invariance",
+  "label": "Relabeling invariance",
+  "kind": "term",
+  "row": "Rl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 5,
+  "section": "5.2",
+  "status": "Requirement",
+  "symbols": [
+   "R ↦ R^π, (R^π)_(ij) = r_(π(i)π(j))",
+   "π"
+  ],
+  "definition": "The ontology must remain invariant under mere renaming: permuting the labels of relational positions while preserving every relation changes the description, not the structure. The matrix R is bookkeeping, and its rows and columns are not directions, coordinates or locations.",
+  "requires": [
+   "Do"
+  ],
+  "basis": "p.84"
  },
  {
   "code": "Rq",
@@ -1991,6 +2509,28 @@
   "requires": [
    "Ho"
   ]
+ },
+ {
+  "code": "Rz",
+  "lexicon_id": "realizability",
+  "label": "Consistent realizability",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.6",
+  "status": "Necessary condition",
+  "symbols": [
+   "𝒮_(F)(ℛ) ≠ ∅",
+   "𝒮_(F)(ℛ)"
+  ],
+  "definition": "The set 𝒮_F(ℛ) of configurations of ℛ satisfying the constraints constitutive of F must be non-empty: syntactically circular requirements with no jointly admissible state describe no organization to be closed. It carries no metric, measure or state-space geometry and has force when a proposed specification of F is tested.",
+  "requires": [
+   "Id",
+   "St"
+  ],
+  "basis": "p.109"
  },
  {
   "code": "Sa",
@@ -2090,6 +2630,26 @@
   ]
  },
  {
+  "code": "Si",
+  "lexicon_id": "scale-invariance",
+  "label": "Scale invariance and self-similarity",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.21",
+  "status": "Speculative",
+  "symbols": [
+   "scale invariance ≠ geometric self-similarity"
+  ],
+  "definition": "Scale invariance means some identified organization is preserved when the scale relation is applied; self-similarity is the stronger case in which the organization at one level reproduces that at another under the comparison. Both are stated abstractly without metric or embedding; whether any relational organization here is self-similar is untested.",
+  "requires": [
+   "Sc"
+  ],
+  "basis": "p.199"
+ },
+ {
   "code": "Sm",
   "lexicon_id": "self-model",
   "label": "Self-modeling",
@@ -2128,6 +2688,29 @@
    "Ed",
    "Lc"
   ]
+ },
+ {
+  "code": "So",
+  "lexicon_id": "spatial-objectivity",
+  "label": "Spatial objectivity",
+  "kind": "term",
+  "row": "Sp",
+  "volume": 1,
+  "book": 1,
+  "chapter": 13,
+  "section": "13.22",
+  "status": "Working definition",
+  "symbols": [
+   "Sp_(F) = Π_(F)(I_(F)(R))",
+   "H(Sp_(F1)) ~ H(Sp_(F2))"
+  ],
+  "definition": "Cross-frame stability of coordinated localization invariants: different probing frames may represent space differently, but declared spatial invariants must agree across admissible heterogeneous probes. Frame-dependent representation neither makes space subjective nor makes one frame exhaustive.",
+  "requires": [
+   "Lc",
+   "Pj",
+   "Ms"
+  ],
+  "basis": "p.265"
  },
  {
   "code": "Sp",
@@ -2264,6 +2847,51 @@
   ]
  },
  {
+  "code": "Ta",
+  "lexicon_id": "threshold-aggregation",
+  "label": "Threshold aggregation",
+  "kind": "term",
+  "row": "Sc",
+  "volume": 1,
+  "book": 1,
+  "chapter": 10,
+  "section": "10.8",
+  "status": "Strong (weighted aggregation Open)",
+  "symbols": [
+   "A_(P) = { r ∈ ℜ : P(r) }",
+   "K ↪ A_(P)",
+   "mag(A_(P)) ≥ k"
+  ],
+  "definition": "Aggregation such as \"at least three\" or \"a majority\", deferred from Relation, expressed as an injection of a standard finite collection K into the relations satisfying a predicate, and compressed to mag(A_P) ≥ k once cardinal labels exist. It needs no primitive beyond correspondence.",
+  "requires": [
+   "Cm",
+   "Mb"
+  ],
+  "basis": "p.193"
+ },
+ {
+  "code": "Tc",
+  "lexicon_id": "temporal-chain",
+  "label": "Temporal chain, branch and merge",
+  "kind": "term",
+  "row": "Tm",
+  "volume": 1,
+  "book": 1,
+  "chapter": 14,
+  "section": "14.9",
+  "status": "Working definition",
+  "symbols": [
+   "[e₀] ≺ₜ [e₁] ≺ₜ … ≺ₜ [eₙ]",
+   "branch",
+   "merge"
+  ],
+  "definition": "A temporal chain is a set of mutually comparable quotient events under ≺ₜ; a branch occurs when one event constrains more than one incomparable admissible successor, and a merge when one event depends on retained consequences from more than one predecessor. The resulting structure resembles a directed dependency network rather than a universal timeline.",
+  "requires": [
+   "Eo"
+  ],
+  "basis": "p.279"
+ },
+ {
   "code": "Tm",
   "lexicon_id": "time",
   "label": "Time",
@@ -2396,6 +3024,28 @@
   ]
  },
  {
+  "code": "Vf",
+  "lexicon_id": "constrained-freedom",
+  "label": "Constrained freedom",
+  "kind": "term",
+  "row": "Cl",
+  "volume": 1,
+  "book": 1,
+  "chapter": 6,
+  "section": "6.16",
+  "status": "Working definition (qualitative)",
+  "symbols": [
+   "V_(F)",
+   "V_(F) ≠ ∅"
+  ],
+  "definition": "The set V_F of admissible variations that preserve F must be non-empty and include at least one non-identity transformation, while not every variation may be admitted. Persistent higher-order identity requires constrained freedom, not maximal constraint.",
+  "requires": [
+   "Cl",
+   "Id"
+  ],
+  "basis": "p.118"
+ },
+ {
   "code": "Wd",
   "lexicon_id": "weak-discern",
   "label": "Weak discernibility",
@@ -2411,6 +3061,50 @@
   "derived_from": [
    "Df"
   ]
+ },
+ {
+  "code": "Wk",
+  "lexicon_id": "relational-work",
+  "label": "Relational work",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.6",
+  "status": "Interpretive analogy",
+  "symbols": [
+   "L(κ)",
+   "distance = minimum relational work of connection"
+  ],
+  "definition": "The comparative burden of relational structure required to connect one admissible position to another, understood pre-physically and implying no traversal. Minimum relational mediation is formally sufficient; relational work remains an interpretive analogy and is not promoted into a minimality law.",
+  "requires": [
+   "Rn"
+  ],
+  "basis": "p.211"
+ },
+ {
+  "code": "Wt",
+  "lexicon_id": "weighted-distance",
+  "label": "Weighted distance",
+  "kind": "term",
+  "row": "Dt",
+  "volume": 1,
+  "book": 1,
+  "chapter": 11,
+  "section": "11.7",
+  "status": "Provisional",
+  "symbols": [
+   "w(r)",
+   "L(κ) = Σ_(r ∈ κ) w(r)",
+   "d(A,B) = min_(κ ∈ K(A,B)) Σ_(r ∈ κ) w(r)"
+  ],
+  "definition": "Distance as the minimum over admissible chains of the summed weights of mediating relations, where weights are grounded by Scale's comparative machinery. The shortest-path form is representational and stays provisional until its weights derive from independently justified relational magnitude.",
+  "requires": [
+   "Rn",
+   "Dt"
+  ],
+  "basis": "p.211"
  },
  {
   "code": "Zs",

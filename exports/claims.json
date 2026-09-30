@@ -177,7 +177,9 @@
   "aliases": [],
   "dependencies": [],
   "relations": [],
-  "concepts": [],
+  "concepts": [
+   "Mo"
+  ],
   "composition": [],
   "appearances": [
    {
@@ -205,7 +207,9 @@
   "aliases": [],
   "dependencies": [],
   "relations": [],
-  "concepts": [],
+  "concepts": [
+   "Mo"
+  ],
   "composition": [],
   "appearances": [
    {

@@ -10,7 +10,8 @@ versions:
     beta_heading: governing constraint
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Mo
 composition: []
 appearances:
 - edition: book-1/beta
@@ -34,4 +35,3 @@ import:
   source: Book I Beta, automated extraction
   interim_id: ch01.R1.governing
   concept_confidence: medium
-  concept_note: Methodological non-presupposition rule; no element (Dp is closest in spirit).

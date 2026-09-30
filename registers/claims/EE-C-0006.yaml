@@ -11,7 +11,8 @@ versions:
     beta_heading: A second constraint
 dependencies: []
 relations: []
-concepts: []
+concepts:
+- Mo
 composition: []
 appearances:
 - edition: book-1/beta
@@ -28,5 +29,4 @@ import:
   source: Book I Beta, automated extraction
   interim_id: ch01.R1.second-constraint
   concept_confidence: medium
-  concept_note: Methodological parsimony rule against reifying representational conveniences; Fa (ch9)
     is the later formal analogue.

@@ -2,8 +2,12 @@ id: book-1/beta
 volume: 1
 book: 1
 title: 'Emergent Existence, Volume I: Existence, Book I (Beta)'
-released: '2026-09-29'
-source: Book I Beta PDF, 356 pages
-source_sha256: f236b441f501311cdc5adc6f562c093b8058dda203654abbdb88fe142e8040ea
+released: null
+frozen: false
+manuscript: true
+status: in preparation
+note: The Beta stays open until it is shared with a peer for review. It is released and frozen that day, with the fingerprint of the PDF sent and the source commit it was built from; later corrections go into the next edition.
+imported_from:
+  source: Book I Beta PDF, 356 pages, 29 September 2026
+  source_sha256: f236b441f501311cdc5adc6f562c093b8058dda203654abbdb88fe142e8040ea
 source_commit: null
-frozen: true

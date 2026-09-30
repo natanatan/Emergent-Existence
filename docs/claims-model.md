@@ -10,7 +10,7 @@ Canonical design, 29 September 2026. This is the reference for every register, c
 | --- | --- | --- | --- |
 | **Claim** | `EE-C-0137` | One proposition and its inferential identity | Never. A materially different assertion or inferential basis is a different claim |
 | **Version** | `EE-C-0137@v3` | One wording or formalization of that proposition | The wording or notation improves without changing the assertion |
-| **Edition** | `book-1/beta` | One release of one book's manuscript | A new release is cut. Released editions are frozen |
+| **Edition** | `book-1/beta` | One release of one book's manuscript | A new release is cut. Editions freeze at release, not before |
 | **Appearance** | Beta, `4.2` | One place where one edition prints one version of the claim, with its role (derivation, foreshadowing or restatement) | Per edition |
 | **Element** | `Rd` (retained distinction) | One concept from the Linking Lexicon | The lexicon is revised |
 
@@ -42,11 +42,14 @@ The surviving claim lists the other ID in `aliases`, and takes over its appearan
 
 - A version holds the claim's wording and formal statement, the date it was introduced and the edition that first printed it.
 - Earlier versions are never edited or deleted. An appearance in an old edition keeps pointing to the version it printed.
+- Within an edition that has not been released, a claim's wording is edited in place: the current version is revised, not superseded. Versioning starts at release, so the voice pass and review edits of a draft do not create new versions.
 
 ## Editions
 
-- One record per release of one book: `id`, `volume`, `book`, `released`, `source_commit`.
-- A released edition is frozen. Corrections go into the next edition.
+- One record per edition of one book: `id`, `volume`, `book`, `released`, `frozen`, `source_commit`.
+- An edition in preparation has `released: null` and `frozen: false`; its text, appearances and wording may change.
+- Release freezes it: `released` gets the date, `frozen` becomes true, and the record takes the fingerprint of the file sent and the source commit it was built from. Corrections after that go into the next edition.
+- Book I Beta is in preparation. It is released when it is first shared with a peer for review.
 
 ## Appearances and labels
 

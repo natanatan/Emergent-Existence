@@ -79,7 +79,7 @@ Rules marked **[T]** also affect typesetting: the build process recognizes them 
 
 ## 8. Register and references
 
-- **Never rewrite a historical claim silently.** Mark it Superseded, keep its original wording, and add a new entry.
+- **Never rewrite a historical claim silently.** Once an edition is released, a changed claim is marked Superseded, keeps its original wording, and gets a new entry. Until then (the Beta stays open until it goes to a peer reviewer), wording is edited in place.
 - **Check that new Register IDs are unused** (H-133 was assigned twice).
 - **Claims and hypotheses are separate namespaces.** `EE-C-nnnn` identifies claims; `EE-H-nnnn` identifies hypotheses, with the legacy `H-n` kept as an alias of its EE-H entry. Never reuse a number across namespaces or alias an H entry to an EE-C claim.
 - **References:** verified, alphabetical within each chapter, with at most a one-clause annotation.

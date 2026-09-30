@@ -26,7 +26,7 @@ The Linking Lexicon's concepts, each with a two-letter code: label, symbols, kin
 
 ## Editions (`registers/editions/`)
 
-One record per released edition of a book: `id` (for example `book-1/beta`), `volume`, `book`, `released` and `source_commit`. A released edition's record is frozen.
+One record per edition of a book: `id` (for example `book-1/beta`), `volume`, `book`, `released`, `frozen` and `source_commit`. An edition in preparation has `released: null` and can change; at release it is frozen with the fingerprint of the file sent and its source commit.
 
 ## Hypothesis Register (`registers/hypotheses/`)
 

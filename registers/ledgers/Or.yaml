@@ -53,17 +53,40 @@ earns:
     cardinality, rank, and orthogonality remain later formal achievements (7.11).'
 withholds:
 - item: spatial direction or coordinates
+  deferred_to: Sp
+  basis: 7.19 "Orientation remains relational"; 13.7 "From Geometric Position to Spatial Position"; coordinates
+    as representation arrive in Gm 12.10
 - item: metric distance or scale
+  deferred_to: Dt
+  basis: 11.25 "Distance applies magnitude to relational mediation"; scale itself is supplied earlier
+    by Sc (10.13)
 - item: metric time
   deferred_to: Tm
 - item: thermodynamic irreversibility or entropy production
+  scope: book-2
+  basis: 14.17 dynamical reversibility "belongs to the eventual physical dynamics"; the statistical arrow
+    "invokes entropy ... none of which Book I has yet earned"
 - item: physical causation or relativistic light cones
+  deferred_to: Sx
+  basis: 14.31 Book I "has not earned ... causal cones"; "Book II begins at the question mark" with "causal
+    geometry, Lorentzian signature"
 - item: global partial order
+  deferred_to: Tm
+  basis: 14.5 "Earning a Partial Order from Weak Dependency"; 14.27 "a derived strict partial-order candidate
+    ≺ₜ"
 - item: geometry or dimensionality from orientation alone
   deferred_to: Gm
 - item: chirality or parity violation
+  scope: book-2
+  basis: 7.19 "though oriented loops may later supply prerequisites"; no stage names it
 - item: universal law that return compatibility always selects stable orientations
+  scope: open
+  basis: 7.21 Questions "Is return compatibility a general selection mechanism or only one route by which
+    asymmetry becomes persistent?"; Rt 8.17 keeps it a candidate
 - item: specified mechanism for unresolved variation beneath the minimally resolved origin
+  scope: open
+  basis: 7.18 Obj 5 "This chapter ... leaves the project-specific mechanism open"; 7.17 "assumes no specific
+    hidden entities, dimensions, directions or dynamics"
 - item: recurrence, departure, exact vs non-identical return, path consequence, winding, phase
   deferred_to: Rt
 - item: coarse-graining operator CG[·]

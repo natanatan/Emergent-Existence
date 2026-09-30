@@ -55,14 +55,34 @@ withholds:
 - item: spatial direction
   deferred_to: Or
 - item: linear order
+  deferred_to: Sp
+  basis: 5.21 Questions "Can relational position be defined so that it later supports spatial order without
+    presupposing it?"; Tm earns only a strict partial order and refuses a total order (14.5)
 - item: metric distance
   deferred_to: Dt
 - item: orthogonality
+  scope: open
+  basis: 5.21 "under what later conditions can their effective independence be represented as orthogonality";
+    Gm 12.7/12.19 gives only the route "comparison among modes ⇝ angle ⇝ orthogonality" and says it "costs
+    an inner product the framework has n
 - item: physical dimensionality / numerical relational dimension dR
   deferred_to: Fm
 - item: metric time
+  deferred_to: Tm
+  basis: 14.14 "From Local Temporal Standards to Shared Metric Time"; 14.24 "Minimal Conditions for Metric
+    Time"
 - item: physical instantiation
+  scope: book-2
+  basis: 5.17 "has not shown why stable relational organization acquires the dynamical properties associated
+    with physics"; 1.11 Book II must support "a physically instantiated spacetime and the dynamics associated
+    with it"
 - item: reference structure / anchor
   deferred_to: Cl
 - item: cardinal, weighted, threshold membership
+  deferred_to: Sc
+  basis: 10.8 "threshold aggregation ... needed cardinality and was deferred to this chapter"; weighted
+    aggregation stays open there
 - item: memory (stronger biological sense)
+  deferred_to: Mm
+  basis: 'Intro: "Only after this does Memory acquire its stronger sense: retained change becoming internally
+    consequential to a self-maintaining system"'

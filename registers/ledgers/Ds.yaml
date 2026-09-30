@@ -32,11 +32,20 @@ withholds:
 - item: reference pole, anchor, Ω designation
   deferred_to: Cl
 - item: primitive stasis, branching, probability, metric, information quantity
+  deferred_to: Fm
+  basis: '9.5 table: "Multiple | At least two distinct Σ′ ... Branching admissibility, not yet probability";
+    primitive stasis is refused outright (3.9 "Identity Comes From Composition, Not Primitive Stasis");
+    metric in Dt; probability never earned'
 - item: retained distinction, boundary, memory
   deferred_to: Bd
 - item: higher-order identity
   deferred_to: Cl
 - item: information
+  deferred_to: Bd
+  basis: 4.17 "Retained Distinction as Minimal Information"; 3.14 "Distinction Is Not Yet Information"
 - item: why admissible transformation exists
+  scope: open
+  basis: '3.19 Research Frontier "Origin of 𝒰: Can admissible transformation itself be derived from a
+    still weaker structural principle?"; 3.20 Pulse "7. Fewer assumptions? Open."'
 - item: physical clock
   deferred_to: Tm

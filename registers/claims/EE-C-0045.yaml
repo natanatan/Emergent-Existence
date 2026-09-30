@@ -53,7 +53,9 @@ history:
   kind: correction
   note: 'Editor review: added constitutive dependency EE-C-0028. F and ~_F are premises of the definition,
     not something it tests.'
-  reviewed: false
+  reviewed: true
+  reviewed_by: Natan Mallinger
+  reviewed_on: '2026-09-29'
 - date: '2026-09-29'
   kind: merge
   note: EE-C-0046 was a duplicate registration of this claim (restatement at 5.6); merged, its ID retired

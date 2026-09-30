@@ -44,23 +44,65 @@ withholds:
 - item: Lorentzian metric
   scope: book-2
 - item: invariant light speed
+  deferred_to: Sx
+  basis: '14.31 not earned: "invariant c"; 14.30 "invariant maximal rate"'
 - item: light cones and intervals
+  deferred_to: Sx
+  basis: 14.31 "Nothing in Book I licenses writing a Lorentzian interval by fiat ... causal cones"
 - item: proper time
+  deferred_to: Sx
+  basis: 14.14 "Nor does it establish relativistic proper time"
 - item: relative simultaneity
+  deferred_to: Sx
+  basis: 14.10 incomparable events "may later map to spacelike-separated events"; simultaneity "tied to
+    the structure of spacetime"
 - item: time dilation
+  deferred_to: Sx
+  basis: 14.15 "Book I does not derive the relativistic law governing such variation"; Lorentz transformations
+    are Book II targets (14.31)
 - item: gravitational redshift
+  deferred_to: Gv
+  basis: 14.15 "Curvature, acceleration ... could affect realized clock behavior"; Intro Gravity "effective
+    curvature dynamics"
 - item: cosmological time
+  scope: book-2
+  basis: 14.28 "any global time (cosmological time ...)" not earned; no single cosmology stage
 - item: preferred foliation
+  deferred_to: Sx
+  basis: 14.28 global time not earned; 14.10 simultaneity is "tied to the structure of spacetime"
 - item: universal present
+  deferred_to: Sx
+  basis: 14.26 Obj 6 "Objective temporal structure need not be a universal total order ... until additional
+    physical structure justifies a stronger relation"; 14.15 "Local Rate Without a Universal Flow"
 - item: 'thermodynamic arrow: entropy increase'
+  scope: book-2
+  basis: 14.17 the statistical arrow "invokes entropy, coarse-graining, boundary conditions, and statistical
+    mechanics, none of which Book I has yet earned"
 - item: microscopic irreversibility
+  scope: book-2
+  basis: 14.17 "The second belongs to the eventual physical dynamics"
 - item: gravity
+  deferred_to: Gv
+  basis: 'Intro: Gravity "effective curvature dynamics"'
 - item: field equations
+  deferred_to: Gv
+  basis: 'Intro: Gravity "effective curvature dynamics"; field equations for matter fields would sit in
+    Mt'
 - item: matter
+  deferred_to: Mt
+  basis: 'Intro: Matter "persistent relational modes ... localized physical excitations"'
 - item: quantum fields
+  deferred_to: Mt
+  basis: 'Intro: Matter as localized excitations; Qg possible'
 - item: energy
+  scope: book-2
+  basis: 14.28 physical content not established; no single stage
 - item: action
+  scope: book-2
+  basis: 14.28 physical content not established; no single stage
 - item: observed value of any physical constant
+  scope: book-2
+  basis: 14.28 lists it; no text says whether Book II will or will not attempt it
 - item: identity/unification of space and time as one metric structure (physical spacetime)
   scope: book-2
 - item: propagation / propagation speed
@@ -68,3 +110,6 @@ withholds:
 - item: physical causal structure / causal geometry
   scope: book-2
 - item: psychological memory and cosmological temporal asymmetry
+  scope: book-2
+  basis: 14.18 "Those require additional mechanisms"; 14.26 "Entropic, cosmological, and psychological
+    arrows remain separate problems"; memory is Mm (Book II), psychological sense may reach vol-2

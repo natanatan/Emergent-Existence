@@ -55,7 +55,9 @@ history:
   note: 'Editor review: added constitutive dependency EE-C-0127. The scale factor is written in ratio
     notation (EE-C-0129, representational), but 10.13 says ''the stability belongs to the relation rather
     than to any level''s magnitude'', i.e. to the comparative relati'
-  reviewed: false
+  reviewed: true
+  reviewed_by: Natan Mallinger
+  reviewed_on: '2026-09-29'
 import:
   source: Book I Beta, automated extraction
   interim_id: ch10.D10.13

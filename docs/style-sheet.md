@@ -16,6 +16,7 @@ Rules marked **[T]** also affect typesetting: the build process recognizes them 
 - **Title:** *Emergent Existence*, Volume I: Existence, Book I: Foundations of Physical Reality. Chapters 1 to 14, Origin through Time; Book II begins with physical spacetime.
 - **Two foundational commitments so far:** Difference (Chapter 2) and admissible transformation 𝒰 (introduced in Distinction, Chapter 3). Origin is the starting point, not a commitment.
 - **Ω** is the minimally resolved reference condition: not a pole, anchor, place, moment or cause. The first endogenous organizational reference role is earned in Closure, as the organizational anchor A_F.
+- **Ω withholds, it does not specify.** Nothing below the initial frame's resolution is asserted or excluded: absolute nothing, perfect uniformity and unresolved variation all remain admissible. Don't write Ω as having, or lacking, sub-threshold structure, and don't give it set membership (1.7).
 - **Do not index Ω as a recursively reproduced origin.** Higher-order originhood is written O_F^(n) / A_F^(n), never Ω_n. Closure re-instantiates the *role* of origin; it does not reproduce Ω.
 - **"Before" is derivational, not temporal,** unless Time has earned it.
 - **The chapter order is one reading order.** Dependencies are established within each chapter, not implied by sequence.

@@ -9,5 +9,6 @@ The source of truth for claims, hypotheses and what each chapter earns. See [`do
 | `ledgers/` | Inherits, earns and withholds, per chapter |
 | `elements/` | The element table: Linking Lexicon concepts with two-letter codes |
 | `editions/` | One frozen record per released edition of a book |
+| `sources/` | Sources: papers, datasets, proofs and Companion runs that claims rely on, with their grade and currency. See [`docs/sources.md`](../docs/sources.md) |
 
 Imported from Book I Beta on 29 September 2026. Each claim's `import` block records how it was extracted; appearance roles are left for the author to assign.

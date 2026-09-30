@@ -28,6 +28,13 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 | Claim not mapped to elements | Review | A claim has no element concepts |
 | Withholdings accounted for | Review | A withheld item names no destination and is not marked beyond the series or open |
 | Released editions frozen | Error | The record or appearances of a released edition change |
+| Sources resolve | Error | A cited source does not exist, or a role, kind or currency status is unknown. See [`docs/sources.md`](../docs/sources.md) |
+| Status capped by evidence | Error | An entry's status is higher than its weakest premise source allows |
+| Premise source checked | Review | A premise citation lacks what it is cited for, its locator, or the date and name of whoever checked it |
+| Strongest objection recorded | Review | A premise source has no strongest objection recorded beside it |
+| Premise source failed | Review | A premise source was retracted, failed to replicate or was superseded |
+| Source due for recheck | Review | A source's currency has not been checked for a year |
+| One line of evidence cited as several | Review | Two premise or support sources of one entry share a line of evidence |
 | Exports are current | Error | `exports/` or `docs/elements.md` differs from what the registers generate. Regenerate with `python checks/export.py` and `python checks/elements_doc.py` |
 
 ## Daily audit
@@ -39,3 +46,11 @@ The checks also run once a day on a schedule, whether or not anything changed, f
 - a count of claims still missing a derivation appearance.
 
 A run that finds new errors or flags notifies the author through GitHub. At 6:00 am Pacific (America/Los_Angeles) each day, a scheduled Claude session reads the Audit report issue and sends the author a short plain-language summary. Both are set up together with the checks.
+
+## Generated views
+
+| Script | Writes | Source |
+| --- | --- | --- |
+| `checks/export.py` | `exports/` | All registers |
+| `checks/elements_doc.py` | `docs/elements.md` | `registers/elements/elements.yaml` |
+| `checks/lexicon_sync.py` | The Linking Lexicon page's data | `registers/elements/elements.yaml`. One way and additive: missing elements become nodes; existing nodes, formulas and notes on the page are never changed. Drift between the two is printed for review |

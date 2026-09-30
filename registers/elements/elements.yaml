@@ -5,6 +5,7 @@ elements:
   lexicon_id: origin
   label: Origin
   kind: foundation
+  order: 1
   row: Om
   volume: 1
   book: 1
@@ -29,6 +30,7 @@ elements:
   lexicon_id: difference
   label: Difference
   kind: foundation
+  order: 2
   row: Df
   volume: 1
   book: 1
@@ -47,6 +49,7 @@ elements:
   lexicon_id: distinction
   label: Distinction
   kind: stage
+  order: 3
   row: Ds
   volume: 1
   book: 1
@@ -65,6 +68,7 @@ elements:
   lexicon_id: boundary
   label: Boundary
   kind: stage
+  order: 4
   row: Bd
   volume: 1
   book: 1
@@ -83,6 +87,7 @@ elements:
   lexicon_id: relation
   label: Relation
   kind: stage
+  order: 5
   row: Rl
   volume: 1
   book: 1
@@ -105,6 +110,7 @@ elements:
   lexicon_id: closure
   label: Closure
   kind: stage
+  order: 6
   row: Cl
   volume: 1
   book: 1
@@ -131,6 +137,7 @@ elements:
   lexicon_id: orientation
   label: Orientation
   kind: stage
+  order: 7
   row: Or
   volume: 1
   book: 1
@@ -155,6 +162,7 @@ elements:
   lexicon_id: return
   label: Return
   kind: stage
+  order: 8
   row: Rt
   volume: 1
   book: 1
@@ -184,6 +192,7 @@ elements:
   lexicon_id: formalism
   label: Formalism
   kind: stage
+  order: 9
   row: Fm
   volume: 1
   book: 1
@@ -200,6 +209,7 @@ elements:
   lexicon_id: scale
   label: Scale
   kind: stage
+  order: 10
   row: Sc
   volume: 1
   book: 1
@@ -215,6 +225,7 @@ elements:
   lexicon_id: distance
   label: Distance
   kind: stage
+  order: 11
   row: Dt
   volume: 1
   book: 1
@@ -235,6 +246,7 @@ elements:
   lexicon_id: geometry
   label: Geometry
   kind: stage
+  order: 12
   row: Gm
   volume: 1
   book: 1
@@ -250,6 +262,7 @@ elements:
   lexicon_id: space
   label: Space
   kind: stage
+  order: 13
   row: Sp
   volume: 1
   book: 1
@@ -266,6 +279,7 @@ elements:
   lexicon_id: time
   label: Time
   kind: stage
+  order: 14
   row: Tm
   volume: 1
   book: 1
@@ -1140,6 +1154,7 @@ elements:
   lexicon_id: spacetime
   label: Spacetime
   kind: stage
+  order: 15
   row: Sx
   volume: 1
   book: 2
@@ -1156,6 +1171,7 @@ elements:
   lexicon_id: gravity
   label: Gravity
   kind: stage
+  order: 16
   row: Gv
   volume: 1
   book: 2
@@ -1170,6 +1186,7 @@ elements:
   lexicon_id: quantum-gravity
   label: Quantum Gravity
   kind: stage
+  order: 17
   row: Qg
   volume: 1
   book: 2
@@ -1184,6 +1201,7 @@ elements:
   lexicon_id: matter
   label: Matter
   kind: stage
+  order: 18
   row: Mt
   volume: 1
   book: 2
@@ -1198,6 +1216,7 @@ elements:
   lexicon_id: black-holes
   label: Black Holes
   kind: stage
+  order: 19
   row: Bh
   volume: 1
   book: 2
@@ -1212,6 +1231,7 @@ elements:
   lexicon_id: cosmogenesis
   label: Recursive Cosmogenesis
   kind: stage
+  order: 20
   row: Rg
   volume: 1
   book: 2
@@ -1227,6 +1247,7 @@ elements:
   lexicon_id: complexity
   label: Complexity
   kind: stage
+  order: 21
   row: Cx
   volume: 1
   book: 2
@@ -1242,6 +1263,7 @@ elements:
   lexicon_id: life
   label: Life
   kind: stage
+  order: 22
   row: Lf
   volume: 1
   book: 2
@@ -1256,6 +1278,7 @@ elements:
   lexicon_id: memory
   label: Memory
   kind: stage
+  order: 23
   row: Mm
   volume: 1
   book: 2
@@ -1276,6 +1299,7 @@ elements:
   lexicon_id: knowing
   label: Knowing
   kind: stage
+  order: 24
   row: Kn
   volume: 1
   book: 2
@@ -1291,6 +1315,7 @@ elements:
   lexicon_id: regulation
   label: Regulation
   kind: stage
+  order: 25
   row: Rq
   volume: 2
   book: null
@@ -1305,6 +1330,7 @@ elements:
   lexicon_id: valuation
   label: Valuation
   kind: stage
+  order: 26
   row: Va
   volume: 2
   book: null
@@ -1319,6 +1345,7 @@ elements:
   lexicon_id: learning
   label: Learning
   kind: stage
+  order: 27
   row: Le
   volume: 2
   book: null
@@ -1333,6 +1360,7 @@ elements:
   lexicon_id: self-model
   label: Self-modeling
   kind: stage
+  order: 28
   row: Sm
   volume: 2
   book: null
@@ -1347,6 +1375,7 @@ elements:
   lexicon_id: communication
   label: Communication
   kind: stage
+  order: 29
   row: Co
   volume: 2
   book: null
@@ -1361,6 +1390,7 @@ elements:
   lexicon_id: consciousness
   label: Consciousness
   kind: stage
+  order: 30
   row: Cc
   volume: 2
   book: null
@@ -1375,6 +1405,7 @@ elements:
   lexicon_id: interpretation
   label: Interpretation
   kind: stage
+  order: 31
   row: Ip
   volume: 3
   book: null
@@ -1389,6 +1420,7 @@ elements:
   lexicon_id: shared-reference
   label: Shared reference
   kind: stage
+  order: 32
   row: Sr
   volume: 3
   book: null
@@ -1403,6 +1435,7 @@ elements:
   lexicon_id: norms
   label: Norms and institutions
   kind: stage
+  order: 33
   row: Nm
   volume: 3
   book: null
@@ -1417,6 +1450,7 @@ elements:
   lexicon_id: meaning
   label: Meaning
   kind: stage
+  order: 34
   row: Mn
   volume: 3
   book: null

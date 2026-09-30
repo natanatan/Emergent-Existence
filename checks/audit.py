@@ -36,6 +36,7 @@ CHECKS = [
     ("citations", "Citations resolve", "error"),
     ("superseded-out", "Superseded claims stay out", "error"),
     ("status-history", "Status history is well formed", "error"),
+    ("exports-current", "Exports are current", "error"),
     ("superseded-dependency", "Superseded dependency", "review"),
     ("correction", "Correction recorded", "review"),
     ("withholdings", "Withholdings accounted for", "review"),
@@ -271,6 +272,12 @@ def audit(root):
         for w in as_list(led.get("withholds")):
             if not w.get("deferred_to") and not w.get("scope"):
                 add("withholdings", led.get("stage"), f"'{w.get('item')}' names no destination and is not marked beyond the series or open")
+
+    # exports must match the registers
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import export
+    for name in export.stale_files(root):
+        add("exports-current", f"exports/{name}", "out of date; run python checks/export.py")
 
     return findings, claims, hyps, editions, elements
 

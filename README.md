@@ -18,7 +18,7 @@ Emergent Existence is a serious academic nonfiction project exploring how increa
 | [`manuscript/`](manuscript/) | The text, one file per section, by volume, book and chapter |
 | [`registers/`](registers/) | The Claim Register, the Hypothesis Register and the inheritance ledgers: the source of truth for every claim, its dependencies and its status |
 | [`checks/`](checks/) | Automated checks of the Method, run against the registers |
-| [`exports/`](exports/) | Generated data read by the Computational Companion and other projects |
+| [`exports/`](exports/) | Generated data read by the [Computational Companion](https://github.com/natanatan/Emergent-Existence-Companion) and other projects |
 | [`docs/`](docs/) | How the repository and its registers work |
 
 ## The Method

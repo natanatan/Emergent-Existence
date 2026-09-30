@@ -278,6 +278,11 @@ def audit(root):
     import export
     for name in export.stale_files(root):
         add("exports-current", f"exports/{name}", "out of date; run python checks/export.py")
+    import elements_doc
+    doc = os.path.join(root, "docs", "elements.md")
+    table = yaml.safe_load(open(os.path.join(root, "registers", "elements", "elements.yaml"), encoding="utf-8"))
+    if not os.path.exists(doc) or open(doc, encoding="utf-8").read() != elements_doc.render(table["elements"]):
+        add("exports-current", "docs/elements.md", "out of date; run python checks/elements_doc.py")
 
     return findings, claims, hyps, editions, elements
 

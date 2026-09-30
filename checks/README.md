@@ -28,6 +28,7 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 | Claim not mapped to elements | Review | A claim has no element concepts |
 | Withholdings accounted for | Review | A withheld item names no destination and is not marked beyond the series or open |
 | Released editions frozen | Error | The record or appearances of a released edition change |
+| Exports are current | Error | `exports/` or `docs/elements.md` differs from what the registers generate. Regenerate with `python checks/export.py` and `python checks/elements_doc.py` |
 
 ## Daily audit
 

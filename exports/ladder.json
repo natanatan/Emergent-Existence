@@ -25,39 +25,48 @@
     "deferred_to": "Tm"
    },
    {
-    "item": "spatial location, metric, coordinate system, topology"
+    "item": "spatial location, metric, coordinate system, topology",
+    "deferred_to": "Sp"
    },
    {
     "item": "geometry",
     "deferred_to": "Gm"
    },
    {
-    "item": "matter, fields, energy, action, entropy, thermodynamic dynamics"
+    "item": "matter, fields, energy, action, entropy, thermodynamic dynamics",
+    "scope": "book-2"
    },
    {
-    "item": "objects, observers, agents, consciousness, meaning as primitives"
+    "item": "objects, observers, agents, consciousness, meaning as primitives",
+    "scope": "beyond-series"
    },
    {
-    "item": "causation or physical law of evolution"
+    "item": "causation or physical law of evolution",
+    "deferred_to": "Sx"
    },
    {
     "item": "information (retained, consequential sense)",
     "deferred_to": "Bd"
    },
    {
-    "item": "mechanism for the first distinction"
+    "item": "mechanism for the first distinction",
+    "scope": "open"
    },
    {
-    "item": "proof that Ω is an entity"
+    "item": "proof that Ω is an entity",
+    "scope": "beyond-series"
    },
    {
-    "item": "hidden structure in Ω"
+    "item": "hidden structure in Ω",
+    "scope": "open"
    },
    {
-    "item": "absolute featurelessness of Ω"
+    "item": "absolute featurelessness of Ω",
+    "scope": "beyond-series"
    },
    {
-    "item": "physical instantiation of relational ontology"
+    "item": "physical instantiation of relational ontology",
+    "scope": "book-2"
    },
    {
     "item": "physical spacetime",
@@ -107,7 +116,8 @@
     "deferred_to": "Or"
    },
    {
-    "item": "magnitude, metric, probability, information measure, spatial separation"
+    "item": "magnitude, metric, probability, information measure, spatial separation",
+    "deferred_to": "Sc"
    },
    {
     "item": "persistence, retained distinction, boundary, information, memory",
@@ -118,7 +128,8 @@
     "deferred_to": "Ds"
    },
    {
-    "item": "a and b as physical objects or events in time"
+    "item": "a and b as physical objects or events in time",
+    "scope": "book-2"
    },
    {
     "item": "relational organization",
@@ -183,7 +194,8 @@
     "deferred_to": "Cl"
    },
    {
-    "item": "primitive stasis, branching, probability, metric, information quantity"
+    "item": "primitive stasis, branching, probability, metric, information quantity",
+    "deferred_to": "Fm"
    },
    {
     "item": "retained distinction, boundary, memory",
@@ -194,10 +206,12 @@
     "deferred_to": "Cl"
    },
    {
-    "item": "information"
+    "item": "information",
+    "deferred_to": "Bd"
    },
    {
-    "item": "why admissible transformation exists"
+    "item": "why admissible transformation exists",
+    "scope": "open"
    },
    {
     "item": "physical clock",
@@ -267,7 +281,8 @@
   ],
   "withholds": [
    {
-    "item": "privileged physical transformation family"
+    "item": "privileged physical transformation family",
+    "scope": "book-2"
    },
    {
     "item": "anchor / Ω-designated pole / higher-order origin / intrinsic center",
@@ -278,30 +293,36 @@
     "deferred_to": "Or"
    },
    {
-    "item": "spatial geometry"
+    "item": "spatial geometry",
+    "deferred_to": "Sp"
    },
    {
-    "item": "distance"
+    "item": "distance",
+    "deferred_to": "Dt"
    },
    {
-    "item": "inside/outside, enclosure"
+    "item": "inside/outside, enclosure",
+    "deferred_to": "Sp"
    },
    {
     "item": "physical time, causal cone, duration, clock",
     "deferred_to": "Tm"
    },
    {
-    "item": "entropy, Shannon measure, thermodynamic erasure cost"
+    "item": "entropy, Shannon measure, thermodynamic erasure cost",
+    "scope": "open"
    },
    {
-    "item": "material carrier"
+    "item": "material carrier",
+    "deferred_to": "Mt"
    },
    {
     "item": "mature object (integrated organization, endogenous reference)",
     "deferred_to": "Rl"
    },
    {
-    "item": "transitive/acyclic/total/causal/temporal ≺"
+    "item": "transitive/acyclic/total/causal/temporal ≺",
+    "deferred_to": "Tm"
    },
    {
     "item": "physically grounded coarse-graining",
@@ -396,34 +417,40 @@
     "deferred_to": "Or"
    },
    {
-    "item": "linear order"
+    "item": "linear order",
+    "deferred_to": "Sp"
    },
    {
     "item": "metric distance",
     "deferred_to": "Dt"
    },
    {
-    "item": "orthogonality"
+    "item": "orthogonality",
+    "scope": "open"
    },
    {
     "item": "physical dimensionality / numerical relational dimension dR",
     "deferred_to": "Fm"
    },
    {
-    "item": "metric time"
+    "item": "metric time",
+    "deferred_to": "Tm"
    },
    {
-    "item": "physical instantiation"
+    "item": "physical instantiation",
+    "scope": "book-2"
    },
    {
     "item": "reference structure / anchor",
     "deferred_to": "Cl"
    },
    {
-    "item": "cardinal, weighted, threshold membership"
+    "item": "cardinal, weighted, threshold membership",
+    "deferred_to": "Sc"
    },
    {
-    "item": "memory (stronger biological sense)"
+    "item": "memory (stronger biological sense)",
+    "deferred_to": "Mm"
    }
   ]
  },
@@ -516,13 +543,16 @@
   ],
   "withholds": [
    {
-    "item": "spatial enclosure"
+    "item": "spatial enclosure",
+    "deferred_to": "Sp"
    },
    {
-    "item": "metric distance"
+    "item": "metric distance",
+    "deferred_to": "Dt"
    },
    {
-    "item": "physical dimensionality"
+    "item": "physical dimensionality",
+    "deferred_to": "Sp"
    },
    {
     "item": "orientation",
@@ -533,27 +563,32 @@
     "deferred_to": "Tm"
    },
    {
-    "item": "threshold aggregation"
+    "item": "threshold aggregation",
+    "deferred_to": "Sc"
    },
    {
     "item": "self-consciousness / internal self-model",
     "scope": "book-2"
    },
    {
-    "item": "physical causation"
+    "item": "physical causation",
+    "deferred_to": "Sx"
    },
    {
-    "item": "physical instantiation"
+    "item": "physical instantiation",
+    "scope": "book-2"
    },
    {
-    "item": "geometry from closure"
+    "item": "geometry from closure",
+    "deferred_to": "Gm"
    },
    {
     "item": "memory",
     "scope": "book-2"
    },
    {
-    "item": "path dependence"
+    "item": "path dependence",
+    "deferred_to": "Fm"
    }
   ]
  },
@@ -644,36 +679,44 @@
   ],
   "withholds": [
    {
-    "item": "spatial direction or coordinates"
+    "item": "spatial direction or coordinates",
+    "deferred_to": "Sp"
    },
    {
-    "item": "metric distance or scale"
+    "item": "metric distance or scale",
+    "deferred_to": "Dt"
    },
    {
     "item": "metric time",
     "deferred_to": "Tm"
    },
    {
-    "item": "thermodynamic irreversibility or entropy production"
+    "item": "thermodynamic irreversibility or entropy production",
+    "scope": "book-2"
    },
    {
-    "item": "physical causation or relativistic light cones"
+    "item": "physical causation or relativistic light cones",
+    "deferred_to": "Sx"
    },
    {
-    "item": "global partial order"
+    "item": "global partial order",
+    "deferred_to": "Tm"
    },
    {
     "item": "geometry or dimensionality from orientation alone",
     "deferred_to": "Gm"
    },
    {
-    "item": "chirality or parity violation"
+    "item": "chirality or parity violation",
+    "scope": "book-2"
    },
    {
-    "item": "universal law that return compatibility always selects stable orientations"
+    "item": "universal law that return compatibility always selects stable orientations",
+    "scope": "open"
    },
    {
-    "item": "specified mechanism for unresolved variation beneath the minimally resolved origin"
+    "item": "specified mechanism for unresolved variation beneath the minimally resolved origin",
+    "scope": "open"
    },
    {
     "item": "recurrence, departure, exact vs non-identical return, path consequence, winding, phase",
@@ -788,46 +831,56 @@
     "deferred_to": "Tm"
    },
    {
-    "item": "synchronization between recurring relational modes"
+    "item": "synchronization between recurring relational modes",
+    "deferred_to": "Tm"
    },
    {
-    "item": "spatial circularity, orbit, rotation or geometric loop"
+    "item": "spatial circularity, orbit, rotation or geometric loop",
+    "deferred_to": "Gm"
    },
    {
     "item": "topology, homotopy class or physical winding number",
     "deferred_to": "Fm"
    },
    {
-    "item": "physical phase or angular coordinate"
+    "item": "physical phase or angular coordinate",
+    "deferred_to": "Tm"
    },
    {
-    "item": "causal loops or closed timelike curves"
+    "item": "causal loops or closed timelike curves",
+    "deferred_to": "Sx"
    },
    {
     "item": "Poincaré recurrence as a physical theorem of this model",
     "deferred_to": "Fm"
    },
    {
-    "item": "entropy, thermodynamic irreversibility or an arrow of time"
+    "item": "entropy, thermodynamic irreversibility or an arrow of time",
+    "scope": "book-2"
    },
    {
     "item": "biological or cognitive memory",
     "scope": "book-2"
    },
    {
-    "item": "oscillation, wave propagation or resonance"
+    "item": "oscillation, wave propagation or resonance",
+    "scope": "book-2"
    },
    {
-    "item": "conservation laws"
+    "item": "conservation laws",
+    "scope": "book-2"
    },
    {
-    "item": "universal principle that all persistent structures must return"
+    "item": "universal principle that all persistent structures must return",
+    "scope": "beyond-series"
    },
    {
-    "item": "proof that return-compatible structures are generically selected"
+    "item": "proof that return-compatible structures are generically selected",
+    "scope": "open"
    },
    {
-    "item": "quantification of reuse as period, phase, winding or metric recurrence"
+    "item": "quantification of reuse as period, phase, winding or metric recurrence",
+    "deferred_to": "Tm"
    },
    {
     "item": "units / endogenous standards",
@@ -954,40 +1007,52 @@
   ],
   "withholds": [
    {
-    "item": "metric distance, length, duration, speed, angle or norm"
+    "item": "metric distance, length, duration, speed, angle or norm",
+    "deferred_to": "Dt"
    },
    {
-    "item": "vector-space structure, inner products, orthogonality or basis vectors"
+    "item": "vector-space structure, inner products, orthogonality or basis vectors",
+    "scope": "open"
    },
    {
-    "item": "physical topology, manifold, continuum or coordinate chart"
+    "item": "physical topology, manifold, continuum or coordinate chart",
+    "deferred_to": "Sp"
    },
    {
-    "item": "probability weights, stochastic dynamics or quantum amplitudes"
+    "item": "probability weights, stochastic dynamics or quantum amplitudes",
+    "scope": "open"
    },
    {
-    "item": "physical causality or a causal cone"
+    "item": "physical causality or a causal cone",
+    "deferred_to": "Sx"
    },
    {
-    "item": "Hamiltonian, action, energy or field equation"
+    "item": "Hamiltonian, action, energy or field equation",
+    "scope": "book-2"
    },
    {
-    "item": "claim that reality literally is a graph, matrix, simplex, category, automaton or quotient algebra"
+    "item": "claim that reality literally is a graph, matrix, simplex, category, automaton or quotient algebra",
+    "scope": "beyond-series"
    },
    {
-    "item": "universal claim that every emergent entity must be a quotient structure"
+    "item": "universal claim that every emergent entity must be a quotient structure",
+    "scope": "open"
    },
    {
-    "item": "proof that binary relations suffice for every higher-order constraint"
+    "item": "proof that binary relations suffice for every higher-order constraint",
+    "scope": "open"
    },
    {
-    "item": "proof that physical or spatial dimensionality is dR, or that dR must equal a matroid rank"
+    "item": "proof that physical or spatial dimensionality is dR, or that dR must equal a matroid rank",
+    "scope": "open"
    },
    {
-    "item": "proof that determinism (or indeterminism) is fundamental"
+    "item": "proof that determinism (or indeterminism) is fundamental",
+    "scope": "open"
    },
    {
-    "item": "physical interpretation of fixed points, attractors or recurrence periods"
+    "item": "physical interpretation of fixed points, attractors or recurrence periods",
+    "deferred_to": "Tm"
    },
    {
     "item": "numerical scale, proportion or measurement units, and physical dimensionality",
@@ -1127,34 +1192,44 @@
     "deferred_to": "Dt"
    },
    {
-    "item": "a physical unit (metre, second, Planck length, energy scale)"
+    "item": "a physical unit (metre, second, Planck length, energy scale)",
+    "scope": "book-2"
    },
    {
-    "item": "a coordinate system"
+    "item": "a coordinate system",
+    "deferred_to": "Gm"
    },
    {
-    "item": "vector-space structure, inner products, angles, basis vectors, orthogonality"
+    "item": "vector-space structure, inner products, angles, basis vectors, orthogonality",
+    "scope": "open"
    },
    {
-    "item": "a manifold, continuum or metric topology"
+    "item": "a manifold, continuum or metric topology",
+    "deferred_to": "Gm"
    },
    {
-    "item": "physical dimensionality or an embedding dimension"
+    "item": "physical dimensionality or an embedding dimension",
+    "deferred_to": "Sp"
    },
    {
-    "item": "fractal dimension as a property of physical space"
+    "item": "fractal dimension as a property of physical space",
+    "scope": "open"
    },
    {
-    "item": "a universal law of self-similarity, or any universal role for Fibonacci or φ"
+    "item": "a universal law of self-similarity, or any universal role for Fibonacci or φ",
+    "scope": "beyond-series"
    },
    {
-    "item": "renormalization-group flow as physical dynamics"
+    "item": "renormalization-group flow as physical dynamics",
+    "scope": "book-2"
    },
    {
-    "item": "a probability measure or a stochastic distribution over scales"
+    "item": "a probability measure or a stochastic distribution over scales",
+    "scope": "open"
    },
    {
-    "item": "weighted aggregation"
+    "item": "weighted aggregation",
+    "scope": "open"
    },
    {
     "item": "genuine self-similarity across levels",
@@ -1297,71 +1372,88 @@
   ],
   "withholds": [
    {
-    "item": "physical spatial length"
+    "item": "physical spatial length",
+    "deferred_to": "Sp"
    },
    {
-    "item": "a metre or any physical calibration unit"
+    "item": "a metre or any physical calibration unit",
+    "scope": "book-2"
    },
    {
     "item": "coordinates",
     "deferred_to": "Gm"
    },
    {
-    "item": "angles"
+    "item": "angles",
+    "scope": "open"
    },
    {
-    "item": "inner products"
+    "item": "inner products",
+    "scope": "open"
    },
    {
-    "item": "orthogonality"
+    "item": "orthogonality",
+    "scope": "open"
    },
    {
-    "item": "basis vectors"
+    "item": "basis vectors",
+    "deferred_to": "Gm"
    },
    {
     "item": "spatial dimension",
     "deferred_to": "Gm"
    },
    {
-    "item": "a manifold"
+    "item": "a manifold",
+    "deferred_to": "Gm"
    },
    {
-    "item": "continuity"
+    "item": "continuity",
+    "deferred_to": "Gm"
    },
    {
-    "item": "curvature"
+    "item": "curvature",
+    "deferred_to": "Gm"
    },
    {
     "item": "physical locality",
     "deferred_to": "Sp"
    },
    {
-    "item": "velocity"
+    "item": "velocity",
+    "deferred_to": "Sx"
    },
    {
     "item": "metric time",
     "deferred_to": "Tm"
    },
    {
-    "item": "light cones"
+    "item": "light cones",
+    "deferred_to": "Sx"
    },
    {
-    "item": "causal speed"
+    "item": "causal speed",
+    "deferred_to": "Sx"
    },
    {
-    "item": "energy"
+    "item": "energy",
+    "scope": "book-2"
    },
    {
-    "item": "action"
+    "item": "action",
+    "scope": "book-2"
    },
    {
-    "item": "geodesic motion"
+    "item": "geodesic motion",
+    "deferred_to": "Gv"
    },
    {
-    "item": "general relativity"
+    "item": "general relativity",
+    "deferred_to": "Gv"
    },
    {
-    "item": "spacetime"
+    "item": "spacetime",
+    "deferred_to": "Sx"
    },
    {
     "item": "geometry (mutually constraining organization of distances)",
@@ -1519,52 +1611,68 @@
     "deferred_to": "Sp"
    },
    {
-    "item": "that three dimensions are uniquely selected"
+    "item": "that three dimensions are uniquely selected",
+    "deferred_to": "Sx"
    },
    {
-    "item": "whether the substrate is fundamentally continuous or discrete"
+    "item": "whether the substrate is fundamentally continuous or discrete",
+    "deferred_to": "Qg"
    },
    {
-    "item": "global smoothness of the effective geometry"
+    "item": "global smoothness of the effective geometry",
+    "deferred_to": "Sp"
    },
    {
-    "item": "matter"
+    "item": "matter",
+    "deferred_to": "Mt"
    },
    {
-    "item": "quantum fields"
+    "item": "quantum fields",
+    "deferred_to": "Mt"
    },
    {
-    "item": "particles"
+    "item": "particles",
+    "deferred_to": "Mt"
    },
    {
-    "item": "metric time"
+    "item": "metric time",
+    "deferred_to": "Tm"
    },
    {
-    "item": "spacetime"
+    "item": "spacetime",
+    "deferred_to": "Sx"
    },
    {
-    "item": "gravity"
+    "item": "gravity",
+    "deferred_to": "Gv"
    },
    {
-    "item": "energy"
+    "item": "energy",
+    "scope": "book-2"
    },
    {
-    "item": "action"
+    "item": "action",
+    "scope": "book-2"
    },
    {
-    "item": "causal speed"
+    "item": "causal speed",
+    "deferred_to": "Sx"
    },
    {
-    "item": "that a measured field excitation is literally a projection from a multilayer geometric substrate"
+    "item": "that a measured field excitation is literally a projection from a multilayer geometric substrate",
+    "deferred_to": "Mt"
    },
    {
-    "item": "that measurement back-action is quantum collapse"
+    "item": "that measurement back-action is quantum collapse",
+    "scope": "book-2"
    },
    {
-    "item": "that every physical property can be reduced to geometry"
+    "item": "that every physical property can be reduced to geometry",
+    "scope": "beyond-series"
    },
    {
-    "item": "orthogonality / inner product"
+    "item": "orthogonality / inner product",
+    "scope": "open"
    },
    {
     "item": "locality, extension, adjacency, spatial position (physical)",
@@ -1743,62 +1851,80 @@
     "deferred_to": "Tm"
    },
    {
-    "item": "velocity"
+    "item": "velocity",
+    "deferred_to": "Sx"
    },
    {
-    "item": "causal speed"
+    "item": "causal speed",
+    "deferred_to": "Sx"
    },
    {
-    "item": "temporal simultaneity"
+    "item": "temporal simultaneity",
+    "deferred_to": "Sx"
    },
    {
-    "item": "proper time"
+    "item": "proper time",
+    "deferred_to": "Sx"
    },
    {
-    "item": "Lorentzian signature"
+    "item": "Lorentzian signature",
+    "deferred_to": "Sx"
    },
    {
-    "item": "spacetime"
+    "item": "spacetime",
+    "deferred_to": "Sx"
    },
    {
-    "item": "cosmological expansion as an actual physical law"
+    "item": "cosmological expansion as an actual physical law",
+    "scope": "book-2"
    },
    {
-    "item": "gravity"
+    "item": "gravity",
+    "deferred_to": "Gv"
    },
    {
-    "item": "gravitational field equations"
+    "item": "gravitational field equations",
+    "deferred_to": "Gv"
    },
    {
     "item": "matter",
     "scope": "book-2"
    },
    {
-    "item": "particles"
+    "item": "particles",
+    "deferred_to": "Mt"
    },
    {
-    "item": "quantum fields"
+    "item": "quantum fields",
+    "deferred_to": "Mt"
    },
    {
-    "item": "wavefunctions"
+    "item": "wavefunctions",
+    "scope": "book-2"
    },
    {
-    "item": "Hilbert space"
+    "item": "Hilbert space",
+    "scope": "book-2"
    },
    {
-    "item": "superposition"
+    "item": "superposition",
+    "scope": "book-2"
    },
    {
-    "item": "Born statistics"
+    "item": "Born statistics",
+    "scope": "book-2"
    },
    {
-    "item": "energy"
+    "item": "energy",
+    "scope": "book-2"
    },
    {
-    "item": "action"
+    "item": "action",
+    "scope": "book-2"
    },
    {
-    "item": "fundamental continuity or fundamental discreteness of geometry"
+    "item": "fundamental continuity or fundamental discreteness of geometry",
+    "deferred_to": "Qg"
    }
   ]
  },
@@ -1973,58 +2099,76 @@
     "scope": "book-2"
    },
    {
-    "item": "invariant light speed"
+    "item": "invariant light speed",
+    "deferred_to": "Sx"
    },
    {
-    "item": "light cones and intervals"
+    "item": "light cones and intervals",
+    "deferred_to": "Sx"
    },
    {
-    "item": "proper time"
+    "item": "proper time",
+    "deferred_to": "Sx"
    },
    {
-    "item": "relative simultaneity"
+    "item": "relative simultaneity",
+    "deferred_to": "Sx"
    },
    {
-    "item": "time dilation"
+    "item": "time dilation",
+    "deferred_to": "Sx"
    },
    {
-    "item": "gravitational redshift"
+    "item": "gravitational redshift",
+    "deferred_to": "Gv"
    },
    {
-    "item": "cosmological time"
+    "item": "cosmological time",
+    "scope": "book-2"
    },
    {
-    "item": "preferred foliation"
+    "item": "preferred foliation",
+    "deferred_to": "Sx"
    },
    {
-    "item": "universal present"
+    "item": "universal present",
+    "deferred_to": "Sx"
    },
    {
-    "item": "thermodynamic arrow: entropy increase"
+    "item": "thermodynamic arrow: entropy increase",
+    "scope": "book-2"
    },
    {
-    "item": "microscopic irreversibility"
+    "item": "microscopic irreversibility",
+    "scope": "book-2"
    },
    {
-    "item": "gravity"
+    "item": "gravity",
+    "deferred_to": "Gv"
    },
    {
-    "item": "field equations"
+    "item": "field equations",
+    "deferred_to": "Gv"
    },
    {
-    "item": "matter"
+    "item": "matter",
+    "deferred_to": "Mt"
    },
    {
-    "item": "quantum fields"
+    "item": "quantum fields",
+    "deferred_to": "Mt"
    },
    {
-    "item": "energy"
+    "item": "energy",
+    "scope": "book-2"
    },
    {
-    "item": "action"
+    "item": "action",
+    "scope": "book-2"
    },
    {
-    "item": "observed value of any physical constant"
+    "item": "observed value of any physical constant",
+    "scope": "book-2"
    },
    {
     "item": "identity/unification of space and time as one metric structure (physical spacetime)",
@@ -2039,7 +2183,8 @@
     "scope": "book-2"
    },
    {
-    "item": "psychological memory and cosmological temporal asymmetry"
+    "item": "psychological memory and cosmological temporal asymmetry",
+    "scope": "book-2"
    }
   ]
  },

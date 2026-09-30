@@ -15,7 +15,7 @@ Rules marked **[T]** also affect typesetting: the build process recognizes them 
 
 - **Title:** *Emergent Existence*, Volume I: Existence, Book I: Foundations of Physical Reality. Chapters 1 to 14, Origin through Time; Book II begins with physical spacetime.
 - **Two foundational commitments so far:** Difference (Chapter 2) and admissible transformation 𝒰 (introduced in Distinction, Chapter 3). Origin is the starting point, not a commitment.
-- **Ω** is the minimally resolved reference condition: not a pole, anchor, place, moment or cause. The first reference role is earned in Closure, as the organizational anchor A_F.
+- **Ω** is the minimally resolved reference condition: not a pole, anchor, place, moment or cause. The first endogenous organizational reference role is earned in Closure, as the organizational anchor A_F.
 - **Do not index Ω as a recursively reproduced origin.** Higher-order originhood is written O_F^(n) / A_F^(n), never Ω_n. Closure re-instantiates the *role* of origin; it does not reproduce Ω.
 - **"Before" is derivational, not temporal,** unless Time has earned it.
 - **The chapter order is one reading order.** Dependencies are established within each chapter, not implied by sequence.
@@ -26,10 +26,11 @@ Rules marked **[T]** also affect typesetting: the build process recognizes them 
 
 ## 2a. Readability and testability are kept apart
 
-- **The book carries readability; the register and the Computational Companion carry testability.** The prose states the argument cleanly. How firm each claim is (its status, kind, dependencies, derivation location and evidence) lives in the registers, and tests of it live in the Companion.
-- **Don't write testability into the prose.** No status words, no repeated cautions that a step is provisional or not yet ruled out. The book presents a method and one proposed derivation; readers judge each step on their own foundations. A limit is stated once, in its designated place (§4), and only when a careful reader would otherwise be misled.
+- **The book carries readability; the register and the Computational Companion carry testability.** The prose states the argument cleanly. A claim's epistemic kind is carried by the prose and its epistemic mark; its standing, dependencies, derivation location and evidence live in the registers; tests of it live in the Companion.
+- **Don't distribute testability through ordinary running prose.** Status, diagnostic burden and failure conditions belong in their designated audit sections, the registers and the Companion, not repeated throughout the argument. No status words, no repeated cautions that a step is provisional or not yet ruled out. The book presents a method and one proposed derivation; readers judge each step on their own foundations. A limit is stated once, in its designated place (§4), and only when a careful reader would otherwise be misled.
 - **The epistemic marks stay** (●, —, ○, ◌, ▷, ▪, ◇). They classify the kind of claim, not its standing.
 - **Claim tags link the two layers.** Each claim's derivation or statement carries an invisible tag in the source, `<!-- EE-C-nnnn derivation -->` or `<!-- EE-C-nnnn statement -->`, placed immediately before the line where it begins. Tags never print. Keep them with their claim when editing, and never add or remove one without the register changing too; the build checks that every tag matches the register and every register entry has its tag.
+- **A tag identifies the claim occurrence, not its printed position.** Moving a claim does not change its EE-C-nnnn; only the appearance metadata (section, label) changes.
 - **Consequences.** A voice edit cannot break a test, and a test result never forces a caveat into the prose. When a test changes a claim's standing, the register changes; the text changes only if the argument itself changes.
 
 ## 3. Chapter structure
@@ -79,6 +80,7 @@ Rules marked **[T]** also affect typesetting: the build process recognizes them 
 
 - **Never rewrite a historical claim silently.** Mark it Superseded, keep its original wording, and add a new entry.
 - **Check that new Register IDs are unused** (H-133 was assigned twice).
+- **Claims and hypotheses are separate namespaces.** `EE-C-nnnn` identifies claims; `EE-H-nnnn` identifies hypotheses, with the legacy `H-n` kept as an alias of its EE-H entry. Never reuse a number across namespaces or alias an H entry to an EE-C claim.
 - **References:** verified, alphabetical within each chapter, with at most a one-clause annotation.
 
 ## 9. Lexicon and dependency graph
@@ -87,5 +89,6 @@ Rules marked **[T]** also affect typesetting: the build process recognizes them 
 - ***requires*** means the target cannot be formulated or earned in the current framework without the source. ***derives*** means the target is actually obtained from the displayed prerequisites; use it sparingly.
 - **Forward references must not become backward dependencies.** Mark them as forward references.
 - **Role re-instantiation is not identity:** A_F may re-instantiate originhood without becoming Ω.
+- **Not every edge is a dependency.** In the claim register, dependencies are constitutive premises; other links are relations (derives_from, supersedes, refines, equivalent_to, contrasts_with, generalizes, specializes, foreshadows, diagnoses, tests, represents). Only constitutive dependencies contribute to a claim's composition. The Lexicon's *requires* and *derives* are element-graph terms and are not interchangeable with claim relations.
 - **Don't duplicate transitive dependencies** unless the direct edge carries explanatory weight.
 - **Planned later-volume nodes are marked Planned,** and must not make Book I claims appear to depend on undeveloped future structure.

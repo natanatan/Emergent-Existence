@@ -68,6 +68,7 @@ Every appearance has a **role**:
 - **A type word may be printed with it** ("Definition 4.2"), but the type word is presentation, not identity.
 - **Numbering resets in each edition.** The same claim can be `4.2` in the Beta and `5.1` in the first edition.
 - **A label is unique within one edition.** Different editions may reuse a label for different claims.
+- **Chapters are numbered continuously through a volume.** Book I is Chapters 1–14 and Book II begins at Chapter 15 (decided 30 September 2026), so a label is unique across a whole volume, not only within one book's edition. The two books are physical bindings; the numbering follows the argument.
 - **Claim tags link the manuscript to the register.** In the source, each derivation or statement is preceded by an invisible tag, `<!-- EE-C-nnnn derivation -->` or `<!-- EE-C-nnnn statement -->`. Tags never print. The audit checks that every tag matches the register and every registered derivation or statement has its tag. A tag identifies the claim occurrence, not its printed position.
 - **Use is never encoded in the label.** Whether a statement is a premise, a diagnostic or a representation is carried by the prose and recorded in the register.
 

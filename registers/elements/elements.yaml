@@ -1,5 +1,6 @@
 # Element table, generated from the Linking Lexicon (rev 4, synced with Book I Beta, 29 Sep 2026).
 # Codes are permanent names for concepts. A claim's composition lists the codes it rests on constitutively.
+# Optional field `plain`: one sentence a child could follow, written with the definition when it comes easily (docs/registers.md).
 elements:
 - code: Om
   lexicon_id: origin

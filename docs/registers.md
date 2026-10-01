@@ -24,6 +24,8 @@ One file per claim.
 
 The Linking Lexicon's concepts, each with a two-letter code: label, symbols, kind (foundation, stage or term), the conceptual stage it belongs to, the chapter where that stage is currently developed, status, and its links to other elements. Stage is conceptual and chapter is editorial: codes never change when either is revised.
 
+An element may carry an optional `plain` field: one sentence stating the concept so simply that a child could follow it, written with the definition when it comes easily and never required. It serves the series' later goal of rescoping what becomes accepted into elementary form. That rescoping draws only on concepts whose claims stand Retained or Derived after peer review; Speculative material stays with the academic text. The field is exported with the rest of the record.
+
 ## Editions (`registers/editions/`)
 
 One record per edition of a book: `id` (for example `book-1/beta`), `volume`, `book`, `released`, `frozen` and `source_commit`. An edition in preparation has `released: null` and can change; at release it is frozen with the fingerprint of the file sent and its source commit.

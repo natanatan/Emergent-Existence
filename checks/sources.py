@@ -35,6 +35,12 @@ CAP = {
 STANDING = {"Speculative": 1, "Provisional": 2, "Derived": 3, "Retained": 3}
 RECHECK_DAYS = 365
 
+# How far along measurement -> model -> inference -> interpretation a citation
+# is used (docs/sources.md, "Level"). Sources of these kinds may not carry a
+# premise cited at mechanism or ontology without review.
+LEVELS = ["observation", "effective", "mechanism", "ontology"]
+LEVEL_CAPPED_KINDS = {"simulation", "argument", "opinion"}
+
 CHECKS = [
     ("sources-resolve", "Sources resolve", "error"),
     ("status-capped", "Status capped by evidence", "error"),
@@ -43,6 +49,8 @@ CHECKS = [
     ("source-failed", "Premise source failed", "review"),
     ("currency-due", "Source due for recheck", "review"),
     ("single-line", "One line of evidence cited as several", "review"),
+    ("level-exceeds-source", "Level exceeds source", "review"),
+    ("degeneracy-recorded", "Degeneracy recorded", "review"),
 ]
 
 
@@ -83,6 +91,12 @@ def check(root, claims, hyps, add, today=None):
         cur = s.get("currency") or {}
         if cur.get("status", "current") not in CURRENCY:
             add("sources-resolve", sid, f"currency status {cur.get('status')!r} is not one of {', '.join(sorted(CURRENCY))}")
+        for d in _list(s.get("degeneracy")):
+            if not isinstance(d, dict) or not (d.get("alternative") or "").strip():
+                continue
+            if not (d.get("discriminator") or "").strip():
+                add("degeneracy-recorded", sid, f"degeneracy {d.get('alternative')!r} names no discriminator; an "
+                                                "alternative counts only when it predicts a discriminable difference")
         checked = _date(cur.get("last_checked"))
         if checked is None or (today - checked).days > RECHECK_DAYS:
             add("currency-due", sid, f"currency last checked {cur.get('last_checked') or 'never'}; recheck for retractions, "
@@ -101,6 +115,10 @@ def check(root, claims, hyps, add, today=None):
             if role not in ROLES:
                 add("sources-resolve", rid, f"cites {sid} with role {role!r}; roles are {', '.join(sorted(ROLES))}")
                 continue
+            level = c.get("level")
+            if level is not None and level not in LEVELS:
+                add("sources-resolve", rid, f"cites {sid} at level {level!r}; levels are {', '.join(LEVELS)}")
+                continue
             if role != "premise":
                 continue
             premises.append(sources[sid])
@@ -111,6 +129,14 @@ def check(root, claims, hyps, add, today=None):
                 add("premise-checked", rid, f"premise {sid} is missing {', '.join(missing)}")
             if not sources[sid].get("strongest_objection"):
                 add("objection-recorded", rid, f"premise {sid} has no strongest objection recorded beside it")
+            kind = sources[sid].get("kind")
+            if level in ("mechanism", "ontology") and kind in LEVEL_CAPPED_KINDS:
+                add("level-exceeds-source", rid, f"premise {sid} ({kind}) is cited at level {level}; a {kind} "
+                                                 "supports an effective description, not a claim about what exists")
+            if level == "ontology":
+                if "degeneracy" not in sources[sid]:
+                    add("degeneracy-recorded", rid, f"premise {sid} is cited at level ontology; record its known "
+                                                    "degeneracies, or an empty list if none is known")
             state = (sources[sid].get("currency") or {}).get("status", "current")
             if state != "current":
                 add("source-failed", rid, f"premise {sid} is {state}; the author reviews every claim resting on it")

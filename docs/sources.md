@@ -63,7 +63,7 @@ A result and its interpretation are different things. A measurement or calculati
 
 ### Degeneracy
 
-A source records a degeneracy only when a specific alternative is known: an omitted variable, a modeling choice or an unresolved factor that would produce the same result under a different reading, together with what would discriminate them. An alternative counts only when it predicts a discriminable difference; that an unknown variable *could* exist is not a degeneracy. A blank field means none is known.
+A source records a degeneracy only when a specific alternative is known: an omitted variable, a modeling choice or an unresolved factor that would produce the same result under a different reading, together with what would discriminate them. An alternative counts only when it predicts a discriminable difference; that an unknown variable *could* exist is not a degeneracy. An empty list (`degeneracy: []`) records that none is known; a source with no `degeneracy` field has not yet been asked, and a premise cited at `ontology` is flagged until it has.
 
 ## Rules and checks
 

@@ -2,7 +2,15 @@
 
 *When Distance Becomes Dimension*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Geometry becomes available when relational distances organize into mutually constraining layers that support stable neighborhoods, independent modes of variation, and transformations reproducible across scale. A probe that repeatedly resolves the same lower-order invariants of such a substrate then sees them as persistent multidimensional geometric properties, while the organization that generates them can hold more than any one projection shows.
+
+> Chapter discipline. Geometry inherits relational identity, closure, orientation, return, formal composability, endogenous magnitude, scale, and intrinsic metric separation. Its burden is first to show how many relational distances can form a coherent multidimensional organization, and only then to ask what portion of that organization is recoverable by a bounded probe.
+
+▪ many relational distances ⇝ coherent multidimensional organization
+
+▪ underlying relational organization ⇝ interaction-conditioned effective geometry
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

@@ -2,7 +2,19 @@
 
 *When Geometry Becomes Coordinated*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Space becomes available when distinct loci in an effective geometry are coordinated as stable localization relations: their positions cannot vary independently of the larger organization, and their neighborhoods constrain which couplings are available. Geometric separation then becomes physically consequential as locality, extension, adjacency and position, all earned from the relations themselves.
+
+> Chapter discipline. Space inherits everything earned through Geometry, in particular neighborhoods, independent modes of variation and effective dimensionality. Its burden is to coordinate them into space; duration and propagation are left to Time.
+
+Its burden is narrower:
+
+What additional organization makes a geometric locus a spatial location?
+
+Geometry has already shown how many relational distances can become coherently organized. It has explicitly stopped short of identifying those geometric loci with physical places. Space begins at that withheld identification.
+
+▪ geometry ⇝ joint resolvability ⇝ coordinated localization ⇝ consequential locality ⇝ extension ⇝ space
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

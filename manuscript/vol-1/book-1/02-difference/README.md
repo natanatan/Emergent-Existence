@@ -2,7 +2,15 @@
 
 *The First Non-Equivalence*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Difference is the minimum dyadic structure of relational non-equivalence. Its two poles are co-constituted within that structure and stand symmetrically, each only as the other’s counterpart. Difference is therefore the first constructive commitment beyond Origin.
+
+> Chapter discipline. This chapter adds only the least structure needed for non-identity to become available after Origin. The chapter describes what Difference minimally is; Chapter 3 will ask what additional commitment lets that Difference become operative.
+
+This chapter therefore separates four ideas that are easily compressed into one:
+
+▪ Difference ≠ Distinction ≠ Retained distinction ≠ Information
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

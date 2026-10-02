@@ -6,7 +6,7 @@ One Markdown file per section, grouped by volume, book and chapter.
 manuscript/
   vol-1/
     book-1/            Existence: Origin to physical reality
-      00-front/        Preface, Introduction, Methodology
+      00-front/        How to read, Preface, Introduction, Methodology
       01-origin/       one file per section: 01.01-looking-back-from-now.md …
       …
       14-time/

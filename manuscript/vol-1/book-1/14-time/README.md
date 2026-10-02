@@ -2,7 +2,11 @@
 
 *When Retained Transformation Acquires Order*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Time emerges where retained-dependency precedence, inherited from Boundary, supports an intrinsic order: where dependency cycles can be separated from ordered precedence, where that order is recoverable from retained structure itself, and where recurrent processes furnish endogenous standards of comparison. Time is thus earned from within; metric duration remains conditional.
+
+Epistemic status. Dependency precedence itself is inherited from Boundary rather than newly derived here. This chapter is strongest where it specifies the extra conditions under which that weak relation yields a strict partial-order candidate after mutually dependent cycles are collapsed into equivalence classes. It becomes conditional where it proposes endogenous temporal standards from recurrent update structure.
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

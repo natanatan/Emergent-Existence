@@ -2,7 +2,17 @@
 
 *When Difference Enters Succession*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Difference becomes an operative Distinction when a second foundational commitment is introduced: an admissible transition relation 𝒰 on the minimal configuration carrier. If 𝒰 is nontrivial and covariant under the symmetries of the primitive dyad, it induces reciprocal exchange. Distinction is therefore the point at which non-equivalence first becomes usable in the structure’s own succession.
+
+> Chapter discipline. This chapter pays openly for admissible transformation, the second foundational commitment. The order supplied by 𝒰 is an order of admissible succession; whether it later becomes temporal is a question for Time.
+
+The framework therefore has two foundational commitments so far, not necessarily two forever:
+
+primitive Difference + admissible transformation
+
+Boundary will test whether a third ontological commitment is required for retention or whether retention can be defined with diagnostic structure in the metalanguage alone.
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

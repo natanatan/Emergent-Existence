@@ -2,7 +2,15 @@
 
 *When Relation Becomes Metric*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Distance becomes available when distinct relational loci can be connected through admissible chains of mediation whose comparative burden is recoverable from the organization itself, allowing separation between loci to acquire magnitude.
+
+> Chapter discipline. Distance inherits relational identity, closure, orientation, return, formal composability, comparative magnitude, proportion, recursive scale, and endogenous standards. Its burden is this:
+
+▪ how much + relational separation ⇝ how far
+
+Distance also inherits one unresolved debt from Scale: if the relational decomposition being measured is arbitrary, the resulting distance is arbitrary with it.
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

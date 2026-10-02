@@ -2,7 +2,15 @@
 
 *When Difference Becomes Structure*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Structure begins when retained distinctions cease to vary independently and become mutually constraining parts of a persistent relational organization.
+
+> Chapter discipline. This chapter inherits symmetric retained distinctions r<sub>ij</sub>, frame-relative resolvability through W, admissible possibility sets 𝒫, retained-dependency precedence ≺, and criterion-based identity through F and ~<sub>F</sub>. Its task is to show how more than one retained distinction can become an organized whole using that inheritance alone. If that transition cannot be stated from the inherited machinery, the chapter fails its own derivational burden.
+
+retained distinction ⇝ mutual constraint ⇝ invariant organization ⇝ structure
+
+Inheritance note. Boundary hands Relation retained distinctions, resolving criteria, admissible possibilities, dependency precedence, and an identity-equivalence scaffold. It does not hand forward an anchor. Relation therefore treats every reference center as unearned. If a stable reference role becomes necessary downstream, Closure must derive it from organization already available here rather than inherit it from Ω or designate one member by stipulation.
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

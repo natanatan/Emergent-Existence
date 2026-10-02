@@ -2,7 +2,11 @@
 
 *Before Difference Becomes Possible*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Origin is the minimally resolved reference condition from which no operative distinction is available at the framework’s initial resolution. We approach it by conceptually unbuilding the richly compressed world of ordinary experience.
+
+> Chapter discipline. The opening human perspective is a narrative entry point, and the descent sets it aside. The chapter’s task is to establish the least committed starting horizon from which Difference can begin the constructive derivation.
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

@@ -2,7 +2,15 @@
 
 *When Relations Become Calculable*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Formalism becomes justified when the relational commitments already earned can be represented in one composable structure whose operations preserve their intended meanings using only what has been earned.
+
+> Chapter discipline. This chapter inherits everything earned from Difference through Return, from 𝒰 and ≺ to the organizational anchor A<sub>F</sub> and Ret(A<sub>F</sub>; ·). Its burden is to state the weakest common formal carrier that preserves the meanings already earned from Difference through Return.
+
+▪ distinction ⇝ retention ⇝ structure ⇝ closure ⇝ orientation ⇝ return ⇝ formal admissibility
+
+▪ mathematical representation ≠ ontological identity
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

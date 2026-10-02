@@ -2,7 +2,15 @@
 
 *When Recursion Acquires Relative Magnitude*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Scale becomes available when relational organizations can establish stable comparisons of magnitude from correspondences recoverable within the structure itself, so that magnitude is measured by the organization’s own standards.
+
+> Chapter discipline. This chapter inherits reusable higher-order identity O<sub>F</sub>, the organizational reference role A<sub>F</sub>, Return, quotient structure, admissible transition relations, and the candidate pre-metric independence measure d<sub>R</sub> introduced in Formalism. Its burden is to earn how much before anything earns how far.
+
+▪ formal comparability ⇝ correspondence ⇝ relative magnitude ⇝ proportion ⇝ recursive scale
+
+▪ relative magnitude ≠ metric distance
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

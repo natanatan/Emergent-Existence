@@ -2,7 +2,15 @@
 
 *When Order Re-Enters Its Origin*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Return occurs when a nontrivially transformed, oriented relational sequence genuinely departs from and later re-enters the identity class O<sub>F</sub> referenced by the Closure-earned organizational anchor A<sub>F</sub>, even when the underlying state differs.
+
+> Chapter discipline. This chapter inherits orientation, criterion-based identity O<sub>F</sub>, and the organizational anchor A<sub>F</sub> earned by Closure. Return here means re-entry into an identity class, prior to any period, loop or memory. The chapter asks what must occur before a transformed configuration can count as having returned to the same higher-order identity.
+
+▪ distinction ⇝ retention ⇝ structure ⇝ closure ⇝ orientation ⇝ return
+
+▪ return of identity ≠ exact repetition of state
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

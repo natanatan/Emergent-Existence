@@ -2,7 +2,13 @@
 
 *When Difference Acquires Direction*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Orientation is derived: it arises when an asymmetry in relational constraint becomes internally resolvable and persists long enough to bear on whether a higher-order identity can re-enter the identity class referenced by its Closure-earned organizational anchor A<sub>F</sub>.
+
+> Chapter discipline. This chapter inherits retained distinctions, admissible possibilities 𝒫, retained-dependency precedence ≺, mutually constraining organization, criterion-based identity ~<sub>F</sub>, closure, higher-order addressability, and the organizational anchor earned in Closure. Direction is earned here: directed notation appears only after the underlying asymmetry has been established.
+
+▪ difference ⇝ retention ⇝ mutual constraint ⇝ closure ⇝ asymmetric dependency ⇝ orientation
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

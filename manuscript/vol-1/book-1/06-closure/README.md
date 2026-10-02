@@ -2,7 +2,13 @@
 
 *When Completion Becomes a New Origin*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** Closure occurs when the relations required to preserve a higher-order organization become internally sufficient as a domain, and that sufficiency remains available across the transformations by which the organization persists. A closed organization can then become a new relatum for higher-order relational construction.
+
+> Chapter discipline. This chapter inherits what Relation earned: mutual constraint, structural invariance, criterion-based identity ~<sub>F</sub>, 𝒫 and ≺, and the separation of resolving frames W from identity criteria F. Its burden is to show what completion can mean with that inheritance alone, and whether closure itself can earn the first endogenous reference role.
+
+▪ retained distinction ⇝ mutual constraint ⇝ invariant organization ⇝ closure ⇝ higher-order addressability
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

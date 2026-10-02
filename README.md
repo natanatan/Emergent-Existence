@@ -33,7 +33,7 @@ At a given stage, the ontology may not use a property that stage has not earned.
 
 ## Status
 
-The registers hold Book I Beta: 249 claims, 135 hypotheses, 121 elements and 14 stage ledgers. The checks run on every change and daily; open findings are listed in the **Audit report** issue. The manuscript text is not imported yet.
+The manuscript holds the text of Book I Beta, the review draft prepared for peer review: [read it online](manuscript/vol-1/book-1/), section by section, or as a [PDF](manuscript/vol-1/book-1/emergent-existence-book-1-beta.pdf). The Beta is still open and will change before it is frozen. The registers hold its 249 claims, 135 hypotheses, 121 elements and 14 stage ledgers. The checks run on every change and daily; open findings are listed in the **Audit report** issue.
 
 ## License
 

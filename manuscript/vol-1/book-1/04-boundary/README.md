@@ -2,7 +2,17 @@
 
 *When Distinction Survives Transformation*
 
-Section files, in manuscript order. Text pending import from the final manuscript.
+***Claim ~*** An operative Distinction becomes retained when its non-equivalence remains recoverable under declared structural variation and can constrain what remains admissible downstream. Boundary is the criterion under which that recoverability is preserved. The chapter earns frame-relative resolvability, admissible possibility, retained-dependency precedence, and criterion-based identity, all from retained distinction.
+
+> Chapter discipline. This chapter inherits 𝔇, 𝒞<sub>𝔇</sub>, 𝒰<sub>min</sub> and J<sub>𝒰</sub>. Because J<sub>𝒰</sub> preserves the reciprocal dyad by construction, retention cannot be tested only against J<sub>𝒰</sub>. Boundary therefore distinguishes the internal update law 𝒰 from a declared diagnostic family 𝔗<sub>test</sub> used to ask what survives structural change.
+
+▪ 𝒰 = internal admissible succession 𝔗<sub>test</sub> = diagnostic transformation family
+
+The distinction between those two types is load-bearing. Chapter 3 required internality because it made a constitutive claim: Difference becomes operative only if succession belongs to the modeled structure rather than to an analyst’s description. Boundary asks a different, modal question: would an already-internal distinction remain recoverable under specified variation? A counterfactual robustness test may therefore be stated in the metalanguage without being promoted to a third internal law. If later physics requires a privileged, physically realized transformation family that cannot be derived, the primitive count must increase.
+
+Information-literature discipline. Retention, counterfactual preservation, erasure, possible/impossible transformations, and identity under change have established literatures. This chapter therefore treats retained distinction as a deliberately weak structural precursor, not as a replacement for Shannon information, thermodynamic information, constructor-theoretic information, or a mature theory of identity.
+
+## Sections
 
 | § | Section | File |
 | --- | --- | --- |

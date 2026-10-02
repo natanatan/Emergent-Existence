@@ -1,3 +1,0 @@
-# Methodology
-
-<!-- Pending import. -->

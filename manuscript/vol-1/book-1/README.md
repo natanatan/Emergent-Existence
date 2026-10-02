@@ -1,6 +1,12 @@
 # Volume I · Book I · Existence
 
-From Origin to physical reality. Front matter, fourteen chapters, then appendices.
+*Book I: Foundations of Physical Reality.* From Origin to physical reality. Front matter, fourteen chapters, then appendices.
+
+**Edition: Book I Beta**, the review draft of 26 September 2026 prepared for peer review. The Beta is still open and will change before it is frozen. The whole draft is also available as a PDF: [`emergent-existence-book-1-beta.pdf`](emergent-existence-book-1-beta.pdf).
+
+Start reading with [How to Read This Book](00-front/01-how-to-read-this-book.md), or go straight to [Chapter 1 · Origin](01-origin/).
+
+The Markdown text was converted from the PDF. Where the two differ in layout, the PDF is the reference. Figures are in [`figures/`](figures/).
 
 | Ch. | Chapter |
 | --- | --- |

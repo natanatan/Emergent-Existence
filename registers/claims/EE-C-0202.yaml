@@ -7,7 +7,7 @@ versions:
     text: Renaming lower-order elements must not change the effective geometry.
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: 'Diagnostic 1 (12.25): Relabeling invariance'
+    beta_heading: 'Diagnostic 1 (12.26): Relabeling invariance'
 dependencies: []
 relations: []
 concepts:
@@ -18,7 +18,7 @@ appearances:
 - edition: book-1/beta
   role: statement
   chapter: 12
-  section: '12.25'
+  section: '12.26'
   page: 243
   version: v1
   type_word: Test

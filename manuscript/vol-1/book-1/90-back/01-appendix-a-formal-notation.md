@@ -120,6 +120,14 @@ The Status column uses three labels. Defined term is stipulative. Working defini
 | K<sub>α</sub>, K<sub>αβ</sub> | The constraints internal to a layer, and those coupling two layers; an extension of the constraint relation K<sub>ij</sub> of Orientation | Geometry |
 | Π<sub>F</sub>, I<sub>F</sub> | The resolution map of a frame and the interaction it induces on the substrate; measurement is written O<sub>F</sub> = Π<sub>F</sub>(I<sub>F</sub>(𝔏)) | Geometry |
 | d<sub>probe</sub> | Effective dimension in the operational sense: the fewest independent parameters preserving the declared invariants across probes; whether it always agrees with d<sub>R</sub> is open | Geometry |
+| M(ε) | Covering number: the fewest neighborhoods N<sub>ε</sub> needed to cover a domain at scale ε | Geometry (12.19) |
+| d<sub>B</sub> | Box-counting dimension, read from how M(ε) grows as ε shrinks; for a finite domain, the slope over a declared window | Geometry (12.19) |
+| d<sub>sim</sub> | Self-similarity dimension, log N / log(1/r), for a set made of N copies of itself scaled by r | Geometry (12.19) |
+| d<sub>H</sub> | Hausdorff dimension, the critical exponent of covers by sets of any size; defined on any metric domain | Geometry (12.19) |
+| d<sub>T</sub> | Topological (covering) dimension, an integer fixed by the overlap of refined covers | Geometry (12.19) |
+| d<sub>s</sub> | Spectral dimension, read from how the return probability p<sub>m</sub>(A) of a walk falls with its length m | Geometry (12.19) |
+| p<sub>m</sub>(A) | Probability that a walk started at A stands at A again after m steps; m counts steps, not time | Geometry (12.19) |
+| ε<sub>min</sub>, ε<sub>max</sub> | Lower and upper cutoffs of a scaling window | Geometry (12.19) |
 | σ | The scale regime index, distinct from the magnitude standard u of Distance | Geometry |
 | ℓ<sub>r</sub>, ℓ<sub>F</sub> | The resolution scale of the underlying organization and of the frame examining it; effective smoothness requires ℓ<sub>r</sub> much smaller than ℓ<sub>F</sub> | Geometry |
 | Geo | An effective geometric organization: the coordinated structure on which localization is defined | Space |

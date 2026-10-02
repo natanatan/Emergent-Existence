@@ -68,24 +68,26 @@ withholds:
     physical constant"
 - item: a coordinate system
   deferred_to: Gm
-  basis: 12.10 "Coordinates Arrive After Stable Modes"; 12.30 earns "coordinate representations of those
+  basis: 12.10 "Coordinates Arrive After Stable Modes"; 12.31 earns "coordinate representations of those
     modes"
 - item: vector-space structure, inner products, angles, basis vectors, orthogonality
   scope: open
-  basis: 12.19 orthogonality "costs an inner product the framework has not earned"; 9.33 vector-space
+  basis: 12.20 orthogonality "costs an inner product the framework has not earned"; 9.33 vector-space
     structure as later ontology is an open question
 - item: a manifold, continuum or metric topology
   deferred_to: Gm
   basis: 12.4 "When Distances Become Neighborhoods"; 12.12 "Effective Smoothness, Not Fundamental Continuity";
-    12.30 "scale-dependent smooth approximation"
+    12.31 "scale-dependent smooth approximation"
 - item: physical dimensionality or an embedding dimension
   deferred_to: Sp
   basis: 13.13 "Dimension Becomes Spatial Dimension"; 13.21 "Space Is Intrinsic Before It Is Embedded"
 - item: fractal dimension as a property of physical space
   scope: open
-  basis: 10.21 "The familiar fractal reading needs a metric and an embedding ... the abstract form the
-    geometric version will later instantiate if the geometry earns it"; 12.33 "Can a noninteger or scale-dependent
-    relational dimension converge towar
+  basis: 10.21 "The familiar fractal reading needs a metric, which Distance earns ... the abstract form the
+    geometric version will instantiate wherever measured scaling earns it"; 12.19 teaches scaling dimension as
+    a diagnostic; 12.32 "It has not shown that any relational or physical domain is fractal"; 12.34 "Can a
+    noninteger scaling dimension measured over one window converge toward an integer effective dimension over a
+    broader one?"
 - item: a universal law of self-similarity, or any universal role for Fibonacci or φ
   scope: beyond-series
   basis: 10.16 "The Register records golden-ratio universality as Rejected, and this section is where

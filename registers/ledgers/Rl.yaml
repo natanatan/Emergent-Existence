@@ -63,7 +63,7 @@ withholds:
 - item: orthogonality
   scope: open
   basis: 5.21 "under what later conditions can their effective independence be represented as orthogonality";
-    Gm 12.7/12.19 gives only the route "comparison among modes ⇝ angle ⇝ orthogonality" and says it "costs
+    Gm 12.7/12.20 gives only the route "comparison among modes ⇝ angle ⇝ orthogonality" and says it "costs
     an inner product the framework has n
 - item: physical dimensionality / numerical relational dimension dR
   deferred_to: Fm

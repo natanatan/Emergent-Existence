@@ -8,7 +8,7 @@ versions:
       low-dimensional coherence is selected rather than ubiquitous.
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: 'Diagnostic 9 (12.25): Random-control comparison'
+    beta_heading: 'Diagnostic 9 (12.26): Random-control comparison'
 dependencies: []
 relations: []
 concepts:
@@ -19,7 +19,7 @@ appearances:
 - edition: book-1/beta
   role: statement
   chapter: 12
-  section: '12.25'
+  section: '12.26'
   page: 244
   version: v1
   type_word: Test

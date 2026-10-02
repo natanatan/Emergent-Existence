@@ -9,7 +9,7 @@ versions:
       explained without assuming its familiar dimensional form at the foundation.
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: Conditional candidate claim (12.28)
+    beta_heading: Conditional candidate claim (12.29)
 dependencies:
 - claim: EE-C-0183
   role: constitutive
@@ -25,11 +25,11 @@ appearances:
 - edition: book-1/beta
   role: derivation
   chapter: 12
-  section: '12.28'
+  section: '12.29'
   page: 245
   version: v1
   type_word: Proposition
-  label: '12.25'
+  label: '12.26'
 status_history: []
 history: []
 import:

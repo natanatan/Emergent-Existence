@@ -8,7 +8,7 @@ versions:
       the declared geometric invariants.
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: 'Diagnostic 2 (12.25): Representation invariance'
+    beta_heading: 'Diagnostic 2 (12.26): Representation invariance'
 dependencies: []
 relations: []
 concepts:
@@ -18,7 +18,7 @@ appearances:
 - edition: book-1/beta
   role: statement
   chapter: 12
-  section: '12.25'
+  section: '12.26'
   page: 243
   version: v1
   type_word: Test

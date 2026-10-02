@@ -1013,7 +1013,7 @@ elements:
     which Geometry reuses Formalism''s d_(R) := rank(Ind_(R)) evaluated on the modes surviving the geometric regime
     (12.6). Operational: d_(probe), the fewest independent parameters that preserve the declared geometric invariants
     across admissible probes (12.18). They agree when every structural mode is separately resolvable, which is not
-    shown. Layer is not dimension; independence precedes orthogonality; d_(eff)(σ) may vary with scale regime (12.26).'
+    shown. Layer is not dimension; independence precedes orthogonality; d_(eff)(σ) may vary with scale regime (12.27).'
   requires:
   - Dd
 - code: Cu
@@ -1024,7 +1024,7 @@ elements:
   volume: 1
   book: 1
   chapter: 12
-  section: '12.20'
+  section: '12.21'
   status: Candidate
   symbols: []
   definition: Failure of global compatibility among local standards; curvature read as failed return.

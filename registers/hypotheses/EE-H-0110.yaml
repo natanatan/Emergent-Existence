@@ -10,9 +10,9 @@ status_history:
   reason: The most speculative claim in the volume, and the one place Geometry reaches toward Gravity.
     A generative hypothesis to be modelled, not an interpretation of known gravitational physics
 status_text: Speculative
-resolve_by: Diagnostic 8 of 12.25, distinguishing route-dependent failure from coordinate artifacts, and
-  the modelling programme of 12.26
-revisited_in: Geometry (12.20, 12.22)
+resolve_by: Diagnostic 8 of 12.26, distinguishing route-dependent failure from coordinate artifacts, and
+  the modelling programme of 12.27
+revisited_in: Geometry (12.21, 12.23)
 companion_testable: true
 appearances:
 - edition: book-1/beta

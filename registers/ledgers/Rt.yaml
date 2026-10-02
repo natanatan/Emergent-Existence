@@ -70,7 +70,7 @@ withholds:
     / τJ(A,B) ≈ constant"
 - item: spatial circularity, orbit, rotation or geometric loop
   deferred_to: Gm
-  basis: '12.21 "Curvature as Failed Return": a standard "carried around a closed route through overlapping
+  basis: '12.22 "Curvature as Failed Return": a standard "carried around a closed route through overlapping
     neighborhoods and comes back rotated"; orbit/rotation as physical motion is not assigned'
 - item: topology, homotopy class or physical winding number
   deferred_to: Fm

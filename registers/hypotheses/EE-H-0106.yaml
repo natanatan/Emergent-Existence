@@ -10,7 +10,7 @@ status_history:
   reason: Keeps Geometry from renaming a metric space as emergent geometry. Distance relates loci; Geometry
     relates systems of distances
 status_text: Provisional
-resolve_by: 'Diagnostics 1 to 3 of 12.25: relabeling and representation invariance, and decomposition
+resolve_by: 'Diagnostics 1 to 3 of 12.26: relabeling and representation invariance, and decomposition
   perturbation'
 revisited_in: Geometry (12.2, 12.3); Distance
 companion_testable: true

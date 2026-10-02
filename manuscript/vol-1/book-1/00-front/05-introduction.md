@@ -10,7 +10,7 @@ How does a universe capable of a single distinction eventually become a universe
 
 The distance between those questions defines the journey of Emergent Existence.
 
-The series is organized in three volumes: Existence, Consciousness and Meaning. They are not separate investigations joined only by theme. Each is intended to inherit what the previous volume has earned.
+The series is organized in three volumes: Natural Existence, Conscious Existence and Meaningful Existence. They are not separate investigations joined only by theme. Each is intended to inherit what the previous volume has earned.
 
 Volume I asks how increasingly rich physical and biological organization could arise from a sparse relational beginning. Volume II asks what additional organization is required before living systems become agents capable of modeling their environments and themselves, and what further conditions might distinguish cognition from consciousness. Volume III asks what happens when such agents value distinctions, communicate interpretations, coordinate with one another and stabilize significance across communities.
 

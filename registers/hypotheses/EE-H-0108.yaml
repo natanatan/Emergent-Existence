@@ -12,7 +12,7 @@ status_history:
     structural mode is separately resolvable, which the framework has not shown. The two are written separately
     so the equivocation cannot hide
 status_text: Open
-resolve_by: 'Diagnostics 5 and 6 of 12.25 run together: measure rank from the organization, then measure
+resolve_by: 'Diagnostics 5 and 6 of 12.26 run together: measure rank from the organization, then measure
   it again across heterogeneous probes'
 revisited_in: Geometry (12.6, 12.18)
 companion_testable: true

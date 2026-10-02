@@ -56,7 +56,7 @@ withholds:
   deferred_to: Or
 - item: spatial geometry
   deferred_to: Sp
-  basis: Geometry earns geometry but 12.33 "We have not yet earned physical space"; 13.19 "relational
+  basis: Geometry earns geometry but 12.34 "We have not yet earned physical space"; 13.19 "relational
     boundary ⇝ geometric boundary ⇝ spatial boundary"
 - item: distance
   deferred_to: Dt

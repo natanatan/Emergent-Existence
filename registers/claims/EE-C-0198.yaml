@@ -9,7 +9,7 @@ versions:
       geometric variation'
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: Observed dimensionality (12.23)
+    beta_heading: Observed dimensionality (12.24)
 dependencies:
 - claim: EE-C-0191
   role: constitutive
@@ -27,11 +27,11 @@ appearances:
 - edition: book-1/beta
   role: derivation
   chapter: 12
-  section: '12.23'
+  section: '12.24'
   page: 242
   version: v1
   type_word: Proposition
-  label: '12.23'
+  label: '12.24'
 status_history: []
 history: []
 import:

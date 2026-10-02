@@ -100,7 +100,7 @@ withholds:
   basis: 'Intro: Matter "localized physical excitations with stable internal properties"'
 - item: quantum fields
   deferred_to: Mt
-  basis: 'Intro: Matter as localized excitations; 12.33 field-excitation observables'
+  basis: 'Intro: Matter as localized excitations; 12.34 field-excitation observables'
 - item: wavefunctions
   scope: book-2
   basis: '13.24 table: "A wavefunction requires additional unearned quantum structure"; no Book II stage

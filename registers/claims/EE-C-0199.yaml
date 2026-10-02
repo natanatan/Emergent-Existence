@@ -9,7 +9,7 @@ versions:
       that the model is supposed to explain.'
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: Projection-model constraint (12.24)
+    beta_heading: Projection-model constraint (12.25)
 dependencies: []
 relations:
 - type: tests
@@ -25,17 +25,17 @@ appearances:
 - edition: book-1/beta
   role: derivation
   chapter: 12
-  section: '12.24'
+  section: '12.25'
   page: 243
   version: v1
   type_word: Criterion
-  label: '12.24'
+  label: '12.25'
 - edition: book-1/beta
   role: restatement
   chapter: 12
-  section: '12.29'
+  section: '12.30'
   version: v1
-  cites: '12.24'
+  cites: '12.25'
 status_history: []
 history: []
 import:

@@ -8,7 +8,7 @@ versions:
       count against the candidate mechanism rather than being redescribed as a different hidden geometry.
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: 'Diagnostic 10 (12.25): Failure visibility'
+    beta_heading: 'Diagnostic 10 (12.26): Failure visibility'
 dependencies: []
 relations: []
 concepts:
@@ -20,7 +20,7 @@ appearances:
 - edition: book-1/beta
   role: statement
   chapter: 12
-  section: '12.25'
+  section: '12.26'
   page: 244
   version: v1
   type_word: Test

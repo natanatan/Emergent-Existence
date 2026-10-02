@@ -5804,7 +5804,7 @@
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.33",
+    "section": "12.34",
     "cites": "12.3"
    }
   ]
@@ -5879,7 +5879,7 @@
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.29",
+    "section": "12.30",
     "cites": "12.5"
    }
   ]
@@ -5952,7 +5952,7 @@
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.19",
+    "section": "12.20",
     "cites": "12.7"
    }
   ]
@@ -5994,7 +5994,7 @@
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.29",
+    "section": "12.30",
     "cites": "12.8"
    }
   ]
@@ -6096,7 +6096,7 @@
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.29",
+    "section": "12.30",
     "cites": "12.11"
    }
   ]
@@ -6141,7 +6141,7 @@
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.33",
+    "section": "12.34",
     "cites": "12.14"
    }
   ]
@@ -6246,14 +6246,14 @@
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.27",
+    "section": "12.28",
     "cites": "12.18"
    },
    {
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.29",
+    "section": "12.30",
     "cites": "12.18"
    }
   ]
@@ -6287,7 +6287,7 @@
     "role": "derivation",
     "chapter": 12,
     "section": "12.18",
-    "label": "12.19",
+    "label": "12.20",
     "type_word": "Definition"
    }
   ]
@@ -6318,23 +6318,23 @@
     "edition": "book-1/beta",
     "role": "derivation",
     "chapter": 12,
-    "section": "12.20",
-    "label": "12.21",
+    "section": "12.21",
+    "label": "12.22",
     "type_word": "Definition"
    },
    {
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.21",
-    "cites": "12.21"
+    "section": "12.22",
+    "cites": "12.22"
    },
    {
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.29",
-    "cites": "12.21"
+    "section": "12.30",
+    "cites": "12.22"
    }
   ]
  },
@@ -6365,8 +6365,8 @@
     "edition": "book-1/beta",
     "role": "derivation",
     "chapter": 12,
-    "section": "12.22",
-    "label": "12.22",
+    "section": "12.23",
+    "label": "12.23",
     "type_word": "Proposition"
    }
   ]
@@ -6399,8 +6399,8 @@
     "edition": "book-1/beta",
     "role": "derivation",
     "chapter": 12,
-    "section": "12.23",
-    "label": "12.23",
+    "section": "12.24",
+    "label": "12.24",
     "type_word": "Proposition"
    }
   ]
@@ -6436,16 +6436,16 @@
     "edition": "book-1/beta",
     "role": "derivation",
     "chapter": 12,
-    "section": "12.24",
-    "label": "12.24",
+    "section": "12.25",
+    "label": "12.25",
     "type_word": "Criterion"
    },
    {
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.29",
-    "cites": "12.24"
+    "section": "12.30",
+    "cites": "12.25"
    }
   ]
  },
@@ -6479,8 +6479,8 @@
     "edition": "book-1/beta",
     "role": "derivation",
     "chapter": 12,
-    "section": "12.28",
-    "label": "12.25",
+    "section": "12.29",
+    "label": "12.26",
     "type_word": "Proposition"
    }
   ]
@@ -6516,21 +6516,21 @@
     "edition": "book-1/beta",
     "role": "derivation",
     "chapter": 12,
-    "section": "12.30",
-    "label": "12.26",
+    "section": "12.31",
+    "label": "12.27",
     "type_word": "Proposition"
    },
    {
     "edition": "book-1/beta",
     "role": "foreshadowing",
-    "cites": "12.26"
+    "cites": "12.27"
    },
    {
     "edition": "book-1/beta",
     "role": "restatement",
     "chapter": 12,
-    "section": "12.33",
-    "cites": "12.26"
+    "section": "12.34",
+    "cites": "12.27"
    }
   ]
  },
@@ -6555,7 +6555,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6580,7 +6580,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6605,7 +6605,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6630,7 +6630,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6655,7 +6655,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6680,7 +6680,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6706,7 +6706,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6731,7 +6731,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6757,7 +6757,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -6784,7 +6784,7 @@
     "edition": "book-1/beta",
     "role": "statement",
     "chapter": 12,
-    "section": "12.25",
+    "section": "12.26",
     "type_word": "Test"
    }
   ]
@@ -8853,7 +8853,7 @@
     "role": "derivation",
     "chapter": 12,
     "section": "12.18",
-    "label": "12.20",
+    "label": "12.21",
     "type_word": "Ledger"
    }
   ]

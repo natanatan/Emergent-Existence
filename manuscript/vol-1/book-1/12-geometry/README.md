@@ -32,18 +32,19 @@
 | 12.16 | Projection Onto the Same Organization | [`12.16-projection-onto-the-same-organization.md`](12.16-projection-onto-the-same-organization.md) |
 | 12.17 | Stable Projection and Cross-Frame Objectivity | [`12.17-stable-projection-and-cross-frame-objectivity.md`](12.17-stable-projection-and-cross-frame-objectivity.md) |
 | 12.18 | When Multidimensional Properties Become Stable | [`12.18-when-multidimensional-properties-become-stable.md`](12.18-when-multidimensional-properties-become-stable.md) |
-| 12.19 | Independence Is Not Orthogonality | [`12.19-independence-is-not-orthogonality.md`](12.19-independence-is-not-orthogonality.md) |
-| 12.20 | Curvature as Failure of Global Compatibility | [`12.20-curvature-as-failure-of-global-compatibility.md`](12.20-curvature-as-failure-of-global-compatibility.md) |
-| 12.21 | Curvature as Failed Return | [`12.21-curvature-as-failed-return.md`](12.21-curvature-as-failed-return.md) |
-| 12.22 | Multilayer Curvature as an Effective Possibility | [`12.22-multilayer-curvature-as-an-effective-possibility.md`](12.22-multilayer-curvature-as-an-effective-possibility.md) |
-| 12.23 | The Substrate Can Be Richer Than the Stable Geometric Projection | [`12.23-the-substrate-can-be-richer-than-the-stable-geometric-projec.md`](12.23-the-substrate-can-be-richer-than-the-stable-geometric-projec.md) |
-| 12.24 | The Projection Problem | [`12.24-the-projection-problem.md`](12.24-the-projection-problem.md) |
-| 12.25 | Computational Diagnostics | [`12.25-computational-diagnostics.md`](12.25-computational-diagnostics.md) |
-| 12.26 | A Dimensionality Research Program | [`12.26-a-dimensionality-research-program.md`](12.26-a-dimensionality-research-program.md) |
-| 12.27 | A Projection-Stability Research Program | [`12.27-a-projection-stability-research-program.md`](12.27-a-projection-stability-research-program.md) |
-| 12.28 | Competing Interpretations | [`12.28-competing-interpretations.md`](12.28-competing-interpretations.md) |
-| 12.29 | Objections and Replies | [`12.29-objections-and-replies.md`](12.29-objections-and-replies.md) |
-| 12.30 | What Geometry Has Earned | [`12.30-what-geometry-has-earned.md`](12.30-what-geometry-has-earned.md) |
-| 12.31 | What Geometry Has Not Yet Earned | [`12.31-what-geometry-has-not-yet-earned.md`](12.31-what-geometry-has-not-yet-earned.md) |
-| 12.32 | Ontological Defensibility Pulse: Geometry | [`12.32-ontological-defensibility-pulse-geometry.md`](12.32-ontological-defensibility-pulse-geometry.md) |
-| 12.33 | Implications and Handoff | [`12.33-implications-and-handoff.md`](12.33-implications-and-handoff.md) |
+| 12.19 | Scaling Dimension and Fractal Geometry | [`12.19-scaling-dimension-and-fractal-geometry.md`](12.19-scaling-dimension-and-fractal-geometry.md) |
+| 12.20 | Independence Is Not Orthogonality | [`12.20-independence-is-not-orthogonality.md`](12.20-independence-is-not-orthogonality.md) |
+| 12.21 | Curvature as Failure of Global Compatibility | [`12.21-curvature-as-failure-of-global-compatibility.md`](12.21-curvature-as-failure-of-global-compatibility.md) |
+| 12.22 | Curvature as Failed Return | [`12.22-curvature-as-failed-return.md`](12.22-curvature-as-failed-return.md) |
+| 12.23 | Multilayer Curvature as an Effective Possibility | [`12.23-multilayer-curvature-as-an-effective-possibility.md`](12.23-multilayer-curvature-as-an-effective-possibility.md) |
+| 12.24 | The Substrate Can Be Richer Than the Stable Geometric Projection | [`12.24-the-substrate-can-be-richer-than-the-stable-geometric-projec.md`](12.24-the-substrate-can-be-richer-than-the-stable-geometric-projec.md) |
+| 12.25 | The Projection Problem | [`12.25-the-projection-problem.md`](12.25-the-projection-problem.md) |
+| 12.26 | Computational Diagnostics | [`12.26-computational-diagnostics.md`](12.26-computational-diagnostics.md) |
+| 12.27 | A Dimensionality Research Program | [`12.27-a-dimensionality-research-program.md`](12.27-a-dimensionality-research-program.md) |
+| 12.28 | A Projection-Stability Research Program | [`12.28-a-projection-stability-research-program.md`](12.28-a-projection-stability-research-program.md) |
+| 12.29 | Competing Interpretations | [`12.29-competing-interpretations.md`](12.29-competing-interpretations.md) |
+| 12.30 | Objections and Replies | [`12.30-objections-and-replies.md`](12.30-objections-and-replies.md) |
+| 12.31 | What Geometry Has Earned | [`12.31-what-geometry-has-earned.md`](12.31-what-geometry-has-earned.md) |
+| 12.32 | What Geometry Has Not Yet Earned | [`12.32-what-geometry-has-not-yet-earned.md`](12.32-what-geometry-has-not-yet-earned.md) |
+| 12.33 | Ontological Defensibility Pulse: Geometry | [`12.33-ontological-defensibility-pulse-geometry.md`](12.33-ontological-defensibility-pulse-geometry.md) |
+| 12.34 | Implications and Handoff | [`12.34-implications-and-handoff.md`](12.34-implications-and-handoff.md) |

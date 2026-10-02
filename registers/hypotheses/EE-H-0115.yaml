@@ -12,7 +12,7 @@ status_history:
 status_text: Speculative
 resolve_by: The responsive-geometry test of 13.26, perturbing the substrate without changing geometric
   variables explicitly
-revisited_in: Space (13.16, 13.17); Geometry (12.22)
+revisited_in: Space (13.16, 13.17); Geometry (12.23)
 companion_testable: true
 appearances:
 - edition: book-1/beta

@@ -8,7 +8,7 @@ versions:
       unless they correspond to genuine changes in the organization.
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: 'Diagnostic 3 (12.25): Decomposition perturbation'
+    beta_heading: 'Diagnostic 3 (12.26): Decomposition perturbation'
 dependencies: []
 relations: []
 concepts:
@@ -18,7 +18,7 @@ appearances:
 - edition: book-1/beta
   role: statement
   chapter: 12
-  section: '12.25'
+  section: '12.26'
   page: 243
   version: v1
   type_word: Test

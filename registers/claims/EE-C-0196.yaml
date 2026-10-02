@@ -8,7 +8,7 @@ versions:
       compatible
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: Curvature-like structure (12.20)
+    beta_heading: Curvature-like structure (12.21)
 dependencies:
 - claim: EE-C-0181
   role: constitutive
@@ -24,23 +24,23 @@ appearances:
 - edition: book-1/beta
   role: derivation
   chapter: 12
-  section: '12.20'
+  section: '12.21'
   page: 241
   version: v1
   type_word: Definition
-  label: '12.21'
+  label: '12.22'
 - edition: book-1/beta
   role: restatement
   chapter: 12
-  section: '12.21'
+  section: '12.22'
   version: v1
-  cites: '12.21'
+  cites: '12.22'
 - edition: book-1/beta
   role: restatement
   chapter: 12
-  section: '12.29'
+  section: '12.30'
   version: v1
-  cites: '12.21'
+  cites: '12.22'
 status_history: []
 history: []
 import:

@@ -35,13 +35,13 @@ appearances:
 - edition: book-1/beta
   role: restatement
   chapter: 12
-  section: '12.27'
+  section: '12.28'
   version: v1
   cites: '12.18'
 - edition: book-1/beta
   role: restatement
   chapter: 12
-  section: '12.29'
+  section: '12.30'
   version: v1
   cites: '12.18'
 status_history: []

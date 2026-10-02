@@ -33,7 +33,7 @@ appearances:
 - edition: book-1/beta
   role: restatement
   chapter: 12
-  section: '12.19'
+  section: '12.20'
   version: v1
   cites: '12.7'
 status_history: []

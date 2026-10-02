@@ -63,32 +63,32 @@ withholds:
 - item: angles
   scope: open
   basis: 12.7 "independent variation ⇝ basis-like structure ⇝ comparison among modes ⇝ angle ⇝ orthogonality"
-    is a route only; 12.19 the angle "is what has not yet arrived"
+    is a route only; 12.20 the angle "is what has not yet arrived"
 - item: inner products
   scope: open
-  basis: 12.19 orthogonality "costs an inner product the framework has not earned"; Gm ledger itself withholds
+  basis: 12.20 orthogonality "costs an inner product the framework has not earned"; Gm ledger itself withholds
     inner product
 - item: orthogonality
   scope: open
-  basis: 12.7/12.19 "Independence Is Not Orthogonality"; 5.21 "under what later conditions can their effective
+  basis: 12.7/12.20 "Independence Is Not Orthogonality"; 5.21 "under what later conditions can their effective
     independence be represented as orthogonality"
 - item: basis vectors
   deferred_to: Gm
-  basis: 12.7 "The terms basis and span are representational conveniences here"; 12.30 earns "rank-like
+  basis: 12.7 "The terms basis and span are representational conveniences here"; 12.31 earns "rank-like
     independent collective modes ... coordinate representations"
 - item: spatial dimension
   deferred_to: Gm
 - item: a manifold
   deferred_to: Gm
-  basis: 12.12 "Effective Smoothness, Not Fundamental Continuity"; 12.33 "Can smooth differential geometry
+  basis: 12.12 "Effective Smoothness, Not Fundamental Continuity"; 12.34 "Can smooth differential geometry
     arise as a controlled approximation"; manifolds treated as "later representations"
 - item: continuity
   deferred_to: Gm
   basis: 12.12 "Effective Smoothness, Not Fundamental Continuity"; fundamental continuity stays open (Gm
-    12.31, Sp 13.28)
+    12.32, Sp 13.28)
 - item: curvature
   deferred_to: Gm
-  basis: 12.20 "Curvature as Failure of Global Compatibility"; 12.30 earns "curvature-like incompatibility
+  basis: 12.21 "Curvature as Failure of Global Compatibility"; 12.31 earns "curvature-like incompatibility
     among local standards"
 - item: physical locality
   deferred_to: Sp
@@ -119,7 +119,7 @@ withholds:
     dynamics"'
 - item: general relativity
   deferred_to: Gv
-  basis: 'Intro: Gravity "effective curvature dynamics"; 12.31 "It has not shown that curvature is gravity"'
+  basis: 'Intro: Gravity "effective curvature dynamics"; 12.32 "It has not shown that curvature is gravity"'
 - item: spacetime
   deferred_to: Sx
   basis: 'Intro: Book II "opens on that problem: whether the space and time derived here can be forced

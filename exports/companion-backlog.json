@@ -293,7 +293,7 @@
   "hypothesis": "Geometry begins where metric relations cease to be pairwise and become mutually constraining: stable neighborhoods under admissible transformation, with overlap as the first collective constraint",
   "status": "Provisional",
   "status_text": "Provisional",
-  "resolve_by": "Diagnostics 1 to 3 of 12.25: relabeling and representation invariance, and decomposition perturbation",
+  "resolve_by": "Diagnostics 1 to 3 of 12.26: relabeling and representation invariance, and decomposition perturbation",
   "revisited_in": "Geometry (12.2, 12.3); Distance",
   "companion_testable": true,
   "sources": []
@@ -306,7 +306,7 @@
   "hypothesis": "A layer is not a dimension: the number of metric-relational layers is independent of the number of geometric dimensions",
   "status": "Retained",
   "status_text": "Retained",
-  "resolve_by": "Diagnostic 5 of 12.25, measuring rank from the generated organization rather than stipulating it",
+  "resolve_by": "Diagnostic 5 of 12.26, measuring rank from the generated organization rather than stipulating it",
   "revisited_in": "Geometry (12.6); Formalism (9.22)",
   "companion_testable": true,
   "sources": []
@@ -319,7 +319,7 @@
   "hypothesis": "Whether the structural and operational senses of effective dimension agree: d_R, the rank of stable independent modes, and d_probe, the fewest parameters preserving declared invariants across probes",
   "status": "Open",
   "status_text": "Open",
-  "resolve_by": "Diagnostics 5 and 6 of 12.25 run together: measure rank from the organization, then measure it again across heterogeneous probes",
+  "resolve_by": "Diagnostics 5 and 6 of 12.26 run together: measure rank from the organization, then measure it again across heterogeneous probes",
   "revisited_in": "Geometry (12.6, 12.18)",
   "companion_testable": true,
   "sources": []
@@ -332,7 +332,7 @@
   "hypothesis": "Measurement is an interaction within the organization, not a look at it from outside: O_F = Π_F(I_F(𝔏)), separating resolution loss from back-action",
   "status": "Provisional",
   "status_text": "Provisional",
-  "resolve_by": "Diagnostic 6 of 12.25 and the projection-stability programme of 12.27, requiring heterogeneous probes that could have disagreed",
+  "resolve_by": "Diagnostic 6 of 12.26 and the projection-stability programme of 12.28, requiring heterogeneous probes that could have disagreed",
   "revisited_in": "Geometry (12.15 to 12.17); Closure (6.14)",
   "companion_testable": true,
   "sources": []
@@ -345,8 +345,8 @@
   "hypothesis": "Variation in cross-layer coupling may produce variation in effective metric relations, a candidate route to curvature-like structure",
   "status": "Speculative",
   "status_text": "Speculative",
-  "resolve_by": "Diagnostic 8 of 12.25, distinguishing route-dependent failure from coordinate artifacts, and the modelling programme of 12.26",
-  "revisited_in": "Geometry (12.20, 12.22)",
+  "resolve_by": "Diagnostic 8 of 12.26, distinguishing route-dependent failure from coordinate artifacts, and the modelling programme of 12.27",
+  "revisited_in": "Geometry (12.21, 12.23)",
   "companion_testable": true,
   "sources": []
  },
@@ -358,8 +358,8 @@
   "hypothesis": "Whether a relational substrate with no target dimensionality in its rules converges on a stable low-dimensional effective rank",
   "status": "Open",
   "status_text": "Open",
-  "resolve_by": "Diagnostics 4, 5, 9 and 10 of 12.25 together: no hidden dimension in the rules, rank recovered rather than stipulated, comparison against matched random organizations, and failure reported",
-  "revisited_in": "Geometry (12.26); App G",
+  "resolve_by": "Diagnostics 4, 5, 9 and 10 of 12.26 together: no hidden dimension in the rules, rank recovered rather than stipulated, comparison against matched random organizations, and failure reported",
+  "revisited_in": "Geometry (12.27); App G",
   "companion_testable": true,
   "sources": []
  },
@@ -411,7 +411,7 @@
   "status": "Speculative",
   "status_text": "Speculative",
   "resolve_by": "The responsive-geometry test of 13.26, perturbing the substrate without changing geometric variables explicitly",
-  "revisited_in": "Space (13.16, 13.17); Geometry (12.22)",
+  "revisited_in": "Space (13.16, 13.17); Geometry (12.23)",
   "companion_testable": true,
   "sources": []
  },

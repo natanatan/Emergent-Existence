@@ -8,7 +8,7 @@ versions:
       relations when the effective geometry is claimed to survive.
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: 'Diagnostic 7 (12.25): Scale transition'
+    beta_heading: 'Diagnostic 7 (12.26): Scale transition'
 dependencies: []
 relations: []
 concepts:
@@ -19,7 +19,7 @@ appearances:
 - edition: book-1/beta
   role: statement
   chapter: 12
-  section: '12.25'
+  section: '12.26'
   page: 243
   version: v1
   type_word: Test

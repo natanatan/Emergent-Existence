@@ -8,7 +8,7 @@ versions:
       richer than the geometry resolved by any one bounded frame
     introduced: '2026-09-29'
     edition: book-1/beta
-    beta_heading: Strongest speculative proposition (12.30)
+    beta_heading: Strongest speculative proposition (12.31)
 dependencies:
 - claim: EE-C-0191
   role: constitutive
@@ -30,24 +30,24 @@ appearances:
 - edition: book-1/beta
   role: derivation
   chapter: 12
-  section: '12.30'
+  section: '12.31'
   page: 247
   version: v1
   type_word: Proposition
-  label: '12.26'
+  label: '12.27'
 - edition: book-1/beta
   role: foreshadowing
   chapter: null
   section: null
   version: v1
   location: 12 (opening)
-  cites: '12.26'
+  cites: '12.27'
 - edition: book-1/beta
   role: restatement
   chapter: 12
-  section: '12.33'
+  section: '12.34'
   version: v1
-  cites: '12.26'
+  cites: '12.27'
 status_history:
 - status: Speculative
   date: '2026-09-29'

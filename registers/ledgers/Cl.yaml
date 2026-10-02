@@ -80,7 +80,7 @@ withholds:
 - item: geometry from closure
   deferred_to: Gm
   basis: 6.22 Questions "Can repeated higher-order closure generate stable relational modes from which
-    position, metric separation and effective dimensionality can later be derived"; 12.32 Pulse lists
+    position, metric separation and effective dimensionality can later be derived"; 12.33 Pulse lists
     Closure among Geometry's lower-order dependencie
 - item: memory
   scope: book-2

@@ -71,7 +71,7 @@ withholds:
 - item: vector-space structure, inner products, orthogonality or basis vectors
   scope: open
   basis: 9.33 Questions "What later evidence would force vector-space structure, topology or probability
-    to enter as ontology"; 12.19 inner product "the framework has not earned"
+    to enter as ontology"; 12.20 inner product "the framework has not earned"
 - item: physical topology, manifold, continuum or coordinate chart
   deferred_to: Sp
   basis: 13.14 "Space Need Not Be Fundamentally Smooth"; 13.27 Space earns "scale-relative smoothness";

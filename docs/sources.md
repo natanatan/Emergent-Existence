@@ -17,6 +17,9 @@ independent_check: none     # none | partial | replicated: has anyone checked it
 record: ""                  # the source's record on questions of this kind
 interests: ""               # who gains if it is believed
 strongest_objection: ""     # the best competing result or dissent, or the EE-S id of the source that makes it
+degeneracy:                 # a specific alternative that would produce the same result, if one is known
+  - alternative: ""         # e.g. "the result depends on the diffusion operator the model chooses"
+    discriminator: ""       # the observable or calculation that would tell the readings apart
 currency:
   status: current           # current | retracted | failed-replication | superseded
   last_checked: 2026-09-30
@@ -35,6 +38,7 @@ sources:
   - source: EE-S-0001
     role: lineage            # premise | support | lineage | foil
     cited_for: "The lumpability condition for Markov chains"
+    level: effective        # observation | effective | mechanism | ontology
     locator: "§6.3"
     checked: { date: 2026-09-30, by: Natan Mallinger }
 ```
@@ -46,6 +50,21 @@ sources:
 | `lineage` | Where the idea comes from |
 | `foil` | A view the claim is set against |
 
+### Level: what a citation is used for
+
+A result and its interpretation are different things. A measurement or calculation reaches a claim through a model of what it tracks, an inference from that model, and only then an interpretation about what exists. The `level` field records how far along that chain a citation is used.
+
+| Level | Meaning |
+| --- | --- |
+| `observation` | The measured or calculated result itself |
+| `effective` | An effective description that fits the result within a stated regime |
+| `mechanism` | A proposed mechanism that would produce the result |
+| `ontology` | A claim about what underlying structure exists |
+
+### Degeneracy
+
+A source records a degeneracy only when a specific alternative is known: an omitted variable, a modeling choice or an unresolved factor that would produce the same result under a different reading, together with what would discriminate them. An alternative counts only when it predicts a discriminable difference; that an unknown variable *could* exist is not a degeneracy. A blank field means none is known.
+
 ## Rules and checks
 
 | Rule | Check | Result |
@@ -56,9 +75,11 @@ sources:
 | The strongest objection is recorded beside every premise source | Strongest objection recorded | Review |
 | **Failure flags, it does not rewrite.** A premise that is retracted, fails to replicate or is superseded flags every entry resting on it for the author's review. The text changes only by the author's decision | Premise source failed | Review |
 | Currency is checked on a schedule: every source at least once a year | Source due for recheck | Review |
+| **A citation's level is capped by its source.** A premise cited at `mechanism` or `ontology` from a source of kind `simulation`, `argument` or `opinion` is flagged | Level exceeds source | Review |
+| A premise cited at `ontology` names its source's degeneracies, or records that none is known | Degeneracy recorded | Review |
 | Independent lines, not citation counts. Two premise or support sources from one line are one line of evidence | One line of evidence cited as several | Review |
 
-No scope inflation ("suggests" is not "shows", a simulation is not a measurement, a result in one regime is not a law) is a matter for review of `cited_for`; the checks cannot read it.
+No scope inflation ("suggests" is not "shows", a simulation is not a measurement, a result in one regime is not a law) is a matter for review of `cited_for`; the checks cannot read it. The `level` field makes part of it checkable: the check "Level exceeds source" catches a simulation or argument cited for a claim about what exists.
 
 ## The cap
 

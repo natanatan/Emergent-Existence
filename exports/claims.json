@@ -9227,5 +9227,771 @@
     "type_word": "Proposition"
    }
   ]
+ },
+ {
+  "id": "EE-C-0294",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Quantum behavior has a definite scale, set by each object's de Broglie wavelength λ = h / p: the scale at which the field's alternatives are unresolved by the arrangement it passes through. Whether that behavior shows then depends on the apparatus: its openings, how long the field stays coherent, and what else couples to the field.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rf",
+   "Rt"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.4"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.27"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0295",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "The relative phase of two parts of a field is their relative position within the cycle earned in Return; the cross term of interference marks a field whose parts arrive with a definite relation between their cycles. [...] combined result = part A + part B + a term depending on their relative phase",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rt"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "foreshadowing",
+    "chapter": 20,
+    "section": "20.4"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.6"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.16"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0296",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Measuring a structure is coupling to it physically, so that a difference in the structure affects the measuring system. Whether a measurement merely reads or also reshapes depends on how hard it has to push against how firmly the measured structure holds together; size is one ingredient in that comparison, not the whole of it.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "refines",
+    "claim": "EE-H-0109"
+   }
+  ],
+  "concepts": [
+   "Ms"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.7"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0297",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "A local excitation started where a field meets a detector conditions the relational neighborhood around it, drawing further coupling toward itself: initial coupling ⇝ local excitation ⇝ stronger local conditioning ⇝ more transfer ⇝ a retained, localized outcome.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Rd",
+   "Lo"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.9"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.10"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0298",
+  "kind": "criterion",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "A field's alternatives coexist while the different conditionings they would produce can be carried together within one relational neighborhood; once they would shape the field into local geometries that no single neighborhood can hold together, feedback amplifies one and that one is retained. The geometry is the relational one of Chapters 11-13, and the threshold is a property of field and detector together.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0297"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cu",
+   "Nb"
+  ],
+  "composition": [
+   "Lo",
+   "Rd"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.9"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.14"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.27"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0299",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Emission, the field's passage through the apparatus, its interference and the detector's coupling form one relational interaction. What is retained is the version of that whole interaction consistent at both of its ends; there is no second process called collapse, and nothing travels backward.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Re",
+   "Tm"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.9"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.10"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.27"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0300",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Speculative",
+  "text": "◌ A quantum event is a relational closure that has not yet produced its own time order, and the dot is the moment it does.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0299"
+  ],
+  "relations": [],
+  "concepts": [
+   "Cl",
+   "Eo"
+  ],
+  "composition": [
+   "Re",
+   "Tm"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.9"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0301",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Speculative",
+  "text": "◌ The self-conditioning that forces a single outcome at a detector and the conditioning that appears at large scale as gravity are one process seen at two scales. [...] When interacting excitations resolve to the same relational neighborhood, their closeness measured by how their superposed patterns overlap rather than by distance in space, their combined conditioning orients the field toward a single collision; gravitational effects are such collisions added up over planets and stars.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0297",
+   "EE-C-0298"
+  ],
+  "relations": [],
+  "concepts": [
+   "Gv",
+   "Qg"
+  ],
+  "composition": [
+   "Cu",
+   "Lo",
+   "Nb",
+   "Rd"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.9"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.19"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.26"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.27"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0302",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "The stripes come from how the field's parts recombine; the dots come from the field's interaction with the screen's detection capacity. A complete interaction closes only where the parts reinforce strongly enough to support it. A detector at the slits puts the difference between them on record, the cross term disappears, and the stripes go while the dots remain.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0295",
+   "EE-C-0296",
+   "EE-C-0297"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ms",
+   "Rd"
+  ],
+  "composition": [
+   "Lo",
+   "Ms",
+   "Rd",
+   "Rt"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.10"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0303",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Entangled systems are organizations directly related in the relational order while far apart in emergent space (disordered locality). An entangled pair is one interaction closed through its common source; the outcome at each detector is the closure consistent with the source and with both detectors' settings, not a preset value.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0299"
+  ],
+  "relations": [],
+  "concepts": [
+   "Lo",
+   "Aj"
+  ],
+  "composition": [
+   "Re",
+   "Tm"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.11"
+   },
+   {
+    "edition": "book-2/beta",
+    "role": "restatement",
+    "chapter": 20,
+    "section": "20.27"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0304",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Speculative",
+  "text": "◌ Each emission reaches the slits at a different relative phase, its cycle measured against the detector's answering wave, and that relative phase sets the angle at which its front diffracts from the slit walls, steering the recombined front to gather the whole quantum at one bright stripe. Over many trials the share of relative phases that steers to each stripe must equal the squared combined amplitude there.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0295",
+   "EE-C-0299"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rt",
+   "Qg"
+  ],
+  "composition": [
+   "Re",
+   "Rt",
+   "Tm"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.17"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0305",
+  "kind": "proposition",
+  "use": "diagnostic",
+  "status": "Provisional",
+  "text": "Decoherence explains why interference becomes unavailable and why the statistics match a mixture of definite outcomes; it does not explain why an individual detector acquires and keeps one record. The mechanism of 20.9 addresses the third effect.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [],
+  "concepts": [
+   "Ms",
+   "Rd"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.18"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0306",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "A two-ended consistency rule on its own is an interpretation; the incompatibility threshold makes it physics by fixing when closure is forced. A receiving end is any coupling whose alternatives would condition the field past the threshold.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0298",
+   "EE-C-0299"
+  ],
+  "relations": [],
+  "concepts": [
+   "Ms"
+  ],
+  "composition": [
+   "Cu",
+   "Nb",
+   "Re",
+   "Tm"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.19"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0307",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "When steering gathers the whole quantum at one stripe nothing is left over. Energy not retained in a detection, in an emission that closes at no detector or a build-up that fails to reach the threshold, dissipates as heat below what the apparatus records, and falls under the same heating bounds as collapse models.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0297"
+  ],
+  "relations": [],
+  "concepts": [
+   "Rd"
+  ],
+  "composition": [
+   "Lo",
+   "Rd"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.19"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0308",
+  "kind": "proposition",
+  "use": "constitutive",
+  "status": "Provisional",
+  "text": "Disordered locality and the two-ended interaction are one escape from Bell's limit, not two: relational adjacency that need not follow either the spatial or the temporal order. It gives up measurement independence, and belongs to the retrocausal family (later settings constrain the earlier state of one interaction), not the superdeterministic one.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [
+   "EE-C-0299",
+   "EE-C-0303"
+  ],
+  "relations": [],
+  "concepts": [
+   "Aj",
+   "Eo"
+  ],
+  "composition": [
+   "Aj",
+   "Lo",
+   "Re",
+   "Tm"
+  ],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "derivation",
+    "chapter": 20,
+    "section": "20.20"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0309",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "Planck's constant is either derived, as the smallest stable size of a Return cycle measured by Scale's own standards, or taken as a measured input. Nothing so far fixes that size.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "refines",
+    "claim": "EE-C-0294"
+   }
+  ],
+  "concepts": [
+   "Rt",
+   "Sd"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.15"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0310",
+  "kind": "forward_pointer",
+  "use": "diagnostic",
+  "status": "Open",
+  "text": "A second route to quantum structure: if admissible transformation 𝒰 can be shown to turn any definite state into any other continuously and reversibly, the reconstruction theorems (Hardy; Chiribella, D'Ariano and Perinotti; Masanes and Müller) would supply the rest.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "refines",
+    "claim": "EE-C-0295"
+   }
+  ],
+  "concepts": [
+   "Ut"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.16"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0311",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "◌ Single emissions timed against the cycle of the field driving the emitter show no link to which stripe each dot lands in. Phase steering predicts such a link; standard quantum mechanics predicts none. The test needs each emission's phase, measured against the detector's answering wave, to be known or set.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0304"
+   }
+  ],
+  "concepts": [
+   "Rt",
+   "Qg"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.22"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0312",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Interference failure tests: the relational field cannot generate a phase-like variable and an interference law with a cross term from earned cycles and transformations; or the derived interference is not second order and produces genuine three-route terms.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0295"
+   }
+  ],
+  "concepts": [
+   "Rt"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.22"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0313",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Localization failure tests: the mechanism needs a trajectory, collapse rule or Born rule inserted; a local excitation does not change the field's dynamics enough for stable localization; no dynamics yields detector-speed retention; retained outcomes do not match the Born frequencies; or the slit-detector result holds only because the coupling rule assumes it.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0297"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0302"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0304"
+   }
+  ],
+  "concepts": [
+   "Rd",
+   "Lo"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.22"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0314",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Threshold failure tests: the incompatibility measure cannot be defined independently of the outcome it explains; the threshold lies in a region excluded by collapse-model experiments or predicts heating or radiation above measured bounds; or the feedback violates energy conservation.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0298"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0307"
+   }
+  ],
+  "concepts": [
+   "Cu",
+   "Nb"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.22"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0315",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Bell failure tests: the relational account exceeds Tsirelson's bound, falls short of quantum correlations or permits signaling; disordered locality breaks Lorentz invariance beyond observed bounds; the two-ended interaction permits controllable signaling into the past or changes a retained record; no consistency condition selects exactly one outcome; or the loss of measurement independence lets the source's state predict or control the settings.",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0299"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0303"
+   },
+   {
+    "type": "tests",
+    "claim": "EE-C-0308"
+   }
+  ],
+  "concepts": [
+   "Lo",
+   "Aj"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.22"
+   }
+  ]
+ },
+ {
+  "id": "EE-C-0316",
+  "kind": "test",
+  "use": "diagnostic",
+  "status": null,
+  "text": "Gravity failure tests: the large-scale conditioning fails to propagate at the speed of light; the dynamics cannot recover one smooth geometry when alternatives stop mattering; or the connection reduces to ordinary weak gravity with no route to the coupling hierarchy (about 10³⁶ between the electric and gravitational forces of two protons).",
+  "version": "v1",
+  "aliases": [],
+  "dependencies": [],
+  "relations": [
+   {
+    "type": "tests",
+    "claim": "EE-C-0301"
+   }
+  ],
+  "concepts": [
+   "Gv",
+   "Qg"
+  ],
+  "composition": [],
+  "sources": [],
+  "appearances": [
+   {
+    "edition": "book-2/beta",
+    "role": "statement",
+    "chapter": 20,
+    "section": "20.22"
+   }
+  ]
  }
 ]

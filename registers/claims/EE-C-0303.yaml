@@ -1,0 +1,43 @@
+id: EE-C-0303
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Entangled systems are organizations directly related in the relational order while far apart
+      in emergent space (disordered locality). An entangled pair is one interaction closed through its
+      common source; the outcome at each detector is the closure consistent with the source and with both
+      detectors' settings, not a preset value.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0299
+  role: constitutive
+relations: []
+concepts:
+- Lo
+- Aj
+composition:
+- Re
+- Tm
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.11'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.27'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Follows Markopoulou and Smolin (disordered locality) and Costa de Beauregard (1953)
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

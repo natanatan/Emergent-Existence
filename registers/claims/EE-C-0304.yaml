@@ -1,0 +1,42 @@
+id: EE-C-0304
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ◌ Each emission reaches the slits at a different relative phase, its cycle measured against
+      the detector's answering wave, and that relative phase sets the angle at which its front diffracts
+      from the slit walls, steering the recombined front to gather the whole quantum at one bright stripe.
+      Over many trials the share of relative phases that steers to each stripe must equal the squared
+      combined amplitude there.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0295
+  role: constitutive
+- claim: EE-C-0299
+  role: constitutive
+relations: []
+concepts:
+- Rt
+- Qg
+composition:
+- Re
+- Rt
+- Tm
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.17'
+  version: v1
+status_history:
+- status: Speculative
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Marked ◌; no precedent found; Born frequencies are the burden it must meet (20.17)
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

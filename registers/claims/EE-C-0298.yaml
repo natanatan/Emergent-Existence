@@ -1,0 +1,50 @@
+id: EE-C-0298
+kind: criterion
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: A field's alternatives coexist while the different conditionings they would produce can be carried
+      together within one relational neighborhood; once they would shape the field into local geometries
+      that no single neighborhood can hold together, feedback amplifies one and that one is retained.
+      The geometry is the relational one of Chapters 11-13, and the threshold is a property of field and
+      detector together.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0297
+  role: constitutive
+relations: []
+concepts:
+- Cu
+- Nb
+composition:
+- Lo
+- Rd
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.9'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.14'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.27'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Follows Penrose's direction; the incompatibility measure and its critical value are not yet
+    defined (20.14)
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

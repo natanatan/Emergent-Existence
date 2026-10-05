@@ -1,0 +1,58 @@
+id: EE-C-0301
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: ◌ The self-conditioning that forces a single outcome at a detector and the conditioning that
+      appears at large scale as gravity are one process seen at two scales. [...] When interacting excitations
+      resolve to the same relational neighborhood, their closeness measured by how their superposed patterns
+      overlap rather than by distance in space, their combined conditioning orients the field toward a
+      single collision; gravitational effects are such collisions added up over planets and stars.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0297
+  role: constitutive
+- claim: EE-C-0298
+  role: constitutive
+relations: []
+concepts:
+- Gv
+- Qg
+composition:
+- Cu
+- Lo
+- Nb
+- Rd
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.9'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.19'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.26'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.27'
+  version: v1
+status_history:
+- status: Speculative
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Marked ◌; carries the coupling-hierarchy and speed-of-light burdens of 20.19
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

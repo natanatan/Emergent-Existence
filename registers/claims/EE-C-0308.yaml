@@ -1,0 +1,42 @@
+id: EE-C-0308
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'Disordered locality and the two-ended interaction are one escape from Bell''s limit, not two:
+      relational adjacency that need not follow either the spatial or the temporal order. It gives up
+      measurement independence, and belongs to the retrocausal family (later settings constrain the earlier
+      state of one interaction), not the superdeterministic one.'
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0299
+  role: constitutive
+- claim: EE-C-0303
+  role: constitutive
+relations: []
+concepts:
+- Aj
+- Eo
+composition:
+- Aj
+- Lo
+- Re
+- Tm
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.20'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Named in the chapter as its weakest point; the loss must be shown lawful and narrow
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

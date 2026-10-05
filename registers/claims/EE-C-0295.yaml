@@ -1,0 +1,44 @@
+id: EE-C-0295
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: The relative phase of two parts of a field is their relative position within the cycle earned
+      in Return; the cross term of interference marks a field whose parts arrive with a definite relation
+      between their cycles. [...] combined result = part A + part B + a term depending on their relative
+      phase
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations: []
+concepts:
+- Rt
+composition: []
+appearances:
+- edition: book-2/beta
+  role: foreshadowing
+  chapter: 20
+  section: '20.4'
+  version: v1
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.6'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.16'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Proposed reading; the burden of producing phase and the cross term without importing them is
+    stated in 20.16
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

@@ -1,0 +1,33 @@
+id: EE-C-0314
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: 'Threshold failure tests: the incompatibility measure cannot be defined independently of the
+      outcome it explains; the threshold lies in a region excluded by collapse-model experiments or predicts
+      heating or radiation above measured bounds; or the feedback violates energy conservation.'
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations:
+- type: tests
+  claim: EE-C-0298
+- type: tests
+  claim: EE-C-0307
+concepts:
+- Cu
+- Nb
+composition: []
+appearances:
+- edition: book-2/beta
+  role: statement
+  chapter: 20
+  section: '20.22'
+  version: v1
+status_history: []
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

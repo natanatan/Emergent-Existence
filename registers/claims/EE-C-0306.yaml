@@ -1,0 +1,40 @@
+id: EE-C-0306
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: A two-ended consistency rule on its own is an interpretation; the incompatibility threshold
+      makes it physics by fixing when closure is forced. A receiving end is any coupling whose alternatives
+      would condition the field past the threshold.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0298
+  role: constitutive
+- claim: EE-C-0299
+  role: constitutive
+relations: []
+concepts:
+- Ms
+composition:
+- Cu
+- Nb
+- Re
+- Tm
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.19'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Answers what the transactional interpretation leaves open; depends on the threshold being defined
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

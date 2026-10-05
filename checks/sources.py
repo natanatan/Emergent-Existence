@@ -40,6 +40,11 @@ RECHECK_DAYS = 365
 # premise cited at mechanism or ontology without review.
 LEVELS = ["observation", "effective", "mechanism", "ontology"]
 LEVEL_CAPPED_KINDS = {"simulation", "argument", "opinion"}
+# Empirical kinds whose result is a measured distribution. A premise of one of
+# these kinds cited past `observation` records what the experiment actually
+# established (the `evidence` block; docs/sources.md, "Evidence").
+EMPIRICAL_KINDS = {"measurement", "replicated", "single-study"}
+EVIDENCE_FIELDS = ("conditions", "observed", "uncertainty", "rejected")
 
 CHECKS = [
     ("sources-resolve", "Sources resolve", "error"),
@@ -51,6 +56,8 @@ CHECKS = [
     ("single-line", "One line of evidence cited as several", "review"),
     ("level-exceeds-source", "Level exceeds source", "review"),
     ("degeneracy-recorded", "Degeneracy recorded", "review"),
+    ("evidence-recorded", "Experimental evidence recorded", "review"),
+    ("ontology-undiscriminated", "Ontology not discriminated", "review"),
 ]
 
 
@@ -133,10 +140,21 @@ def check(root, claims, hyps, add, today=None):
             if level in ("mechanism", "ontology") and kind in LEVEL_CAPPED_KINDS:
                 add("level-exceeds-source", rid, f"premise {sid} ({kind}) is cited at level {level}; a {kind} "
                                                  "supports an effective description, not a claim about what exists")
+            if level in ("effective", "mechanism", "ontology") and kind in EMPIRICAL_KINDS:
+                ev = sources[sid].get("evidence") or {}
+                missing = [k for k in EVIDENCE_FIELDS if not ev.get(k)]
+                if missing:
+                    add("evidence-recorded", rid, f"premise {sid} ({kind}) is cited at level {level}; its evidence "
+                                                  f"block is missing {', '.join(missing)}")
             if level == "ontology":
                 if "degeneracy" not in sources[sid]:
                     add("degeneracy-recorded", rid, f"premise {sid} is cited at level ontology; record its known "
                                                     "degeneracies, or an empty list if none is known")
+                elif any(isinstance(d, dict) and (d.get("alternative") or "").strip()
+                         for d in _list(sources[sid].get("degeneracy"))):
+                    add("ontology-undiscriminated", rid, f"premise {sid} is cited at level ontology, but a known "
+                                                         "alternative reproduces its result; cite it at observation or "
+                                                         "effective, or cite the experiment that discriminates them")
             state = (sources[sid].get("currency") or {}).get("status", "current")
             if state != "current":
                 add("source-failed", rid, f"premise {sid} is {state}; the author reviews every claim resting on it")

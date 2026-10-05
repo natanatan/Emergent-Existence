@@ -36,6 +36,8 @@ Run on every change to `registers/`. **Errors** fail the check and are written t
 | Premise source failed | Review | A premise source was retracted, failed to replicate or was superseded |
 | Source due for recheck | Review | A source's currency has not been checked for a year |
 | One line of evidence cited as several | Review | Two premise or support sources of one entry share a line of evidence |
+| Experimental evidence recorded | Review | An empirical premise source cited at `effective` or above lacks conditions, observed distribution, uncertainty or rejected models in its `evidence` block |
+| Ontology not discriminated | Review | A premise is cited at `ontology` although its source records an alternative that reproduces the same result |
 | Exports are current | Error | `exports/` or `docs/elements.md` differs from what the registers generate. Regenerate with `python checks/export.py` and `python checks/elements_doc.py` |
 
 ## Daily audit

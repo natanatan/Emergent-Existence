@@ -1,0 +1,35 @@
+id: EE-C-0296
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Measuring a structure is coupling to it physically, so that a difference in the structure affects
+      the measuring system. Whether a measurement merely reads or also reshapes depends on how hard it
+      has to push against how firmly the measured structure holds together; size is one ingredient in
+      that comparison, not the whole of it.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations:
+- type: refines
+  claim: EE-H-0109
+concepts:
+- Ms
+composition: []
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.7'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Registered from the Chapter 20 draft
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

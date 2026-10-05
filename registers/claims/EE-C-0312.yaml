@@ -1,0 +1,30 @@
+id: EE-C-0312
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: 'Interference failure tests: the relational field cannot generate a phase-like variable and
+      an interference law with a cross term from earned cycles and transformations; or the derived interference
+      is not second order and produces genuine three-route terms.'
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations:
+- type: tests
+  claim: EE-C-0295
+concepts:
+- Rt
+composition: []
+appearances:
+- edition: book-2/beta
+  role: statement
+  chapter: 20
+  section: '20.22'
+  version: v1
+status_history: []
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

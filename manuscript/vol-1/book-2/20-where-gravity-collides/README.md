@@ -4,7 +4,7 @@
 
 Chapter discipline. Chapter 19 proposed that anything which holds together in one place shapes the relations around it, and that this shaping, added up over large masses, is gravity. This chapter asks what that idea means at the scale of single atoms and photons, where physics uses a second theory, quantum mechanics, that has never been reconciled with gravity. The burden is to show where quantum behavior begins, where it ends, and why its end and gravity might be one process.
 
-**Draft status.** Version 3 draft of 5 October 2026, revised after a premortem, a check of its numbers and references, and a review pass. It is not yet part of an edition.
+**Draft status.** Version 3 draft of 5 October 2026, revised after a premortem, a check of its numbers and references, and a review pass. Its claims are registered for Book II Beta, in preparation (EE-C-0294 to EE-C-0316).
 
 ## Sections
 

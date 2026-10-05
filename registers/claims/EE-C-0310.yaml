@@ -1,0 +1,34 @@
+id: EE-C-0310
+kind: forward_pointer
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: 'A second route to quantum structure: if admissible transformation 𝒰 can be shown to turn any
+      definite state into any other continuously and reversibly, the reconstruction theorems (Hardy; Chiribella,
+      D''Ariano and Perinotti; Masanes and Müller) would supply the rest.'
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations:
+- type: refines
+  claim: EE-C-0295
+concepts:
+- Ut
+composition: []
+appearances:
+- edition: book-2/beta
+  role: statement
+  chapter: 20
+  section: '20.16'
+  version: v1
+status_history:
+- status: Open
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Recorded without being taken; compatible with the Return route
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

@@ -1,0 +1,40 @@
+id: EE-C-0294
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'Quantum behavior has a definite scale, set by each object''s de Broglie wavelength λ = h /
+      p: the scale at which the field''s alternatives are unresolved by the arrangement it passes through.
+      Whether that behavior shows then depends on the apparatus: its openings, how long the field stays
+      coherent, and what else couples to the field.'
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations: []
+concepts:
+- Rf
+- Rt
+composition: []
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.4'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.27'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Onset scale is standard physics (de Broglie 1924) read in the framework's terms; h is not yet
+    derived (20.15)
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

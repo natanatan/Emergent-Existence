@@ -1,0 +1,37 @@
+id: EE-C-0307
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: When steering gathers the whole quantum at one stripe nothing is left over. Energy not retained
+      in a detection, in an emission that closes at no detector or a build-up that fails to reach the
+      threshold, dissipates as heat below what the apparatus records, and falls under the same heating
+      bounds as collapse models.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0297
+  role: constitutive
+relations: []
+concepts:
+- Rd
+composition:
+- Lo
+- Rd
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.19'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Registered from the Chapter 20 draft
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

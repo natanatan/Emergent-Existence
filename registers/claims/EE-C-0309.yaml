@@ -1,0 +1,35 @@
+id: EE-C-0309
+kind: forward_pointer
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: Planck's constant is either derived, as the smallest stable size of a Return cycle measured
+      by Scale's own standards, or taken as a measured input. Nothing so far fixes that size.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations:
+- type: refines
+  claim: EE-C-0294
+concepts:
+- Rt
+- Sd
+composition: []
+appearances:
+- edition: book-2/beta
+  role: statement
+  chapter: 20
+  section: '20.15'
+  version: v1
+status_history:
+- status: Open
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: If h is an input, the de Broglie onset is borrowed and interpreted; if derived, it becomes a
+    prediction
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

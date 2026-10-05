@@ -1,0 +1,44 @@
+id: EE-C-0302
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: The stripes come from how the field's parts recombine; the dots come from the field's interaction
+      with the screen's detection capacity. A complete interaction closes only where the parts reinforce
+      strongly enough to support it. A detector at the slits puts the difference between them on record,
+      the cross term disappears, and the stripes go while the dots remain.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies:
+- claim: EE-C-0295
+  role: constitutive
+- claim: EE-C-0296
+  role: constitutive
+- claim: EE-C-0297
+  role: constitutive
+relations: []
+concepts:
+- Ms
+- Rd
+composition:
+- Lo
+- Ms
+- Rd
+- Rt
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.10'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Registered from the Chapter 20 draft
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

@@ -1,0 +1,44 @@
+id: EE-C-0299
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: Emission, the field's passage through the apparatus, its interference and the detector's coupling
+      form one relational interaction. What is retained is the version of that whole interaction consistent
+      at both of its ends; there is no second process called collapse, and nothing travels backward.
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations: []
+concepts:
+- Re
+- Tm
+composition: []
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.9'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.10'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.27'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Two-ended reading shared with Wheeler-Feynman, Cramer and Kastner (20.25); the consistency condition
+    is not yet stated
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

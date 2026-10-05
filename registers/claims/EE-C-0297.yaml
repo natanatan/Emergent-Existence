@@ -1,0 +1,38 @@
+id: EE-C-0297
+kind: proposition
+use: constitutive
+aliases: []
+versions:
+  v1:
+    text: 'A local excitation started where a field meets a detector conditions the relational neighborhood
+      around it, drawing further coupling toward itself: initial coupling ⇝ local excitation ⇝ stronger
+      local conditioning ⇝ more transfer ⇝ a retained, localized outcome.'
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations: []
+concepts:
+- Rd
+- Lo
+composition: []
+appearances:
+- edition: book-2/beta
+  role: derivation
+  chapter: 20
+  section: '20.9'
+  version: v1
+- edition: book-2/beta
+  role: restatement
+  chapter: 20
+  section: '20.10'
+  version: v1
+status_history:
+- status: Provisional
+  date: '2026-10-05'
+  edition: book-2/beta
+  reason: Registered from the Chapter 20 draft; the feedback law is not yet written (20.27)
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

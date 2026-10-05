@@ -1,0 +1,37 @@
+id: EE-C-0315
+kind: test
+use: diagnostic
+aliases: []
+versions:
+  v1:
+    text: 'Bell failure tests: the relational account exceeds Tsirelson''s bound, falls short of quantum
+      correlations or permits signaling; disordered locality breaks Lorentz invariance beyond observed
+      bounds; the two-ended interaction permits controllable signaling into the past or changes a retained
+      record; no consistency condition selects exactly one outcome; or the loss of measurement independence
+      lets the source''s state predict or control the settings.'
+    introduced: '2026-10-05'
+    edition: book-2/beta
+dependencies: []
+relations:
+- type: tests
+  claim: EE-C-0299
+- type: tests
+  claim: EE-C-0303
+- type: tests
+  claim: EE-C-0308
+concepts:
+- Lo
+- Aj
+composition: []
+appearances:
+- edition: book-2/beta
+  role: statement
+  chapter: 20
+  section: '20.22'
+  version: v1
+status_history: []
+history: []
+import:
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
+    entries yet. Only dependencies inside Chapter 20 are recorded.'

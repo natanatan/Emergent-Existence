@@ -1,10 +1,11 @@
 {
  "schema": "emergent-existence-exports/1",
  "editions": [
-  "book-1/beta"
+  "book-1/beta",
+  "book-2/beta"
  ],
  "counts": {
-  "claims": 270,
+  "claims": 293,
   "hypotheses": 135,
   "elements": 154,
   "stages": 34,

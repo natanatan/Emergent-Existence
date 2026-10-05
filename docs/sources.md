@@ -20,6 +20,11 @@ strongest_objection: ""     # the best competing result or dissent, or the EE-S 
 degeneracy:                 # a specific alternative that would produce the same result, if one is known
   - alternative: ""         # e.g. "the result depends on the diffusion operator the model chooses"
     discriminator: ""       # the observable or calculation that would tell the readings apart
+evidence:                   # for a measurement, replicated result or single study: what the experiment established
+  conditions: ""            # what was controlled: preparation, geometry, couplings, detector
+  observed: ""              # the outcome distribution actually reported
+  uncertainty: ""           # uncertainty and significance, and the null model the significance is measured against
+  rejected: []              # the null or competing models the result rules out
 currency:
   status: current           # current | retracted | failed-replication | superseded
   last_checked: 2026-09-30
@@ -65,6 +70,12 @@ A result and its interpretation are different things. A measurement or calculati
 
 A source records a degeneracy only when a specific alternative is known: an omitted variable, a modeling choice or an unresolved factor that would produce the same result under a different reading, together with what would discriminate them. An alternative counts only when it predicts a discriminable difference; that an unknown variable *could* exist is not a degeneracy. An empty list (`degeneracy: []`) records that none is known; a source with no `degeneracy` field has not yet been asked, and a premise cited at `ontology` is flagged until it has.
 
+### Evidence
+
+An experiment establishes a conditional distribution, not a mechanism: under these conditions, these outcomes occur with these frequencies, within this uncertainty, against this null model. A significance measures incompatibility with that null model; it is not the probability that one interpretation is true. The `evidence` block records those four things (Natan's evidence note, questions 1 to 4), so that what a result discriminated stays separate from the vocabulary used to describe it ("path", "collapse", "virtual particle").
+
+A result supports an ontology only as far as it discriminates it from the alternatives. When a known alternative (a `degeneracy`) reproduces the same distribution, the result supports what the two readings share, and a citation at `ontology` is flagged: cite it at `observation` or `effective`, or cite the experiment that tells them apart. The framework must reproduce the distributions; it inherits an interpretation only when an experiment has discriminated it.
+
 ## Rules and checks
 
 | Rule | Check | Result |
@@ -77,6 +88,8 @@ A source records a degeneracy only when a specific alternative is known: an omit
 | Currency is checked on a schedule: every source at least once a year | Source due for recheck | Review |
 | **A citation's level is capped by its source.** A premise cited at `mechanism` or `ontology` from a source of kind `simulation`, `argument` or `opinion` is flagged | Level exceeds source | Review |
 | A premise cited at `ontology` names its source's degeneracies, or records that none is known | Degeneracy recorded | Review |
+| An empirical premise (measurement, replicated, single-study) cited at `effective` or above records its conditions, observed distribution, uncertainty and rejected models | Experimental evidence recorded | Review |
+| **Effect strength is not interpretation strength.** A premise cited at `ontology` whose source has a known degeneracy is flagged | Ontology not discriminated | Review |
 | Independent lines, not citation counts. Two premise or support sources from one line are one line of evidence | One line of evidence cited as several | Review |
 
 No scope inflation ("suggests" is not "shows", a simulation is not a measurement, a result in one regime is not a law) is a matter for review of `cited_for`; the checks cannot read it. The `level` field makes part of it checkable: the check "Level exceeds source" catches a simulation or argument cited for a claim about what exists.

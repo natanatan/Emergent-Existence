@@ -9,4 +9,4 @@ Current order (9 October 2026): 19 Electromagnetism, 20 Light, 21 Matter, 22 Gra
 | Ch. | Chapter | Status |
 | --- | --- | --- |
 | 20 | [Light: When Information Propagates Across Space](20-light/) | Candidate (v4, 9 October 2026) |
-| 23 | [Where Gravity Collides](20-where-gravity-collides/) | Draft (v3, 5 October 2026). Moved to Chapter 23 in the 9 October order; its files and claims still use the Chapter 20 numbering |
+| 23 | [Where Gravity Collides](23-where-gravity-collides/) | Draft (v3, 5 October 2026) |

@@ -21,12 +21,12 @@ composition: []
 appearances:
 - edition: book-2/beta
   role: statement
-  chapter: 20
-  section: '20.22'
+  chapter: 23
+  section: '23.22'
   version: v1
 status_history: []
 history: []
 import:
-  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/23-where-gravity-collides), registered 5 Oct 2026
   note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
     entries yet. Only dependencies inside Chapter 20 are recorded.'

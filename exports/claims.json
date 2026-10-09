@@ -9248,14 +9248,14 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.4"
+    "chapter": 23,
+    "section": "23.4"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.27"
+    "chapter": 23,
+    "section": "23.27"
    }
   ]
  },
@@ -9278,20 +9278,20 @@
    {
     "edition": "book-2/beta",
     "role": "foreshadowing",
-    "chapter": 20,
-    "section": "20.4"
+    "chapter": 23,
+    "section": "23.4"
    },
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.6"
+    "chapter": 23,
+    "section": "23.6"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.16"
+    "chapter": 23,
+    "section": "23.16"
    }
   ]
  },
@@ -9319,8 +9319,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.7"
+    "chapter": 23,
+    "section": "23.7"
    }
   ]
  },
@@ -9344,14 +9344,14 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.9"
+    "chapter": 23,
+    "section": "23.9"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.10"
+    "chapter": 23,
+    "section": "23.10"
    }
   ]
  },
@@ -9380,20 +9380,20 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.9"
+    "chapter": 23,
+    "section": "23.9"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.14"
+    "chapter": 23,
+    "section": "23.14"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.27"
+    "chapter": 23,
+    "section": "23.27"
    }
   ]
  },
@@ -9417,20 +9417,20 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.9"
+    "chapter": 23,
+    "section": "23.9"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.10"
+    "chapter": 23,
+    "section": "23.10"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.27"
+    "chapter": 23,
+    "section": "23.27"
    }
   ]
  },
@@ -9459,8 +9459,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.9"
+    "chapter": 23,
+    "section": "23.9"
    }
   ]
  },
@@ -9492,26 +9492,26 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.9"
+    "chapter": 23,
+    "section": "23.9"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.19"
+    "chapter": 23,
+    "section": "23.19"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.26"
+    "chapter": 23,
+    "section": "23.26"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.27"
+    "chapter": 23,
+    "section": "23.27"
    }
   ]
  },
@@ -9544,8 +9544,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.10"
+    "chapter": 23,
+    "section": "23.10"
    }
   ]
  },
@@ -9574,14 +9574,14 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.11"
+    "chapter": 23,
+    "section": "23.11"
    },
    {
     "edition": "book-2/beta",
     "role": "restatement",
-    "chapter": 20,
-    "section": "20.27"
+    "chapter": 23,
+    "section": "23.27"
    }
   ]
  },
@@ -9612,8 +9612,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.17"
+    "chapter": 23,
+    "section": "23.17"
    }
   ]
  },
@@ -9637,8 +9637,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.18"
+    "chapter": 23,
+    "section": "23.18"
    }
   ]
  },
@@ -9669,8 +9669,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.19"
+    "chapter": 23,
+    "section": "23.19"
    }
   ]
  },
@@ -9698,8 +9698,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.19"
+    "chapter": 23,
+    "section": "23.19"
    }
   ]
  },
@@ -9731,8 +9731,8 @@
    {
     "edition": "book-2/beta",
     "role": "derivation",
-    "chapter": 20,
-    "section": "20.20"
+    "chapter": 23,
+    "section": "23.20"
    }
   ]
  },
@@ -9761,8 +9761,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.15"
+    "chapter": 23,
+    "section": "23.15"
    }
   ]
  },
@@ -9790,8 +9790,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.16"
+    "chapter": 23,
+    "section": "23.16"
    }
   ]
  },
@@ -9820,8 +9820,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.22"
+    "chapter": 23,
+    "section": "23.22"
    }
   ]
  },
@@ -9849,8 +9849,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.22"
+    "chapter": 23,
+    "section": "23.22"
    }
   ]
  },
@@ -9887,8 +9887,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.22"
+    "chapter": 23,
+    "section": "23.22"
    }
   ]
  },
@@ -9921,8 +9921,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.22"
+    "chapter": 23,
+    "section": "23.22"
    }
   ]
  },
@@ -9959,8 +9959,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.22"
+    "chapter": 23,
+    "section": "23.22"
    }
   ]
  },
@@ -9989,8 +9989,8 @@
    {
     "edition": "book-2/beta",
     "role": "statement",
-    "chapter": 20,
-    "section": "20.22"
+    "chapter": 23,
+    "section": "23.22"
    }
   ]
  }

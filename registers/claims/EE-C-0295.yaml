@@ -18,18 +18,18 @@ composition: []
 appearances:
 - edition: book-2/beta
   role: foreshadowing
-  chapter: 20
-  section: '20.4'
+  chapter: 23
+  section: '23.4'
   version: v1
 - edition: book-2/beta
   role: derivation
-  chapter: 20
-  section: '20.6'
+  chapter: 23
+  section: '23.6'
   version: v1
 - edition: book-2/beta
   role: restatement
-  chapter: 20
-  section: '20.16'
+  chapter: 23
+  section: '23.16'
   version: v1
 status_history:
 - status: Provisional
@@ -39,6 +39,6 @@ status_history:
     stated in 20.16
 history: []
 import:
-  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/20-where-gravity-collides), registered 5 Oct 2026
+  source: Chapter 20 v3 draft (manuscript/vol-1/book-2/23-where-gravity-collides), registered 5 Oct 2026
   note: 'Dependencies on Book I and on Chapters 15-19 not yet declared: Chapters 15-19 have no register
     entries yet. Only dependencies inside Chapter 20 are recorded.'

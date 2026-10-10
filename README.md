@@ -33,7 +33,7 @@ At a given stage, the ontology may not use a property that stage has not earned.
 
 ## Status
 
-The manuscript holds the text of Book I Beta, the review draft prepared for peer review: [read it online](manuscript/vol-1/book-1/), section by section, or as a [PDF](manuscript/vol-1/book-1/emergent-existence-book-1-beta.pdf). The Beta is still open and will change before it is frozen. Book II drafts are added chapter by chapter as they are ready, starting with [Chapter 20](manuscript/vol-1/book-2/20-where-gravity-collides/). The registers hold its 249 claims, 135 hypotheses, 121 elements and 14 stage ledgers. The checks run on every change and daily; open findings are listed in the **Audit report** issue.
+The manuscript holds the text of Book I Beta, the review draft prepared for peer review: [read it online](manuscript/vol-1/book-1/), section by section, or as a [PDF](manuscript/vol-1/book-1/emergent-existence-book-1-beta.pdf). The Beta is still open and will change before it is frozen. Book II drafts are added chapter by chapter as they are ready; so far [Chapter 20, Light](manuscript/vol-1/book-2/20-light/) and [Chapter 23, Where Gravity Collides](manuscript/vol-1/book-2/23-where-gravity-collides/). The registers hold its 249 claims, 135 hypotheses, 121 elements and 14 stage ledgers. The checks run on every change and daily; open findings are listed in the **Audit report** issue.
 
 ## License
 
